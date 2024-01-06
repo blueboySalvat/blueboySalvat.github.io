@@ -1,0 +1,14 @@
+{
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "allNote",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "/",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "showInlineTitle": false,
+  "readableLineLength": false,
+  "vimMode": false,
+  "strictLineBreaks": true,
+  "livePreview": true
+}
