@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/README.md",
+                "file": "docs/_coverpage.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/README.md",
+                "file": "docs/_coverpage.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/README.md",
+                "file": "docs/_coverpage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,19 +173,19 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "60febc790ec8b033",
+  "active": "b591c770fd2819c5",
   "lastOpenFiles": [
+    "docs/02后端开发.md",
+    "docs/_coverpage.md",
+    "docs/README.md",
     "docs/allNote/Git.md",
     "docs/03通识知识.md",
-    "docs/02后端开发.md",
     "docs/00网络安全.md",
     "docs/06Linux.md",
     "docs/05效率技巧.md",
     "docs/04闲杂小记.md",
     "docs/01前端开发.md",
     "docs/_sidebar.md",
-    "docs/_coverpage.md",
-    "docs/README.md",
     "docs/allNote/HTML.md",
     "[[allNote/计算机网络安全课程笔记..md",
     "[[allNote",
