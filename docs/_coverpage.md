@@ -1,7 +1,7 @@
 # Myblogs
 
 
-> 我要开始装逼了
+> Let's me show you something....
 
 
 [博客园](https://www.cnblogs.com/1zpeasy/)
