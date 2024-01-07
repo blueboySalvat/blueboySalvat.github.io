@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ed450c1087608833",
+        "id": "faff08a4da1bf6ba",
         "type": "tabs",
         "children": [
           {
-            "id": "6ec68bfb8961dbfc",
+            "id": "45a1a2703497db06",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -168,8 +168,18 @@
       "privacy-glasses:Reveal all": false
     }
   },
-  "active": "6ec68bfb8961dbfc",
+  "active": "45a1a2703497db06",
   "lastOpenFiles": [
+    "docs/html/studyproj/form.html",
+    "docs/allNote/HTML.md",
+    "docs/html/studyproj/table.html",
+    "docs/html/studyproj/未命名.txt.sb-ae87be1e-02DPKa",
+    "docs/html/studyproj/未命名.txt",
+    "docs/html/studyproj",
+    "docs/html/未命名文件夹",
+    "docs/html",
+    "docs/未命名文件夹",
+    "docs/01前端开发.md",
     "docs/allNote/Git.md",
     "docs/00网络安全.md",
     "docs/allNote/网页.md",
@@ -179,13 +189,11 @@
     "docs/allNote/Vimari快捷键.md",
     "docs/06Linux.md",
     "docs/README.md",
-    "docs/01前端开发.md",
     "docs/allNote/汽车租赁系统（基于微信小程序）.md",
     "docs/_coverpage.md",
     "docs/02后端开发.md",
     "docs/03通识知识.md",
     "docs/04闲杂小记.md",
-    "docs/allNote/HTML.md",
     "[[allNote/计算机网络安全课程笔记..md",
     "[[allNote",
     "00目录索引.md",
@@ -196,15 +204,6 @@
     "02后端开发.md",
     "allNote/Java 基础.md",
     "07Linux.md",
-    "01前端开发.md",
-    "allNote",
-    "Linux配置",
-    "闲杂小记",
-    "技巧方法",
-    "01前端开发",
-    "02后端开发/Java SE基础",
-    "02后端开发/Java SE基础",
-    "02后端开发/Java SE高级",
-    "02后端开发/Java SE基础"
+    "allNote"
   ]
 }

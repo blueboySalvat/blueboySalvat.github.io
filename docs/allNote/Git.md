@@ -59,6 +59,27 @@ git branch -M main
 git remote add origin git@github.com:blueboySalvat/blueboySalvat.github.io.git
 git push -u origin main -f 
 
+# 一键推送脚本
+```shell
+#!/bin/bash
+# 提示用户，并且记录用户键入的commit_message
+read -p "请输入提交的消息： " commit_message
+
+# 切换到指定目录
+cd /Users/wangwenpeng/Code/blog/Area
+
+# 添加所有更改
+git add .
+
+# 提交更改
+git commit -m "$commit_message"
+
+# 推送到远程仓库
+# f强制提交，会覆盖远程仓库
+git push -u origin main -f
+
+echo "提交成功！"
+```
 # Fatal: unable to access ‘https:xxx’
 
 报错：fatal: unable to access ' https://github.com/xxx.github.io.git/ ': Failure when receiving data from the peer

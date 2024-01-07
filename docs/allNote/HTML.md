@@ -27,7 +27,7 @@
 
 跨行/跨列的 table
 ```html
-<!DOCTYPE html>#
+<!DOCTYPE html>
 <html> 
 	<head>
 		<meta charset = "utf-8">
@@ -76,6 +76,8 @@
 	</body>
 </html>
 ```
+[效果展示](../html/studyproj/table.html)
+
 ---
 # 表单
 >用于提交信息/上传文件等操作
@@ -174,3 +176,4 @@ multipart/form-data：多部分表单(一般用于文件上传)
 	</body>
 </html>
 ```
+[效果展示](../html/studyproj/form.html)
