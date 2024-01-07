@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "faff08a4da1bf6ba",
+        "id": "ae5a42681b859eb6",
         "type": "tabs",
         "children": [
           {
-            "id": "45a1a2703497db06",
+            "id": "1717dc0bc753a89b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -168,10 +168,12 @@
       "privacy-glasses:Reveal all": false
     }
   },
-  "active": "45a1a2703497db06",
+  "active": "1717dc0bc753a89b",
   "lastOpenFiles": [
-    "docs/html/studyproj/form.html",
+    "docs/html/studyproj/info_input.html",
     "docs/allNote/HTML.md",
+    "docs/01前端开发.md",
+    "docs/html/studyproj/form.html",
     "docs/html/studyproj/table.html",
     "docs/html/studyproj/未命名.txt.sb-ae87be1e-02DPKa",
     "docs/html/studyproj/未命名.txt",
@@ -179,7 +181,6 @@
     "docs/html/未命名文件夹",
     "docs/html",
     "docs/未命名文件夹",
-    "docs/01前端开发.md",
     "docs/allNote/Git.md",
     "docs/00网络安全.md",
     "docs/allNote/网页.md",
@@ -203,7 +204,6 @@
     "allNote/汽车租赁系统（基于微信小程序）.md",
     "02后端开发.md",
     "allNote/Java 基础.md",
-    "07Linux.md",
-    "allNote"
+    "07Linux.md"
   ]
 }

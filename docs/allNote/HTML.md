@@ -176,4 +176,4 @@ multipart/form-data：多部分表单(一般用于文件上传)
 	</body>
 </html>
 ```
-[效果展示](../html/studyproj/form.html)
+[效果展示](../html/studyproj/info_input.html)
