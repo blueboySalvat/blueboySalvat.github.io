@@ -1,7 +1,7 @@
 {
   "promptDelete": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "allNote",
+  "newFileFolderPath": "docs/allNote",
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "/",
   "newLinkFormat": "relative",

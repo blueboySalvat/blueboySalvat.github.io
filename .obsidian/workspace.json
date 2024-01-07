@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3da0952c50a05801",
+        "id": "ed450c1087608833",
         "type": "tabs",
         "children": [
           {
-            "id": "b591c770fd2819c5",
+            "id": "6ec68bfb8961dbfc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/05效率技巧.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/05效率技巧.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/05效率技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 370.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,26 +161,29 @@
       "privacy-glasses:Hide all": false,
       "privacy-glasses:Reveal non-private": false,
       "privacy-glasses:Reveal headlines only": false,
-      "privacy-glasses:Reveal all": false,
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
+      "obsidian-weread-plugin:同步微信读书笔记": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-weread-plugin:同步微信读书笔记": false
+      "privacy-glasses:Reveal all": false
     }
   },
-  "active": "b591c770fd2819c5",
+  "active": "6ec68bfb8961dbfc",
   "lastOpenFiles": [
+    "docs/allNote/Git.md",
+    "docs/00网络安全.md",
+    "docs/allNote/网页.md",
+    "docs/_sidebar.md",
+    "docs/allNote/计算机网络安全课程笔记.md",
+    "docs/05效率技巧.md",
+    "docs/allNote/Vimari快捷键.md",
     "docs/06Linux.md",
     "docs/README.md",
     "docs/01前端开发.md",
-    "docs/00网络安全.md",
     "docs/allNote/汽车租赁系统（基于微信小程序）.md",
     "docs/_coverpage.md",
-    "docs/_sidebar.md",
     "docs/02后端开发.md",
-    "docs/allNote/Git.md",
     "docs/03通识知识.md",
-    "docs/05效率技巧.md",
     "docs/04闲杂小记.md",
     "docs/allNote/HTML.md",
     "[[allNote/计算机网络安全课程笔记..md",
@@ -199,9 +197,6 @@
     "allNote/Java 基础.md",
     "07Linux.md",
     "01前端开发.md",
-    "未命名.md",
-    "allNote/HTML.md",
-    "allNote/计算机网络安全课程笔记.md",
     "allNote",
     "Linux配置",
     "闲杂小记",

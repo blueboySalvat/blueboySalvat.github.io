@@ -8,8 +8,8 @@ Head^ head 的父提交
 
 配置全局范围的用户名和邮箱：
 ```
-git config --global user.Email errornotfound@qq.com
-Git config --global user.Name wwp
+git config --global user.Email example@example.com
+Git config --global user.Name yourname
 ```
 查看全局配置：
 ```
@@ -30,8 +30,8 @@ git config --global --unset user.email
 
 ## 全局配置
 ```bash
-git config --global user.Email errornotfound200@icloud.com
-git config --global user.Name wwp
+git config --global user.Email example@example.com
+git config --global user.Name yourname
 ```
 ## 生成密钥
 ```bash
