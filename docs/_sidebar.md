@@ -7,4 +7,6 @@
   - [闲杂小记](04闲杂小记.md)
   - [效率技巧](05效率技巧.md)
   - [Linux](06Linux.md)
+  - [HTML](html/studyproj/anything.html)
+
 
