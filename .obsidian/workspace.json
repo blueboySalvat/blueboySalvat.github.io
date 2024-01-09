@@ -8,14 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1717dc0bc753a89b",
+            "id": "2581f95c0e9c8e9d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docs/allNote/基于Springboot的幼儿园管理系统.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d67cdd1ea18d5f8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/allNote/计算机网络安全课程笔记.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "d4c2b0db2270c3d5",
@@ -74,7 +92,6 @@
       {
         "id": "2fae7ab0f957cc62",
         "type": "tabs",
-        "dimension": 55.1605504587156,
         "children": [
           {
             "id": "fd9a387520f416d3",
@@ -82,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/allNote/基于Springboot的幼儿园管理系统.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/allNote/基于Springboot的幼儿园管理系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,15 +148,7 @@
               "type": "quiet-outline",
               "state": {}
             }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "d16ee268aaadc0ba",
-        "type": "tabs",
-        "dimension": 44.8394495412844,
-        "children": [
+          },
           {
             "id": "8e53d69784499312",
             "type": "leaf",
@@ -145,65 +156,72 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "493266810aa952c6",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-ai",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 370.5,
-    "collapsed": true
+    "width": 370.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "random-note:开始漫游笔记": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "privacy-glasses:Hide all": false,
       "privacy-glasses:Reveal non-private": false,
       "privacy-glasses:Reveal headlines only": false,
-      "workspaces:管理工作区布局": false,
-      "random-note:开始漫游笔记": false,
-      "obsidian-weread-plugin:同步微信读书笔记": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "privacy-glasses:Reveal all": false
     }
   },
-  "active": "1717dc0bc753a89b",
+  "active": "493266810aa952c6",
   "lastOpenFiles": [
-    "docs/html/studyproj/info_input.html",
-    "docs/allNote/HTML.md",
+    "docs/allNote/基于Springboot的幼儿园管理系统.md",
+    "docs/allNote/计算机网络安全课程笔记.md",
     "docs/01前端开发.md",
-    "docs/html/studyproj/form.html",
+    "docs/_sidebar.md",
+    "docs/Excalidraw/CPUandCore.excalidraw",
     "docs/html/studyproj/table.html",
+    "docs/html/studyproj/info_input.html",
+    "docs/html/studyproj/form.html",
+    "docs/html/studyproj/anything.html",
+    "docs/html/studyproj",
+    "docs/html",
+    "docs/_coverpage.md",
+    "docs/allNote/Git.md",
+    "docs/allNote/gti.md",
+    "docs/00网络安全.md",
+    "docs/allNote/HTML.md",
     "docs/html/studyproj/未命名.txt.sb-ae87be1e-02DPKa",
     "docs/html/studyproj/未命名.txt",
-    "docs/html/studyproj",
     "docs/html/未命名文件夹",
-    "docs/html",
-    "docs/未命名文件夹",
-    "docs/allNote/Git.md",
-    "docs/00网络安全.md",
     "docs/allNote/网页.md",
-    "docs/_sidebar.md",
-    "docs/allNote/计算机网络安全课程笔记.md",
     "docs/05效率技巧.md",
     "docs/allNote/Vimari快捷键.md",
     "docs/06Linux.md",
     "docs/README.md",
-    "docs/allNote/汽车租赁系统（基于微信小程序）.md",
-    "docs/_coverpage.md",
     "docs/02后端开发.md",
     "docs/03通识知识.md",
     "docs/04闲杂小记.md",
     "[[allNote/计算机网络安全课程笔记..md",
-    "[[allNote",
     "00目录索引.md",
     "docs/00目录索引.md",
     "docs/技巧方法.md",
     "allNote/OKR个人管理.md",
     "allNote/汽车租赁系统（基于微信小程序）.md",
     "02后端开发.md",
-    "allNote/Java 基础.md",
-    "07Linux.md"
+    "allNote/Java 基础.md"
   ]
 }

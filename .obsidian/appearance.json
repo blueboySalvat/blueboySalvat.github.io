@@ -2,5 +2,6 @@
   "accentColor": "",
   "cssTheme": "Typora-Vue",
   "showViewHeader": true,
-  "translucency": true
+  "translucency": true,
+  "baseFontSize": 18
 }
