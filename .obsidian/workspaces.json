@@ -1,0 +1,177 @@
+{
+  "workspaces": {
+    "work2": {
+      "main": {
+        "id": "5e957c59493fa013",
+        "type": "split",
+        "children": [
+          {
+            "id": "e47c2067ecb5f194",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4309d0cfa01c7114",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "docs/allNote/Java基础.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "f05e1cc0eb393123",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Appends/IntroduceMe.excalidraw.md"
+                  }
+                }
+              },
+              {
+                "id": "b14f43e212de3194",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "docs/TODO.md"
+                  }
+                }
+              },
+              {
+                "id": "8e53d69784499312",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "5f796b285180b742",
+        "type": "split",
+        "children": [
+          {
+            "id": "cde93a2afa4b1ee0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "60febc790ec8b033",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "5947020d9495b702",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "e7fa9eeff6557a83",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200,
+        "collapsed": true
+      },
+      "right": {
+        "id": "d4c2b0db2270c3d5",
+        "type": "split",
+        "children": [
+          {
+            "id": "2fae7ab0f957cc62",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c0f98ac40089eba3",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "4651864b677920f8",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "493266810aa952c6",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-ai",
+                  "state": {}
+                }
+              },
+              {
+                "id": "155edf4c4357d5db",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 384.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": true,
+          "graph:查看关系图谱": false,
+          "command-palette:打开命令面板": false,
+          "workspaces:管理工作区布局": false,
+          "random-note:开始漫游笔记": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "privacy-glasses:Hide all": false,
+          "privacy-glasses:Reveal non-private": false,
+          "privacy-glasses:Reveal headlines only": false,
+          "privacy-glasses:Reveal all": false,
+          "daily-notes:打开/创建今天的日记": false
+        }
+      },
+      "active": "8e53d69784499312"
+    }
+  },
+  "active": "work2"
+}
