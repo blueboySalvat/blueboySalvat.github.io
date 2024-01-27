@@ -10,9 +10,8 @@ kanban-plugin: basic
 - [ ] 配置git用户的对/var/web目录的操作权限
 - [ ] 配置 docsify的默认端口
 - [ ] 整理学习文件夹的结构
-- [ ] java时间类中的这个月的最后一天再加1会怎么样子？
 - [ ] [关于字符串不可变](anote/Java基础.md#关于字符串不可变)
-- [ ] 
+- [ ] SimpleDateFormatTest解析失败
 
 
 ## DoIng
@@ -23,6 +22,7 @@ kanban-plugin: basic
 ## Done
 
 **完成**
+- [x] java时间类中的这个月的最后一天再加1会怎么样子？Calendar没有校验月份大约12的情况。
 - [x] 员工管理系统的一个小问题(递归调用方法了...)
 - [x] 熟悉Idea调试步骤
 - [x] 双等号的两个用法

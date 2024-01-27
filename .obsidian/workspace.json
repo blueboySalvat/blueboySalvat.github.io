@@ -34,16 +34,6 @@
             }
           },
           {
-            "id": "5f6c15c89375ded6",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "docs/TODO.md"
-              }
-            }
-          },
-          {
             "id": "4e35b1fcc8a4bbc4",
             "type": "leaf",
             "state": {
@@ -55,9 +45,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1e6b8170137b482b",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "docs/TODO.md"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,13 +188,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5f6c15c89375ded6",
+  "active": "3f6df8aaf9b3439c",
   "lastOpenFiles": [
-    "docs/anote/Java基础.md",
     "docs/TODO.md",
-    "docs/Contributions.md",
-    "docs/anote/基于Springboot的幼儿园管理系统.md",
+    "docs/anote/Java基础.md",
+    "docs/anote/在macos上使用Idea.md",
     "docs/anote/在云服务器上部署轻量级博客docsify(使用git更新).md",
+    "docs/anote/基于Springboot的幼儿园管理系统.md",
+    "Appends/draw/IntroduceMe.excalidraw.md",
+    "Appends/draw/fourzhong.png.md",
+    "docs/03前端开发.md",
+    "docs/anote/HTML.md",
+    "docs/Contributions.md",
     "docs/_navbar.md",
     "docs/_coverpage.md",
     "Appends/draw/StackAndHeap_1Array_InJava.excalidraw.md",
@@ -201,7 +207,6 @@
     "Appends/StringCantChange.excalidraw.md",
     "Appends/draw/function_recursion.excalidraw.md",
     "Appends/draw/ObjectArray.excalidraw.md",
-    "Appends/draw/IntroduceMe.excalidraw.md",
     "Appends/draw/StaticInRAM.excalidraw.md",
     "Appends/draw/StackAndHeap_Object_InJava.excalidraw.md",
     "Appends/draw/StackAndHeap_2Array_InJava.excalidraw.md",
@@ -227,10 +232,6 @@
     "Appends/IntroduceMe.excalidraw.md",
     "未命名看板.md",
     "docs/06效率技巧.md",
-    "docs/05闲杂小记.md",
-    "docs/04通识知识.md",
-    "docs/02后端开发.md",
-    "docs/02编程开发.md",
     "Appends/CPUandCore.excalidraw",
     "templater",
     "Appends/Scripts/Downloaded",

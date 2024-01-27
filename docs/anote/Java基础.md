@@ -5325,8 +5325,9 @@ public class StringCantChangeTest {
 
 ### 可变字符串
 #### StringBuffer
-StringBuffer - 可变长度字符串
+>解决了String用字符串做拼接，既费时又耗内存的问题。
 * 使用场景：字符串频繁拼接场合
+
 ```java
 String sbf = new StringBuffer("hello");
 sbf.append(" world");
@@ -5334,15 +5335,86 @@ sbf.append(" .....");
 str = sbf.toString();//StringBuffer 对象 -- > String 对象
 System.out.println(str);
 ```
+#### StringBuilder
+
+## Math 类
+- `java.lang`
+- 两个常量:
+	- `PI`
+	- `E`
+```java
+public class MathTest {  
+    public static void main(String[] args) {  
+        //[0.0 - 1.0)  
+        System.out.println(Math.random());  
+  
+        System.out.println("------------------");  
+        // 1- 10  
+        for (int i = 0; i < 10; i++) {  
+            System.out.println((int)(Math.random() * 10 + 1));  
+        }  
+        // 1 -5  
+        System.out.println("---------");  
+        for (int i = 0; i < 30; i++) {  
+            System.out.println((int)(Math.random() * 5 + 1));  
+        }  
+  
+  
+    }  
+}
+```
+
+## BigDecimal 类
+>double 存在精度缺失的问题，BigDecimal 类可以控制小数的精度，设定舍入运算规则，适用于金融和科学运算场景下的应用。
+
+`BigDecimalTest.java`
+```java
+import java.math.BigDecimal;  
+  
+public class BigDecimalTest {  
+    public static void main(String[] args) {  
+        double d = 10;  
+        System.out.println(d/3);// = 3.3333333333333335  
+  
+        BigDecimal d1 = new BigDecimal("10");  
+        BigDecimal d2 = new BigDecimal("3");  
+  
+        //加  
+        System.out.println(d1.add(d2));  
+        System.out.println(d1.subtract(d2));  
+        System.out.println(d1.multiply(d2));  
+        System.out.println(d1.divide(d2,5,BigDecimal.ROUND_HALF_UP));  
+    }  
+}
+```
 
 ## 日期和时间类
 ### Date
-
+```java
+import java.util.Date;  
+  
+public class DateTest {  
+    public static void main(String[] args) {  
+        Date date = new Date();//当前时间的对象  
+        System.out.println(date);  
+        System.out.println(date.getTime());//获取时间戳 (从1970.1.1 00:00:00到现在的毫秒值)  
+        Date date1 = new Date(1700330018452L);//使用时间戳创建对象  
+        System.out.println(date1);  
+    }  
+}
+```
 
 ### SimpleDateFormat
+ - 创建 `simpleDateformat` 对象
+ - 使用该对象的 `format` 方法进行格式化
 
+`.java`
+```java
+
+```
 
 ### Calendar
+`CalendarClassTest.java`
 ```java
 import java.util.Calendar;  
   
@@ -5358,17 +5430,161 @@ public class CalendarClassTest {
         System.out.println("-----------------");  
         //set  
         c.set(Calendar.YEAR, 2024);  
-        c.set(Calendar.MONTH, 4);//月是从 0 开始，4 + 1 = 5  
-        c.set(Calendar.DAY_OF_MONTH, 1);  
-        System.out.println(c.get(Calendar.DAY_OF_WEEK));//从星期天开始，就是第四天  
+        c.set(Calendar.MONTH, 4);//月是从 0 开始，设定的是4 + 1 = 5 月  
+        c.set(Calendar.DAY_OF_MONTH, 1); // 1日  
+        System.out.println(c.get(Calendar.DAY_OF_WEEK));//4  从星期天开始，就是一周的第四天  
+        System.out.println("-----------------");  
+        //set  
+        c.set(Calendar.YEAR, 2024);  
+        c.set(Calendar.MONTH, 4);//月是从 0 开始，设定的是4 + 1 = 5 月  
+        c.set(Calendar.DAY_OF_MONTH, 31); // 1日  
+        System.out.println(c.get(Calendar.DAY_OF_WEEK));// 6  
+  
+        c.set(Calendar.YEAR, 2024);  
+        c.set(Calendar.MONTH, 4);//月是从 0 开始，设定的是4 + 1 = 5 月  
+        c.set(Calendar.DAY_OF_MONTH, 32);  
+        System.out.println(c.get(Calendar.DAY_OF_WEEK));//7  
+  
+        c.set(Calendar.YEAR, 2024);  
+        c.set(Calendar.MONTH, 4);//月是从 0 开始，设定的是4 + 1 = 5 月  
+        c.set(Calendar.DAY_OF_MONTH, 33);  
+        System.out.println(c.get(Calendar.DAY_OF_WEEK));//1  
+    }  
+}
+```
+`PrintCalendar.java`
+打印万年历
+```java  
+import java.util.Calendar;  
+import java.util.Scanner;  
+  
+public class PrintCalendar {  
+    public static void main(String[] args) {  
+        Scanner scanner = new Scanner(System.in);  
+        System.out.println("年:?");  
+        int year = scanner.nextInt();  
+        System.out.println("月:?");  
+        int month = scanner.nextInt();  
+        //计算该月的总天数  
+        int days = 0; //存储每个月的总天数  
+        switch (month) {  
+            case 1:  
+            case 3:  
+            case 5:  
+            case 7:  
+            case 8:  
+            case 10:  
+            case 12:  
+                days = 31;  
+                break;  
+            case 4:  
+            case 6:  
+            case 9:  
+            case 11:  
+                days = 30;  
+                break;  
+            case 2:  
+                if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {  
+                    days = 29;  
+                    break;  
+                } else {  
+                    days = 28;  
+                    break;  
+                }  
+  
+        }  
+  
+        Calendar c = Calendar.getInstance();//获取一个Calendar对象  
+        c.set(Calendar.YEAR,year);//设置哪一年年  
+        c.set(Calendar.MONTH,month - 1 );//设置哪一个月  
+  
+        c.set(Calendar.DAY_OF_MONTH,1);//设置月的第一天  
+        int dayOfWeek = c.get(Calendar.DAY_OF_WEEK);//获取这年这月第一天是星期几  
+  
+        int count = 0;//控制换行计数器  
+        System.out.println("日\t一\t二\t三\t四\t五\t六\t");  
+        for (int i = 0; i < dayOfWeek - 1; i++) {  
+            System.out.print("\t");  
+            count++;  
+        }  
+        for (int i = 1; i <= days; i++) {  
+            System.out.print(i + "\t");  
+            count++;  
+            if (count % 7 == 0) {  
+                System.out.println();  
+            }  
+        }  
     }  
 }
 ```
 
+### LocalDateTime 类
+`LocalDateTimeTest.java`
+```java
+import java.time.LocalDateTime;  
+import java.time.format.DateTimeFormatter;  
+  
+public class LocalDateTimeTest {  
+    public static void main(String[] args) {  
+        LocalDateTime dateTime = LocalDateTime.now();  
+        System.out.println(dateTime);  
+        DateTimeFormatter fmt = DateTimeFormatter.ofPattern("yyyy年MM月dd日 HH:mm:ss");  
+        String dateTimeStr = dateTime.format(fmt);  
+        System.out.println(dateTimeStr);  
+  
+        String dateTimeStr2 = dateTime.format(DateTimeFormatter.BASIC_ISO_DATE);  
+        System.out.println(dateTimeStr2);  
+  
+        String dateTimeStr3 = dateTime.format(DateTimeFormatter.ISO_DATE_TIME);  
+        System.out.println(dateTimeStr3);  
+  
+        LocalDateTime localDateTime = LocalDateTime.parse("2024年01月27日 19:08:08",fmt);  
+        LocalDateTime localDateTime1 = LocalDateTime.parse("2024-01-27T19:08:08.374");  
+        System.out.println(localDateTime);  
+        System.out.println(localDateTime1);  
+  
+    }  
+}
+```
+`DateTimeFormatterTest.java`
+使用 DateTimeFormatter 格式化/解析日期
+```java
+import java.time.LocalDateTime;  
+import java.time.format.DateTimeFormatter;  
+import java.time.temporal.TemporalAccessor;  
+  
+public class DateTimeFormatterTest {  
+    public static void main(String[] args) {  
+        LocalDateTime dateTime = LocalDateTime.now();  
+        //LocalDateTime --> 特定格式的字符  
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy年MM月dd日 HH:mm:ss");  
+        String str = dtf.format(dateTime);  
+        System.out.println(str);  
+        //特定格式的字符串 ==> LocalDateTim        TemporalAccessor temporalAccessor = dtf.parse("2024年01月27日 19:15:12");  
+        LocalDateTime dateTime1 = LocalDateTime.from(temporalAccessor);  
+        System.out.println(dateTime1);  
+    }  
+}
+```
 # 集合
 ## 概述
 
 ## List
+### 特点
+- 元素<font color="#de7802">有序</font>，且<font color="#de7802">可重复</font>的集合，集合中的每个元素都有其对应的顺序索引
+- 默认按照元素的添加顺序设置元素的索引
+### 三个实现类
+#### ArrayList
+
+
+
+#### Vector
+
+
+
+#### LinkedList
+
+
 
 
 ## Collections

@@ -103,23 +103,23 @@ MineCraft
 
 
 # Embedded files
-820c257c03039be9fc1d416806f871ff32615d44: [[不能因为害怕.png]]
-ac2e7f76436e76ba69f7d8fed4617b9a915fe93b: [[黑暗的.png]]
-72b23c4ab118b3283b704aa4afad3c08abf16b15: [[愿中国青年摆脱冷气.png]]
-76444d16f8a7425e15933c86d433bbc15bb58b0b: [[flomo2023.png]]
-dbd5d7f8e3f3280150d1ab92e1c8fc6efbaa98d0: [[cache_csgo.jpeg]]
-91c76b5c62dcbc5f7a6471c167630e37e9e4d459: [[ploy.jpeg]]
-40d6dbb84b9e28e33e8c075d3704981449278ebb: [[fourzhong.png]]
-707de52db80fded9cb3bad8d969be3f0813388d7: [[201906.png]]
-7c16e5750fb59c980bb00b8674c639a20e664bfc: [[IMG_2077.JPG]]
-df10f8bd62c32c77bb93f061d7cf04bc004862a6: [[steve.png]]
-258249209cb9dcbb3bd43bb4f8c55573a93c0fac: [[xiaomi.PNG]]
-9e7a831389df3e2e4f886ccd39623041e53e670c: [[xinlixue.png]]
-be461fe68273ab32560fefcd9413977893863cc9: [[game5.jpg]]
-f5b3a0e123053b425fd1d80133707931ebecbe01: [[game4.jpg]]
-f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
-74049fa736626566f4d575e1de86659b58911cd8: [[game2.jpg]]
-3bf7a44513fac07dca6b2b706f6ca480e248a22d: [[game1.jpg]]
+820c257c03039be9fc1d416806f871ff32615d44: [[../img/不能因为害怕.png]]
+ac2e7f76436e76ba69f7d8fed4617b9a915fe93b: [[../img/黑暗的.png]]
+72b23c4ab118b3283b704aa4afad3c08abf16b15: [[../img/愿中国青年摆脱冷气.png]]
+76444d16f8a7425e15933c86d433bbc15bb58b0b: [[../img/flomo2023.png]]
+dbd5d7f8e3f3280150d1ab92e1c8fc6efbaa98d0: [[../img/cache_csgo.jpeg]]
+707de52db80fded9cb3bad8d969be3f0813388d7: [[../img/201906.png]]
+be461fe68273ab32560fefcd9413977893863cc9: [[../img/game5.jpg]]
+f5b3a0e123053b425fd1d80133707931ebecbe01: [[../img/game4.jpg]]
+f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[../img/game3.jpg]]
+74049fa736626566f4d575e1de86659b58911cd8: [[../img/game2.jpg]]
+3bf7a44513fac07dca6b2b706f6ca480e248a22d: [[../img/game1.jpg]]
+8ab5f9bc72e89a010ebaac0f8152cdd0ff9833e8: [[../img/cache2.jpg]]
+1f0d3835e87d1a809ed6d44b214622b03bf12edb: [[../img/fourzhong.jpeg]]
+8cf4f2f925d99090f9dab525567e3ff6e7df8ca5: [[../img/finalcutinclassroom.jpeg]]
+258249209cb9dcbb3bd43bb4f8c55573a93c0fac: [[../img/xiaomibook.PNG]]
+9e7a831389df3e2e4f886ccd39623041e53e670c: [[../img/SocialPsychology.png]]
+df10f8bd62c32c77bb93f061d7cf04bc004862a6: [[../img/SteveJobs.png]]
 
 %%
 # Drawing
@@ -131,8 +131,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 	"elements": [
 		{
 			"type": "embeddable",
-			"version": 1256,
-			"versionNonce": 428535942,
+			"version": 1260,
+			"versionNonce": 1089869225,
 			"isDeleted": false,
 			"id": "oJYN01Yv",
 			"fillStyle": "hachure",
@@ -152,7 +152,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705971802368,
+			"updated": 1706333953692,
 			"link": "[[../docs/anote/Web]]",
 			"locked": false,
 			"customData": {
@@ -175,8 +175,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 1321,
-			"versionNonce": 1884041323,
+			"version": 1325,
+			"versionNonce": 22951271,
 			"isDeleted": false,
 			"id": "y-9ZgF34qCJu4_Q-KzfC6",
 			"fillStyle": "solid",
@@ -203,14 +203,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "N3cOrDOi"
 				}
 			],
-			"updated": 1705930960312,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1119,
-			"versionNonce": 627037349,
+			"version": 1123,
+			"versionNonce": 1926723721,
 			"isDeleted": false,
 			"id": "N3cOrDOi",
 			"fillStyle": "solid",
@@ -230,7 +230,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931029706,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -246,8 +246,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 1365,
-			"versionNonce": 371718149,
+			"version": 1369,
+			"versionNonce": 1658908807,
 			"isDeleted": false,
 			"id": "z7laqBIMzQv2uvfLiOQ4c",
 			"fillStyle": "solid",
@@ -274,14 +274,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "25XloPL0"
 				}
 			],
-			"updated": 1705931029708,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1201,
-			"versionNonce": 886353765,
+			"version": 1205,
+			"versionNonce": 1816756073,
 			"isDeleted": false,
 			"id": "25XloPL0",
 			"fillStyle": "solid",
@@ -301,7 +301,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931029708,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -317,8 +317,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 1622,
-			"versionNonce": 1575988357,
+			"version": 1626,
+			"versionNonce": 1990150055,
 			"isDeleted": false,
 			"id": "XORBKa0mlhSvsDiQmHgHN",
 			"fillStyle": "solid",
@@ -345,14 +345,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "FII6y5GM"
 				}
 			],
-			"updated": 1705930958543,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1447,
-			"versionNonce": 45208549,
+			"version": 1451,
+			"versionNonce": 999795273,
 			"isDeleted": false,
 			"id": "FII6y5GM",
 			"fillStyle": "solid",
@@ -372,7 +372,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930958543,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -388,8 +388,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 1593,
-			"versionNonce": 1333268293,
+			"version": 1597,
+			"versionNonce": 717601479,
 			"isDeleted": false,
 			"id": "qOnCoULMBcaMC6oswKWcR",
 			"fillStyle": "solid",
@@ -416,14 +416,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "tKRryJxW"
 				}
 			],
-			"updated": 1705930958543,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1422,
-			"versionNonce": 1386208933,
+			"version": 1426,
+			"versionNonce": 429750569,
 			"isDeleted": false,
 			"id": "tKRryJxW",
 			"fillStyle": "solid",
@@ -443,7 +443,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930958543,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -459,8 +459,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 1956,
-			"versionNonce": 1926676997,
+			"version": 1960,
+			"versionNonce": 1945160167,
 			"isDeleted": false,
 			"id": "bAjzWsO21f5_-TqhmLeEb",
 			"fillStyle": "solid",
@@ -487,14 +487,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "DNcUJiCg"
 				}
 			],
-			"updated": 1705930958543,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1789,
-			"versionNonce": 1696217445,
+			"version": 1793,
+			"versionNonce": 398879753,
 			"isDeleted": false,
 			"id": "DNcUJiCg",
 			"fillStyle": "solid",
@@ -514,7 +514,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930958543,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -530,8 +530,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "text",
-			"version": 283,
-			"versionNonce": 1406031051,
+			"version": 287,
+			"versionNonce": 2133652743,
 			"isDeleted": false,
 			"id": "SYKkvUgW",
 			"fillStyle": "solid",
@@ -551,7 +551,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930955050,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -567,8 +567,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 1312,
-			"versionNonce": 1225130347,
+			"version": 1316,
+			"versionNonce": 235799273,
 			"isDeleted": false,
 			"id": "Ut6L0F2HfST_J7QI9Sg4P",
 			"fillStyle": "solid",
@@ -595,14 +595,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "ygwsdqJM"
 				}
 			],
-			"updated": 1705930914460,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1157,
-			"versionNonce": 2142468805,
+			"version": 1161,
+			"versionNonce": 603372583,
 			"isDeleted": false,
 			"id": "ygwsdqJM",
 			"fillStyle": "solid",
@@ -622,7 +622,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931029716,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -638,8 +638,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 267,
-			"versionNonce": 49463819,
+			"version": 271,
+			"versionNonce": 1224719817,
 			"isDeleted": false,
 			"id": "MV9M7UiKtzL2Zh01yzZaN",
 			"fillStyle": "solid",
@@ -666,14 +666,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "IWwg1mbW"
 				}
 			],
-			"updated": 1705930964655,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 243,
-			"versionNonce": 1392789675,
+			"version": 247,
+			"versionNonce": 372940615,
 			"isDeleted": false,
 			"id": "IWwg1mbW",
 			"fillStyle": "solid",
@@ -693,7 +693,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930964655,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -709,8 +709,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 470,
-			"versionNonce": 1758115915,
+			"version": 474,
+			"versionNonce": 2008489129,
 			"isDeleted": false,
 			"id": "FRY46hiTL7iudsK9FU5w-",
 			"fillStyle": "solid",
@@ -737,14 +737,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "Sd8otX82"
 				}
 			],
-			"updated": 1705930915860,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 419,
-			"versionNonce": 520320747,
+			"version": 423,
+			"versionNonce": 1481973351,
 			"isDeleted": false,
 			"id": "Sd8otX82",
 			"fillStyle": "solid",
@@ -764,7 +764,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930915860,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -780,8 +780,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 507,
-			"versionNonce": 1331812901,
+			"version": 511,
+			"versionNonce": 1507827593,
 			"isDeleted": false,
 			"id": "nuYovn9WGEABBkhMCkdEy",
 			"fillStyle": "solid",
@@ -808,14 +808,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "24qfR2H8"
 				}
 			],
-			"updated": 1705931029721,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 583,
-			"versionNonce": 214781317,
+			"version": 587,
+			"versionNonce": 1829943687,
 			"isDeleted": false,
 			"id": "24qfR2H8",
 			"fillStyle": "solid",
@@ -835,7 +835,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931029721,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -851,8 +851,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 531,
-			"versionNonce": 546714923,
+			"version": 535,
+			"versionNonce": 766821993,
 			"isDeleted": false,
 			"id": "zurMlLxKPoacpfsE88y40",
 			"fillStyle": "solid",
@@ -879,14 +879,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "Q6EocT5N"
 				}
 			],
-			"updated": 1705930970816,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 644,
-			"versionNonce": 657675493,
+			"version": 648,
+			"versionNonce": 1236267175,
 			"isDeleted": false,
 			"id": "Q6EocT5N",
 			"fillStyle": "solid",
@@ -906,7 +906,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931029723,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -922,8 +922,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 409,
-			"versionNonce": 584655525,
+			"version": 413,
+			"versionNonce": 1577193801,
 			"isDeleted": false,
 			"id": "LK5aB5QJKPjmfiDo7inHs",
 			"fillStyle": "solid",
@@ -950,14 +950,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "z7lzECKU"
 				}
 			],
-			"updated": 1705930927141,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 524,
-			"versionNonce": 1243705413,
+			"version": 528,
+			"versionNonce": 131679175,
 			"isDeleted": false,
 			"id": "z7lzECKU",
 			"fillStyle": "solid",
@@ -977,7 +977,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931029725,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -993,8 +993,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 603,
-			"versionNonce": 43705509,
+			"version": 607,
+			"versionNonce": 1881341993,
 			"isDeleted": false,
 			"id": "2h1_XFIv9cSnyBBoxMEIM",
 			"fillStyle": "solid",
@@ -1021,14 +1021,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "OOS8DAEn"
 				}
 			],
-			"updated": 1705930973016,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 750,
-			"versionNonce": 1400184741,
+			"version": 754,
+			"versionNonce": 1470837479,
 			"isDeleted": false,
 			"id": "OOS8DAEn",
 			"fillStyle": "solid",
@@ -1048,7 +1048,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931029727,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1064,8 +1064,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 669,
-			"versionNonce": 1494350021,
+			"version": 673,
+			"versionNonce": 839062281,
 			"isDeleted": false,
 			"id": "_XUjl2ShRNUCz1h1CEMI4",
 			"fillStyle": "solid",
@@ -1096,14 +1096,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 857,
-			"versionNonce": 1941611019,
+			"version": 861,
+			"versionNonce": 833764871,
 			"isDeleted": false,
 			"id": "3TUYwDdT",
 			"fillStyle": "solid",
@@ -1123,7 +1123,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1139,8 +1139,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "image",
-			"version": 273,
-			"versionNonce": 876648485,
+			"version": 277,
+			"versionNonce": 673040873,
 			"isDeleted": false,
 			"id": "vwqkJ7Ey",
 			"fillStyle": "hachure",
@@ -1165,7 +1165,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953692,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1177,8 +1177,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "image",
-			"version": 78,
-			"versionNonce": 573663013,
+			"version": 82,
+			"versionNonce": 1223353639,
 			"isDeleted": false,
 			"id": "zSs4VnSWUDyNH_9d86kGK",
 			"fillStyle": "hachure",
@@ -1198,7 +1198,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931035346,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1210,8 +1210,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "image",
-			"version": 277,
-			"versionNonce": 1959515237,
+			"version": 281,
+			"versionNonce": 998155465,
 			"isDeleted": false,
 			"id": "ndnwPRKV",
 			"fillStyle": "hachure",
@@ -1231,7 +1231,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931036882,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1243,8 +1243,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "text",
-			"version": 191,
-			"versionNonce": 1220270923,
+			"version": 195,
+			"versionNonce": 1019324487,
 			"isDeleted": false,
 			"id": "Vec3uyFC",
 			"fillStyle": "solid",
@@ -1264,7 +1264,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1280,8 +1280,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "image",
-			"version": 549,
-			"versionNonce": 1952674053,
+			"version": 553,
+			"versionNonce": 666969001,
 			"isDeleted": false,
 			"id": "wGwkM0lR",
 			"fillStyle": "hachure",
@@ -1301,7 +1301,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931041603,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1313,8 +1313,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 250,
-			"versionNonce": 275401739,
+			"version": 254,
+			"versionNonce": 185796455,
 			"isDeleted": false,
 			"id": "VrZeyYajLIfx-AQe3oWlB",
 			"fillStyle": "solid",
@@ -1341,14 +1341,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "RaeUCnBX"
 				}
 			],
-			"updated": 1705931007044,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 155,
-			"versionNonce": 486183595,
+			"version": 159,
+			"versionNonce": 688965257,
 			"isDeleted": false,
 			"id": "RaeUCnBX",
 			"fillStyle": "solid",
@@ -1368,7 +1368,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931007044,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1384,8 +1384,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 227,
-			"versionNonce": 556312005,
+			"version": 231,
+			"versionNonce": 1110147719,
 			"isDeleted": false,
 			"id": "a-RJuqFl3oEIagMlKdMI4",
 			"fillStyle": "solid",
@@ -1412,14 +1412,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "tzsrOfyI"
 				}
 			],
-			"updated": 1705931029732,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 161,
-			"versionNonce": 2130289957,
+			"version": 165,
+			"versionNonce": 1781075305,
 			"isDeleted": false,
 			"id": "tzsrOfyI",
 			"fillStyle": "solid",
@@ -1439,7 +1439,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931029732,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1455,8 +1455,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 463,
-			"versionNonce": 16297637,
+			"version": 467,
+			"versionNonce": 1925683623,
 			"isDeleted": false,
 			"id": "CYd_Szh9I3QPtwn6_0RUC",
 			"fillStyle": "solid",
@@ -1483,14 +1483,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "R2DKacir"
 				}
 			],
-			"updated": 1705930981974,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 405,
-			"versionNonce": 2106954245,
+			"version": 409,
+			"versionNonce": 844462153,
 			"isDeleted": false,
 			"id": "R2DKacir",
 			"fillStyle": "solid",
@@ -1510,7 +1510,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930981974,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1526,8 +1526,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "image",
-			"version": 170,
-			"versionNonce": 1576397893,
+			"version": 174,
+			"versionNonce": 1645464775,
 			"isDeleted": false,
 			"id": "gP7N1Q1Y",
 			"fillStyle": "hachure",
@@ -1547,7 +1547,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930994982,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1559,74 +1559,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "image",
-			"version": 207,
-			"versionNonce": 1136717157,
-			"isDeleted": false,
-			"id": "WsEykLAR",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 1414.093848498847,
-			"y": -2355.1818515388068,
-			"strokeColor": "transparent",
-			"backgroundColor": "transparent",
-			"width": 500,
-			"height": 309.9609375,
-			"seed": 22254,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1705930995860,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "91c76b5c62dcbc5f7a6471c167630e37e9e4d459",
-			"scale": [
-				1,
-				1
-			]
-		},
-		{
-			"type": "image",
-			"version": 681,
-			"versionNonce": 1380338053,
-			"isDeleted": false,
-			"id": "bFW8NCwv",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 3303.9900325556164,
-			"y": -2600.0352130058286,
-			"strokeColor": "transparent",
-			"backgroundColor": "transparent",
-			"width": 500,
-			"height": 491.42367066895366,
-			"seed": 62947,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1705931024250,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "40d6dbb84b9e28e33e8c075d3704981449278ebb",
-			"scale": [
-				1,
-				1
-			]
-		},
-		{
-			"type": "image",
-			"version": 100,
-			"versionNonce": 830529739,
+			"version": 104,
+			"versionNonce": 2074909671,
 			"isDeleted": false,
 			"id": "Gnu6aDss",
 			"fillStyle": "hachure",
@@ -1635,18 +1569,18 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2603.480207574294,
-			"y": -2346.7992686322473,
+			"x": 2601.3619949909785,
+			"y": -2344.9421716279503,
 			"strokeColor": "transparent",
 			"backgroundColor": "transparent",
-			"width": 500,
-			"height": 442.0783645655877,
+			"width": 504.23642516663125,
+			"height": 438.36417055699354,
 			"seed": 72821,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931008970,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1658,8 +1592,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 291,
-			"versionNonce": 716858149,
+			"version": 295,
+			"versionNonce": 1474869769,
 			"isDeleted": false,
 			"id": "lXmwC27XFuGRV3_kwVlLu",
 			"fillStyle": "solid",
@@ -1686,14 +1620,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "RUmECh0y"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 242,
-			"versionNonce": 1055690155,
+			"version": 246,
+			"versionNonce": 60720903,
 			"isDeleted": false,
 			"id": "RUmECh0y",
 			"fillStyle": "solid",
@@ -1713,7 +1647,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1729,8 +1663,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 471,
-			"versionNonce": 1579988613,
+			"version": 475,
+			"versionNonce": 1891012841,
 			"isDeleted": false,
 			"id": "B-uOCimV-7oPWJIW-hOHN",
 			"fillStyle": "solid",
@@ -1757,14 +1691,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"type": "text"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 163,
-			"versionNonce": 1896063051,
+			"version": 167,
+			"versionNonce": 140906023,
 			"isDeleted": false,
 			"id": "63qBr73F",
 			"fillStyle": "solid",
@@ -1784,7 +1718,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1800,8 +1734,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 473,
-			"versionNonce": 1253940709,
+			"version": 477,
+			"versionNonce": 593923017,
 			"isDeleted": false,
 			"id": "JYRqqQRCvrlvlBLKjwxf3",
 			"fillStyle": "solid",
@@ -1828,14 +1762,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "sWybFgKQ"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 382,
-			"versionNonce": 2145345259,
+			"version": 386,
+			"versionNonce": 351252807,
 			"isDeleted": false,
 			"id": "sWybFgKQ",
 			"fillStyle": "solid",
@@ -1855,7 +1789,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1871,8 +1805,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 568,
-			"versionNonce": 2004523333,
+			"version": 572,
+			"versionNonce": 940845737,
 			"isDeleted": false,
 			"id": "3kY6-c0SpEOtYl4VAWgBV",
 			"fillStyle": "solid",
@@ -1899,14 +1833,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "gbMDKtVc"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 486,
-			"versionNonce": 1175079307,
+			"version": 490,
+			"versionNonce": 580382823,
 			"isDeleted": false,
 			"id": "gbMDKtVc",
 			"fillStyle": "solid",
@@ -1926,7 +1860,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1942,8 +1876,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 719,
-			"versionNonce": 767633573,
+			"version": 723,
+			"versionNonce": 1735060873,
 			"isDeleted": false,
 			"id": "qp8bRr6MVCEEKcZMPzqOz",
 			"fillStyle": "solid",
@@ -1970,14 +1904,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"type": "text"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 355,
-			"versionNonce": 1757339691,
+			"version": 359,
+			"versionNonce": 1261128583,
 			"isDeleted": false,
 			"id": "ZreqAPPL",
 			"fillStyle": "solid",
@@ -1997,7 +1931,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2013,8 +1947,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 774,
-			"versionNonce": 792644613,
+			"version": 778,
+			"versionNonce": 1218860137,
 			"isDeleted": false,
 			"id": "xg2mqzibE477TtsJpTQ6H",
 			"fillStyle": "solid",
@@ -2041,14 +1975,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "XDK5ao8N"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 612,
-			"versionNonce": 31957707,
+			"version": 616,
+			"versionNonce": 988168871,
 			"isDeleted": false,
 			"id": "XDK5ao8N",
 			"fillStyle": "solid",
@@ -2068,7 +2002,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2084,8 +2018,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 865,
-			"versionNonce": 737215333,
+			"version": 869,
+			"versionNonce": 2140266313,
 			"isDeleted": false,
 			"id": "iLI_i3oFXdEJEuRt_aOLw",
 			"fillStyle": "solid",
@@ -2112,14 +2046,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "RqgWlgIL"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 719,
-			"versionNonce": 169808235,
+			"version": 723,
+			"versionNonce": 1651856839,
 			"isDeleted": false,
 			"id": "RqgWlgIL",
 			"fillStyle": "solid",
@@ -2139,7 +2073,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2155,8 +2089,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 908,
-			"versionNonce": 2015710917,
+			"version": 912,
+			"versionNonce": 713625129,
 			"isDeleted": false,
 			"id": "MXS2A0L9soBmkaS3_PNZl",
 			"fillStyle": "solid",
@@ -2183,14 +2117,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "WHb9fO1m"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 770,
-			"versionNonce": 45067275,
+			"version": 774,
+			"versionNonce": 1760888039,
 			"isDeleted": false,
 			"id": "WHb9fO1m",
 			"fillStyle": "solid",
@@ -2210,7 +2144,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2226,8 +2160,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 463,
-			"versionNonce": 2065911749,
+			"version": 467,
+			"versionNonce": 276259081,
 			"isDeleted": false,
 			"id": "jd_WI-OJl2Xv61SKTVKOy",
 			"fillStyle": "solid",
@@ -2254,14 +2188,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "TZoenBAM"
 				}
 			],
-			"updated": 1705931026240,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 437,
-			"versionNonce": 1477381925,
+			"version": 441,
+			"versionNonce": 1576128519,
 			"isDeleted": false,
 			"id": "TZoenBAM",
 			"fillStyle": "solid",
@@ -2281,7 +2215,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931026240,
+			"updated": 1706333953693,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2296,42 +2230,9 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"baseline": 32
 		},
 		{
-			"type": "image",
-			"version": 352,
-			"versionNonce": 1137216261,
-			"isDeleted": false,
-			"id": "Gfz5L3tU",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 3902.682994732879,
-			"y": -2140.2368674636755,
-			"strokeColor": "transparent",
-			"backgroundColor": "transparent",
-			"width": 375,
-			"height": 500,
-			"seed": 89095,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1705931024832,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "7c16e5750fb59c980bb00b8674c639a20e664bfc",
-			"scale": [
-				1,
-				1
-			]
-		},
-		{
 			"type": "rectangle",
-			"version": 608,
-			"versionNonce": 829842763,
+			"version": 612,
+			"versionNonce": 728250151,
 			"isDeleted": false,
 			"id": "Tos19DrT4sW-ONH4eLF31",
 			"fillStyle": "solid",
@@ -2370,14 +2271,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 794,
-			"versionNonce": 327526629,
+			"version": 798,
+			"versionNonce": 1203204809,
 			"isDeleted": false,
 			"id": "liiW8rKW",
 			"fillStyle": "solid",
@@ -2397,7 +2298,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2413,8 +2314,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 620,
-			"versionNonce": 263291883,
+			"version": 624,
+			"versionNonce": 1204075079,
 			"isDeleted": false,
 			"id": "GbEmFYTMcik_wGCZl8Kar",
 			"fillStyle": "solid",
@@ -2449,14 +2350,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 789,
-			"versionNonce": 554255429,
+			"version": 793,
+			"versionNonce": 263205289,
 			"isDeleted": false,
 			"id": "bf02eFet",
 			"fillStyle": "solid",
@@ -2476,7 +2377,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2492,8 +2393,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 707,
-			"versionNonce": 1112526475,
+			"version": 711,
+			"versionNonce": 669243751,
 			"isDeleted": false,
 			"id": "voxoVb8IMW1doWld3CYEt",
 			"fillStyle": "solid",
@@ -2524,14 +2425,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 906,
-			"versionNonce": 641889189,
+			"version": 910,
+			"versionNonce": 468587657,
 			"isDeleted": false,
 			"id": "cJkfuqoz",
 			"fillStyle": "solid",
@@ -2551,7 +2452,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2567,8 +2468,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 774,
-			"versionNonce": 738968875,
+			"version": 778,
+			"versionNonce": 1897010311,
 			"isDeleted": false,
 			"id": "SxPfTntQoxfLLui0iH41M",
 			"fillStyle": "solid",
@@ -2603,14 +2504,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 993,
-			"versionNonce": 1063171845,
+			"version": 997,
+			"versionNonce": 1881971561,
 			"isDeleted": false,
 			"id": "99du7R4i",
 			"fillStyle": "solid",
@@ -2630,7 +2531,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2646,8 +2547,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 954,
-			"versionNonce": 1951393739,
+			"version": 958,
+			"versionNonce": 1795943335,
 			"isDeleted": false,
 			"id": "i7T2FmPQ8TA9NhJUwYYNL",
 			"fillStyle": "solid",
@@ -2682,14 +2583,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1128,
-			"versionNonce": 651923045,
+			"version": 1132,
+			"versionNonce": 213337673,
 			"isDeleted": false,
 			"id": "Jy5u6EtA",
 			"fillStyle": "solid",
@@ -2709,7 +2610,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2725,8 +2626,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 343,
-			"versionNonce": 1236365195,
+			"version": 347,
+			"versionNonce": 838721223,
 			"isDeleted": false,
 			"id": "cuLwwPt7avrzJF0VUIUnE",
 			"fillStyle": "solid",
@@ -2753,14 +2654,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "lDNTkNx9"
 				}
 			],
-			"updated": 1705931082834,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 337,
-			"versionNonce": 2022786603,
+			"version": 341,
+			"versionNonce": 1550423337,
 			"isDeleted": false,
 			"id": "lDNTkNx9",
 			"fillStyle": "solid",
@@ -2780,7 +2681,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931082834,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2796,8 +2697,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 631,
-			"versionNonce": 912161195,
+			"version": 635,
+			"versionNonce": 679767527,
 			"isDeleted": false,
 			"id": "Mpz_tepeRbRpVSuKQdXpL",
 			"fillStyle": "solid",
@@ -2824,14 +2725,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "sIkNlWKX"
 				}
 			],
-			"updated": 1705931083865,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 645,
-			"versionNonce": 2069367883,
+			"version": 649,
+			"versionNonce": 1655638025,
 			"isDeleted": false,
 			"id": "sIkNlWKX",
 			"fillStyle": "solid",
@@ -2851,7 +2752,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931083865,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2867,8 +2768,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 362,
-			"versionNonce": 2061705547,
+			"version": 366,
+			"versionNonce": 699144455,
 			"isDeleted": false,
 			"id": "E1ZTp2mMksZCWp0aIixKp",
 			"fillStyle": "solid",
@@ -2895,14 +2796,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "ZF8io6Be"
 				}
 			],
-			"updated": 1705931085939,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 405,
-			"versionNonce": 69648363,
+			"version": 409,
+			"versionNonce": 696458985,
 			"isDeleted": false,
 			"id": "ZF8io6Be",
 			"fillStyle": "solid",
@@ -2922,7 +2823,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931085939,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2938,8 +2839,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 398,
-			"versionNonce": 733545419,
+			"version": 402,
+			"versionNonce": 2062639143,
 			"isDeleted": false,
 			"id": "MgVSIG3sY89omZ1n0J2Rz",
 			"fillStyle": "solid",
@@ -2966,14 +2867,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "tuK9cWTX"
 				}
 			],
-			"updated": 1705988118634,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 471,
-			"versionNonce": 706934635,
+			"version": 475,
+			"versionNonce": 1869699529,
 			"isDeleted": false,
 			"id": "tuK9cWTX",
 			"fillStyle": "solid",
@@ -2993,7 +2894,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705988120592,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -3008,108 +2909,9 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"baseline": 77
 		},
 		{
-			"type": "image",
-			"version": 398,
-			"versionNonce": 754114955,
-			"isDeleted": false,
-			"id": "aPoZnHx4",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 424.7737165136732,
-			"y": -1302.5563765414088,
-			"strokeColor": "transparent",
-			"backgroundColor": "transparent",
-			"width": 187.72147495361773,
-			"height": 270.17857142857133,
-			"seed": 70083,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1705930976057,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "df10f8bd62c32c77bb93f061d7cf04bc004862a6",
-			"scale": [
-				1,
-				1
-			]
-		},
-		{
-			"type": "image",
-			"version": 314,
-			"versionNonce": 279244683,
-			"isDeleted": false,
-			"id": "qVHSy6zb",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -112.86765253394606,
-			"y": -1353.5459598747425,
-			"strokeColor": "transparent",
-			"backgroundColor": "transparent",
-			"width": 188.6017740429504,
-			"height": 269.6829105473964,
-			"seed": 53460,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1705930947139,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "258249209cb9dcbb3bd43bb4f8c55573a93c0fac",
-			"scale": [
-				1,
-				1
-			]
-		},
-		{
-			"type": "image",
-			"version": 212,
-			"versionNonce": 1508546283,
-			"isDeleted": false,
-			"id": "zI82z5bJ",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 372.2290736565301,
-			"y": -1654.5727455890278,
-			"strokeColor": "transparent",
-			"backgroundColor": "transparent",
-			"width": 211.78833071690224,
-			"height": 270.17857142857156,
-			"seed": 77661,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1705930941097,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "9e7a831389df3e2e4f886ccd39623041e53e670c",
-			"scale": [
-				1,
-				1
-			]
-		},
-		{
 			"type": "rectangle",
-			"version": 648,
-			"versionNonce": 340969189,
+			"version": 652,
+			"versionNonce": 1301953417,
 			"isDeleted": false,
 			"id": "f0asWmnR1NP__CS44I3qs",
 			"fillStyle": "solid",
@@ -3136,14 +2938,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "TNNopfnH"
 				}
 			],
-			"updated": 1705931075609,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 438,
-			"versionNonce": 109224517,
+			"version": 442,
+			"versionNonce": 484433287,
 			"isDeleted": false,
 			"id": "TNNopfnH",
 			"fillStyle": "solid",
@@ -3163,7 +2965,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931075609,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -3179,8 +2981,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 686,
-			"versionNonce": 1840573093,
+			"version": 690,
+			"versionNonce": 129753705,
 			"isDeleted": false,
 			"id": "gY4Swk3O_HNtg7gxlrqTb",
 			"fillStyle": "solid",
@@ -3207,14 +3009,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "IWF41mJy"
 				}
 			],
-			"updated": 1705931072662,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 497,
-			"versionNonce": 2137673221,
+			"version": 501,
+			"versionNonce": 1278776487,
 			"isDeleted": false,
 			"id": "IWF41mJy",
 			"fillStyle": "solid",
@@ -3234,7 +3036,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931072662,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -3250,8 +3052,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 693,
-			"versionNonce": 641368549,
+			"version": 697,
+			"versionNonce": 549825865,
 			"isDeleted": false,
 			"id": "N8B8WA0uOvqohp-Ms-thN",
 			"fillStyle": "solid",
@@ -3278,14 +3080,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "iNWkdy5Q"
 				}
 			],
-			"updated": 1705931077145,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 524,
-			"versionNonce": 431684933,
+			"version": 528,
+			"versionNonce": 2041407431,
 			"isDeleted": false,
 			"id": "iNWkdy5Q",
 			"fillStyle": "solid",
@@ -3305,7 +3107,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931077145,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -3321,8 +3123,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 738,
-			"versionNonce": 431895941,
+			"version": 742,
+			"versionNonce": 1343429673,
 			"isDeleted": false,
 			"id": "E4ofEp5rfbzQptYmGwWdL",
 			"fillStyle": "solid",
@@ -3349,14 +3151,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "Nd97b0BO"
 				}
 			],
-			"updated": 1705931078536,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 589,
-			"versionNonce": 902249701,
+			"version": 593,
+			"versionNonce": 1130026727,
 			"isDeleted": false,
 			"id": "Nd97b0BO",
 			"fillStyle": "solid",
@@ -3376,7 +3178,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705931078536,
+			"updated": 1706333953694,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -3392,8 +3194,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "arrow",
-			"version": 1199,
-			"versionNonce": 1253194919,
+			"version": 1219,
+			"versionNonce": 97015721,
 			"isDeleted": false,
 			"id": "Vn9fobLx09d7JBPQcGPRu",
 			"fillStyle": "solid",
@@ -3415,7 +3217,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706265519084,
+			"updated": 1706334045694,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3444,8 +3246,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "arrow",
-			"version": 910,
-			"versionNonce": 6762791,
+			"version": 930,
+			"versionNonce": 1782496041,
 			"isDeleted": false,
 			"id": "WxhjT2VfKUU83bcm3NpbX",
 			"fillStyle": "solid",
@@ -3467,7 +3269,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706265519086,
+			"updated": 1706334045695,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3496,8 +3298,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "arrow",
-			"version": 1228,
-			"versionNonce": 1456763975,
+			"version": 1240,
+			"versionNonce": 116354569,
 			"isDeleted": false,
 			"id": "vz9p0pH47LXJyXXUtnRuQ",
 			"fillStyle": "solid",
@@ -3519,7 +3321,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706265519087,
+			"updated": 1706334045697,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -3544,8 +3346,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "arrow",
-			"version": 1118,
-			"versionNonce": 1635715111,
+			"version": 1138,
+			"versionNonce": 40121385,
 			"isDeleted": false,
 			"id": "NhhHEIKTzLsowQjmi37Jf",
 			"fillStyle": "solid",
@@ -3567,7 +3369,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706265519066,
+			"updated": 1706334045674,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3596,8 +3398,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "image",
-			"version": 362,
-			"versionNonce": 220511973,
+			"version": 366,
+			"versionNonce": 1637105865,
 			"isDeleted": false,
 			"id": "mgrN2tSx",
 			"fillStyle": "hachure",
@@ -3622,7 +3424,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953695,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -3634,8 +3436,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "image",
-			"version": 216,
-			"versionNonce": 1404489195,
+			"version": 220,
+			"versionNonce": 1633930311,
 			"isDeleted": false,
 			"id": "FQRfspd9",
 			"fillStyle": "hachure",
@@ -3660,7 +3462,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953695,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -3672,8 +3474,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "image",
-			"version": 231,
-			"versionNonce": 39164485,
+			"version": 235,
+			"versionNonce": 818102185,
 			"isDeleted": false,
 			"id": "VMhmr8Dd",
 			"fillStyle": "hachure",
@@ -3698,7 +3500,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953695,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -3710,8 +3512,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "image",
-			"version": 156,
-			"versionNonce": 723245195,
+			"version": 160,
+			"versionNonce": 533769063,
 			"isDeleted": false,
 			"id": "TgTLta2o",
 			"fillStyle": "hachure",
@@ -3736,7 +3538,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953695,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -3748,8 +3550,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "image",
-			"version": 1043,
-			"versionNonce": 127142309,
+			"version": 1047,
+			"versionNonce": 57631369,
 			"isDeleted": false,
 			"id": "fkgfBvaY",
 			"fillStyle": "hachure",
@@ -3790,7 +3592,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953695,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -3802,8 +3604,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "arrow",
-			"version": 391,
-			"versionNonce": 1717606599,
+			"version": 411,
+			"versionNonce": 326607241,
 			"isDeleted": false,
 			"id": "kUB-UBifSG8tqpua-KizF",
 			"fillStyle": "solid",
@@ -3813,7 +3615,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1266.6635420181715,
-			"y": -206.88195877598886,
+			"y": -206.88195877598883,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 469.49097186653535,
@@ -3825,7 +3627,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706265519089,
+			"updated": 1706334045698,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3854,8 +3656,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "arrow",
-			"version": 101,
-			"versionNonce": 825911911,
+			"version": 121,
+			"versionNonce": 1520565737,
 			"isDeleted": false,
 			"id": "aYWOpb5KV1kUxuRMEOFmY",
 			"fillStyle": "solid",
@@ -3877,7 +3679,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706265519082,
+			"updated": 1706334045692,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3906,8 +3708,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 953,
-			"versionNonce": 1830908363,
+			"version": 957,
+			"versionNonce": 661405095,
 			"isDeleted": false,
 			"id": "-YPXY7w0-3j4W5zKQC2PI",
 			"fillStyle": "solid",
@@ -3942,14 +3744,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1705930908154,
+			"updated": 1706333953695,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1138,
-			"versionNonce": 88056933,
+			"version": 1142,
+			"versionNonce": 45945929,
 			"isDeleted": false,
 			"id": "dVOBu5lI",
 			"fillStyle": "solid",
@@ -3969,7 +3771,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705930908154,
+			"updated": 1706333953695,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -3985,8 +3787,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "arrow",
-			"version": 80,
-			"versionNonce": 376864071,
+			"version": 100,
+			"versionNonce": 109712649,
 			"isDeleted": false,
 			"id": "y_hkcctvTvyIRzmzjw6hb",
 			"fillStyle": "solid",
@@ -3996,11 +3798,11 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1269.9045138847064,
-			"y": -185.53169191614472,
+			"y": -185.53169191614478,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 481.25,
-			"height": 556.8749999999998,
+			"height": 556.8749999999999,
 			"seed": 1900327461,
 			"groupIds": [],
 			"frameId": null,
@@ -4008,7 +3810,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706265519100,
+			"updated": 1706334045711,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4031,14 +3833,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 				],
 				[
 					481.25,
-					556.8749999999998
+					556.8749999999999
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 87,
-			"versionNonce": 472404743,
+			"version": 107,
+			"versionNonce": 1862374217,
 			"isDeleted": false,
 			"id": "G8dajieyRW1ePr1TbTmkv",
 			"fillStyle": "solid",
@@ -4060,7 +3862,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706265519089,
+			"updated": 1706334045698,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4089,8 +3891,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "arrow",
-			"version": 71,
-			"versionNonce": 922439303,
+			"version": 91,
+			"versionNonce": 525352905,
 			"isDeleted": false,
 			"id": "F7efzQLwyRkGyU8jUz0fk",
 			"fillStyle": "solid",
@@ -4112,7 +3914,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706265519088,
+			"updated": 1706334045697,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4141,8 +3943,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "arrow",
-			"version": 95,
-			"versionNonce": 1517229959,
+			"version": 115,
+			"versionNonce": 934094537,
 			"isDeleted": false,
 			"id": "Zg51E4brsPW49RPjhjkzU",
 			"fillStyle": "solid",
@@ -4164,7 +3966,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706265519100,
+			"updated": 1706334045711,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4193,8 +3995,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "arrow",
-			"version": 153,
-			"versionNonce": 1569357543,
+			"version": 173,
+			"versionNonce": 787693929,
 			"isDeleted": false,
 			"id": "wzTXeqDq__zOHVGQJJzF3",
 			"fillStyle": "solid",
@@ -4203,12 +4005,12 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2044.9045138847068,
-			"y": -380.99328873101064,
+			"x": 2044.9045138847064,
+			"y": -380.9932887310057,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 687.4999999999995,
-			"height": 54.737737457025844,
+			"width": 687.5,
+			"height": 54.73773745702948,
 			"seed": 688280171,
 			"groupIds": [],
 			"frameId": null,
@@ -4216,7 +4018,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706265519085,
+			"updated": 1706334045694,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4238,15 +4040,15 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					0
 				],
 				[
-					687.4999999999995,
-					-54.737737457025844
+					687.5,
+					-54.73773745702948
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 448,
-			"versionNonce": 93524485,
+			"version": 452,
+			"versionNonce": 1886629097,
 			"isDeleted": false,
 			"id": "xSyxH33omeGZ_janGnw9O",
 			"fillStyle": "solid",
@@ -4273,14 +4075,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "jDuQIs2H"
 				}
 			],
-			"updated": 1705988097574,
+			"updated": 1706333953695,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 593,
-			"versionNonce": 447098533,
+			"version": 597,
+			"versionNonce": 1134080551,
 			"isDeleted": false,
 			"id": "jDuQIs2H",
 			"fillStyle": "solid",
@@ -4300,7 +4102,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705988097574,
+			"updated": 1706333953695,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4316,8 +4118,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 511,
-			"versionNonce": 644700421,
+			"version": 515,
+			"versionNonce": 1696606153,
 			"isDeleted": false,
 			"id": "BsrPnjTBP64cMObOnOvf4",
 			"fillStyle": "solid",
@@ -4344,14 +4146,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "PhlibUWN"
 				}
 			],
-			"updated": 1705988100386,
+			"updated": 1706333953695,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 697,
-			"versionNonce": 1830719147,
+			"version": 701,
+			"versionNonce": 439211335,
 			"isDeleted": false,
 			"id": "PhlibUWN",
 			"fillStyle": "solid",
@@ -4371,7 +4173,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705988112161,
+			"updated": 1706333953695,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4387,8 +4189,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 555,
-			"versionNonce": 860075559,
+			"version": 559,
+			"versionNonce": 1211778729,
 			"isDeleted": false,
 			"id": "pdlVzvKwm6tBvTilh0ME-",
 			"fillStyle": "solid",
@@ -4415,14 +4217,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "dQpdJxEY"
 				}
 			],
-			"updated": 1706265518095,
+			"updated": 1706333953695,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 810,
-			"versionNonce": 1708677447,
+			"version": 814,
+			"versionNonce": 611423335,
 			"isDeleted": false,
 			"id": "dQpdJxEY",
 			"fillStyle": "solid",
@@ -4442,7 +4244,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706265518095,
+			"updated": 1706333953695,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4458,8 +4260,8 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		},
 		{
 			"type": "rectangle",
-			"version": 605,
-			"versionNonce": 794170535,
+			"version": 609,
+			"versionNonce": 1148029321,
 			"isDeleted": false,
 			"id": "wZCtzucD26lp5qC-eoBAd",
 			"fillStyle": "solid",
@@ -4486,14 +4288,14 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 					"id": "Joz5myyc"
 				}
 			],
-			"updated": 1706265533275,
+			"updated": 1706333953695,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 932,
-			"versionNonce": 1848648489,
+			"version": 936,
+			"versionNonce": 707817351,
 			"isDeleted": false,
 			"id": "Joz5myyc",
 			"fillStyle": "solid",
@@ -4513,7 +4315,7 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706265535332,
+			"updated": 1706333953695,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4526,6 +4328,192 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 			"originalText": "我们需要那么多社交联系吗？",
 			"lineHeight": 1.25,
 			"baseline": 77
+		},
+		{
+			"id": "aapVAMG7",
+			"type": "image",
+			"x": 1338.8866355212372,
+			"y": -2390.887701098909,
+			"width": 500,
+			"height": 245.78947368421052,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"roundness": null,
+			"seed": 39614,
+			"version": 5,
+			"versionNonce": 586510441,
+			"updated": 1706333953695,
+			"isDeleted": false,
+			"groupIds": [],
+			"boundElements": [],
+			"link": null,
+			"locked": false,
+			"fileId": "8ab5f9bc72e89a010ebaac0f8152cdd0ff9833e8",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "g1FAuYex",
+			"type": "image",
+			"x": 3196.59496885457,
+			"y": -2489.7304745364067,
+			"width": 500,
+			"height": 487.2813990461049,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"roundness": null,
+			"seed": 9403,
+			"version": 79,
+			"versionNonce": 2045281417,
+			"updated": 1706333990499,
+			"isDeleted": false,
+			"groupIds": [],
+			"boundElements": [],
+			"link": null,
+			"locked": false,
+			"fileId": "1f0d3835e87d1a809ed6d44b214622b03bf12edb",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "7iNfktlm",
+			"type": "image",
+			"x": 3989.511635521236,
+			"y": -2283.4804745364063,
+			"width": 375,
+			"height": 500,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"roundness": null,
+			"seed": 42462,
+			"version": 44,
+			"versionNonce": 961138633,
+			"updated": 1706334013959,
+			"isDeleted": false,
+			"groupIds": [],
+			"boundElements": [],
+			"link": null,
+			"locked": false,
+			"fileId": "8cf4f2f925d99090f9dab525567e3ff6e7df8ca5",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "NzPAOvyE",
+			"type": "image",
+			"x": -410.0716978120977,
+			"y": -1412.5429745364163,
+			"width": 349.6732026143791,
+			"height": 500,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"roundness": null,
+			"seed": 52020,
+			"version": 63,
+			"versionNonce": 799456457,
+			"updated": 1706334028855,
+			"isDeleted": false,
+			"groupIds": [],
+			"boundElements": [],
+			"link": null,
+			"locked": false,
+			"fileId": "258249209cb9dcbb3bd43bb4f8c55573a93c0fac",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "Pnqg9ZeC",
+			"type": "image",
+			"x": 427.3241355212359,
+			"y": -1825.5898495364163,
+			"width": 391.94139194139194,
+			"height": 500,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"roundness": null,
+			"seed": 74780,
+			"version": 1,
+			"versionNonce": 780964151,
+			"updated": 1706334042721,
+			"isDeleted": false,
+			"groupIds": [],
+			"boundElements": [],
+			"link": null,
+			"locked": false,
+			"fileId": "9e7a831389df3e2e4f886ccd39623041e53e670c",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "bhPlnlil",
+			"type": "image",
+			"x": 386.0741355212357,
+			"y": -1261.8398495364163,
+			"width": 347.4025974025974,
+			"height": 500,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"roundness": null,
+			"seed": 50693,
+			"version": 26,
+			"versionNonce": 1232839785,
+			"updated": 1706334049569,
+			"isDeleted": false,
+			"groupIds": [],
+			"boundElements": [],
+			"link": null,
+			"locked": false,
+			"fileId": "df10f8bd62c32c77bb93f061d7cf04bc004862a6",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -4543,10 +4531,10 @@ f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[game3.jpg]]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -647.6415958386975,
-		"scrollY": -844.4924496969,
+		"scrollX": 624.2383644787617,
+		"scrollY": 3435.485830708141,
 		"zoom": {
-			"value": 0.44999999999999996
+			"value": 0.15000000000000002
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
