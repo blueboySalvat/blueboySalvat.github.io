@@ -5277,6 +5277,8 @@ String str2 = new String("hello");
 [Comparable 自然排序](#Comparable%20自然排序)
 
 ### 关于字符串不可变
+
+
 前置知识：
 - 
 	- 直接定义的 `String a ="a"` 是储存在<font color="#de7802">字符串常量池</font>中；`new String("a")` 是存储在堆中；
@@ -5289,11 +5291,49 @@ String str2 = new String("hello");
 	- `String a = "a"` 在编译阶段就会在内存中创建；
 	-  `String a = new String("a");` 是在运行时才会在堆中创建对象
 
-
-	
+`StringCantChangeTest.java`
+```java
+public class StringCantChangeTest {  
+    public static void main(String[] args) {  
+        String s1 = "多喝热水";  
+        String s2 = "多喝热水";  
+        System.out.println(s1 == s2);  
+        System.out.println(s1.equals(s2));  
+  
+        String s3 = new String("多喝热水");  
+        System.out.println(s1 == s3);  
+        System.out.println(s1.equals(s3));  
+  
+        String s4 = "多喝" + "热水";  
+        System.out.println(s1 == s4);  
+        System.out.println(s1.equals(s4));  
+  
+        String s5 = "多喝";  
+        String s6 = "热水";  
+        String s7 = s5 + "热水";  
+        System.out.println(s1 == s7);  
+        System.out.println(s1.equals(s7));  
+  
+        String s8 = s5 + s6;  
+        System.out.println(s1 == s8);  
+        System.out.println(s1.equals(s8));  
+  
+    }  
+}
+```
+图解不可变：
 
 ### 可变字符串
-
+#### StringBuffer
+StringBuffer - 可变长度字符串
+* 使用场景：字符串频繁拼接场合
+```java
+String sbf = new StringBuffer("hello");
+sbf.append(" world");
+sbf.append(" .....");
+str = sbf.toString();//StringBuffer 对象 -- > String 对象
+System.out.println(str);
+```
 
 ## 日期和时间类
 ### Date
@@ -5358,12 +5398,11 @@ public class Student implements Comparable<Student> {
         //    if(this.height > s.height) {  
         //        return 1;        //    }else if(this.height < s.height) {        //        return -1;        //    }        //    return 0;        //}  
         //我想定义的另一个规则2：先比较年龄，小的在前，年龄相同时再根据名字大小排序。  
-        if (this.age > o.age) {  
-            return 1;  
-        } else if (this.age < o.age) {  
-            return -1;  
-        } else {//判断名字的大小，加个服号就是从大到小排序了。this 比 o 大 负数，this 比 o 小，返回正数，this 和 o 相等，返回 0            return -this.name.compareTo(o.name);  
-        }  
+        //if (this.age > o.age) {  
+        //    return 1;        //} else if (this.age < o.age) {        //    return -1;        //} else {//判断名字的大小，加个服号就是从大到小排序了。this 比 o 大 负数，this 比 o 小，返回正数，this 和 o 相等，返回 0        //    return -this.name.compareTo(o.name);        //}  
+        //2规则另一种写法：  
+        return Integer.compare(this.age,o.age) != 0 ? Integer.compare(this.age,o.age) : -this.name.compareTo(o.name);  
+  
     }  
   
   
@@ -5419,8 +5458,68 @@ public class NatureCompareTest {
 ```
 注意：我们这里重写的 `comparable()` 写完之后并没有调用，可能有的童鞋会很奇怪，其实是我们写好了，然后在运行 `Arrays.sort(studentArr);` 的过程中就会被调用，可以一步一步进入方法查看 `Arrays.sort()` --> `ComparableTimSort.sort()` --> `binarySort()` 这里面就有调用。
 
-#### Comparator 定制排序
+`String` 类中重写的 `CompareTo()`
+```java
+public final class String  
+    implements java.io.Serializable, Comparable<String>, CharSequence {//String实现了Comparable接口
+//省略一大坨...
+public int compareTo(String anotherString) {  
+    int len1 = value.length;  
+    int len2 = anotherString.value.length;  
+    int lim = Math.min(len1, len2);  
+    char v1[] = value;  
+    char v2[] = anotherString.value;  
+  
+    int k = 0;  
+    while (k < lim) {  
+        char c1 = v1[k];  
+        char c2 = v2[k];  
+        if (c1 != c2) {  
+            return c1 - c2;  
+        }  
+        k++;  
+    }  
+    return len1 - len2;  
+}
+}
+```
 
+#### Comparator 定制排序
+##### 解决的痛点 ：
+- 某些类没有实现 `java.lang.Comparable` 接口，但是又不方便修改源码时
+	- 场景 1：官方提供的类不满足排序的需要，但是官方提供的类只能以只读模式打开，同时类又被 final 修饰不能继承时。
+	- 场景 2:类实现了 `java.lang.Comparable` 接口, 重写了 `Comparable()`, 但是在某些地方这个重写方法并不适合, 直接修改 Comparable()又会使得本来适用的地方不能用了。
+
+##### 重写规则
+- 返回正整数，则表示 `o1` 大于 `o2`；
+- 返回`0`，表示相等；
+- 返回负整数，表示`o1`小于`o2`。
+
+```java
+import java.util.Arrays;  
+import java.util.Comparator;  
+  
+public class EnforceCompare {  
+    public static void main(String[] args) {  
+  
+        String[] strArr = new String[]{"addd", "abc", "xyz", "def", "123"};//字符串数组  
+        Arrays.sort(strArr);//默认按照编码表进行排序，数字在前，从第一个位置比，字母在前的排前，相同时比较次一个字母的大小。  
+        System.out.println(Arrays.toString(strArr));  
+  
+  
+        /*  
+        * 写了一个 Comparator 接口的一个匿名内部类类，也是实现类，并且这个类还是重写类 这个接口下的 Compare()        *        * int compare(T o1, T o2); 是 Comparator 接口下的一个抽象方法。  
+        *        * 调用过程：  
+        * Arrays.sort() --> legacyMergeSort() --> else 分支下的 mergeSort() --> c.compare()        *        * */        Arrays.sort(strArr, new Comparator<String>() {  
+            @Override  
+            public int compare(String o1, String o2) {//堆String数组，根据编码表降序排序。  
+                return -o1.compareTo(o2);   //调用的 String 重写 Comparable 接口的 CompareTo()方法，然后加了个负号，就是从大到小排序了。  
+            }  
+        });  
+        System.out.println(Arrays.toString(strArr));  
+    }  
+}
+```
 ### 常用方法
 
 

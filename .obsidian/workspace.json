@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6c682618c46ca874",
+            "id": "6b3cc57ed70ac9b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/anote/Java基础.md",
+                "file": "docs/anote/基于Springboot的幼儿园管理系统.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,22 +21,12 @@
             }
           },
           {
-            "id": "de37ba9483dd8c1e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Appends/StringCantChange.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "6b3cc57ed70ac9b3",
+            "id": "3f6df8aaf9b3439c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/anote/基于Springboot的幼儿园管理系统.md",
+                "file": "docs/anote/Java基础.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -65,22 +55,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b5b090cdfb6fafd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/anote/Git.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,14 +93,6 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "e7fa9eeff6557a83",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
             }
           }
         ]
@@ -218,53 +187,53 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b5b090cdfb6fafd3",
+  "active": "5f6c15c89375ded6",
   "lastOpenFiles": [
     "docs/anote/Java基础.md",
     "docs/TODO.md",
-    "Appends/StringCantChange.excalidraw.md",
-    "docs/anote/在云服务器上部署轻量级博客docsify(使用git更新).md",
-    "Appends/IntroduceMe.excalidraw.md",
+    "docs/Contributions.md",
     "docs/anote/基于Springboot的幼儿园管理系统.md",
-    "未命名看板.md",
-    "docs/README.md",
-    "docs/06效率技巧.md",
+    "docs/anote/在云服务器上部署轻量级博客docsify(使用git更新).md",
     "docs/_navbar.md",
+    "docs/_coverpage.md",
+    "Appends/draw/StackAndHeap_1Array_InJava.excalidraw.md",
+    "Appends/draw/StringCantChange.excalidraw.md",
+    "Appends/StringCantChange.excalidraw.md",
+    "Appends/draw/function_recursion.excalidraw.md",
+    "Appends/draw/ObjectArray.excalidraw.md",
+    "Appends/draw/IntroduceMe.excalidraw.md",
+    "Appends/draw/StaticInRAM.excalidraw.md",
+    "Appends/draw/StackAndHeap_Object_InJava.excalidraw.md",
+    "Appends/draw/StackAndHeap_2Array_InJava.excalidraw.md",
+    "Appends/draw/Analyse.excalidraw.md",
+    "Appends/draw",
+    "Appends/未命名文件夹",
+    "Appends/icon",
+    "Appends/img/19Jianji.jpeg",
+    "Appends/19Jianji.jpeg",
+    "Appends/19jianji中.jpeg",
+    "Appends/img/2010.png",
+    "Appends/img/201906.png",
+    "Appends/img/愿中国青年摆脱冷气.png",
+    "Appends/img/黑暗的.png",
+    "Appends/img/不能因为害怕.png",
+    "Appends/img/cache2.jpg",
+    "Appends/img/cache_csgo.jpeg",
+    "Appends/IMG_2077.JPG的替身",
+    "Appends/IMG_2077.JPG.zip",
+    "Appends/img",
+    "docs/README.md",
+    "docs/anote/Git.md",
+    "Appends/IntroduceMe.excalidraw.md",
+    "未命名看板.md",
+    "docs/06效率技巧.md",
     "docs/05闲杂小记.md",
     "docs/04通识知识.md",
     "docs/02后端开发.md",
-    "docs/_coverpage.md",
     "docs/02编程开发.md",
-    "docs/anote/Java中的内存空间.md",
-    "docs/03前端开发.md",
-    "docs/01网络安全.md",
-    "docs/anote/Git.md",
-    "部署Centos云服务器.md",
-    "docs/anote/在macos上使用Idea.md",
-    "docs/00职业素养.md",
-    "docs/Contributions.md",
-    "docs/07服务器.md",
-    "Appends/ValueAndQuoteDeliver.excalidraw.md",
-    "Appends/StaticInRAM.excalidraw.md",
-    "jiaps.jpg",
-    "jia.jpg",
-    "1bdef135b7b80e85072c53f058efe3cd_副本.jpg",
-    "sheying.jpg",
-    "ae7afbcf334a166c98a24f559d7b72dd_副本.jpg",
-    "cache2.jpg",
-    "cache.jpg",
-    "76064d0c816f3161a7c692e40069edc4_副本.jpg",
-    "waimai.jpg",
-    "8e5d43229b7528e45eb76fa74a171ed2_副本.jpg",
     "Appends/CPUandCore.excalidraw",
     "templater",
     "Appends/Scripts/Downloaded",
-    "Appends/Scripts",
-    "Excalidraw",
-    "docs/index.html",
-    "docs/Function_Learn.java",
-    "docs/BreakCtrl.java",
-    "Appends",
-    "docs/html/studyproj/table.html"
+    "Appends/Scripts"
   ]
 }
