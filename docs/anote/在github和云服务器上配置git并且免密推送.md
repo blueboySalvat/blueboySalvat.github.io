@@ -1,55 +1,53 @@
 # 概念
-Master 默认开发分支
-origin 默认远程版本库
-Head 默认开发分支
-Head^ head 的父提交
+`Master` 默认开发分支
+`origin` 默认远程版本库
+`Head` 默认开发分支
+`Head^` `head` 的父提交
 
-# git 的全局配置命令
 
-配置全局范围的用户名和邮箱：
-```
-git config --global user.Email example@example.com
-Git config --global user.Name yourname
-```
-查看全局配置：
-```
-git config --global -l
-```
-查看所有配置：
-```
-git config -l
-```
-删除添加的全局 git：
-```
-git config --global --unset user.name
-git config --global --unset user.email
-
-```
-
-# 配置 SSH 进行推送
+# 配置 SSH 进行免密推送
 
 ## 全局配置
 ```bash
-git config --global user.Email example@example.com
+git config --global user.Email errornotfound@qq.com    //配置全局范围的用户名和邮箱
 git config --global user.Name yourname
+```
+
+以下为其他相关命令，不用做，仅供参考学习：
+```shell
+git config --global -l    //查看全局配置
+
+git config -l  //查看所有配置
+
+git config -l   //查看所有配置
+
+git config --global --unset user.name    //删除添加的全局
+git config --global --unset user.email
 ```
 ## 生成密钥
 ```bash
 ssh-keygen -t rsa -C "your email@example.com" 
- //引号里面填写你的邮箱地址，比如我的是 ssh-keygen -t rsa -C "hec790@126.com" 
+//引号里面填写你的邮箱地址，比如我的是 ssh-keygen -t rsa -C "errornotfound@qq.com" 
 ```
-## 在 Github 上添加
-将生成的 xxx.pub 公钥中的内容添加到 github 中
+## 在 Github 上配置免密
+将在用户家目录下(macos 在 `/Users/电脑的用户名/.ssh`，windosw 在 c 盘哪里来着) 下生成的 `xxx.pub` 公钥中的内容添加到 github - > 头像 - Setting - SSH and Gpt keys - New SSH Key
 
-头像 - Setting - SSH and Gpt keys - New SSH Key
-
-## 测试连通性
+### 测试连通性
 ```shell
 ssh -T git@github.com
 ```
 ```shell
 Hi blueboySalvat! You've successfully authenticated, but GitHub does not provide shell access.
 ```
+
+然后就可以直接在本地按照流程，直接 push 了，不用密码。
+
+## 在云服务器上添加免密
+
+### 在客户端测试
+
+
+
 
 # git 推送流程
 git init

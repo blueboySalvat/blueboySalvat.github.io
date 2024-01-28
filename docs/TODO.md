@@ -6,12 +6,10 @@ kanban-plugin: basic
 
 ## Todo
 
-- [ ] 配置git用户密钥登入
 - [ ] 配置git用户的对/var/web目录的操作权限
-- [ ] 配置 docsify的默认端口
-- [ ] 整理学习文件夹的结构
 - [ ] [关于字符串不可变](anote/Java基础.md#关于字符串不可变)
 - [ ] SimpleDateFormatTest解析失败
+- [ ] 网站备案
 
 
 ## DoIng
@@ -22,6 +20,9 @@ kanban-plugin: basic
 ## Done
 
 **完成**
+- [x] 整理学习文件夹的结构
+- [x] 配置git用户密钥登入
+- [x] 配置 docsify的默认端口
 - [x] java时间类中的这个月的最后一天再加1会怎么样子？Calendar没有校验月份大约12的情况。
 - [x] 员工管理系统的一个小问题(递归调用方法了...)
 - [x] 熟悉Idea调试步骤
