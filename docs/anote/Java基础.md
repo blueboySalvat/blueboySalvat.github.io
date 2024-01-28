@@ -5575,7 +5575,13 @@ public class DateTimeFormatterTest {
 - 默认按照元素的添加顺序设置元素的索引
 ### 三个实现类
 #### ArrayList
+##### 基本操作
 
+
+##### 遍历
+- 普通遍历
+- 增强遍历
+- 迭代器遍历
 
 
 #### Vector

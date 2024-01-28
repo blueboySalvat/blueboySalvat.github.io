@@ -47,17 +47,20 @@
             }
           },
           {
-            "id": "1e6b8170137b482b",
+            "id": "56df53ae34467c82",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "docs/TODO.md"
+                "file": "docs/anote/Git.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -188,14 +191,30 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3f6df8aaf9b3439c",
+  "active": "56df53ae34467c82",
   "lastOpenFiles": [
-    "docs/TODO.md",
-    "docs/anote/Java基础.md",
-    "docs/anote/在macos上使用Idea.md",
     "docs/anote/在云服务器上部署轻量级博客docsify(使用git更新).md",
+    "docs/anote/Github的身份验证设置.md",
+    "Appends/img/mcbuthightschool.mp4",
     "docs/anote/基于Springboot的幼儿园管理系统.md",
     "Appends/draw/IntroduceMe.excalidraw.md",
+    "Appends/img/game1.jpg",
+    "Appends/img/citywalk3.jpg",
+    "Appends/img/citywalk2.jpg",
+    "Appends/img/citywalk1.JPG",
+    "docs/TODO.md",
+    "Appends/img/callofduty.mp4",
+    "Appends/img/dirt.mp4",
+    "Appends/img/codofdutyguns.mp4",
+    "Appends/img/mc.mp4",
+    "Appends/img/sijinnaBox.jpg",
+    "Appends/img/sanlimi.jpeg",
+    "Appends/img/IMG_2307.jpeg",
+    "Appends/img/kaola.jpeg",
+    "Appends/img/IMG_2306.jpeg",
+    "Appends/img/flomolable2023.png",
+    "docs/anote/Java基础.md",
+    "docs/anote/在macos上使用Idea.md",
     "Appends/draw/fourzhong.png.md",
     "docs/03前端开发.md",
     "docs/anote/HTML.md",
@@ -214,27 +233,11 @@
     "Appends/draw",
     "Appends/未命名文件夹",
     "Appends/icon",
-    "Appends/img/19Jianji.jpeg",
-    "Appends/19Jianji.jpeg",
-    "Appends/19jianji中.jpeg",
-    "Appends/img/2010.png",
-    "Appends/img/201906.png",
-    "Appends/img/愿中国青年摆脱冷气.png",
-    "Appends/img/黑暗的.png",
-    "Appends/img/不能因为害怕.png",
-    "Appends/img/cache2.jpg",
-    "Appends/img/cache_csgo.jpeg",
     "Appends/IMG_2077.JPG的替身",
     "Appends/IMG_2077.JPG.zip",
-    "Appends/img",
     "docs/README.md",
     "docs/anote/Git.md",
     "Appends/IntroduceMe.excalidraw.md",
-    "未命名看板.md",
-    "docs/06效率技巧.md",
-    "Appends/CPUandCore.excalidraw",
-    "templater",
-    "Appends/Scripts/Downloaded",
-    "Appends/Scripts"
+    "未命名看板.md"
   ]
 }
