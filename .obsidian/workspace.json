@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "3f2f0a26dce38fd0",
+            "id": "8190c82805dc2744",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "excalidraw",
               "state": {
-                "file": "docs/TODO.md"
-              }
-            }
-          },
-          {
-            "id": "3f6df8aaf9b3439c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/anote/Java基础.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Appends/draw/IntroduceMe.excalidraw.md"
               }
             }
           },
@@ -68,8 +55,42 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6d8ca7e4eac41261",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Appends/draw/StringCantChange.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "b65fd4316d9d6067",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/anote/Java基础.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e0c0f7bc7165a6e",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "docs/TODO.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -111,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5,
+    "width": 348.5024719238281,
     "collapsed": true
   },
   "right": {
@@ -178,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -200,13 +221,25 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6b3cc57ed70ac9b3",
+  "active": "2e0c0f7bc7165a6e",
   "lastOpenFiles": [
-    "docs/TODO.md",
     "docs/anote/Java基础.md",
-    "docs/anote/在云服务器上部署轻量级博客docsify(使用git更新).md",
+    "Appends/draw/StringCantChange.excalidraw.md",
+    "docs/05闲杂小记.md",
+    "docs/img/StringCantChange.png",
+    "docs/img",
     "docs/anote/在github和云服务器上配置git并且免密推送.md",
-    "配置SSH免密链接到云服务器.md",
+    "docs/img/20101.png",
+    "Appends/draw/IntroduceMe.excalidraw.md",
+    "docs/2010 1.png",
+    "docs/README.md",
+    "docs/anote/基于Springboot的幼儿园管理系统.md",
+    "docs/anote/在云服务器上部署轻量级博客docsify(使用git更新).md",
+    "Appends/draw/Analyse.excalidraw.md",
+    "docs/TODO.md",
+    "Appends/draw/fourzhong.png",
+    "Appends/draw/fourzhong.png.md",
+    "docs/anote/配置SSH免密链接到云服务器.md",
     "docs/07服务器.md",
     "docs/anote/Linux.md",
     "docs/anote/RedHat服务部署.md",
@@ -215,10 +248,8 @@
     "docs/anote/linux上的磁盘管理.html",
     "docs/anote/writeup.html",
     "docs/anote/writeup.md",
-    "docs/anote/基于Springboot的幼儿园管理系统.md",
     "docs/anote/Github的身份验证设置.md",
     "Appends/img/mcbuthightschool.mp4",
-    "Appends/draw/IntroduceMe.excalidraw.md",
     "Appends/img/game1.jpg",
     "Appends/img/citywalk3.jpg",
     "Appends/img/citywalk2.jpg",
@@ -229,24 +260,14 @@
     "Appends/img/mc.mp4",
     "Appends/img/sijinnaBox.jpg",
     "Appends/img/sanlimi.jpeg",
-    "Appends/img/IMG_2307.jpeg",
-    "Appends/img/kaola.jpeg",
-    "Appends/img/IMG_2306.jpeg",
-    "Appends/img/flomolable2023.png",
     "docs/anote/在macos上使用Idea.md",
-    "Appends/draw/fourzhong.png.md",
     "docs/03前端开发.md",
     "docs/anote/HTML.md",
     "docs/Contributions.md",
     "docs/_navbar.md",
     "docs/_coverpage.md",
     "Appends/draw/StackAndHeap_1Array_InJava.excalidraw.md",
-    "Appends/draw/StringCantChange.excalidraw.md",
     "Appends/StringCantChange.excalidraw.md",
-    "Appends/draw/function_recursion.excalidraw.md",
-    "Appends/draw/ObjectArray.excalidraw.md",
-    "Appends/draw/StaticInRAM.excalidraw.md",
-    "Appends/draw/StackAndHeap_Object_InJava.excalidraw.md",
-    "Appends/draw"
+    "Appends/draw/function_recursion.excalidraw.md"
   ]
 }

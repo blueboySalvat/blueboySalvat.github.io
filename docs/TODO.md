@@ -7,19 +7,24 @@ kanban-plugin: basic
 ## Todo
 
 - [ ] 配置git用户的对/var/web目录的操作权限
-- [ ] [关于字符串不可变](anote/Java基础.md#关于字符串不可变)
-- [ ] SimpleDateFormatTest解析失败
-- [ ] 网站备案
+- [ ] static是否可以只定义不初始化（对比final）
+- [ ] 布置book域名
+- [ ] 布置life域名
+- [ ] 完成arraylist版本的通讯里管理系统
 
 
 ## DoIng
 
 - [ ] 自己介绍和演讲展示
+- [ ] 目标管理
+- [ ] 网站备案1.30号
 
 
 ## Done
 
 **完成**
+- [x] [关于字符串不可变](anote/Java基础.md#关于字符串不可变)
+- [x] SimpleDateFormatTest解析失败(Date date1 = sdf.parse(dateStr4);需要处理异常)
 - [x] 整理学习文件夹的结构
 - [x] 配置git用户密钥登入
 - [x] 配置 docsify的默认端口
@@ -42,6 +47,6 @@ kanban-plugin: basic
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic"}
+{"kanban-plugin":"basic","lane-width":450}
 ```
 %%

@@ -3946,7 +3946,7 @@ public class Cat extends Animal {
 
 #### 如何定义抽象方法？
 - 使用关键字 `abstract`
-- 没有方法体，例如 `public abstract void example();` 
+- 抽象方法没有方法体，例如 `public abstract void example();` 
 
 `Animal.java`
 ```java
@@ -3995,9 +3995,9 @@ public abstract class Animal {
 }
 ```
 #### 抽象方法和抽象类的关系
-- 有抽象方法的类一定是抽象类
-- 抽象类中不一定要有抽象方法
-- 如果一个类继承了抽象类，那么就要重写所有的抽象方法。
+- 有抽象方法的类<font color="#de7802">一定</font>是抽象类
+- 抽象类中<font color="#de7802">不一定</font>要有抽象方法
+- 如果一个类继承了抽象类，那么就要<font color="#de7802">重写所有的</font>抽象方法。
 	- 如果子类没有重写所有的抽象方法，那么子类也要定义为抽象类。
 
 
@@ -4006,7 +4006,7 @@ public abstract class Animal {
 ### 静态属性
 - 被 `static` 修饰的属性<font color="#de7802">在内存中只有一份</font>。
 - 被 `static` 修饰的属性或方法的访问：
-	- `类名.成员`
+	- `类名.成员` 
 	- `对象名.成员`
 - 如果修改了被 `static` 修饰的属性的值，那么所有对象都会观察到。
 
@@ -4323,7 +4323,9 @@ public class MyTest6 {
 	- 被修饰的类不能被继承。例如：`String`，`Math`，`System` 类
 
 `finalModifier.java`
+
 <font color="#de7802">实例常量</font>不再提供默认值，必须手动赋予初始值；赋值时机：<font color="#de7802">显式初始化</font>，<font color="#de7802">动态代码块</font>，<font color="#de7802">构造方法</font>。
+
 <font color="#de7802">静态常量</font>不再提供默认值，必须手动赋予初始值；赋值时机：<font color="#de7802">显式初始化</font>，<font color="#de7802">静态代码块</font>。
 ```java
 public class finalModifier {  
@@ -4363,27 +4365,339 @@ public class MyTest {
 涉及知识点：[怎么实现类的多态？](#怎么实现类的多态？) [equals](#equals)
 `UI.java`
 ```java
-
+package com.situ.objectlearning.ex_employeemanage;  
+  
+import java.util.Scanner;  
+  
+public class UI {  
+    public static void menu() {    //UI菜单  
+        System.out.println("|------------------------------|");  
+        System.out.println("|------------ 1 增加------------|");  
+        System.out.println("|------------ 2 删除------------|");  
+        System.out.println("|------------ 3 修改------------|");  
+        System.out.println("|------------ 4 按编号查询------------|");  
+        System.out.println("|------------ 5 查询所有------------|");  
+        System.out.println("|------------ 0 退出------------|");  
+        System.out.println("|------------------------------|");  
+    }  
+    public static void main(String[] args) {    //程序入口  
+        Scanner sc = new Scanner(System.in);  
+  
+        while (true){  
+            menu();  
+            System.out.print("请输要办理的业务序号：");  
+            String num = sc.next(); //录入用户操作数  
+  
+            switch (num) {  
+                case "0"://退出  
+                    System.exit(0);  
+                case "1":   //增加  
+                    System.out.print("请输入员工编号：");  
+                    String numAdd = sc.next();  
+                    System.out.print("请输入员工姓名：");  
+                    String  nameAdd= sc.next();  
+                    System.out.print("请输入员工职务：");  
+                    String  positionAdd= sc.next();  
+                    System.out.print("请输入员工请假天数：");  
+                    int  leaveDaysAdd = sc.nextInt();  
+                    System.out.print("请输入员工基本工资：");  
+                    double  basicSalaryAdd= sc.nextDouble();  
+  
+                    Employee e = null;//创建一个 Employee类型的引用，并且初始化。Employee类型的引用可以兼容的指向所有子类。  
+                    if (positionAdd.equals("普通员工") ) {  
+                        e = new Staff(numAdd,nameAdd,positionAdd,leaveDaysAdd,basicSalaryAdd);  //相当于 Employee e = new Staff();父类引用指向子类对象  
+                    }else if(positionAdd.equals("经理")) {  
+                        e = new Manager(numAdd,nameAdd,positionAdd,leaveDaysAdd,basicSalaryAdd);//相当于 Employee e = new Manager();父类引用指向子类对象  
+                    }  
+                    else if(positionAdd.equals("董事长")) {  
+                        e = new Chairman(numAdd,nameAdd,positionAdd,leaveDaysAdd,basicSalaryAdd);//相当于 Employee e = new Chairman();父类引用指向子类对象  
+                    }else {  
+                        System.out.println("请输入正确的职务！");  
+                        break;  //跳出 switch 结构，重新让用户进行下一次循环。  
+                    }  
+  
+                    if (Management.add(e)) {//根据add方法返回回来的 boolean 进行判断，打印出相应的反馈信息  
+                        System.out.println("添加成功！");  
+                        System.out.println(e.toString());//上面前几行的操作：Employee e = new Staff(); 这一步：e.toString()，编译时看左边，左边父类有 toString 方法，但是子类没有重写 toString 方法，于是调用父类的toString方法，于是打印的就是之前自定义的toString。（详见多态知识点）  
+                    }else {  
+                        System.out.println("添加失败！");  
+                    }  
+                    break;  
+                case "2":   //删除  
+                    System.out.print("请输入您想要 删除的编号：");  
+                    String numDel = sc.next();  //录入用户想要删除的编号。  
+                    if (Management.del(numDel)) {  
+                        System.out.println("删除成功！");  
+                    }else {  
+                        System.out.println("删除失败！");  
+                    }  
+                    break;  
+                case "3":   //修改  
+                    System.out.print("请输入您想要 修改的编号：");  
+                    String numUpd = sc.next();  //录入用户想要修改的编号。  
+                    if (Management.search(numUpd) == null) {//首先判断是否有这个编号  
+                        System.out.println("系统中没有此编号");  
+                        break;  
+                    }  
+                    System.out.print("请输入员工姓名：");  
+                    String  nameUpd= sc.next();  
+                    System.out.print("请输入员工职务：");  
+                    String  positionUpd= sc.next();  
+                    System.out.print("请输入员工请假天数：");  
+                    int  leaveDaysUpd = sc.nextInt();  
+                    System.out.print("请输入员工基本工资：");  
+                    double  basicSalaryUpd= sc.nextDouble();  
+  
+                    Employee eUpd = null;//创建一个 Employee类型的引用，并且初始化。Employee类型的引用可以兼容的指向所有子类。  
+                    if (positionUpd.equals("普通员工") ) {  
+                        eUpd = new Staff(numUpd,nameUpd,positionUpd,leaveDaysUpd,basicSalaryUpd);  //相当于 Employee eUpd = new Staff();父类引用指向子类对象  
+                    }else if(positionUpd.equals("经理")) {  
+                        eUpd = new Manager(numUpd,nameUpd,positionUpd,leaveDaysUpd,basicSalaryUpd);//相当于 Employee eUpd = new Manager();父类引用指向子类对象  
+                    }  
+                    else if(positionUpd.equals("董事长")) {  
+                        eUpd = new Chairman(numUpd,nameUpd,positionUpd,leaveDaysUpd,basicSalaryUpd);//相当于 Employee eUpd = new Chairman();父类引用指向子类对象  
+                    }else {  
+                        System.out.println("请输入正确的职务！");  
+                        break;  //跳出 switch 结构，重新让用户进行下一次循环。  
+                    }  
+  
+                    if (Management.alter(numUpd,eUpd)) {//根据add方法返回回来的 boolean 进行判断，打印出相应的反馈信息  
+                        System.out.println("修改成功！");  
+                        System.out.println(eUpd.toString());//上面前几行的操作：Employee e = new Staff(); 这一步：e.toString()，编译时看左边，左边父类有 toString 方法，但是子类没有重写 toString 方法，于是调用父类的toString方法，于是打印的就是之前自定义的toString。（详见多态知识点）  
+                    }else {  
+                        System.out.println("修改失败！");  
+                    }  
+  
+                    break;  
+                case "4":   //查询根据编号  
+                    System.out.print("请输入您想要 查询的编号：");  
+                    String numSearch = sc.next();  //录入用户想要查询的编号。  
+                    Employee tempSearch = Management.search(numSearch);  //用于暂时存储符合要求的对象。  
+                    System.out.println(tempSearch.toString());  
+                    break;  
+                case "5"://查询所有  
+                    for (int i = 0; i < Management.database.length; i++) {  
+                        if (Management.database[i] != null) {  
+                            System.out.println(Management.database[i]);  
+                        }  
+                    }  
+                    System.out.println("----------打印完毕---------");  
+                    break;  
+                default:  
+                    System.out.println("键入错误！");  
+                    break;  
+            }  
+        }  
+  
+    }  
+}
 ```
 `Employee.java`
 ```java
-
+package com.situ.objectlearning.ex_employeemanage;  
+  
+public abstract class Employee {  
+    private String num; //编号  
+    private String name;    //姓名  
+    private String position;    //职位  
+    private int leaveDays;  //请假天数  
+    private double basicSalary; //基本工资  
+  
+    public abstract double calculateSalary();//计算总工资的抽象方法，父类不需要实现，只需要三个子类按需实现即可。  
+  
+    public double deductSalary(double sum) {//扣除工资的计算方法。  
+        return this.getLeaveDays() * (sum/21.75);  
+    }  
+  
+    public Employee() { //无参的构造方法  
+  
+    }  
+  
+    public Employee(String num, String name, String position, int leaveDays, double basicSalary) {//全参的构造方法，供子类创建对象时调用。  
+        this.num = num;  
+        this.name = name;  
+        this.position = position;  
+        this.leaveDays = leaveDays;  
+        this.basicSalary = basicSalary;  
+    }  
+  
+    @Override  
+    public String toString() {  
+        return  "编号='" + num + '\'' +  
+                ", 姓名='" + name + '\'' +  
+                ", 职务='" + position + '\'' +  
+                ", 请假天数=" + leaveDays +  
+                ", 总工资=" + this.calculateSalary() +  
+  
+                //", 总工资=" + (this.calculateSalary() - this.deductSalary()) + //stackOverfolat  
+  
+                '}';  
+    }  
+  
+    //---------------------------- setter and getter -------------------------------  
+    //作用：供子类继承过去，便于对属性的操作。  
+    public String getNum() {  
+        return num;  
+    }  
+  
+    public void setNum(String num) {  
+        this.num = num;  
+    }  
+  
+    public String getName() {  
+        return name;  
+    }  
+  
+    public void setName(String name) {  
+        this.name = name;  
+    }  
+  
+    public String getPosition() {  
+        return position;  
+    }  
+  
+    public void setPosition(String position) {  
+        this.position = position;  
+    }  
+  
+    public int getLeaveDays() {  
+        return leaveDays;  
+    }  
+  
+    public void setLeaveDays(int leaveDays) {  
+        this.leaveDays = leaveDays;  
+    }  
+  
+    public double getBasicSalary() {  
+        return basicSalary;  
+    }  
+  
+    public void setBasicSalary(double basicSalary) {  
+        this.basicSalary = basicSalary;  
+    }  
+}
 ```
 `Management.java`
 ```java
-
+package com.situ.objectlearning.ex_employeemanage;  
+  
+public class Management {  
+    public static final Employee[] database = new Employee[10];//创建了一个大小为10的对象数组，可以存储Employee类型的对象。  
+  
+  
+    //增  
+    public static boolean add(Employee e_A) {  
+        for (int i = 0; i < database.length; i++) { //遍历数组  
+            if (database[i] == null) {//寻找数组中空的位置  
+                database[i] = e_A;//把空的位置指向 一个 堆空间。  
+                return true;    //返回真返回值  
+            }  
+        }  
+        return false;   //返回假返回值  
+    }  
+  
+  
+  
+    //删  
+    public static boolean del(String numDel) {  
+        for (int i = 0; i < database.length; i++) {//遍历数组中的对象信息  
+            if (database[i] != null && database[i].getNum().equals(numDel) ) { //判断数组中存的每个对象的编号属性是否符合要求。  
+                database[i] = null;/*匹配正确,将存储那个对象的引用指向 null */                return true; //返回一个 Employee类型的数组  
+            }  
+        }  
+        return false;  
+    }  
+  
+  
+    //改  
+    public static boolean alter(String num_a, Employee update_a) {  
+        for (int i = 0; i < database.length; i++) {//遍历数组中的对象信息  
+            if (database[i] != null && database[i].getNum().equals(num_a) ) { //判断数组中存的每个对象的编号属性是否符合要求。  
+                database[i] = update_a;  
+                return true;  
+            }  
+        }  
+        return false;  
+    }  
+  
+    //查所有  
+    public static Employee[] searchAll() {  
+        return database;  
+    }  
+  
+    //查根根据编号  
+    public static Employee search(String numSearch_M) {   //根据 number 进行数组遍历和对比，查询成功后返回这个对象。  
+        Employee temp = null;   //用于暂时存储符合要求的对象。  
+        for (int i = 0; i < database.length; i++) {//遍历数组中的对象信息  
+            if (database[i] != null && database[i].getNum().equals(numSearch_M) ) { //判断数组中存的每个对象的编号属性是否符合要求。  
+                /*匹配正确 的 对象引用存储到暂存数组中 。返回的可能是 staff 类型的对象，manager chairman。返回出去被父类接受到之后，父类类型的引用指向了子类*/  
+                temp = database[i];  
+                return temp; //返回一个 Employee类型的数组  
+            }  
+        }  
+        return null;    //若遍历完所以数组之后，没有匹配的项，最后返回 null。  
+    }  
+  
+}
 ```
 `Staff.java`
 ```java
-
+package com.situ.objectlearning.ex_employeemanage;  
+  
+public class Staff extends Employee {  
+    public double calculateSalary() {//在普通员工类中实现抽象方法。  
+        //double sum = this.getBasicSalary() + this.getBasicSalary() * 0.1 + this.getBasicSalary() * 0.5 + 200;  
+        //return  sum - sum/21.75 * this.getLeaveDays();  
+        double sum = this.getBasicSalary() + this.getBasicSalary() * 0.1 + this.getBasicSalary() * 0.5 + 200;  
+        return sum - this.deductSalary(sum);  
+    }  
+  
+    public Staff() {    //员工的无参构造方法  
+    }  
+  
+    public Staff(String num, String name, String position, int leaveDays, double basicSalary) {//子类的构造函数，调用了父类的构造函数进行初始化。  
+        super(num, name, position, leaveDays, basicSalary);  
+    }  
+}
 ```
 `Manager.java`
 ```java
-
+package com.situ.objectlearning.ex_employeemanage;  
+  
+public class Manager extends Employee {  
+    public  double calculateSalary() {//在经理类中实现抽象方法。  
+        double sum = this.getBasicSalary() + this.getBasicSalary() * 0.2 + this.getBasicSalary() * 0.5 + 500;  
+        return  sum - sum/21.75 * this.getLeaveDays();  
+        //return this.getBasicSalary() + this.getBasicSalary() * 0.2 + this.getBasicSalary() * 0.5 + 500 - this.deductSalary();  
+    }  
+  
+    public Manager() {  //经理的的无参构造方法  
+    }  
+  
+    public Manager(String num, String name, String position, int leaveDays, double basicSalary) {//子类的构造函数，调用了父类的构造函数进行初始化。  
+        super(num, name, position, leaveDays, basicSalary);  
+    }  
+}
 ```
 `Chairman.java`
 ```java
-
+package com.situ.objectlearning.ex_employeemanage;  
+  
+public class Chairman extends Employee {  
+  
+    public  double calculateSalary() {//在董事长类中实现抽象方法。  
+        double sum = this.getBasicSalary() + this.getBasicSalary() * 0.08 + this.getBasicSalary() * 0.3 + 2000 + 3000;  
+        return  sum - sum/21.75 * this.getLeaveDays();  
+        //return this.getBasicSalary() + this.getBasicSalary() * 0.08 + this.getBasicSalary() * 0.3 + 2000 + 3000;  
+    }  
+  
+    public Chairman() {  
+    }  
+  
+    public Chairman(String num, String name, String position, int leaveDays, double basicSalary) {  
+        super(num, name, position, leaveDays, basicSalary);  
+    }  
+}
 ```
 # 接口
 >接口(interface)是抽象方法和常量值定义的集合。
@@ -4409,9 +4723,9 @@ public interface 接口名 extends 父接口名1, 父接口名2, 父接口名3..
 ```
 
 - 用 `interface` 来定义；
-- 接口中的定义的属性都是常量，默认是由 `public static final` 修饰的；
-- 接口中的所有方法都抽象方法，默认是由 `public abstract` 修饰的；
-- 接口中没有构造方法 -- 结构不能创建对象
+- 接口中的定义的属性<font color="#de7802">都是常量</font>，默认是由 `public static final` 修饰的；
+- 接口中的所有方法<font color="#de7802">都是抽象方法</font>，默认是由 `public abstract` 修饰的；
+- 接口中<font color="#de7802">没有构造方法</font> -- 接口不能创建对象
 - 接口可以继承接口，并且支持多继承，可以实现多个接口
 - 如果一个类实现了接口，那么就要重写接口的所有抽象方法；
 - 如果实现类没有重写所有的抽象方法，那么这个实现类就要被定义为抽象类
@@ -4505,6 +4819,10 @@ public class InterfaceTest {
 飞机降落
 ```
 
+1．类实现接口
+一个类可以实现多个接口
+接口能继承接口，能继承多个接口
+
 ## 接口的多态
 ### 怎么实现接口的多态
 >实现类对象赋值给接口引用/接口引用指向实现类对象
@@ -4515,14 +4833,14 @@ public class InterfaceTest {
 
 编译时 - 看左边 - 在编译时左边有的方法才可以调用
 
-运行时 - 看右边 - 运行期间实际运行的是右边对象拥有的方法
+运行时 - 看右边 - 运行期间实际运行的是右边对象拥有的和左边同名方法
 
 相关链接：[怎么实现类的多态？](#怎么实现类的多态？)
 
 
 ### 多态的用处
-- 接口类型作为方法的参数
-- 接口类型作为方法的返回值
+- 接口类型作为方法的<font color="#de7802">参数</font>
+- 接口类型作为方法的<font color="#de7802">返回值</font>
 ### 向上转型
 见例子
 ### 向下转型
@@ -4624,7 +4942,7 @@ public class InterfaceTest {
 	- 接口里只能包含抽象方法，不包含已经实现的方法(<font color="#de7802">JDK 7.0 及之前</font>)，抽象类则完全可以包含普通的方法；
 	- 接口里不能定义静态方法(JDK 7.0 及之前)，抽象类可以定义静态方法；
 	- 接口里只能定义静态常量属性，不能定义普通属性，抽象类里既可以定义普通属性，也可以定义静态常量；
-	- 接口不包含构造函数，抽象类可以包含构造函数，抽象类里的构造函数并不是用于创建对象，而是让其子类调用这些构造函数来完成属于抽象类的初始化操作；
+	- <font color="#de7802">接口不包含构造函数</font>，<font color="#de7802">抽象类可以包含构造函数</font>，抽象类里的构造函数并不是用于创建对象，而是让其子类调用这些构造函数来完成属于抽象类的初始化操作；
 	- 接口不包含初始化块，但抽象类可以包含初始化块；
 	- 一个类最多只能有一个直接父类，包括抽象类，但一个类可以直接实现多个接口，通过实现多个接口可以弥补 Java 的单继承不足。
 ### Java 8 对接口的改进
@@ -5322,7 +5640,7 @@ public class StringCantChangeTest {
 }
 ```
 图解不可变：
-
+![](../img/StringCantChange.png)
 ### 可变字符串
 #### StringBuffer
 >解决了String用字符串做拼接，既费时又耗内存的问题。
@@ -5568,7 +5886,6 @@ public class DateTimeFormatterTest {
 ```
 # 集合
 ## 概述
-
 ## List
 ### 特点
 - 元素<font color="#de7802">有序</font>，且<font color="#de7802">可重复</font>的集合，集合中的每个元素都有其对应的顺序索引
