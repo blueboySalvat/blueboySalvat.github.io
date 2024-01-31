@@ -10,19 +10,25 @@ kanban-plugin: basic
 - [ ] static是否可以只定义不初始化（对比final）
 - [ ] 布置book域名
 - [ ] 布置life域名
-- [ ] 完成arraylist版本的通讯里管理系统
+- [ ] 布置area域名
+- [ ] 配置idea中的翻译插件(使用百度引擎)
+- [ ] 为什么不用向下转型就可以用那个类的toSring
 
 
 ## DoIng
 
 - [ ] 自己介绍和演讲展示
 - [ ] 目标管理
-- [ ] 网站备案1.30号
+- [ ] 网站备案
 
 
 ## Done
 
 **完成**
+- [x] 整理泛型的笔记
+- [x] 测试泛型类的泛型参数和泛型方法同名的情况（泛型方法中的泛型参数是可以和泛型类中的参数同名的，但是这样会容易混淆，不推荐。）
+- [x] 完成arraylist版本的通讯里管理系统2
+- [x] 完成arraylist版本的通讯里管理系统
 - [x] [关于字符串不可变](anote/Java基础.md#关于字符串不可变)
 - [x] SimpleDateFormatTest解析失败(Date date1 = sdf.parse(dateStr4);需要处理异常)
 - [x] 整理学习文件夹的结构

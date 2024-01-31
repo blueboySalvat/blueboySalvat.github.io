@@ -5884,39 +5884,443 @@ public class DateTimeFormatterTest {
     }  
 }
 ```
-# 集合
-## 概述
+
+# 集合的体系结构
+>解决数组初始化后不能动态修改长度，以及空间闲置浪费的问题。
+集合只能存储引用数据类型(基本数据类型可以使用包装类)
+
+- Collection
+	- [List](#List) (接口)元素有下标，且可以重复，元素有序
+		- [[#ArrayList]] (实现类)
+			- 数组，查询快，增删慢。
+		- Vector (实现类)
+			- 数组，查询比较快，增删比较慢，线程安全
+		- LinkedList (实现类)
+			- 链表，增删快，查询慢
+	- [[#Set]] (接口) 元素无下标，不可以重复
+		- HashSet (实现类)
+		- LinkedHashSet (实现类)
+		- TreeSet (实现类)
+
+- [[#Map]] (接口)每个元素可以分成 key 和 value 两个部分
+	- HashMap
+	- LinkedHashMap
+	- TreeMap
+	- Properties
+
+
+# Collection
+Collection 中常用的方法：
+- `boolean add(Object obj)` 添加一个对象
+- `boolean addAll(Collection c)`将一共集合中的所有对象添加到此集合中
+- `void clear()`清空此集合中的所有对象
+- `boolean contains(Object o)`检查此集合中是否包含`o`对象
+- `boolean equals(Object o)`比较此集合是否与指定对象相等
+- `boolean isEmpty`判断此集合是否为空
+- `boolean remove(Object o)`在此集合中移除`o`对象
+- `int size()`返回此集合中的元素个数
+- `Object[] toArray()`将此集合转换成数组
+
 ## List
-### 特点
-- 元素<font color="#de7802">有序</font>，且<font color="#de7802">可重复</font>的集合，集合中的每个元素都有其对应的顺序索引
-- 默认按照元素的添加顺序设置元素的索引
-### 三个实现类
-#### ArrayList
+>元素<font color="#de7802">有序</font>，且<font color="#de7802">可重复</font>的集合，有下标
+默认按照元素的添加顺序设置元素的索引
+
+### ArrayList
+>基于数组结构，多用在查询多的场景。
+#### 基本操作
+```java
+package com.situ.listlearning.arraylistlearn;  
+  
+import java.util.ArrayList;  
+  
+public class BasicOperate {  
+    public static void main(String[] args) {  
+        ArrayList list = new ArrayList();//创建 ArrayList类型的对象  
+        list.add("JavaSE");  
+        list.add("MySql");  
+        list.add("Web");  
+        list.add("JavaWeb");  
+  
+        System.out.println("--------获取list中元素的个数---------");  
+        //获取list中元素的个数  
+        System.out.println("长度" + list.size());  
+        System.out.println("----------获取指定位置的元素-----------");  
+        //获取指定位置的元素  
+        System.out.println(list.get(3));  
+        System.out.println(list.get(2));  
+        System.out.println(list.get(1));  
+        System.out.println(list.get(0));  
+  
+        System.out.println("-----------返回元素所在的索引---------");  
+  
+        //返回元素所在的索引  
+        System.out.println("Mysql at:" + list.indexOf("MySql"));  
+        System.out.println("----------在特定位置添加元素-----------");  
+        //在特定位置添加元素  
+        list.add(4,"SSM");  
+        System.out.println(list.get(4));  
+        System.out.println("---------------------");  
+  
+        //创建list2  
+        ArrayList list2 = new ArrayList<>();  
+        list2.add("SpringBoot");  
+        list2.add("Vue");  
+        System.out.println("----------------在集合中添加另一个集合--------------");  
+        //在集合中添加另一个集合  
+        list.add(list2);  
+        System.out.println(list);  
+        System.out.println(list.get(5));  
+        System.out.println("----------修改集合中的某个位置-------------");  
+        //修改集合中的某个位置  
+        list.set(4,"SSM框架");  
+        System.out.println(list.get(4));  
+        System.out.println("----------删除特定位置的元素-----------");  
+        //删除特定位置的元素  
+        list.remove(4);  
+        System.out.println(list);  
+        System.out.println(list.get(4));//后面的往前移动了  
+  
+        System.out.println("-----------清空集合--------------");  
+        //清空集合  
+        list.clear();  
+        System.out.println("清空后的长度为：" + list.size());  
+    }  
+}
+```
+```java
+package com.situ.listlearning.arraylistlearn;  
+  
+import java.util.ArrayList;  
+  
+public class BasicOperate2 {  
+    public static void main(String[] args) {  
+        ArrayList list = new ArrayList();//创建 ArrayList类型的对象  
+        list.add("JavaSE");  
+        list.add("MySql");  
+        list.add("Web");  
+        list.add("JavaWeb");  
+        System.out.print("设置某个位置的元素,设置 0 为 Java。结果：");  
+        list.set(0,"Java");  
+        System.out.println(list);  
+        System.out.print("判断集合中是否有某个元素，删除后结果：");  
+        System.out.println(list.contains("Web"));  
+  
+        System.out.print("删除指定位置的元素,删除 0 元素，删除 \"web\"，结果为：");  
+        list.remove(0);  
+        list.remove("Web");  
+        System.out.println(list);  
+  
+        System.out.println("JavaWeb首次出现的下标为：" + list.indexOf("JavaWeb"));  
+  
+  
+    }  
+}
+```
+```java
+package com.situ.listlearning.arraylistlearn;  
+  
+import java.util.ArrayList;  
+  
+public class BasicOperate3 {  
+    public static void main(String[] args) {  
+        System.out.print("------------创建个装自定义对象的list，结果：");  
+        //创建个装对象的list  
+        ArrayList<Person> list3 = new ArrayList();  
+  
+        Person p1 = new Person("001", "Tom", 18);  
+        Person p2 = new Person("002", "Bob", 19);  
+  
+  
+        list3.add(p1);  
+        list3.add(p2);  
+        list3.add(new Person("003", "Steve", 20));//使用匿名内部类创建一个对象。  
+        System.out.println(list3);  
+  
+        System.out.print("------------使用根据值相同的方式，实现删除对象,删除结果：");  
+        Person delP = new Person("001", "Tom", 18);  
+        /*  
+        * 需要重写 Person 类的equals()，调用过程：remove() --> 在 else 分支中，参数中的对象调用 equals 和集合中的元素逐个比对,  
+        * 比对成功后进入 fastMove() 在这里面用数组拷贝的方法，实现删除。  
+        * */       
+        list3.remove(delP);  
+        System.out.println(list3);  
+  
+        System.out.print("------------使用根据值相同的方式，实现查询是否包含这个对象，比对结果：");  
+        System.out.print(list3.contains(new Person("002", "Bob", 19)));
+        //contains()在 运行时也使用类equals方法，路径 contains() --> indexOf() --> else 分支中  
+  
+    }  
+}
+```
+
+#### 遍历
+```java
+pimport java.util.ListIterator;  
+  
+public class TraverseArrayList {  
+    public static void main(String[] args) {  
+        //创建ArrayList对象  
+        ArrayList list = new ArrayList();  
+        //添加元素  
+        list.add("JavaSE");  
+        list.add("MySQL");  
+        list.add("前端");  
+        list.add("JavaWeb");  
+        System.out.println("-----------使用普通 for 遍历---------");  
+        //使用普通 for 遍历  
+        //size = 4 , index = 0 1 2 3  
+        for (int i = 0; i < list.size(); i++) {  
+            System.out.println(list.get(i));  
+        }  
+        System.out.println("------------使用增强 for-----------");  
+        //使用增强 for        for (Object o : list) {//TODO  
+            //String str = (String)o;  
+            System.out.println(o);//为什么不用向下转型就  
+            //System.out.println(str);  
+        }  
+        System.out.println("---------------使用迭代器iterator-------------");  
+        //使用迭代器  
+        Iterator<String> it = list.iterator();//创建一个的迭代器，并且使用泛型约束某些内容。  
+        while (it.hasNext()) {//如果迭代器it中还有下一个元素  
+            String str = it.next();//首先指到下一个元素，然后取出其值赋给 str            System.out.println(str);  
+        }  
+        //迭代完之后，迭代器 it 就不能用了。必须重新生成一个新的迭代qi  
+        it = list.iterator();  
+        while (it.hasNext()) {//如果迭代器it中还有下一个元素  
+            String str = it.next();//首先指到下一个元素，然后取出其值赋给 str            System.out.println(str);  
+        }  
+  
+        //迭代完之后，迭代器 it 就不能用了。必须重新生成一个新的迭代qi  
+        it = list.iterator();  
+        while (it.hasNext()) {//如果迭代器it中还有下一个元素  
+            String str = it.next();//首先指到下一个元素，然后取出其值赋给 str            if (str.equals("MySQL")) {  
+                //list.remove("MySQL"); //迭代器是使用原来的集合创建的，使用集合的方法删除，迭代器就不知情了  
+                it.remove();//得用迭代器的方法才行。  
+            }  
+        }  
+  
+        System.out.println("---------------使用迭代器list iterator-------------");  
+        //listIterator是iterator的子接口，具有 iterator的所有方法。  
+        ListIterator<String> listIterator = list.listIterator();//创建了一个迭代器，这个迭代器使用了泛型约束。  
+        System.out.println("---------------//从前往后遍历---------------");  
+        //从前往后遍历  
+        while (listIterator.hasNext()) {  
+            String s = listIterator.next();  
+            System.out.println(s);  
+        }  
+        System.out.println("---------------//从后往前遍历---------------");  
+        //从后往前遍历  
+        while (listIterator.hasPrevious()) {  
+            String s = listIterator.previous();  
+            System.out.println(s);  
+        }  
+        System.out.println("-------------------直接上来就从后往前遍历---------------");  
+        //直接上来就从后往前遍历  
+        /*  
+        * 解析：list.listIterator(list.size())  
+        * listIterator(4) --> new ListItr(4)这是用了内部类ListItr的构造方法 --> cursor = 4，  
+        * 理解为现在光标指向的是 下标为 4 的地方，也就是最后一个元素（下标为 3 ）的下一个元素。  
+        * 0 1   2   3   4        *               ^        * 很明显 4 的前面是有元素的  
+        * */        listIterator  = list.listIterator(list.size());//创建了一个指向list集合的最后一个元素的下一个元素的迭代器  
+        while (listIterator.hasPrevious()) { // 3 是有元素的  
+            String s = listIterator.previous(); //首先 指向 3 位置，然后获取其值，赋值给 s            System.out.println(s);  
+        }  
+    }  
+}
+```
+#### 泛型
+>类型参数化，实现对类型的约束
+
+- 能够兼容多多种类型
+	- 单纯只是使用 `Object` 类也可以实现这种目的
+- 能够对类型进行约束
+	- 这是泛型的主要优势
+##### 什么是泛型
+- \<T\> 表示泛型，所有使用到 T 的位置，都会受到 T 代表的类型的约束(简单理解为把那个类型替换到有 T 的位置)
+- 尖括号中不一定叫 T ，可以是任何字母，字符仅仅是占位置，用来标识的。
+- \<\> 中可以定义多个泛型。
+
+##### 泛型的两种应用
+###### 在现有类中使用泛型
+>例如官方写的很多类中，均是使用到了泛型
+
+集合中使用了泛型
+```java
+public class ArrayList<E> extends AbstractList<E>  
+        implements List<E>, RandomAccess, Cloneable, java.io.Serializable  
+{
+....
+}
+```
+
+##### 在自定义类中使用泛型
+泛型类
+`GenericsClass.java`
+泛型类
+```java
+public class GenericsClass<T, A> {  
+    private T t;  
+    private A a;  
+  
+    public void test(T t) {  
+        this.t = t;  
+    }  
+    public void test1(A a) {  
+        this.a = a;  
+    }  
+}
+```
+`GenericsInterface.java`
+泛型接口
+```java
+public interface GenericsInterface<A, B> {
+	A test1(A a);
+	void test2(B b);
+	void test3(A a, B b);
+}
+```
+`GenericsInterface2.java`
+泛型接口
+```java
+
+public interface GenericsInterface2<C> {
+	void test4(C c);
+
+}
+```
+`MyClass.java`
+可以实现多个泛型接口，注意当前类也要写上对应数量的泛型。
+```java
+public class MyClass<A, B, C> implements GenericsInterface<A, B>,GenericsInterface2<C> {
+	public A test1(A a) {
+		return null;
+	}
+	public void test2(B b) {
+	
+	}
+	public void test3(A a, B b) {
+	
+	}
+	public void test4(C c) {
+	
+	}	
+}
+```
+`MyClass2.java`
+继承泛型类，子类也要写上一致的泛型
+```java
+public class MyClass2<T, A> extends GenericsClass<T, A> {
+
+
+}
+```
+##### 泛型方法
+>泛型方法的泛型参数不受类的泛型影响。
+
+- 泛型方法可以存在于普通类当中，不止于泛型类中。
+- 泛型方法可以被 static 修饰
+
+泛型方法的参数列表位置的泛型的类型，会决定方法中泛型的类型。可以轻松简洁的实现方法重载的效果
+```java
+public class GenericsFunction<T> {  
+    public void m1(T t) {  
+        System.out.println(t.getClass());  
+    }  
+      
+    //泛型方法  
+    public <T> void m2(T t) {//泛型方法中的泛型参数是可以和泛型类中的参数同名的，但是这样会容易混淆，不推荐。  
+        System.out.println(t.getClass());  
+    }  
+  
+    //如果没有泛型，要实现不同类型的加法，每种类型都需要重载一个add方法；通过泛型，我们可以复用为一个方法  
+    public <T extends Number> double add(T a, T b) {    // T extends Number 意思是 T 的类型只能是 Number类型中的，Number中包括 15 个和数字运算相关的类型。  
+        System.out.println(a + "+" + b + "=" + (a.doubleValue() + b.doubleValue()));  
+        return a.doubleValue() + b.doubleValue();  
+    }  
+}
+```
+
+##### 通配符
+-  `<?>` 代表任意类型数据
+-  `<? extends 类型>` 使用时指定的类型必须是继承某个类，或者实现某个接口，即 `<=`
+-  `<? super 类型>` 使用时指定的类型不能小于操作的类，即 `>=`
+
+举例：
+- `<? extends Person>` (无穷小 ,Person\]只允许泛型为 `Person` 及 `Person` 子类的引用调用；
+- `<? super Person>` \[Person, 无穷大)只允许泛型为 `Person` 及 `Person` 父类的引用调用。
+
+
+#### Collections 工具类
+>简单理解为类似 Arrays 类，是一种工具类。
+
 ##### 基本操作
-
-
-##### 遍历
-- 普通遍历
-- 增强遍历
-- 迭代器遍历
-
-
-#### Vector
-
-
-
-#### LinkedList
-
-
-
-
-## Collections
-### Java 比较器
-#### Comparable 自然排序
+```java
+package com.situ.listlearning.arraylistlearn;  
+  
+import java.util.ArrayList;  
+import java.util.Collections;  
+import java.util.Comparator;  
+  
+public class CollectionsTest {  
+    public static void main(String[] args) {  
+        ArrayList<String> list = new ArrayList<>();  
+        list.add("abc");  
+        list.add("AA");  
+        list.add("ABC");  
+        list.add("EE");  
+  
+        System.out.println("原集合是这样的：" + list);  
+        System.out.println("-------------进行一下反转------------");  
+        Collections.reverse(list);  
+        System.out.println(list);  
+        System.out.println("-------------反转结束------------");  
+  
+        System.out.println("-------------进行一下随机排序------------");  
+        Collections.reverse(list);  
+        System.out.println(list);  
+        System.out.println("-------------随机排序结束---------------");  
+  
+        System.out.println("-------------进行一下自然排序------------");  
+        Collections.sort(list);  
+        System.out.println(list);  
+        System.out.println("-------------自然排序结束---------------");  
+  
+        System.out.println("-------------进行一下定制排序------------");  
+        /*  
+        实现一个匿名内部类，这个类实时 Comparator的实现类，其中重写类 Compare()        用来自定义两个字符串如何比较，在sort()运行过程中会用到。  
+         */        Collections.sort(list, new Comparator<String>() {  
+            @Override  
+            public int compare(String o1, String o2) {  
+                return -o1.compareTo(o2);//编码表的反顺序排序规则  
+            }  
+        });  
+        System.out.println(list);  
+        System.out.println("-------------定制排序结束---------------");  
+        System.out.println("-------------交换特定位置的元素---------------");  
+        //交换特定位置的元素  
+        Collections.swap(list, 0, list.size() - 1);  
+        System.out.println(list);  
+        System.out.println("-------------交换特定位置结束---------------");  
+        System.out.println();  
+        System.out.println("-------------拷贝数组开始---------------");  
+        ArrayList<String> listCopy = new ArrayList<>();  
+        //把listCopy中的元素的数量增加到和 list1 的数量一样，这样 listCopy.size()才有值。仅仅初始化的话size还是0  
+        for (int i = 0; i < list.size(); i++) {  
+            listCopy.add(null);  
+        }  
+        Collections.copy(listCopy, list);  
+        System.out.println(listCopy);  
+        System.out.println("-------------拷贝数组结束---------------");  
+    }  
+}
+```
+##### Java 比较器
+###### Comparable 自然排序
+>实现 Comparable 接口，重写 CompareTo()
 
 `Student.java`
 ```java
-public class Student implements Comparable<Student> {  
+public class Student implements Comparable<Student> {  //可以理解为 Student这个类实现了一个专门用于处理特定类型(Student类型)的接口
     String no;  
     String name;  
     int age;  
@@ -5925,20 +6329,36 @@ public class Student implements Comparable<Student> {
   
     //重写compareTo方法，实现对自定义对象的比较  
     @Override  
-    public int compareTo(Student o) {  
+    public int compareTo(Student o) {  //因为在实现接口的时候就用了泛型接口，使用了参数Student，定义Student类的时候就从接口继承过来那个填好参数的方法了。Comparable接口中的CompareTo方法：public int compareTo(T o); Student会把这个 T 替换。
         /*  
         this 比 o 大，返回正数  
         this 比 o 小，返回负数  
         this 和 o 相等，返回 0        按照这个规则，实现的是 从小到大的排序  
          */  
-        //我想定义的规则1：先比较年龄，小的在前，年龄相同时再根据身高的小大排序。  
-        //if(this.age > s.age) {  
-        //    return 1;        //}else if(this.age < s.age) {        //    return -1;        //}else {//判断身高的大小  
-        //    if(this.height > s.height) {  
-        //        return 1;        //    }else if(this.height < s.height) {        //        return -1;        //    }        //    return 0;        //}  
-        //我想定义的另一个规则2：先比较年龄，小的在前，年龄相同时再根据名字大小排序。  
-        //if (this.age > o.age) {  
-        //    return 1;        //} else if (this.age < o.age) {        //    return -1;        //} else {//判断名字的大小，加个服号就是从大到小排序了。this 比 o 大 负数，this 比 o 小，返回正数，this 和 o 相等，返回 0        //    return -this.name.compareTo(o.name);        //}  
+          /*
+        我想定义的规则1：先比较年龄，小的在前，年龄相同时再根据身高的小大排序。
+        if(this.age > s.age) {
+            return 1;
+        }else if(this.age < s.age) {
+            return -1;
+        }else {//判断身高的大小
+            if(this.height > s.height) {
+                return 1;
+            }else if(this.height < s.height) {
+                return -1;
+            }
+            return 0;
+        }
+
+        我想定义的另一个规则2：先比较年龄，小的在前，年龄相同时再根据名字大小排序。
+        if (this.age > o.age) {
+            return 1;
+        } else if (this.age < o.age) {
+            return -1;
+        } else {//判断名字的大小，加个服号就是从大到小排序了。this 比 o 大 负数，this 比 o 小，返回正数，this 和 o 相等，返回 0
+            return -this.name.compareTo(o.name);
+        }
+        */
         //2规则另一种写法：  
         return Integer.compare(this.age,o.age) != 0 ? Integer.compare(this.age,o.age) : -this.name.compareTo(o.name);  
   
@@ -5990,12 +6410,12 @@ public class NatureCompareTest {
         Student s4 = new Student("A004","ww",22,"m",190);  
   
         Student[] studentArr = new Student[]{s1, s2, s3, s4};//对象数组  
-        Arrays.sort(studentArr);//如果要想实现对自定义类型的对象排序，需要重写comparable接口的compareTo方法，要不然报错。  
+        Arrays.sort(studentArr);//如果要想实现对自定义类型的对象排序，需要在Student类中实现comparable接口,重写compareTo方法，要不然报错。  
         System.out.println(Arrays.toString(studentArr));  
     }  
 }
 ```
-注意：我们这里重写的 `comparable()` 写完之后并没有调用，可能有的童鞋会很奇怪，其实是我们写好了，然后在运行 `Arrays.sort(studentArr);` 的过程中就会被调用，可以一步一步进入方法查看 `Arrays.sort()` --> `ComparableTimSort.sort()` --> `binarySort()` 这里面就有调用。
+注意：我们这里重写的 `comparaTo()` 写完之后并没有调用，可能有的童鞋会很奇怪，其实是我们写好了，然后在运行 `Arrays.sort(studentArr);` 的过程中就会被调用，可以一步一步进入方法查看 `Arrays.sort()` --> `ComparableTimSort.sort()` --> `binarySort()` 这里面就有调用。
 
 `String` 类中重写的 `CompareTo()`
 ```java
@@ -6023,10 +6443,10 @@ public int compareTo(String anotherString) {
 }
 ```
 
-#### Comparator 定制排序
-##### 解决的痛点 ：
+###### Comparator 定制排序
+##### 解决的痛点
 - 某些类没有实现 `java.lang.Comparable` 接口，但是又不方便修改源码时
-	- 场景 1：官方提供的类不满足排序的需要，但是官方提供的类只能以只读模式打开，同时类又被 final 修饰不能继承时。
+	- 场景 1：官方提供的类不满足排序的需要，但是官方提供的类只能以只读模式打开，同时类又被 `final` 修饰不能继承时。
 	- 场景 2:类实现了 `java.lang.Comparable` 接口, 重写了 `Comparable()`, 但是在某些地方这个重写方法并不适合, 直接修改 Comparable()又会使得本来适用的地方不能用了。
 
 ##### 重写规则
@@ -6035,34 +6455,394 @@ public int compareTo(String anotherString) {
 - 返回负整数，表示`o1`小于`o2`。
 
 ```java
-import java.util.Arrays;  
-import java.util.Comparator;  
+
+import java.util.Arrays;
+import java.util.Comparator;
+
+public class EnforceCompare {
+    public static void main(String[] args) {
+
+        String[] strArr = new String[]{"addd", "abc", "xyz", "def", "123"};//字符串数组
+        Arrays.sort(strArr);//默认按照编码表进行排序，数字在前，从第一个位置比，字母在前的排前，相同时比较次一个字母的大小。
+        System.out.println(Arrays.toString(strArr));
+
+
+        /*
+        * 写了一个 Comparator 接口的一个匿名内部类类，也是实现类，并且这个类还是重写了这个接口下的 Compare()方法
+        *
+        * int compare(T o1, T o2); 是 Comparator 接口下的一个抽象方法。
+        *
+        * 调用过程：
+        * Arrays.sort() --> legacyMergeSort() --> else 分支下的 mergeSort() --> c.compare()
+        *
+        * */
+        Arrays.sort(strArr, new Comparator<String>() {//理解：sort()方法使用 Comparator对象中的排序规则，进行排序。
+            @Override
+            public int compare(String o1, String o2) {//堆String数组，根据编码表降序排序。
+                return -o1.compareTo(o2);   //调用的 String 重写 Comparable 接口的 CompareTo()方法，然后加了个负号，就是从大到小排序了。
+            }
+        });
+        System.out.println(Arrays.toString(strArr));
+    }
+}
+```
+
+## Set
+>基于 Map,<font color="#de7802">不允许包含相同的元素</font>。如果试图把两个相同的元素加入同一个 `Set` 集合中，则添加操作失败。
+
+Set 判断两个对象是否相同不是使用\=\=运算符，而是根据 `equals()` 方法。
+
+线程不安全的，可以存储 `null` 值；
+
+遍历方式：
+- 使用增强 for 遍历
+- 使用迭代器遍历
+### HashSet
+>每次遍历的顺序是一致的但是<font color="#de7802">和添加的顺序不一致</font>。
+
+`HashSet` 按 `Hash` 算法来存储集合中的元素，因此具有很好的存取、查找、删除性能
+
+`HashSet` 具有以下特点：
+- 不能保证元素的排列顺序；
+- 元素不能重复；
+- `HashSet`不是线程安全的；
+- 集合元素可以是 `null`。
+
+`HashSet` 集合判断两个元素相等的标准：两个对象通过 `hashCode()` 方法比较相等，并且两个对象的 `equals()` 方法返回值也相等。
+
+`HashSet` 中添加元素的过程：
+- 当向 HashSet 集合中存入一个元素时，HashSet 会调用该对象的 `HashCode()` 方法，计算出散列值，并且据此确定在 HashSet 底层数组中存储的位置
+	- 如果这里没有元素，直接添加成功
+	- 如果这里有元素了，那就比较两个元素的 hahsCode()值
+		- 如果不等，添加成功
+		- 如果相等，则调用 `equals()` 方法，判断两者的内容是否相同
+			- 如果相同，则添加失败
+			- 如果不同，则添加成功(数组上有元素了，会以链表的形式挂在后面)
+
+HashSet 的底层：
+![](../img/hashSetStruct.jpeg)
+
+#### 基本操作
+`HashSetBasicOperate.java`
+```java
+import java.util.HashSet;  
+import java.util.Iterator;  
   
-public class EnforceCompare {  
+public class HashSetBasicOperate {  
     public static void main(String[] args) {  
+        HashSet<String> set = new HashSet();  
   
-        String[] strArr = new String[]{"addd", "abc", "xyz", "def", "123"};//字符串数组  
-        Arrays.sort(strArr);//默认按照编码表进行排序，数字在前，从第一个位置比，字母在前的排前，相同时比较次一个字母的大小。  
-        System.out.println(Arrays.toString(strArr));  
+        set.add("001");  
+        set.add("王文鹏");  
+        set.add("男");  
+        set.add("山东");  
   
-  
-        /*  
-        * 写了一个 Comparator 接口的一个匿名内部类类，也是实现类，并且这个类还是重写类 这个接口下的 Compare()        *        * int compare(T o1, T o2); 是 Comparator 接口下的一个抽象方法。  
-        *        * 调用过程：  
-        * Arrays.sort() --> legacyMergeSort() --> else 分支下的 mergeSort() --> c.compare()        *        * */        Arrays.sort(strArr, new Comparator<String>() {  
-            @Override  
-            public int compare(String o1, String o2) {//堆String数组，根据编码表降序排序。  
-                return -o1.compareTo(o2);   //调用的 String 重写 Comparable 接口的 CompareTo()方法，然后加了个负号，就是从大到小排序了。  
-            }  
-        });  
-        System.out.println(Arrays.toString(strArr));  
+        for (String s : set) {  
+            System.out.println(s);  
+        }  
+        System.out.println("------------------");  
+        Iterator<String> it = set.iterator();  
+        while (it.hasNext()){  
+            String s = it.next();  
+            System.out.println(s);  
+        }  
     }  
 }
 ```
-### 常用方法
+
+### LinkedHashSet
+>添加顺序和遍历顺序是一致的(使用双向链表维护的顺序)
+
+`LinkedHashSet` 作为 `HashSet` 的子类，遍历其内部数据时，可以按照添加的顺序遍历，对于频繁的遍历操作，`LinkedHashSet` 效率高于 `HashSet`；
+#### 基本操作
+`LinkedHashSetTest.java`
+```java
+import java.util.LinkedHashSet;  
+  
+public class LinkedHashSetTest {  
+    public static void main(String[] args) {  
+        LinkedHashSet<String> set = new LinkedHashSet<>();//创建了一个专门用于处理 String类型的集合。  
+  
+        set.add("001");  
+        set.add("hello");  
+        set.add("Java");  
+        set.add(null);  
+        set.add("hello minecraft");  
+  
+        for (String s : set) {  
+            System.out.println(s);  
+        }  
+    }  
+}
+```
+
+### TreeSet
+>可以按照对象大小顺序排序。
+#### 基本操作
+`Car.java`
+```java
+package com.situ.listlearning.setlearning;  
+  
+public class Car implements Comparable<Car> {  
+    //继承了一个接口，继承时使用泛型参数了，可以理解为实现了一个专门处理Car类型的 Comparable接口  
+    private String brand;  
+    private String num;  
+    private String color;  
+  
+    public Car() {  
+    }  
+  
+    public Car(String brand, String num, String color) {  
+        this.brand = brand;  
+        this.num = num;  
+        this.color = color;  
+    }  
+  
+    public String getBrand() {  
+        return brand;  
+    }  
+  
+    public void setBrand(String brand) {  
+        this.brand = brand;  
+    }  
+  
+    public String getNum() {  
+        return num;  
+    }  
+  
+    public void setNum(String num) {  
+        this.num = num;  
+    }  
+  
+    public String getColor() {  
+        return color;  
+    }  
+  
+    public void setColor(String color) {  
+        this.color = color;  
+    }  
+  
+    @Override  
+    public String toString() {  
+        return "Car{" +  
+                "brand='" + brand + '\'' +  
+                ", num='" + num + '\'' +  
+                ", color='" + color + '\'' +  
+                '}';  
+    }  
+  
+    @Override  
+    public int compareTo(Car o) {//根据车牌号进行排序，从小到大  
+        return this.num.compareTo(o.num);  
+    }  
+}
+```
+`TreeSetTest.java`
+```java
+package com.situ.listlearning.setlearning;  
+  
+import java.util.Comparator;  
+import java.util.TreeSet;  
+  
+public class TreeSetTest {  
+    public static void main(String[] args) {  
+        TreeSet<String> set = new TreeSet<>();  
+        set.add("A");  
+        set.add("abc");  
+        set.add("ab");  
+        set.add("0001qqq");  
+  
+        for (String s : set) {  
+            System.out.println(s);  
+        }  
+        System.out.println("=====================================");  
+  
+        /*comparator – the comparator that will be used to order this set.  
+        If null, the natural ordering of the elements will be used.        如果在初始化TreeSet时，参数里放一个 Comparator实现类，创建出来的set1对象排序时用 Comparator实现类的定制排序方法  
+        不放的话 TreeSet创建出来的set1对象在排序时默认就是用的是自然排序。  
+        */        TreeSet<String> set1 = new TreeSet<>(new Comparator<String>() {  
+            @Override  
+            public int compare(String o1, String o2) {//根据字符串长度进行排序  
+                return Integer.compare(o1.length(), o2.length());  
+            }  
+        });  
+        set1.add("A");  
+        set1.add("abc");  
+        set1.add("ab");  
+        set1.add("0001qqq");  
+        System.out.println(set1);//[A, ab, abc, 0001qqq]  
+  
+        TreeSet<Car> carSet = new TreeSet<>();//创建了一个只能存储 Car 类型的 TreeSet 集合  
+        carSet.add(new Car("BMW", "666", "red"));  
+        carSet.add(new Car("H", "333", "green"));  
+        carSet.add(new Car("BenChi", "555", "blue"));  
+  
+        for (Car car : carSet) {  
+            System.out.println(car);  
+        }  
+  
+    }  
+}
+```
+
+# Map
+>存储的是一对数据，key 不可重复，值可以重复。
+
+- `key` 和 `value` 都可以是任何引用类型的数据。
+- `key` 所对应的类需要重写 `equals()` 和 `hashCode()`，常用 String 类作为 key(String 类官方重写好了)
+- `key` 和 `value` 时单向一对一关系，一个 `key` 对应一个 `value`，反之可能不然。
+
+常用方法：
+- `V put(K key, V value)` 将对象存入到集合中，关联键值。`key` 重复则覆盖原值
+- `Object get(Object key)`根据键获取对应的值。
+- `Set<K> keySet()`返回所有`key`
+- `Collection<V> values()`返回包含所有值的`Collection`集合
+- `Set<Map.Entry<K,V>>`键值匹配的`Set`集合
+
+## HashMap
+>添加顺序和遍历顺序不一样。
+
+- `Map` 的主要实现类，线程不安全，效率高，可以存放为 `null` 的 `key` 和 `value`；
+- `key` 对构成是继承，`key` 是无序的，不可重复的。
+
+## LinkedHashMap
+>保证添加的顺序和遍历的顺序一样(在 `HashMap` 对底层上加了一层指针维护顺序)
+
+```java
+package com.situ.maplearning;  
+  
+import java.util.HashMap;  
+import java.util.Iterator;  
+import java.util.Map;  
+import java.util.Set;  
+  
+public class HashMapTest {  
+    public static void main(String[] args) {  
+        HashMap<String, Object> map = new HashMap<>();  
+  
+        map.put("num","101");  
+        map.put("name","王文鹏");  
+        map.put("age",24);//实际上有两个操作，基本数据类型 --> 包装类，然后在用多态  
+        map.put("addr","山东");  
+  
+        Set<String> keys = map.keySet();//获取所有的 key，返回的是个 set 类型，因为 ke y不可重复，set 特点也是不可重复。  
+        for (String key : keys) {//取出集合中的每个 key 放到 key变量  
+            Object value  = map.get(key);//因为 value 中有各种类型，所以用 Object 类型的对象接住  
+            System.out.println(key + ":" + value);  
+        }  
+        System.out.println("----------------------------------");  
+  
+        Iterator<String> it  = keys.iterator();//因为 keys 是个 set 集合，我们自然也可以用迭代器遍历集合。  
+        while (it.hasNext()) {//如果迭代器中有下一个元素  
+            String key = it.next();//指针指到下一个元素的位置，并且返回其值，返回的类型就是 初始化多态的时候泛型参数中填入的类型。  
+            Object value = map.get(key);  
+            System.out.println(key + ":" + value);  
+        }  
+        System.out.println("-----------------------------------");  
+        //接口中的泛型接口  
+        Set<Map.Entry<String, Object>> entrySet = map.entrySet();//返回的是一个集合，这个entrySet集合中存放的是Map.Entry<String, Object>类型的元素  
+        for (Map.Entry<String, Object> entry : entrySet) {//entry中存着很多Map.Entry<String, Object>类型的对象。  
+            String key  = entry.getKey();  
+            Object value = entry.getValue();  
+            System.out.println(key + ":" + value);  
+        }  
+  
+        System.out.println("======================");  
+        Iterator<Map.Entry<String, Object>> iterator = entrySet.iterator();  
+        while (iterator.hasNext()) {  
+            Map.Entry<String, Object> entry = iterator.next();  
+            String key = entry.getKey();  
+            Object value = entry.getValue();  
+            System.out.println(key + ":" + value);  
+        }  
+  
+        map.forEach((k,v) -> System.out.println(k + ": " + v));//理解：把map集合中的每个元素，也就是一个键值对，匹配 pattern (k,v)，取其值打印。  
+  
+    }  
+}
+```
+
+## TreeMap
+>可以实现对 `key` 的大小排序(底层使用红黑树)
+
+TreeMap 使用比较器排序，不是 equals。如果在比较器中比较 key 时如果相同，则认为是相同的 key，则就会产生覆盖的情况。
+```java
+package com.situ.maplearning;  
+  
+import java.util.Comparator;  
+import java.util.Set;  
+import java.util.TreeMap;  
+  
+public class TreeMapTest {  
+    public static void main(String[] args) {  
+        TreeMap<String, String> map = new TreeMap<>();  
+        map.put("a", "wang");  
+        map.put("bb", "wen");  
+        map.put("bb", "helloWoRld");//覆盖了 "wen"        map.put("bbbbbb", "wen");  
+        map.put("dddd", "race you");  
+        map.put("ccc", "peng");  
+        map.put("a", "53");  
+  
+        //获取 map 的 key 的集合，因为 map 的 key 都是 String 类型的  
+        //所以我们用的是用String 限制的 Set 集合。  
+        Set<String> set = map.keySet();  
+        for (String k : set) {  
+            System.out.println(k + ":" + map.get(k));  
+        }  
+        System.out.println("=============================");  
+        //创建了一个 TreeMap ，并且使用定制排序  
+        TreeMap<String, String> map1 = new TreeMap<>(new Comparator<String>() {  
+            @Override  
+            public int compare(String o1, String o2) {  
+                return -Integer.compare(o1.length(), o2.length());  
+            }  
+        });  
+        map1.put("a", "wang");  
+        map1.put("bb", "wen");  
+        map1.put("ccc", "peng");  
+        map1.put("dddd", "race you");  
+  
+        Set<String> set1 = map1.keySet();  
+        for (String k : set1) {  
+            System.out.println(k + ":" + map.get(k));  
+        }  
+  
+    }  
+}
+```
 
 
+## Properties
+>用来处理配置文件，`key` 和 `value` 都是 `String` 类型
 
+写配置文件的的好处：每次有新的需求直接在外边，不用打开代码就可以修改需求。
+
+<font color=#646a73>*更新时间：2024-01-31 09:25:36*</font>
+
+```
+# 这是属性  
+name = wangwenpng  
+age = 24  
+addr = shandong
+```
+`PropertiesTest.java`
+```java
+package com.situ.maplearning;  
+  
+import java.io.FileReader;  
+import java.io.IOException;  
+import java.util.Properties;  
+  
+public class PropertiesTest {  
+    public static void main(String[] args) throws IOException {  
+        Properties pp = new Properties();  
+        pp.load(new FileReader("test.properties"));  
+        System.out.println(pp.getProperty("name"));  
+        System.out.println(pp.getProperty("age"));  
+        System.out.println(pp.getProperty("addr"));  
+    }  
+}
+```
 # 异常
 
 
