@@ -6844,6 +6844,176 @@ public class PropertiesTest {
 }
 ```
 # 异常
+>程序执行中发生的不正常情况称为**异常**(开发过程中的**语法错误**和**逻辑错误**不是异常)。
+
+异常类的结构：
+- `Trowable`
+	- `Exception` (可以使用针对性的代码进行处理)
+		- `ArithmeticException`
+		- `NullPointerException`
+		- `ArrayIndexOutOfBoundsException`
+		- `ClassCastException`
+		- ......
+	- `Error` (Java 虚拟机无法解决的严重问题，一般情况下不针对进行处理)
+		- `StackOverflowError`
+		- `OutOfMemoryError`
+			- ......
+
+运行时异常和编译时异常：
+1. **运行时异常**
+    - 编译器不要求强制处置的异常；
+    - 一般是由程序逻辑错误引起的，程序应该从逻辑角度尽可能避免这类异常的发生；
+    - `java.lang.RuntimeException`类及它的子类都是运行时异常；
+    - 对于这类异常，可以不作处理，因为这类异常很普遍，若全处理可能会对程序的可读性和运行效率产生影响。
+2. **编译时异常**
+    - 编译器要求必须处置的异常；
+    - 除了`RuntimeException`及其子类以外，其他的`Exception`类及其子类都属于编译时异常；
+    - 编译器要求Java程序必须捕获或声明所有编译时异常；
+    - 对于这类异常，如果程序不处理，可能会带来意想不到的结果。
+3. 
+	- 编译时异常一定需要要处理。
+	- 可能出现运行时异常的方法，在编译时并不会报红。
+`Commonly.java`
+常见的异常
+```java
+package com.situ.exceptionanderror;
+
+public class Commonly {
+
+    public static void test1() {//Exception in thread "main" java.lang.OutOfMemoryError
+        int[] arr = new int[999999999];
+        System.out.println("****************************");
+    }
+
+    public static void test2() {//xception in thread "main" java.lang.StackOverflowError
+        test2();
+    }
+    public static void test3() {//Exception in thread "main" java.lang.ArithmeticException
+        int a = 10/0;
+    }
+    public static void test4() {//Exception in thread "main" java.lang.NullPointerException
+        String str = null;
+        System.out.println(str.length());
+    }
+    public static void test5() {//Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException
+        int[] arr = new int[5];
+        arr[5] = 1100;
+    }
+    public static void test6() {//Exception in thread "main" java.lang.ClassCastException
+        Object obj = new Object();
+        String str = (String)obj;
+    }
+
+    public static void main(String[] args) {
+        //test1();
+        //test2();
+        //test3();
+        //test4();
+        //test5();
+        //test6();
+
+    }
+}
+```
+## 两种处理方式
+### 使用 TryCath 进行处理
+>使用 `try-catch-finally` 处理异常 --"由程序员自己处理异常"
+```java
+try {
+//可能出现异常的代码
+} catch (异常类型1 e) {
+//如何处理当前异常的代码，只能处理异常类型 1 的对象
+} catch (异常类型2 e) {
+//如何处理当前异常的代码，只能处理异常类型 2 的对象
+} finally {
+//无论是丑出现异常，都会被运行到的地方，通常用于最终处理。
+}
+```
+`TryCatchTest.java`
+```java
+package com.situ.exceptionanderror;  
+  
+public class TryCatchTest {  
+  
+    public static void test1() {//Exception in thread "main" java.lang.OutOfMemoryError  
+        int[] arr = new int[999999999];  
+        System.out.println("****************************");  
+    }  
+  
+    public static void test2() {//Exception in thread "main" java.lang.StackOverflowError  
+        test2();  
+    }  
+    public static void test3() {//Exception in thread "main" java.lang.ArithmeticException  
+        int a = 10/0;  
+    }  
+  
+    public static void main(String[] args) {  
+        try {  
+            test1();  //在这里异常之后，后面的代码就不运行了。
+            test2();  
+            test3();  
+        } catch (OutOfMemoryError e) {  
+            System.out.println("占用内存太大了...");  
+  
+        } catch (StackOverflowError e) {  
+            System.out.println("算数都不会算吗");  
+        } catch (ArithmeticException e) {  
+            System.out.println("不会用指针吗你");  
+        }  
+        finally {  
+            System.out.println(" i always be...");  
+  
+        }  
+    }  
+}
+```
+```shell
+占用内存太大了...
+I have always been there anyway.
+
+进程已结束，退出代码为 0
+```
+
+注意事项
+- `try` 代码块包裹的可能出现异常的代码，出现异常之后就会抛出异常类的对象"
+- `catch` 代码块用来对出现的异常进行处理，捕获 `try` 代码块抛出的异常类对象，这个异常类对象就会赋值给()中的引用
+- `catch` 代码块可以有多个，分别处理不同类型的异常，异常类型代表的是哪种类型，`catch` 代码块就只能处理对应类型的异常
+- 异常类型如果存在父类和子类的情况，子类一定要写在上面，父类要写在下面
+- `finally` 代码块不管是否出现异常都会被运行，`finally` 代码块不是必须的
+
+### 使用抛出 throw 进行处理
+```java
+package com.situ.exceptionanderror;  
+  
+import java.io.FileReader;  
+import java.io.IOException;  
+import java.util.Properties;  
+  
+public class ThrowTest {  
+  
+    public static void test1() {//Exception in thread "main" java.lang.OutOfMemoryError  
+        int[] arr = new int[999999999];  
+        System.out.println("****************************");  
+    }  
+  
+    public static void test2() {//Exception in thread "main" java.lang.StackOverflowError  
+        test2();  
+    }  
+    public static void test3() throws IOException {//抛出。Exception in thread "main" java.lang.ArithmeticException  
+        Properties pp = new Properties();  
+        pp.load(new FileReader("test.properties"));  
+    }  
+  
+    public static void main(String[] args) throws IOException {//抛出  
+            test1();  
+            test2();  
+            test3();  
+    }  
+}
+```
+如果一直抛出，抛到调用者没处理异常，再抛出抛到 `main` 方法，`main` 又没处理，直接抛出道了 `JVM` ，那么就直接崩溃了。
+
+## 自定义异常
 
 
 

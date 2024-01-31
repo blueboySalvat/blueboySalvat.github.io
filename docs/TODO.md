@@ -13,6 +13,7 @@ kanban-plugin: basic
 - [ ] 布置area域名
 - [ ] 配置idea中的翻译插件(使用百度引擎)
 - [ ] 为什么不用向下转型就可以用那个类的toSring
+- [ ] [自定义异常](anote/Java基础.md#自定义异常)
 
 
 ## DoIng

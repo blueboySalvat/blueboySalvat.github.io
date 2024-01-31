@@ -47,9 +47,12 @@
             "id": "2e0c0f7bc7165a6e",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "docs/TODO.md"
+                "file": "docs/anote/Java基础.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           },
@@ -65,9 +68,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "acea937373da6e88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/anote/Java全栈学习体系.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -109,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5024719238281,
+    "width": 253.50247192382812,
     "collapsed": true
   },
   "right": {
@@ -180,7 +196,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 373.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,16 +214,20 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b65fd4316d9d6067",
+  "active": "acea937373da6e88",
   "lastOpenFiles": [
-    "Appends/draw/IntroduceMe.excalidraw.md",
-    "docs/TODO.md",
     "docs/anote/Java基础.md",
+    "docs/TODO.md",
+    "docs/anote/Java全栈学习体系.md",
+    "docs/Contributions.md",
+    "docs/03后端开发.md",
+    "docs/02前端开发.md",
+    "Appends/draw/IntroduceMe.excalidraw.md",
     "Appends/img/mc.mp4",
     "docs/anote/在云服务器上部署轻量级博客docsify(使用git更新).md",
     "docs/img/hashSetStruct.jpeg",
     "docs/anote/在github和云服务器上配置git并且免密推送.md",
-    "Vision和目标地图的区别.md",
+    "docs/anote/Vision和目标地图的区别.md",
     "docs/05闲杂小记.md",
     "docs/anote/基于Springboot的幼儿园管理系统.md",
     "Appends/draw/StringCantChange.excalidraw.md",
@@ -238,11 +259,8 @@
     "Appends/img/codofdutyguns.mp4",
     "Appends/img/sijinnaBox.jpg",
     "docs/anote/在macos上使用Idea.md",
-    "docs/03前端开发.md",
     "docs/anote/HTML.md",
-    "docs/Contributions.md",
     "docs/_navbar.md",
-    "docs/_coverpage.md",
-    "Appends/draw/StackAndHeap_1Array_InJava.excalidraw.md"
+    "docs/_coverpage.md"
   ]
 }
