@@ -1,7 +1,8 @@
 ---
-createDate: 星期五, 一月 5日 2024, 8:40:54 早上
-modifyDate: 星期四, 一月 25日 2024, 5:10:51 下午
+创建日期: 2024.01.5 星期五 8点40分54秒 早上<br>
+最后修改: 2024.01.31 星期三 7点50分56秒 晚上<br>
 ---
+
 
 # Idea
 ## 基本配置
@@ -6985,35 +6986,251 @@ I have always been there anyway.
 ```java
 package com.situ.exceptionanderror;  
   
-import java.io.FileReader;  
-import java.io.IOException;  
-import java.util.Properties;  
-  
 public class ThrowTest {  
   
-    public static void test1() {//Exception in thread "main" java.lang.OutOfMemoryError  
-        int[] arr = new int[999999999];  
-        System.out.println("****************************");  
+  
+  
+    public static void test3() throws ArithmeticException {//Exception in thread "main" java.lang.ArithmeticException  
+        int a = 10 / 0;  
     }  
   
-    public static void test2() {//Exception in thread "main" java.lang.StackOverflowError  
-        test2();  
-    }  
-    public static void test3() throws IOException {//抛出。Exception in thread "main" java.lang.ArithmeticException  
-        Properties pp = new Properties();  
-        pp.load(new FileReader("test.properties"));  
-    }  
-  
-    public static void main(String[] args) throws IOException {//抛出  
-            test1();  
-            test2();  
+    public static void main(String[] args)  {  
+        //接受方法抛出来的异常进行处理  
+        try {  
             test3();  
+        } catch (Exception e) {  
+            System.out.println("异常了...");  
+        }  
     }  
+  
+  
+  
 }
 ```
 如果一直抛出，抛到调用者没处理异常，再抛出抛到 `main` 方法，`main` 又没处理，直接抛出道了 `JVM` ，那么就直接崩溃了。
 
 ## 自定义异常
+本质：自定义 Java 类
+要求：要继承 Exception 类，或者 Exception 的子类
+
+`CustomizedException.java`
+```java
+package com.situ.exceptionanderror;  
+  
+public class CustomizedException extends Exception {  
+    public CustomizedException() {  
+  
+    }  
+    public CustomizedException (String errMsg) {  
+        super(errMsg);  
+    }  
+}
+```
+`CustomizedExceptionTest.java`
+```java
+package com.situ.exceptionanderror;  
+  
+public class CustomizedExceptionTest extends Exception {  
+    public static void main(String[] args) {  
+  
+        try {  
+            div(6,0);  
+        } catch (CustomizedException e) {  
+            System.out.println("---");  
+            e.printStackTrace();  
+  
+        }  
+    }  
+  
+    public static int div(int a, int b) throws CustomizedException {  
+        if (b == 0) {  
+            throw new CustomizedException("除数为了0了！！！");  
+        }  
+        return a / b;  
+    }  
+}
+```
+# IO
+`I/O`技术用于处理设备之间的数据传输
+>`IO流`是一组有序的，有起点和终点的数据集合，是对数据传输的总称和抽象。
+<font color=#646a73>*更新时间：2024-01-31 17:23:52*</font>
+
+`IO` 流的源和目的地：
+- 内存
+- 控制台
+- 磁盘文件
+- 网络端点
+
+关于 Input 和 Output：
+- Input 读取外部数据(磁盘、光盘等存储设备的数据)到程序(<font color="#de7802">内存</font>)中；
+- Output 将程序(<font color="#de7802">内</font>存)数据输出到磁盘、光盘等存储设备中。
+## IO 的分类
+- 按照处理的数据单元不同：
+	- 字节流：操作的数据单元是 `8` 位字节，`InputStream`、`OutputStream`。二进制文件(声音、图片、视频)、文本文件；
+	- 字符流：操作的数据单元是 `16` 位字符，`Reader`、`Writer`，通常用于处理文本文件。
+- 按照数据流流向不同：
+	- 输入流：只能从中读取数据，而不能向其写入数据。`InputStream`、`Reader`；
+	- 输出流：只能向其写入数据，而不能从中读取数据。`OutputStream`、`Writer`；
+
+输入、输出都是从内存的角度进行划分，内存-->硬盘，输出流；硬盘-->内存，输入流。
+
+| 流类型 | 字节流               | 字符流               |
+|--------|----------------------|----------------------|
+| 输入流 | `InputStream`        | `Reader`             |
+| 输出流 | `OutputStream`       | `Writer`             |
+
+
+Java 的 IO 流共涉及 40 多个类，实际上非常规则，都是从上面 4 个抽象基类派生的。
+
+由这四个类派生出来的子类名称都是以其父类名作为子类名后缀。
+
+
+`FileTest.java`
+基本操作
+```java
+package com.situ.iolearning;
+
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class FileTest {
+    public static void main(String[] args) {
+        File file1 = new File("/Users/wangwenpeng/Code/JavaDeveloper/basic/HelloWorld.java");
+        System.out.println(file1.isFile());
+        System.out.println(file1.canRead());
+        System.out.println(file1.canWrite());
+        System.out.println(file1.length());
+        System.out.println(file1.getAbsoluteFile());
+        System.out.println(file1.getName());
+        System.out.println(file1.isDirectory());
+        System.out.println(file1.isFile());
+        System.out.println(file1.isHidden());
+        System.out.println(file1.lastModified());
+        Date date = new Date(file1.lastModified());
+        SimpleDateFormat sft = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
+        String str = sft.format(date);
+        System.out.println(str);
+
+        //File file2 = new File("/Users/wangwenpeng/Code/JavaDeveloper/basic/fileclasstest");
+        //if (!file2.exists()) {
+        //    file2.mkdir();
+        //}
+
+        //file2.delete();//删除文件夹
+
+        //不可以列出下下一级文件夹中的内容。
+        File file3 = new File("/Users/wangwenpeng/Code/JavaDeveloper/basic/山东");
+        File[] files = file3.listFiles();
+        //for (File file : files) {
+        //    System.out.println(file);
+        //}
+
+        listAll("|--", file3);
+
+
+    }
+
+
+    //可以列出子文件夹中内容的方法
+    public static  void listAll(String head, File file) {
+        File[] files = file.listFiles();//列出第一层级的内容，返回一个文件类型的数组，这个数组中有的是文件夹，有的是文件
+        for (File f : files) {//遍历数组
+            System.out.println(head + f.getName());//打印
+            if (f.isDirectory()) {//判断当前这个file类型的对象 f 是否是文件夹，如果是文件夹就再调用一次 自身。并且调用之前传一个 tab，这样这一次的调用打印时头部就是 tab + 文件名了
+                listAll("\t" + head , f);
+            }
+        }
+    }
+}
+```
+## 字节流
+`InputStreamTest.java`
+```java
+package com.situ.iolearning;  
+  
+import java.io.FileInputStream;  
+import java.io.IOException;  
+  
+public class InputStreamTest {  
+    public static void main(String[] args) throws IOException {  
+        FileInputStream in = new FileInputStream("/Users/wangwenpeng/Code/JavaDeveloper/basic/山东/666.txt");  
+  
+        byte[] arr = new byte[16];  
+  
+        //这个处理方式可能会最后一次读取的字节不够16，导致覆盖数组的时候会覆盖不全，所以最有一次打印有概率出现之前的字符串  
+        //while (in.read(arr) != -1) {  
+        //    //System.out.println(Arrays.toString(arr));        //    String s = new String(arr);        //    System.out.println(s);        //}  
+        //处理方法：  
+        //第1种表达形式：：  
+        //int len = 0;  
+        //while ((len = in.read(arr,0,arr.length)) != -1) {        //    String s = new String(arr, 0, len);        //    System.out.println(s);        //}  
+        //第2种表达形式：：  
+        int len = 0;  
+        while ((len = in.read(arr)) != -1) {  
+            String s = new String(arr, 0, len);  
+            System.out.println(s);  
+        }  
+  
+        in.close();  
+  
+    }  
+}
+```
+`OutputStreamTest.java`
+```java
+package com.situ.iolearning;  
+  
+import java.io.FileOutputStream;  
+import java.io.IOException;  
+  
+public class OutputStreamTest {  
+    public static void main(String[] args) throws IOException {  
+        FileOutputStream out = new FileOutputStream("/Users/wangwenpeng/Code/JavaDeveloper/basic/山东/out.txt");  
+        String str = "helloJava";  
+  
+        byte[] arr = str.getBytes();    //String --> byte[] 要先换成byte  
+  
+        out.write(arr,0,arr.length);    //把数组 arr 中的，从 0开始，数组有多长就写入多长  
+        out.close();    //关闭流  
+    }  
+}
+```
+`CopyFile.java`
+通过输入流输出流实现复制文件功能
+```java
+package com.situ.iolearning;  
+  
+import java.io.FileInputStream;  
+import java.io.FileOutputStream;  
+import java.io.IOException;  
+  
+public class CopyFile {  
+    public static void main(String[] args) throws IOException {  
+        FileInputStream in = new FileInputStream("/Users/wangwenpeng/Code/JavaDeveloper/basic/山东/google.txt");  
+        FileOutputStream out = new FileOutputStream("/Users/wangwenpeng/Code/JavaDeveloper/basic/山东/google_new.txt");  
+  
+        int len = 0;  
+        byte[] arr = new byte[128]; //用于存储的缓冲数组  
+        while ((len = in.read(arr)) != -1) {    //只要没读到末尾就读  
+            out.write(arr,0,len);   //把arr数组，从0 开始，把 len 个长度写入  
+        }  
+  
+        //先打开的后关闭  
+        out.close();  
+        in.close();  
+  
+    }  
+}
+```
+## 字符流
+
+
+## 缓冲流
+### 使用缓冲流实现文件拷贝
+
+
+### 按行读取
 
 
 

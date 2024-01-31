@@ -22,10 +22,6 @@
   <link rel="stylesheet" href="https://notebook.js.org/plugin/custom.css">
   <!-- alert -->
   <link rel="stylesheet" href="https://notebook.js.org/plugin/sweetalert.min.css" type='text/css' media='all' />
-  <!-- 友链 -->
-  <link rel="stylesheet" href="https://notebook.js.org/plugin/css/friends-link.css">
-  <!-- 自定义特色样式：by myself -->
-  <link rel="stylesheet" href="https://notebook.js.org/plugin/css/me.css">
 
   <style>
 
@@ -34,13 +30,7 @@
       color: rgb(239, 112, 96);
     }
 
-
-    /*.github-corner{
-      position: absolute;
-      z-index: 999999;
-      top: 0;
-    }*/
-
+  
     .markdown-section code {
       border-radius: 2px;
       font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
@@ -337,7 +327,7 @@
       <div class="Tencent_code">
         <h4>关注作者公众号</h4>
         <p style="font-size: 12px;">万千小伙伴陪你一起学</p>
-        <img src="https://notebook.js.org/images/20220519-01-myinfo.jpg" alt="EnjoyToShare" />
+        <img src="" alt="EnjoyToShare" />
       </div>
     </div>
 </div> -->
@@ -345,18 +335,26 @@
   <script>
     window.$docsify = {
       name: '',
-      nameLink: 'http://blueboysalvat.top/',
-      auto2top: true,  //当路线改变时,滚动到屏幕的顶部
-      loadNavbar: true,//_navbar.md如果为真，则从_navbar.md文件加载navbar ，否则从指定的路径加载
-      mergeNavbar: true,//Navbar将在小屏幕上与侧边栏合并
-      executeScript: true,//执行页面上的脚本。只解析第一个脚本标记（演示）。如果存在Vue，则默认开
-      maxLevel: 6,//最大的内容表级别
-      externalLinkTarget: '_blank', //外链打开方式：_blank表示在新标签页中打开
+      repo: '',
+      loadSidebar: false,
+      loadNavbar: true,
       coverpage: true,
-      //onlyCover: true,
-      topMargin: 60,//调整top
-      //executeScript: true,//执行页面上的脚本，仅解析第一个脚本标签
-      search: {
+      auto2top: true,  //当路线改变时,滚动到屏幕的顶部
+      executeScript: true,//执行页面上的脚本。只解析第一个脚本标记（演示）。如果存在Vue，则默认开
+      externalLinkTarget: '_blank', //外链打开方式：_blank表示在新标签页中打开
+      plugins: [
+        function (hook) {
+          /*添加打赏模块*/
+          hook.beforeEach(function (html) {
+            return html
+                    + '<h2> 🎅 赞赏作者 </h2>'
+                    + '如果觉得文章有帮助, 可以打赏作者哟 ❤️\n'
+                    + '<text style="color:#62b900">微信支付</text>  or  <text style="color:#027AFF">支付宝</text>'
+                    + '<div ><img src="https://cdn.jsdelivr.net/gh/redGirlSalvat/img/img-blogIMG_2214.jpg" width="200" height="200" /><img src="https://cdn.jsdelivr.net/gh/redGirlSalvat/img/img-blogIMG_2215.jpg" width="200" height="200" /></div>'
+          });
+        }
+      ],
+      search: {//添加搜索功能
         paths: 'auto',
         placeholder: '🔍 搜索',
         noData: '😒 找不到结果',
@@ -364,84 +362,78 @@
         depth: 6,
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
       },//添加搜索框
-      // 谷歌分析 SEO
-      ga: 'UA-164658031-2',
-
       footer: {
-        copy: '<div class = "over" >完结</div><br/><br/><span id="sitetime"></span><br/><span >Copyright &copy; 2024 - 2024</span><h6 > 赞赏作者 </h6>如果觉得文章有帮助, 可以打赏作者哟 ❤️<br><span>蜜雪冰城也很爱~😆😏 ❤️ </span><text style="color:#62b900">微信支付</text>  or  <text style="color:#027AFF">支付宝</text><div ><img src="https://cdn.jsdelivr.net/gh/redGirlSalvat/img/img-blogIMG_2214.jpg" width="200" height="200" /><img src="https://cdn.jsdelivr.net/gh/redGirlSalvat/img/img-blogIMG_2215.jpg" width="200" height="200" /></div>',
-        auth: '',
+        copy: '<span>Copyright &copy; 2024 - 2024</span>',
+        auth: ' <a href="https://github.com/blueboySalvat/blueboySalvat.github.io" target="_blank">🏷️ Check on Github</a></br><span id="sitetime"></span>',
         pre: '<hr/>',
         style: 'text-align: left;',
       },//添加页脚
-
-      markdown: {
-        renderer: {
-          code: function(code, lang, base=null) {
-
-            if (lang === "dot") {
-              return (
-                      '<div class="viz">'+ Viz(code, "SVG")+'</div>'
-              );
-            }
-
-            var pdf_renderer = function(code, lang, verify) {
-              function unique_id_generator(){
-                function rand_gen(){
-                  return Math.floor((Math.random()+1) * 65536).toString(16).substring(1);
-                }
-                return rand_gen() + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + rand_gen() + rand_gen();
-              }
-              if(lang && !lang.localeCompare('pdf', 'en', {sensitivity: 'base'})){
-                if(verify){
-                  return true;
-                }else{
-                  var divId = "markdown_code_pdf_container_" + unique_id_generator().toString();
-                  var container_list = new Array();
-                  if(localStorage.getItem('pdf_container_list')){
-                    container_list = JSON.parse(localStorage.getItem('pdf_container_list'));
-                  }
-                  container_list.push({"pdf_location": code, "div_id": divId});
-                  localStorage.setItem('pdf_container_list', JSON.stringify(container_list));
-                  return (
-                          '<div style="margin-top:'+ PDF_MARGIN_TOP +'; margin-bottom:'+ PDF_MARGIN_BOTTOM +';" id="'+ divId +'">'
-                          + '<a href="'+ code + '"> Link </a> to ' + code +
-                          '</div>'
-                  );
-                }
-              }
-              return false;
-            }
-            if(pdf_renderer(code, lang, true)){
-              return pdf_renderer(code, lang, false);
-            }
-            //return this.origin.code.apply(this, arguments);
-            return (base ? base : this.origin.code.apply(this, arguments));
-          }
-        }
-      },
+      mergeNavbar: true,
+      notFoundPage: true,
+      logo: '../img/IconoirHeartSolid.svg',
 
     }
   </script>
-  <script src="https://notebook.js.org/plugin/js/docsify.min.js"></script>
-  <script src="https://notebook.js.org/plugin/search.min.js"></script>
-  <script src="https://notebook.js.org/plugin/zoom-image.min.js"></script>
 
+<!-- 访问量统计 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- 运行时间统计 -->
+<script language=javascript>
+  function siteTime() {
+    window.setTimeout("siteTime()", 1000);
+    var seconds = 1000;
+    var minutes = seconds * 60;
+    var hours = minutes * 60;
+    var days = hours * 24;
+    var years = days * 365;
+    var today = new Date();
+    var todayYear = today.getFullYear();
+    var todayMonth = today.getMonth() + 1;
+    var todayDate = today.getDate();
+    var todayHour = today.getHours();
+    var todayMinute = today.getMinutes();
+    var todaySecond = today.getSeconds();
+    /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
+    year - 作为date对象的年份，为4位年份值
+    month - 0-11之间的整数，做为date对象的月份
+    day - 1-31之间的整数，做为date对象的天数
+    hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
+    minutes - 0-59之间的整数，做为date对象的分钟数
+    seconds - 0-59之间的整数，做为date对象的秒数
+    microseconds - 0-999之间的整数，做为date对象的毫秒数 */
+    var t1 = Date.UTC(2024, 01, 06, 20, 35, 00); //北京时间2020-02-10 00:00:00
+    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+    var diff = t2 - t1;
+    var diffYears = Math.floor(diff / years);
+    var diffDays = Math.floor((diff / days) - diffYears * 365);
+    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
+    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
+    document.getElementById("sitetime").innerHTML = " 本网站已运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒 ";
+  }
+  siteTime();
+</script>
 
+<script src="prism.js"></script>
 
-  <!-- 添加 PDF 页面展示功能 -->
-  <!-- PDFObject.js is a required dependency of this plugin -->
-  <!--<script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>-->
-  <script src="https://notebook.js.org/plugin/pdfobject.min.js"></script>
-  <!-- This is the source code of the pdf embed plugin -->
-  <script src="https://notebook.js.org/plugin/docsify-pdf-embed.js"></script>
+<!-- mouse click -->
+<script src="//cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/click_heart.js"></script>
 
-  <!-- 复制代码-->
-  <script src="https://notebook.js.org/plugin/docsify-copy-code.min.js"></script>
+<!-- 阅读时间和字数统计 -->
+<script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+<!-- 搜索 -->
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/search.min.js"></script>
 
-  <!-- 回到顶部功能 -->
-  <script src="https://notebook.js.org/plugin/jquery.js"></script>
-  <script src="https://notebook.js.org/plugin/jquery.goup.js"></script>
-  <script type="text/javascript">
+<!-- 页脚 -->
+<script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+
+<!-- emoji -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
+<!-- backtotop -->
+<script src="https://notebook.js.org/plugin/jquery.js"></script>  
+<script src="https://notebook.js.org/plugin/jquery.goup.js"></script>
+<script type="text/javascript">
     $(document).ready(function () {
       $.goup({
         trigger: 100,
@@ -453,6 +445,8 @@
     });
   </script>
 
+  <!-- code copy-->
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <!-- 代码块样式优化-->
   <script src="https://notebook.js.org/plugin/prism-c.js"></script>
   <!--<script src="//unpkg.com/prismjs/components/prism-cpp.js"></script>-->
@@ -474,67 +468,22 @@
   <script src="https://notebook.js.org/plugin/prism-python.js"></script>
   <script src="https://notebook.js.org/plugin/js/prism-yaml.js"></script>
   <script src="https://notebook.js.org/plugin/js/prism-go.js"></script>
-  <script src="https://notebook.js.org/plugin/js/prism-matlab.js"></script>
 
-  
-  <!-- mouse click -->
-  <script src="https://notebook.js.org/plugin/click_heart.js"></script>
+  <script src="https://notebook.js.org/plugin/js/prism-matlab.js"></script>
 
   <!-- 复制提醒 -->
   <script src="https://notebook.js.org/plugin/sweetalert.min.js"></script>
   <script>
     document.body.oncopy = function () {
      swal("复制成功 🎉",
-             "若要转载或引用请务必保留原文链接，并申明来源。如果你觉得本仓库不错，那就来 GitHub 给个 Star 吧 😊   - by 吴跟强",
+             "若要转载或引用请务必保留原文链接，并申明来源",
              "success"); };
   </script>
 
-  <!-- 添加页脚 -->
-  <script src="https://notebook.js.org/plugin/docsify-footer-enh.min.js"></script>
 
-  <!-- 添加网站运行时间统计 -->
-  <script language=javascript>
-      function siteTime() {
-         window.setTimeout("siteTime()", 1000);
-         var seconds = 1000;
-         var minutes = seconds * 60;
-         var hours = minutes * 60;
-         var days = hours * 24;
-         var years = days * 365;
-         var today = new Date();
-         var todayYear = today.getFullYear();
-         var todayMonth = today.getMonth() + 1;
-         var todayDate = today.getDate();
-         var todayHour = today.getHours();
-         var todayMinute = today.getMinutes();
-         var todaySecond = today.getSeconds();
-         /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
-         year - 作为date对象的年份，为4位年份值
-         month - 0-11之间的整数，做为date对象的月份
-         day - 1-31之间的整数，做为date对象的天数
-         hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
-         minutes - 0-59之间的整数，做为date对象的分钟数
-         seconds - 0-59之间的整数，做为date对象的秒数
-         microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-         var t1 = Date.UTC(2024, 01, 06, 20, 35, 00); //北京时间2019-06-21 22:22:22 
-         var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
-         var diff = t2 - t1;
-         var diffYears = Math.floor(diff / years);
-         var diffDays = Math.floor((diff / days) - diffYears * 365);
-         var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
-         var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
-         var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
-         document.getElementById("sitetime").innerHTML = " 本站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒 ";
-      }
-      siteTime();
-  </script>
+  <!-- 图片放大缩小支持 -->
+      <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 
-
-<!-- 访问量统计 -->
-<script async src="https://notebook.js.org/plugin/js/busuanzi.pure.mini.js"></script>
-
-<!-- 谷歌分析 -->
-<script src="https://notebook.js.org/plugin/js/ga.min.js"></script>
 
   <!-- 实现离线化 -->
   <script>
@@ -542,6 +491,22 @@
       navigator.serviceWorker.register('pwa.js')
     }
   </script>
+
+  <!-- 支持 DOT 语言 -->
+  <script src="https://notebook.js.org/plugin/viz.js"></script>
+  <!-- 支持 LaTex 语言 -->
+  <script src="https://notebook.js.org/plugin/js/docsify-katex.js"></script>
+
+  <!-- 添加 PDF 页面展示功能 -->
+  <!-- PDFObject.js is a required dependency of this plugin -->
+  <!--<script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>-->
+  <script src="https://notebook.js.org/plugin/pdfobject.min.js"></script>
+  <!-- This is the source code of the pdf embed plugin -->
+  <script src="https://notebook.js.org/plugin/docsify-pdf-embed.js"></script>
+
+
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 
 </body>
 </html>

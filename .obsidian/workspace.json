@@ -44,19 +44,6 @@
             }
           },
           {
-            "id": "2e0c0f7bc7165a6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/anote/Java基础.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b65fd4316d9d6067",
             "type": "leaf",
             "state": {
@@ -65,7 +52,7 @@
                 "file": "docs/anote/Java基础.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               }
             }
           },
@@ -81,9 +68,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bc136ccf12a20c1d",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "docs/TODO.md"
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,28 +211,39 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "acea937373da6e88",
+  "active": "d4011214eeb7864a",
   "lastOpenFiles": [
+    "docs/anote/在github和云服务器上配置git并且免密推送.md",
     "docs/anote/Java基础.md",
-    "docs/TODO.md",
     "docs/anote/Java全栈学习体系.md",
+    "docs/TODO.md",
+    "docs/README.md",
+    "docs/index_bat1.html",
+    "docs/index_副本.html",
+    "docs/img/sunshine.ico",
+    "docs/index_bat.html",
+    "docs/prism.css",
+    "docs/prism.js",
+    "docs/config/prism.js",
+    "docs/config/prism.css",
+    "docs/config",
+    "config",
     "docs/Contributions.md",
+    "docs/img/FluentEmojiFlatSun.png",
+    "docs/img/sun.svg",
+    "docs/img/LOVE.svg",
     "docs/03后端开发.md",
     "docs/02前端开发.md",
     "Appends/draw/IntroduceMe.excalidraw.md",
-    "Appends/img/mc.mp4",
     "docs/anote/在云服务器上部署轻量级博客docsify(使用git更新).md",
     "docs/img/hashSetStruct.jpeg",
-    "docs/anote/在github和云服务器上配置git并且免密推送.md",
     "docs/anote/Vision和目标地图的区别.md",
     "docs/05闲杂小记.md",
     "docs/anote/基于Springboot的幼儿园管理系统.md",
     "Appends/draw/StringCantChange.excalidraw.md",
     "docs/img/StringCantChange.png",
-    "docs/img",
     "docs/img/20101.png",
     "docs/2010 1.png",
-    "docs/README.md",
     "Appends/draw/Analyse.excalidraw.md",
     "Appends/draw/fourzhong.png",
     "Appends/draw/fourzhong.png.md",
@@ -243,24 +251,12 @@
     "docs/07服务器.md",
     "docs/anote/Linux.md",
     "docs/anote/RedHat服务部署.md",
-    "docs/anote/linux上的目录共享和磁盘分区和磁盘共享.html",
-    "docs/anote/linux上的目录共享和磁盘管理分区和.html",
-    "docs/anote/linux上的磁盘管理.html",
-    "docs/anote/writeup.html",
     "docs/anote/writeup.md",
     "docs/anote/Github的身份验证设置.md",
-    "Appends/img/mcbuthightschool.mp4",
     "Appends/img/game1.jpg",
     "Appends/img/citywalk3.jpg",
-    "Appends/img/citywalk2.jpg",
-    "Appends/img/citywalk1.JPG",
-    "Appends/img/callofduty.mp4",
-    "Appends/img/dirt.mp4",
-    "Appends/img/codofdutyguns.mp4",
-    "Appends/img/sijinnaBox.jpg",
     "docs/anote/在macos上使用Idea.md",
     "docs/anote/HTML.md",
-    "docs/_navbar.md",
-    "docs/_coverpage.md"
+    "docs/_navbar.md"
   ]
 }

@@ -45,11 +45,11 @@
     "yaml-timestamp": {
       "enabled": true,
       "date-created": true,
-      "date-created-key": "createDate",
+      "date-created-key": "创建日期",
       "force-retention-of-create-value": false,
       "date-modified": true,
-      "date-modified-key": "modifyDate",
-      "format": "dddd, MMMM Do YYYY, h:mm:ss a"
+      "date-modified-key": "最后修改",
+      "format": "YYYY.MM.D dddd h点mm分ss秒 a<br>"
     },
     "yaml-title": {
       "enabled": false,

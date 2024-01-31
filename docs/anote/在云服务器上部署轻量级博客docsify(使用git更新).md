@@ -1,3 +1,7 @@
+---
+创建日期: 2024.01.24 星期三 10点26分37秒 晚上<br>
+最后修改: 2024.01.31 星期三 7点54分09秒 晚上<br>
+---
 # 服务器的 ssh 配置
 ```shell
 #vim /etc/ssh/sshd_config
@@ -83,5 +87,12 @@ git checkout main
 ```
 
 # 使用更新脚本更新
+
+
+
+
+
+`docsify` 配置参考链接：
+[ETS' NoteBook - By Mr.Wu - 微信公众号：码客趣分享 🌹](https://notebook.js.org/#/README)
 
 
