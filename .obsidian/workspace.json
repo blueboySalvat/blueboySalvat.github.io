@@ -31,22 +31,12 @@
             }
           },
           {
-            "id": "9e3ac5b506e06084",
+            "id": "65fee048f8870091",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Appends/draw/ProcessAndthread.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "7dd01b038d4592b9",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Appends/draw/IntroduceMe.excalidraw.md"
+                "file": "Appends/draw/lifecycle.md"
               }
             }
           }
@@ -101,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 375.5,
     "collapsed": true
   },
   "right": {
@@ -172,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5
+    "width": 384.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,12 +182,20 @@
   },
   "active": "b4f66566f0159ad1",
   "lastOpenFiles": [
-    "docs/TODO.md",
+    "Appends/draw/lifecycle.md",
+    "docs/img/lifecycle.png",
     "docs/anote/Java高级.md",
-    "docs/anote/MacOS.md",
-    "Appends/draw/IntroduceMe.excalidraw.md",
-    "docs/README.md",
+    "Appends/draw/Drawing 2024-02-02.excalidraw.md",
+    "Appends/draw/lifecycle.excalidraw.png",
+    "docs/img/ProcessAndthread.png",
     "Appends/draw/ProcessAndthread.excalidraw.md",
+    "Appends/draw/ObjectArray.excalidraw.md",
+    "Appends/draw/IntroduceMe.excalidraw.md",
+    "docs/img/ProcessAndthread.svg",
+    "docs/TODO.md",
+    "Appends/img/game1.jpg",
+    "docs/anote/MacOS.md",
+    "docs/README.md",
     "Appends/img/mc.mp4",
     "docs/_coverpage.md",
     "docs/anote/Java基础.md",
@@ -220,11 +219,6 @@
     "jdk8docs/technotes/guides/troubleshoot/img/jmc-triggers.png",
     "jdk8docs/technotes/guides/troubleshoot/img/jmc-start-record.png",
     "jdk8docs/technotes/guides/troubleshoot/img/jmc-expand-node.png",
-    "jdk8docs/technotes/guides/troubleshoot/img/jmc-event.png",
-    "jdk8docs/technotes/guides/troubleshoot/img/jmc-event-profile.png",
-    "jdk8docs/technotes/guides/troubleshoot/img/jmc-continue-record.png",
-    "jdk8docs/technotes/guides/troubleshoot/img/jmc-autorecording.png",
-    "jdk8docs/technotes/guides/troubleshoot/img/jfr-statistics-tab.png",
     "jdk8docs/legal/dejavufonts.md",
     "docs/html/jdk8docs/legal/dejavufonts.md",
     "docs/html/jdk-8u401-docs-all/legal/dejavufonts.md",
@@ -232,10 +226,6 @@
     "docs/anote/Java全栈学习体系.md",
     "docs/07服务器.md",
     "docs/anote/RedHat服务部署.md",
-    "docs/anote/Linux.md",
-    "docs/02前端开发.md",
-    "docs/anote/Vision和目标地图的区别.md",
-    "docs/05闲杂小记.md",
-    "docs/anote/基于Springboot的幼儿园管理系统.md"
+    "docs/anote/Linux.md"
   ]
 }

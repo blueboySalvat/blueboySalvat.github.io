@@ -350,16 +350,40 @@ public class ReadLineTest {
 	- 一个进程中的多个线程共享相同的内存单元/内存地址空间，它们从同一堆中分配对象，可以访问相同的变量和对象。但是这也会带来访问的一些问题
 	- 每个 Java 程序都有一个隐含的主线程：`main` 方法。
 
+![](../img/ProcessAndthread.png)
+
+## 线程的调度和生命周期
+
+- `setPriority(int newPriority)`：设置线程的优先级
+- `getPriority()`：获取线程的优先级
+- `yield()`：线程让步
+    - 暂停当前正在执行的线程，把执行机会让给优先级相同或更高的线程
+    - 若队列中没有同优先级的线程，忽略此方法
+- `join()`：
+    - 当某个程序执行流中调用其他线程的`join()`方法时，**调用线程将被阻塞**，直到`join()`方法加入的`join`线程执行完为止
+    - 低优先级的线程也可以获得执行
+- `sleep(long millis)`：令当前活动线程在指定时间段内放弃对CPU控制,使其他线程有机会被执行,时间到后重排队
+- `stop()`：强制线程生命期结束
+- `isAlive()`：判断线程是否还活着
 
 
+
+
+- **新建**： 当一个 `Thread` 类或其子类的对象被声明并创建时，新生的线程对象处于新建状态；
+- **就绪**：处于新建状态的线程被 `start()` 后，将进入线程队列**等待 CPU 时间片**，此时它已具备了运行的条件；
+- **运行**：当就绪的线程被调度并获得处理器资源时，便进入运行状态， `run()` 方法定义了线程的操作和功能；
+- **阻塞**：在某种特殊情况下，被人为挂起或执行输入输出操作时，让出 CPU 并临时中止自己的执行，进入阻塞状态；
+- **死亡**：线程完成了它的全部工作或线程被提前强制性地中止。
+
+![](../img/lifecycle.png)
 
 ## 线程的创建和使用
 >在同一时间需要处理多个任务时就可以使用多线程。
 ### 继承 Thread 类
 >继承 Thread 类，重写 run 方法
 
-- 编写继承 `Thread ` 重写 `run()` 方法的类
-- 根据此类创建线程对象
+- 编写继承 `Thread ` 类，重写 `run()` 方法的继承类
+- 根据此继承类创建线程对象
 - 调用线程对象 `start` 方法
 
 创建 `Thread` 子类对象，即创建线程对象；
@@ -451,6 +475,84 @@ public class Test {
 ｜聊天                          吃饭                         喝酒
 
 但是实际上在控制台中同时只能被 一个线程占用，所以还是按着顺序来的。
+```
+
+#### Thread 的相关方法
+相关方法：
+- `start()`：启动线程，并执行对象的`run()`方法；
+- `run()`：线程在被调用时执行的操作；
+- `getName()`：返回线程的名称；
+- `setName()`：设置线程的名称；
+- `currentThread()`：返回当前线程。
+
+`ThreadClass.java`
+```java
+package com.situ.threadlearning.basic3;  
+  
+public class ThreadClass extends Thread{  
+    public void run() {  
+        for (int i = 0; i < 10; i++) {  
+            System.out.println(Thread.currentThread().getName() + "\t第" + i + "次");  
+            try {  
+                Thread.currentThread().sleep(100);  
+            } catch (InterruptedException e) {  
+                throw new RuntimeException(e);  
+            }  
+        }  
+    }  
+}
+```
+`ThreadClass2.java`
+```java
+package com.situ.threadlearning.basic3;  
+  
+public class ThreadClass2 extends Thread{  
+    private Thread thread;  
+    public ThreadClass2() {  
+    }  
+  
+    public ThreadClass2(Thread thread) {  
+        this.thread = thread;  
+    }  
+  
+    public void run() {  
+        for (int i = 0; i < 10; i++) {  
+            System.out.println(Thread.currentThread().getName() + "\t第" + i + "次");  
+  
+  
+            /*  
+             *当运行到 第 5 次时，执行 会阻塞调用 thread111.join()方法，这会阻塞调用 thread111.join() 的线程，  
+             *也就是 thread222 线程阻塞，然后转而去把 thread111线程 进行完，然后在执行线程 thread222             *             * */            try {  
+                if (i == 4) {  
+                    thread.join();  
+                }  
+                Thread.currentThread().sleep(3);  
+            }catch (InterruptedException e) {  
+                throw new RuntimeException();  
+            }  
+        }  
+    }  
+}
+```
+`ThreadClassTest.java`
+```java
+package com.situ.threadlearning.basic3;
+
+public class ThreadClassTest {
+    public static void main(String[] args) throws Exception {
+        Thread.currentThread().setName("主线程");
+
+        ThreadClass thread111 = new ThreadClass();//创建线程 thread111
+        thread111.setName("thread111线程");//给thread111线程设置名字
+
+        ThreadClass2 thread222 = new ThreadClass2(thread111);//创建线程 thread222
+        thread222.setName("thread222线程");//给thread222线程设置名字
+
+        thread111.start();//启动thread111线程
+        thread222.start();//启动thread222线程
+
+    }
+}
 ```
 
 ### 实现 Runnable 接口
@@ -590,106 +692,15 @@ Thread-1	喝酒
 `main` 方法运行在主线程中，而主线程与其他线程是并发执行的。
 "main"并不是一定会出现在第一行，多试几次就发现了。
 
-### Thread 的相关方法
-相关方法：
-- `start()`：启动线程，并执行对象的`run()`方法；
-- `run()`：线程在被调用时执行的操作；
-- `getName()`：返回线程的名称；
-- `setName()`：设置线程的名称；
-- `currentThread()`：返回当前线程。
+### 实现 Callable 接口
+>JDK 5.0 新增创建方式
 
-`ThreadClass.java`
-```java
-package com.situ.threadlearning.basic3;  
-  
-public class ThreadClass extends Thread{  
-    public void run() {  
-        for (int i = 0; i < 10; i++) {  
-            System.out.println(Thread.currentThread().getName() + "\t第" + i + "次");  
-            try {  
-                Thread.currentThread().sleep(100);  
-            } catch (InterruptedException e) {  
-                throw new RuntimeException(e);  
-            }  
-        }  
-    }  
-}
-```
-`ThreadClass2.java`
-```java
-package com.situ.threadlearning.basic3;  
-  
-public class ThreadClass2 extends Thread{  
-    private Thread thread;  
-    public ThreadClass2() {  
-    }  
-  
-    public ThreadClass2(Thread thread) {  
-        this.thread = thread;  
-    }  
-  
-    public void run() {  
-        for (int i = 0; i < 10; i++) {  
-            System.out.println(Thread.currentThread().getName() + "\t第" + i + "次");  
-  
-  
-            /*  
-             *当运行到 第 5 次时，执行 会阻塞调用 thread111.join()方法，这会阻塞调用 thread111.join() 的线程，  
-             *也就是 thread222 线程阻塞，然后转而去把 thread111线程 进行完，然后在执行线程 thread222             *             * */            try {  
-                if (i == 4) {  
-                    thread.join();  
-                }  
-                Thread.currentThread().sleep(3);  
-            }catch (InterruptedException e) {  
-                throw new RuntimeException();  
-            }  
-        }  
-    }  
-}
-```
-`ThreadClassTest.java`
-```java
-package com.situ.threadlearning.basic3;
+- 相比 `run()` 方法，可以有返回值；
+- 方法可以抛出异常；
+- 支持泛型的返回值；
+- 需要借助`FutureTask`类，比如获取返回结果。
 
-public class ThreadClassTest {
-    public static void main(String[] args) throws Exception {
-        Thread.currentThread().setName("主线程");
-
-        ThreadClass thread111 = new ThreadClass();//创建线程 thread111
-        thread111.setName("thread111线程");//给thread111线程设置名字
-
-        ThreadClass2 thread222 = new ThreadClass2(thread111);//创建线程 thread222
-        thread222.setName("thread222线程");//给thread222线程设置名字
-
-        thread111.start();//启动thread111线程
-        thread222.start();//启动thread222线程
-
-    }
-}
-```
-
-## 线程的调度和生命周期
-
-- `setPriority(int newPriority)`：设置线程的优先级
-- `getPriority()`：获取线程的优先级
-- `yield()`：线程让步
-    - 暂停当前正在执行的线程，把执行机会让给优先级相同或更高的线程
-    - 若队列中没有同优先级的线程，忽略此方法
-- `join()`：
-    - 当某个程序执行流中调用其他线程的`join()`方法时，**调用线程将被阻塞**，直到`join()`方法加入的`join`线程执行完为止
-    - 低优先级的线程也可以获得执行
-- `sleep(long millis)`：令当前活动线程在指定时间段内放弃对CPU控制,使其他线程有机会被执行,时间到后重排队
-- `stop()`：强制线程生命期结束
-- `isAlive()`：判断线程是否还活着
-
-
-
-
-- **新建**： 当一个 `Thread` 类或其子类的对象被声明并创建时，新生的线程对象处于新建状态；
-- **就绪**：处于新建状态的线程被 `start()` 后，将进入线程队列**等待 CPU 时间片**，此时它已具备了运行的条件；
-- **运行**：当就绪的线程被调度并获得处理器资源时，便进入运行状态， `run()` 方法定义了线程的操作和功能；
-- **阻塞**：在某种特殊情况下，被人为挂起或执行输入输出操作时，让出 CPU 并临时中止自己的执行，进入阻塞状态；
-- **死亡**：线程完成了它的全部工作或线程被提前强制性地中止。
+### 使用线程池
 
 
 ## 线程同步
