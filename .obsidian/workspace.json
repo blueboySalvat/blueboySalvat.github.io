@@ -101,8 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d4c2b0db2270c3d5",
@@ -180,13 +179,13 @@
   },
   "active": "7dd01b038d4592b9",
   "lastOpenFiles": [
-    "Appends/draw/ProcessAndthread.excalidraw.md",
+    "docs/README.md",
+    "docs/TODO.md",
     "Appends/draw/IntroduceMe.excalidraw.md",
+    "Appends/draw/ProcessAndthread.excalidraw.md",
     "docs/anote/Java高级.md",
     "Appends/img/mc.mp4",
     "docs/_coverpage.md",
-    "docs/README.md",
-    "docs/TODO.md",
     "docs/anote/Java基础.md",
     "docs/Contributions.md",
     "未命名.md",
