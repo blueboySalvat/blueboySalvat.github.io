@@ -2,7 +2,8 @@
 
 
 > Let's me show you something....
-> 本站即将转移到新的云服务器...
+
+> 本站即将转移到新的云服务器...blueboysalvat.top(备案还没通过...)
 
 
 <br>

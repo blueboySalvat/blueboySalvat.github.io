@@ -75,7 +75,7 @@ MineCraft
 
 你觉得自己一天能用多少小时？ ^PhlibUWN
 
-谁的电脑一直会登着微信？ ^dQpdJxEY
+为什么你的电脑会登着微信？ ^dQpdJxEY
 
 我们需要那么多社交联系吗？ ^Joz5myyc
 
@@ -143,9 +143,11 @@ and more... ^JgJmNeWe
 
 我的web站点 ^HAqSFMjb
 
-欢迎和我交流 ^GjQdaYSf
+欢迎和我交流
 
-[[../img/mc.mp4]] ^UHcuyMJY
+不同领域的趣事
+
+以及经过思考后和学习相关的问题 ^GjQdaYSf
 
 [[../img/codofdutyguns.mp4]] ^F7cVDBC5
 
@@ -160,6 +162,23 @@ and more... ^JgJmNeWe
 为什么要要它那么容易被看见？ ^7CdxutnA
 
 你可否知道它是时间黑洞？ ^S7A8XHAs
+
+【纪录片】【监视资本主义：智能陷阱】
+https://www.acfun.cn/v/ac17846815 ^npPXKKTL
+
+blueboysalvat.github.io ^xnCE8pXo
+
+经过有思考的东西，我会很乐意交流 ^06JaAnTO
+
+关闭你的消息通知，你会发现你的现有生活几乎没有任何变化 ^QEvtF4NL
+
+你觉得自己客观吗？ ^XWNccVG1
+
+事实是我们都偏见性的认为自己比别人更客观 ^0xUdopWf
+
+哦对了，我叫王文鹏 ^lfuUMUQM
+
+一个看起来不太那么合群，有点特立独行的人 ^RLUjjIkD
 
 
 # Embedded files
@@ -201,8 +220,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 1526,
-			"versionNonce": 1151867753,
+			"version": 1528,
+			"versionNonce": 1105738156,
 			"isDeleted": false,
 			"id": "y-9ZgF34qCJu4_Q-KzfC6",
 			"fillStyle": "solid",
@@ -229,14 +248,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "N3cOrDOi"
 				}
 			],
-			"updated": 1706365393303,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1324,
-			"versionNonce": 1309174695,
+			"version": 1326,
+			"versionNonce": 1527940884,
 			"isDeleted": false,
 			"id": "N3cOrDOi",
 			"fillStyle": "solid",
@@ -256,7 +275,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393303,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -268,12 +287,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "y-9ZgF34qCJu4_Q-KzfC6",
 			"originalText": "年龄 24",
 			"lineHeight": 1.25,
-			"baseline": 17
+			"baseline": 18
 		},
 		{
 			"type": "rectangle",
-			"version": 1592,
-			"versionNonce": 1170392649,
+			"version": 1594,
+			"versionNonce": 2056004652,
 			"isDeleted": false,
 			"id": "z7laqBIMzQv2uvfLiOQ4c",
 			"fillStyle": "solid",
@@ -300,14 +319,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "25XloPL0"
 				}
 			],
-			"updated": 1706365393303,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1429,
-			"versionNonce": 23748295,
+			"version": 1431,
+			"versionNonce": 1591248020,
 			"isDeleted": false,
 			"id": "25XloPL0",
 			"fillStyle": "solid",
@@ -327,7 +346,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393303,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -339,12 +358,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "z7laqBIMzQv2uvfLiOQ4c",
 			"originalText": "山东·潍坊",
 			"lineHeight": 1.25,
-			"baseline": 17
+			"baseline": 18
 		},
 		{
 			"type": "rectangle",
-			"version": 1900,
-			"versionNonce": 1745163561,
+			"version": 1902,
+			"versionNonce": 2085535404,
 			"isDeleted": false,
 			"id": "XORBKa0mlhSvsDiQmHgHN",
 			"fillStyle": "solid",
@@ -371,14 +390,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "FII6y5GM"
 				}
 			],
-			"updated": 1706365393303,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1725,
-			"versionNonce": 1449192935,
+			"version": 1727,
+			"versionNonce": 1141035540,
 			"isDeleted": false,
 			"id": "FII6y5GM",
 			"fillStyle": "solid",
@@ -398,7 +417,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -410,12 +429,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "XORBKa0mlhSvsDiQmHgHN",
 			"originalText": "鹏",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1832,
-			"versionNonce": 1859815433,
+			"version": 1834,
+			"versionNonce": 265947436,
 			"isDeleted": false,
 			"id": "qOnCoULMBcaMC6oswKWcR",
 			"fillStyle": "solid",
@@ -442,14 +461,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "tKRryJxW"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1661,
-			"versionNonce": 1744345351,
+			"version": 1663,
+			"versionNonce": 2038919060,
 			"isDeleted": false,
 			"id": "tKRryJxW",
 			"fillStyle": "solid",
@@ -469,7 +488,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -481,12 +500,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "qOnCoULMBcaMC6oswKWcR",
 			"originalText": "王",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 2195,
-			"versionNonce": 608083689,
+			"version": 2197,
+			"versionNonce": 1486357420,
 			"isDeleted": false,
 			"id": "bAjzWsO21f5_-TqhmLeEb",
 			"fillStyle": "solid",
@@ -513,14 +532,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "DNcUJiCg"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 2028,
-			"versionNonce": 1001250855,
+			"version": 2030,
+			"versionNonce": 530341140,
 			"isDeleted": false,
 			"id": "DNcUJiCg",
 			"fillStyle": "solid",
@@ -540,7 +559,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -552,12 +571,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "bAjzWsO21f5_-TqhmLeEb",
 			"originalText": "文",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 996,
-			"versionNonce": 1426545773,
+			"version": 998,
+			"versionNonce": 2092084780,
 			"isDeleted": false,
 			"id": "SYKkvUgW",
 			"fillStyle": "solid",
@@ -577,7 +596,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "oEjb5cRScmtBFJMlN8cAK",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102260,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -589,12 +608,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "我很简单...，但是并不无趣",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1188,
-			"versionNonce": 2069848551,
+			"version": 1190,
+			"versionNonce": 1605868180,
 			"isDeleted": false,
 			"id": "MV9M7UiKtzL2Zh01yzZaN",
 			"fillStyle": "solid",
@@ -621,14 +640,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "IWwg1mbW"
 				}
 			],
-			"updated": 1706426264286,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1240,
-			"versionNonce": 1982682121,
+			"version": 1242,
+			"versionNonce": 1293158572,
 			"isDeleted": false,
 			"id": "IWwg1mbW",
 			"fillStyle": "solid",
@@ -648,7 +667,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "uB-YkGG0fLC7-xXaEzRgc",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706426264286,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -660,12 +679,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "MV9M7UiKtzL2Zh01yzZaN",
 			"originalText": "喜欢看点东西",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 700,
-			"versionNonce": 1066615399,
+			"version": 702,
+			"versionNonce": 1150232596,
 			"isDeleted": false,
 			"id": "FRY46hiTL7iudsK9FU5w-",
 			"fillStyle": "solid",
@@ -692,14 +711,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "Sd8otX82"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 649,
-			"versionNonce": 671464329,
+			"version": 651,
+			"versionNonce": 1835406124,
 			"isDeleted": false,
 			"id": "Sd8otX82",
 			"fillStyle": "solid",
@@ -719,7 +738,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "6Ch8xD7q2DhoB2-t4Lwn1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -731,12 +750,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "FRY46hiTL7iudsK9FU5w-",
 			"originalText": "心理学",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 690,
-			"versionNonce": 283925895,
+			"version": 692,
+			"versionNonce": 303629716,
 			"isDeleted": false,
 			"id": "zurMlLxKPoacpfsE88y40",
 			"fillStyle": "solid",
@@ -763,14 +782,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "Q6EocT5N"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 803,
-			"versionNonce": 146236009,
+			"version": 805,
+			"versionNonce": 2081607084,
 			"isDeleted": false,
 			"id": "Q6EocT5N",
 			"fillStyle": "solid",
@@ -790,7 +809,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "6Ch8xD7q2DhoB2-t4Lwn1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -802,12 +821,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "zurMlLxKPoacpfsE88y40",
 			"originalText": "史蒂夫·乔布斯传",
 			"lineHeight": 1.25,
-			"baseline": 76
+			"baseline": 77
 		},
 		{
 			"type": "rectangle",
-			"version": 552,
-			"versionNonce": 179639463,
+			"version": 554,
+			"versionNonce": 495661844,
 			"isDeleted": false,
 			"id": "LK5aB5QJKPjmfiDo7inHs",
 			"fillStyle": "solid",
@@ -834,14 +853,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "z7lzECKU"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 665,
-			"versionNonce": 1985031497,
+			"version": 667,
+			"versionNonce": 977549356,
 			"isDeleted": false,
 			"id": "z7lzECKU",
 			"fillStyle": "solid",
@@ -861,7 +880,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "QP8FadeAK3XLqvmMi4RXh",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -873,12 +892,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "LK5aB5QJKPjmfiDo7inHs",
 			"originalText": "硅谷钢铁侠：马斯克",
 			"lineHeight": 1.25,
-			"baseline": 76
+			"baseline": 77
 		},
 		{
 			"type": "rectangle",
-			"version": 796,
-			"versionNonce": 882501575,
+			"version": 798,
+			"versionNonce": 626765972,
 			"isDeleted": false,
 			"id": "2h1_XFIv9cSnyBBoxMEIM",
 			"fillStyle": "solid",
@@ -905,14 +924,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "OOS8DAEn"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 943,
-			"versionNonce": 1747885097,
+			"version": 945,
+			"versionNonce": 870601388,
 			"isDeleted": false,
 			"id": "OOS8DAEn",
 			"fillStyle": "solid",
@@ -932,7 +951,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "JftAeZe4NBDVm5Hsw4dIn",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -944,12 +963,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "2h1_XFIv9cSnyBBoxMEIM",
 			"originalText": "异类：不一样的成功启示录",
 			"lineHeight": 1.25,
-			"baseline": 76
+			"baseline": 77
 		},
 		{
 			"type": "image",
-			"version": 1125,
-			"versionNonce": 1823954663,
+			"version": 1127,
+			"versionNonce": 692092436,
 			"isDeleted": false,
 			"id": "vwqkJ7Ey",
 			"fillStyle": "hachure",
@@ -974,7 +993,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -986,8 +1005,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 821,
-			"versionNonce": 1580936969,
+			"version": 823,
+			"versionNonce": 1738349868,
 			"isDeleted": false,
 			"id": "zSs4VnSWUDyNH_9d86kGK",
 			"fillStyle": "hachure",
@@ -1007,7 +1026,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "MCyot0MDQ9Lmlfzpjc5t2",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1019,8 +1038,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 826,
-			"versionNonce": 429515271,
+			"version": 828,
+			"versionNonce": 1110416276,
 			"isDeleted": false,
 			"id": "ndnwPRKV",
 			"fillStyle": "hachure",
@@ -1040,7 +1059,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "Ky-ja2IMSk4VVHXSk1mKE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1052,8 +1071,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 1132,
-			"versionNonce": 1324508649,
+			"version": 1134,
+			"versionNonce": 1859688364,
 			"isDeleted": false,
 			"id": "wGwkM0lR",
 			"fillStyle": "hachure",
@@ -1073,7 +1092,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "rW6J10aVTCJdGJy14_Dt0",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1085,8 +1104,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "rectangle",
-			"version": 679,
-			"versionNonce": 473827623,
+			"version": 681,
+			"versionNonce": 2053048596,
 			"isDeleted": false,
 			"id": "VrZeyYajLIfx-AQe3oWlB",
 			"fillStyle": "solid",
@@ -1113,14 +1132,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "RaeUCnBX"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 522,
-			"versionNonce": 1432338633,
+			"version": 524,
+			"versionNonce": 633389612,
 			"isDeleted": false,
 			"id": "RaeUCnBX",
 			"fillStyle": "solid",
@@ -1140,7 +1159,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "3RCaDO_o3N6UOAB9bEECo",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1152,12 +1171,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "VrZeyYajLIfx-AQe3oWlB",
 			"originalText": "研究过两性情感",
 			"lineHeight": 1.25,
-			"baseline": 76
+			"baseline": 77
 		},
 		{
 			"type": "rectangle",
-			"version": 616,
-			"versionNonce": 34622535,
+			"version": 618,
+			"versionNonce": 625264276,
 			"isDeleted": false,
 			"id": "a-RJuqFl3oEIagMlKdMI4",
 			"fillStyle": "solid",
@@ -1188,14 +1207,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 554,
-			"versionNonce": 522108841,
+			"version": 556,
+			"versionNonce": 1396677804,
 			"isDeleted": false,
 			"id": "tzsrOfyI",
 			"fillStyle": "solid",
@@ -1215,7 +1234,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "60ZKEQ8uEiJJ2Qmo5IfSL",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1227,12 +1246,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "a-RJuqFl3oEIagMlKdMI4",
 			"originalText": "三维渲染和制图",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1029,
-			"versionNonce": 1995254631,
+			"version": 1031,
+			"versionNonce": 932631572,
 			"isDeleted": false,
 			"id": "CYd_Szh9I3QPtwn6_0RUC",
 			"fillStyle": "solid",
@@ -1259,14 +1278,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "R2DKacir"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1037,
-			"versionNonce": 442163849,
+			"version": 1039,
+			"versionNonce": 1358898988,
 			"isDeleted": false,
 			"id": "R2DKacir",
 			"fillStyle": "solid",
@@ -1286,7 +1305,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "qJ8IQJFSoUzLo07UxDCTR",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1298,12 +1317,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "CYd_Szh9I3QPtwn6_0RUC",
 			"originalText": "游戏主播",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "image",
-			"version": 657,
-			"versionNonce": 1998661255,
+			"version": 659,
+			"versionNonce": 525021588,
 			"isDeleted": false,
 			"id": "gP7N1Q1Y",
 			"fillStyle": "hachure",
@@ -1328,7 +1347,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1340,8 +1359,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 1071,
-			"versionNonce": 1674553705,
+			"version": 1073,
+			"versionNonce": 862544300,
 			"isDeleted": false,
 			"id": "Gnu6aDss",
 			"fillStyle": "hachure",
@@ -1361,7 +1380,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "Ucuu1MzQwgRtCm2UG_xOT",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100732,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1373,8 +1392,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "rectangle",
-			"version": 833,
-			"versionNonce": 1097383335,
+			"version": 835,
+			"versionNonce": 462937876,
 			"isDeleted": false,
 			"id": "lXmwC27XFuGRV3_kwVlLu",
 			"fillStyle": "solid",
@@ -1401,14 +1420,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "RUmECh0y"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 783,
-			"versionNonce": 1959302217,
+			"version": 785,
+			"versionNonce": 1906854956,
 			"isDeleted": false,
 			"id": "RUmECh0y",
 			"fillStyle": "solid",
@@ -1428,7 +1447,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "s-G7uNBQNCpNNm1s9UsWo",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1440,12 +1459,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "lXmwC27XFuGRV3_kwVlLu",
 			"originalText": "哔哩哔哩",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1012,
-			"versionNonce": 149975239,
+			"version": 1014,
+			"versionNonce": 351460500,
 			"isDeleted": false,
 			"id": "B-uOCimV-7oPWJIW-hOHN",
 			"fillStyle": "solid",
@@ -1472,14 +1491,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "text"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 705,
-			"versionNonce": 287384361,
+			"version": 707,
+			"versionNonce": 228976300,
 			"isDeleted": false,
 			"id": "63qBr73F",
 			"fillStyle": "solid",
@@ -1499,7 +1518,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "s-G7uNBQNCpNNm1s9UsWo",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1511,12 +1530,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "B-uOCimV-7oPWJIW-hOHN",
 			"originalText": "爱拍网",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1014,
-			"versionNonce": 1733607399,
+			"version": 1016,
+			"versionNonce": 1964124692,
 			"isDeleted": false,
 			"id": "JYRqqQRCvrlvlBLKjwxf3",
 			"fillStyle": "solid",
@@ -1543,14 +1562,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "sWybFgKQ"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 923,
-			"versionNonce": 1967445513,
+			"version": 925,
+			"versionNonce": 1007431980,
 			"isDeleted": false,
 			"id": "sWybFgKQ",
 			"fillStyle": "solid",
@@ -1570,7 +1589,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "s-G7uNBQNCpNNm1s9UsWo",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1582,12 +1601,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "JYRqqQRCvrlvlBLKjwxf3",
 			"originalText": "优酷网",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1109,
-			"versionNonce": 245508871,
+			"version": 1111,
+			"versionNonce": 2129381268,
 			"isDeleted": false,
 			"id": "3kY6-c0SpEOtYl4VAWgBV",
 			"fillStyle": "solid",
@@ -1614,14 +1633,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "gbMDKtVc"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1027,
-			"versionNonce": 1143942377,
+			"version": 1029,
+			"versionNonce": 205859756,
 			"isDeleted": false,
 			"id": "gbMDKtVc",
 			"fillStyle": "solid",
@@ -1641,7 +1660,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "s-G7uNBQNCpNNm1s9UsWo",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1653,12 +1672,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "3kY6-c0SpEOtYl4VAWgBV",
 			"originalText": "爱奇艺",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1263,
-			"versionNonce": 995439143,
+			"version": 1265,
+			"versionNonce": 649442580,
 			"isDeleted": false,
 			"id": "qp8bRr6MVCEEKcZMPzqOz",
 			"fillStyle": "solid",
@@ -1685,14 +1704,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "text"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 896,
-			"versionNonce": 896247753,
+			"version": 898,
+			"versionNonce": 276485676,
 			"isDeleted": false,
 			"id": "ZreqAPPL",
 			"fillStyle": "solid",
@@ -1712,7 +1731,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "s-G7uNBQNCpNNm1s9UsWo",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1724,12 +1743,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "qp8bRr6MVCEEKcZMPzqOz",
 			"originalText": "快手",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1298,
-			"versionNonce": 1717196103,
+			"version": 1300,
+			"versionNonce": 1776677524,
 			"isDeleted": false,
 			"id": "xg2mqzibE477TtsJpTQ6H",
 			"fillStyle": "solid",
@@ -1756,14 +1775,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "XDK5ao8N"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1136,
-			"versionNonce": 51758761,
+			"version": 1138,
+			"versionNonce": 93794476,
 			"isDeleted": false,
 			"id": "XDK5ao8N",
 			"fillStyle": "solid",
@@ -1783,7 +1802,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "vUW_isOXSfPqj0Zg-7qO4",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1795,12 +1814,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "xg2mqzibE477TtsJpTQ6H",
 			"originalText": "抖音",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1389,
-			"versionNonce": 923669607,
+			"version": 1391,
+			"versionNonce": 657621012,
 			"isDeleted": false,
 			"id": "iLI_i3oFXdEJEuRt_aOLw",
 			"fillStyle": "solid",
@@ -1827,14 +1846,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "RqgWlgIL"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1243,
-			"versionNonce": 400099721,
+			"version": 1245,
+			"versionNonce": 2068069164,
 			"isDeleted": false,
 			"id": "RqgWlgIL",
 			"fillStyle": "solid",
@@ -1854,7 +1873,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "Az_wXYBuH7sEejyVQlUWQ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1866,12 +1885,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "iLI_i3oFXdEJEuRt_aOLw",
 			"originalText": "微视",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1449,
-			"versionNonce": 893185927,
+			"version": 1451,
+			"versionNonce": 1989238164,
 			"isDeleted": false,
 			"id": "MXS2A0L9soBmkaS3_PNZl",
 			"fillStyle": "solid",
@@ -1898,14 +1917,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "WHb9fO1m"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1311,
-			"versionNonce": 2096164969,
+			"version": 1313,
+			"versionNonce": 2079061420,
 			"isDeleted": false,
 			"id": "WHb9fO1m",
 			"fillStyle": "solid",
@@ -1925,7 +1944,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "s-G7uNBQNCpNNm1s9UsWo",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1937,12 +1956,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "MXS2A0L9soBmkaS3_PNZl",
 			"originalText": "......",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1192,
-			"versionNonce": 992175783,
+			"version": 1194,
+			"versionNonce": 20482836,
 			"isDeleted": false,
 			"id": "jd_WI-OJl2Xv61SKTVKOy",
 			"fillStyle": "solid",
@@ -1973,14 +1992,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1208,
-			"versionNonce": 136903497,
+			"version": 1210,
+			"versionNonce": 884498476,
 			"isDeleted": false,
 			"id": "TZoenBAM",
 			"fillStyle": "solid",
@@ -2000,7 +2019,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "vPp8lmdnqpTuOkRAiZN8p",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2012,12 +2031,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "jd_WI-OJl2Xv61SKTVKOy",
 			"originalText": "做做视频剪辑，拍拍照",
 			"lineHeight": 1.25,
-			"baseline": 76
+			"baseline": 77
 		},
 		{
 			"type": "rectangle",
-			"version": 757,
-			"versionNonce": 661518791,
+			"version": 759,
+			"versionNonce": 1503529108,
 			"isDeleted": false,
 			"id": "Tos19DrT4sW-ONH4eLF31",
 			"fillStyle": "solid",
@@ -2052,14 +2071,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 977,
-			"versionNonce": 1239198249,
+			"version": 979,
+			"versionNonce": 496204460,
 			"isDeleted": false,
 			"id": "liiW8rKW",
 			"fillStyle": "solid",
@@ -2079,7 +2098,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "rxto42bAMdMQvKpOFjTho",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2091,12 +2110,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "Tos19DrT4sW-ONH4eLF31",
 			"originalText": "喜欢玩点游戏...",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 681,
-			"versionNonce": 1329146087,
+			"version": 683,
+			"versionNonce": 1400362516,
 			"isDeleted": false,
 			"id": "GbEmFYTMcik_wGCZl8Kar",
 			"fillStyle": "solid",
@@ -2131,14 +2150,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 850,
-			"versionNonce": 989297929,
+			"version": 852,
+			"versionNonce": 556221740,
 			"isDeleted": false,
 			"id": "bf02eFet",
 			"fillStyle": "solid",
@@ -2158,7 +2177,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "ZYiDciL0CgtkugCnwjAPP",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2170,12 +2189,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "GbEmFYTMcik_wGCZl8Kar",
 			"originalText": "反恐精英：全球攻势",
 			"lineHeight": 1.25,
-			"baseline": 76
+			"baseline": 77
 		},
 		{
 			"type": "rectangle",
-			"version": 768,
-			"versionNonce": 806450183,
+			"version": 770,
+			"versionNonce": 1539044244,
 			"isDeleted": false,
 			"id": "voxoVb8IMW1doWld3CYEt",
 			"fillStyle": "solid",
@@ -2206,14 +2225,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 967,
-			"versionNonce": 720696297,
+			"version": 969,
+			"versionNonce": 1155383212,
 			"isDeleted": false,
 			"id": "cJkfuqoz",
 			"fillStyle": "solid",
@@ -2233,7 +2252,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "DCr4PoDYwv5Z3WyKTPEAa",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2245,12 +2264,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "voxoVb8IMW1doWld3CYEt",
 			"originalText": "MineCraft\n我的世界",
 			"lineHeight": 1.25,
-			"baseline": 76
+			"baseline": 77
 		},
 		{
 			"type": "rectangle",
-			"version": 835,
-			"versionNonce": 1643338535,
+			"version": 837,
+			"versionNonce": 1352687892,
 			"isDeleted": false,
 			"id": "SxPfTntQoxfLLui0iH41M",
 			"fillStyle": "solid",
@@ -2285,14 +2304,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1054,
-			"versionNonce": 1843433161,
+			"version": 1056,
+			"versionNonce": 1356917292,
 			"isDeleted": false,
 			"id": "99du7R4i",
 			"fillStyle": "solid",
@@ -2312,7 +2331,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "YssJfsI1DUYuLCvh-ON-i",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2324,12 +2343,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "SxPfTntQoxfLLui0iH41M",
 			"originalText": "尘埃 ：拉力赛",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1015,
-			"versionNonce": 1229676103,
+			"version": 1017,
+			"versionNonce": 1503338132,
 			"isDeleted": false,
 			"id": "i7T2FmPQ8TA9NhJUwYYNL",
 			"fillStyle": "solid",
@@ -2364,14 +2383,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1189,
-			"versionNonce": 1247137193,
+			"version": 1191,
+			"versionNonce": 2015020204,
 			"isDeleted": false,
 			"id": "Jy5u6EtA",
 			"fillStyle": "solid",
@@ -2391,7 +2410,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "yg9fpaX2Zy96Du3xgmo3m",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2403,12 +2422,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "i7T2FmPQ8TA9NhJUwYYNL",
 			"originalText": "使命召唤系列",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 950,
-			"versionNonce": 150338919,
+			"version": 952,
+			"versionNonce": 1063398420,
 			"isDeleted": false,
 			"id": "E1ZTp2mMksZCWp0aIixKp",
 			"fillStyle": "solid",
@@ -2435,14 +2454,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "ZF8io6Be"
 				}
 			],
-			"updated": 1706365393304,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 993,
-			"versionNonce": 662712457,
+			"version": 995,
+			"versionNonce": 3493676,
 			"isDeleted": false,
 			"id": "ZF8io6Be",
 			"fillStyle": "solid",
@@ -2462,7 +2481,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "JFvh_rgSOdtpowFLq8SQX",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2474,12 +2493,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "E1ZTp2mMksZCWp0aIixKp",
 			"originalText": "去互联网化",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 776,
-			"versionNonce": 876591239,
+			"version": 778,
+			"versionNonce": 1139509652,
 			"isDeleted": false,
 			"id": "f0asWmnR1NP__CS44I3qs",
 			"fillStyle": "solid",
@@ -2506,14 +2525,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "TNNopfnH"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 565,
-			"versionNonce": 2065381225,
+			"version": 567,
+			"versionNonce": 1771735468,
 			"isDeleted": false,
 			"id": "TNNopfnH",
 			"fillStyle": "solid",
@@ -2533,7 +2552,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "P0yJLSyuNb1wmAWVKRWlb",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2545,12 +2564,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "f0asWmnR1NP__CS44I3qs",
 			"originalText": "组装电脑",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 997,
-			"versionNonce": 1088753575,
+			"version": 999,
+			"versionNonce": 2053977876,
 			"isDeleted": false,
 			"id": "N8B8WA0uOvqohp-Ms-thN",
 			"fillStyle": "solid",
@@ -2577,14 +2596,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "iNWkdy5Q"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 828,
-			"versionNonce": 2003984969,
+			"version": 830,
+			"versionNonce": 393507884,
 			"isDeleted": false,
 			"id": "iNWkdy5Q",
 			"fillStyle": "solid",
@@ -2604,7 +2623,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2616,12 +2635,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "N8B8WA0uOvqohp-Ms-thN",
 			"originalText": "端过盘子...",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "arrow",
-			"version": 1599,
-			"versionNonce": 347519757,
+			"version": 1603,
+			"versionNonce": 526202004,
 			"isDeleted": false,
 			"id": "Vn9fobLx09d7JBPQcGPRu",
 			"fillStyle": "solid",
@@ -2631,11 +2650,11 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1701.1909570333924,
-			"y": -294.8094456577047,
+			"y": -294.80944565989097,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 44.54118581956618,
-			"height": 77.00715198729597,
+			"height": 77.00715198596697,
 			"seed": 962399531,
 			"groupIds": [],
 			"frameId": null,
@@ -2643,7 +2662,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706521943910,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2666,14 +2685,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 				],
 				[
 					44.54118581956618,
-					-77.00715198729597
+					-77.00715198596697
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 1310,
-			"versionNonce": 419318925,
+			"version": 1314,
+			"versionNonce": 2007830188,
 			"isDeleted": false,
 			"id": "WxhjT2VfKUU83bcm3NpbX",
 			"fillStyle": "solid",
@@ -2683,11 +2702,11 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1701.1909570333924,
-			"y": -151.87500634224142,
+			"y": -151.87500775612438,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 52.18007470845532,
-			"height": 27.3535095047296,
+			"height": 27.35350890276152,
 			"seed": 1276244971,
 			"groupIds": [],
 			"frameId": null,
@@ -2695,7 +2714,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706521943911,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2718,14 +2737,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 				],
 				[
 					52.18007470845532,
-					-27.3535095047296
+					-27.35350890276152
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 1528,
-			"versionNonce": 718556493,
+			"version": 1532,
+			"versionNonce": 1886487060,
 			"isDeleted": false,
 			"id": "vz9p0pH47LXJyXXUtnRuQ",
 			"fillStyle": "solid",
@@ -2735,11 +2754,11 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1698.3276270304511,
-			"y": -48.79503928522819,
+			"y": -48.79517492108476,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 49.888262269016195,
-			"height": 10.529621893918915,
+			"height": 10.529653576059353,
 			"seed": 1128725835,
 			"groupIds": [],
 			"frameId": null,
@@ -2747,7 +2766,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706521943913,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2770,14 +2789,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 				],
 				[
 					49.888262269016195,
-					10.529621893918915
+					10.529653576059353
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 4924,
-			"versionNonce": 1609068621,
+			"version": 4928,
+			"versionNonce": 720263468,
 			"isDeleted": false,
 			"id": "NhhHEIKTzLsowQjmi37Jf",
 			"fillStyle": "solid",
@@ -2804,7 +2823,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "7n2oRzkl"
 				}
 			],
-			"updated": 1706521943928,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2833,8 +2852,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "text",
-			"version": 60,
-			"versionNonce": 1726463239,
+			"version": 62,
+			"versionNonce": 77602708,
 			"isDeleted": false,
 			"id": "7n2oRzkl",
 			"fillStyle": "solid",
@@ -2854,7 +2873,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -2866,12 +2885,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "NhhHEIKTzLsowQjmi37Jf",
 			"originalText": "随便记了一点...",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "image",
-			"version": 370,
-			"versionNonce": 709081833,
+			"version": 372,
+			"versionNonce": 748835756,
 			"isDeleted": false,
 			"id": "FQRfspd9",
 			"fillStyle": "hachure",
@@ -2896,7 +2915,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -2908,8 +2927,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 383,
-			"versionNonce": 1494778919,
+			"version": 385,
+			"versionNonce": 606014740,
 			"isDeleted": false,
 			"id": "VMhmr8Dd",
 			"fillStyle": "hachure",
@@ -2934,7 +2953,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -2946,8 +2965,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 259,
-			"versionNonce": 1170109897,
+			"version": 261,
+			"versionNonce": 2062745132,
 			"isDeleted": false,
 			"id": "TgTLta2o",
 			"fillStyle": "hachure",
@@ -2972,7 +2991,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -2984,8 +3003,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 1243,
-			"versionNonce": 1407412039,
+			"version": 1245,
+			"versionNonce": 543443604,
 			"isDeleted": false,
 			"id": "fkgfBvaY",
 			"fillStyle": "hachure",
@@ -3022,7 +3041,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -3034,8 +3053,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "arrow",
-			"version": 791,
-			"versionNonce": 1470152397,
+			"version": 795,
+			"versionNonce": 1053448364,
 			"isDeleted": false,
 			"id": "kUB-UBifSG8tqpua-KizF",
 			"fillStyle": "solid",
@@ -3044,12 +3063,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1692.9135420181717,
-			"y": 89.67521654287535,
+			"x": 1692.9135420181715,
+			"y": 89.675216542355,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 43.24097186653512,
-			"height": 82.73409401054775,
+			"width": 43.24097186653535,
+			"height": 82.7340940108582,
 			"seed": 1183158923,
 			"groupIds": [],
 			"frameId": null,
@@ -3057,7 +3076,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706521943914,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3079,15 +3098,15 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					0
 				],
 				[
-					43.24097186653512,
-					82.73409401054775
+					43.24097186653535,
+					82.7340940108582
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 297,
-			"versionNonce": 1353658253,
+			"version": 301,
+			"versionNonce": 740677652,
 			"isDeleted": false,
 			"id": "G8dajieyRW1ePr1TbTmkv",
 			"fillStyle": "solid",
@@ -3097,11 +3116,11 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 2044.9045138847064,
-			"y": 186.92786709635544,
+			"y": 186.92786709635547,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 1020.9935504620421,
-			"height": 122.36688937664701,
+			"height": 122.36688937664698,
 			"seed": 545476619,
 			"groupIds": [],
 			"frameId": null,
@@ -3109,7 +3128,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706521943914,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3132,14 +3151,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 				],
 				[
 					1020.9935504620421,
-					122.36688937664701
+					122.36688937664698
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 379,
-			"versionNonce": 1378950669,
+			"version": 383,
+			"versionNonce": 1943167788,
 			"isDeleted": false,
 			"id": "F7efzQLwyRkGyU8jUz0fk",
 			"fillStyle": "solid",
@@ -3148,12 +3167,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2042.6128472180399,
-			"y": 12.163036497625598,
+			"x": 2042.6128472180403,
+			"y": 12.163036497547658,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 504.8351766856799,
-			"height": 43.307902093258775,
+			"width": 504.83517668567947,
+			"height": 43.30790209320247,
 			"seed": 502010155,
 			"groupIds": [],
 			"frameId": null,
@@ -3161,7 +3180,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706521943913,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3183,15 +3202,15 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					0
 				],
 				[
-					504.8351766856799,
-					-43.307902093258775
+					504.83517668567947,
+					-43.30790209320247
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 461,
-			"versionNonce": 1629690829,
+			"version": 465,
+			"versionNonce": 861517204,
 			"isDeleted": false,
 			"id": "wzTXeqDq__zOHVGQJJzF3",
 			"fillStyle": "solid",
@@ -3213,7 +3232,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706521943910,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3242,8 +3261,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "rectangle",
-			"version": 548,
-			"versionNonce": 89030249,
+			"version": 562,
+			"versionNonce": 502098836,
 			"isDeleted": false,
 			"id": "xSyxH33omeGZ_janGnw9O",
 			"fillStyle": "solid",
@@ -3252,8 +3271,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1230.7616865986433,
-			"y": 1384.1918544588066,
+			"x": 1248.6366865986433,
+			"y": 1392.4418544588066,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 279.4661676864589,
@@ -3270,14 +3289,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "jDuQIs2H"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844534498,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 693,
-			"versionNonce": 464369831,
+			"version": 707,
+			"versionNonce": 1038276884,
 			"isDeleted": false,
 			"id": "jDuQIs2H",
 			"fillStyle": "solid",
@@ -3286,8 +3305,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1244.4947704418728,
-			"y": 1389.1918544588066,
+			"x": 1262.3697704418728,
+			"y": 1397.4418544588066,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 252,
@@ -3297,7 +3316,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "6R2wmzvcdoFyVfA18VPF4",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844534498,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -3309,12 +3328,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "xSyxH33omeGZ_janGnw9O",
 			"originalText": "你觉得自己一天能拿起手机多少次？",
 			"lineHeight": 1.25,
-			"baseline": 121
+			"baseline": 122
 		},
 		{
 			"type": "rectangle",
-			"version": 636,
-			"versionNonce": 161794377,
+			"version": 693,
+			"versionNonce": 1197716628,
 			"isDeleted": false,
 			"id": "BsrPnjTBP64cMObOnOvf4",
 			"fillStyle": "solid",
@@ -3323,12 +3342,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1254.7894643764216,
-			"y": 1628.497410014362,
+			"x": 1267.36089294785,
+			"y": 1612.7831243000762,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 279.4661676864589,
-			"height": 145,
+			"height": 190,
 			"seed": 984368651,
 			"groupIds": [],
 			"frameId": "9S92N1ZsUQQ8PQDk62dEn",
@@ -3341,14 +3360,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "PhlibUWN"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844537714,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 822,
-			"versionNonce": 1725828039,
+			"version": 915,
+			"versionNonce": 1149253012,
 			"isDeleted": false,
 			"id": "PhlibUWN",
 			"fillStyle": "solid",
@@ -3357,8 +3376,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1268.522548219651,
-			"y": 1655.997410014362,
+			"x": 1281.0939767910795,
+			"y": 1662.7831243000762,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 252,
@@ -3368,7 +3387,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "9S92N1ZsUQQ8PQDk62dEn",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844544444,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -3380,12 +3399,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "BsrPnjTBP64cMObOnOvf4",
 			"originalText": "你觉得自己一天能用多少小时？",
 			"lineHeight": 1.25,
-			"baseline": 76
+			"baseline": 77
 		},
 		{
 			"type": "rectangle",
-			"version": 687,
-			"versionNonce": 112113705,
+			"version": 737,
+			"versionNonce": 1854063532,
 			"isDeleted": false,
 			"id": "pdlVzvKwm6tBvTilh0ME-",
 			"fillStyle": "solid",
@@ -3394,12 +3413,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1229.7487897732465,
-			"y": 1910.1174496969006,
+			"x": 1243.4987897732465,
+			"y": 1915.6174496969006,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 279.4661676864589,
-			"height": 145,
+			"width": 328.96616768645885,
+			"height": 149.125,
 			"seed": 1112962633,
 			"groupIds": [],
 			"frameId": "C5GflZANlcigMz1pAS4N7",
@@ -3412,14 +3431,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "dQpdJxEY"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844559704,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 942,
-			"versionNonce": 181861095,
+			"version": 1022,
+			"versionNonce": 121990700,
 			"isDeleted": false,
 			"id": "dQpdJxEY",
 			"fillStyle": "solid",
@@ -3428,35 +3447,35 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1243.481873616476,
-			"y": 1937.6174496969006,
+			"x": 1263.981873616476,
+			"y": 1945.1799496969006,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 252,
+			"width": 288,
 			"height": 90,
 			"seed": 1990378793,
 			"groupIds": [],
 			"frameId": "C5GflZANlcigMz1pAS4N7",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844559704,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
 			"fontFamily": 1,
-			"text": "谁的电脑一直会\n登着微信？",
-			"rawText": "谁的电脑一直会登着微信？",
+			"text": "为什么你的电脑会\n登着微信？",
+			"rawText": "为什么你的电脑会登着微信？",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "pdlVzvKwm6tBvTilh0ME-",
-			"originalText": "谁的电脑一直会登着微信？",
+			"originalText": "为什么你的电脑会登着微信？",
 			"lineHeight": 1.25,
-			"baseline": 76
+			"baseline": 77
 		},
 		{
 			"type": "rectangle",
-			"version": 722,
-			"versionNonce": 1851247369,
+			"version": 731,
+			"versionNonce": 2142328724,
 			"isDeleted": false,
 			"id": "wZCtzucD26lp5qC-eoBAd",
 			"fillStyle": "solid",
@@ -3465,8 +3484,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1120.4085119954684,
-			"y": 2142.0618941413445,
+			"x": 1138.2835119954684,
+			"y": 2140.6868941413445,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 279.4661676864589,
@@ -3483,14 +3502,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "Joz5myyc"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844435488,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1049,
-			"versionNonce": 472188423,
+			"version": 1058,
+			"versionNonce": 407454996,
 			"isDeleted": false,
 			"id": "Joz5myyc",
 			"fillStyle": "solid",
@@ -3499,8 +3518,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1134.1415958386979,
-			"y": 2169.5618941413445,
+			"x": 1152.0165958386979,
+			"y": 2168.1868941413445,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 252,
@@ -3510,7 +3529,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "ukgdhMml5lumLJErupEPA",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844435488,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -3522,12 +3541,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "wZCtzucD26lp5qC-eoBAd",
 			"originalText": "我们需要那么多社交联系吗？",
 			"lineHeight": 1.25,
-			"baseline": 76
+			"baseline": 77
 		},
 		{
 			"type": "image",
-			"version": 591,
-			"versionNonce": 1763410409,
+			"version": 593,
+			"versionNonce": 1469245356,
 			"isDeleted": false,
 			"id": "aapVAMG7",
 			"fillStyle": "hachure",
@@ -3552,7 +3571,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -3564,8 +3583,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 1387,
-			"versionNonce": 1774497063,
+			"version": 1389,
+			"versionNonce": 1295104276,
 			"isDeleted": false,
 			"id": "g1FAuYex",
 			"fillStyle": "hachure",
@@ -3585,7 +3604,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "M9gEx2b46z1RYG19xXE_J",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -3597,8 +3616,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 764,
-			"versionNonce": 67460297,
+			"version": 766,
+			"versionNonce": 582029868,
 			"isDeleted": false,
 			"id": "7iNfktlm",
 			"fillStyle": "hachure",
@@ -3618,7 +3637,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "JliBxeb1E2nqPPecRSHmb",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -3630,8 +3649,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 300,
-			"versionNonce": 790786119,
+			"version": 302,
+			"versionNonce": 1782675092,
 			"isDeleted": false,
 			"id": "NzPAOvyE",
 			"fillStyle": "hachure",
@@ -3651,7 +3670,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "sn8TW4Eh-PxiSpVb7Y0Lx",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -3663,8 +3682,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 460,
-			"versionNonce": 514907049,
+			"version": 462,
+			"versionNonce": 1839590572,
 			"isDeleted": false,
 			"id": "Pnqg9ZeC",
 			"fillStyle": "hachure",
@@ -3684,7 +3703,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "BALIr9YspntU76LBbmAv0",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -3696,8 +3715,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 324,
-			"versionNonce": 102420327,
+			"version": 326,
+			"versionNonce": 427656212,
 			"isDeleted": false,
 			"id": "bhPlnlil",
 			"fillStyle": "hachure",
@@ -3717,7 +3736,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "JS8GoldGg8DUo0eCIx0f5",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -3729,8 +3748,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 781,
-			"versionNonce": 424246921,
+			"version": 783,
+			"versionNonce": 1780184876,
 			"isDeleted": false,
 			"id": "lcz8ou3n",
 			"fillStyle": "hachure",
@@ -3750,7 +3769,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -3762,8 +3781,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "rectangle",
-			"version": 746,
-			"versionNonce": 419056263,
+			"version": 764,
+			"versionNonce": 2039706540,
 			"isDeleted": false,
 			"id": "PFbqgmTfkxDeRpf0m5c3h",
 			"fillStyle": "solid",
@@ -3772,8 +3791,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 925.09105167801,
-			"y": 2364.852937836681,
+			"x": 962.21605167801,
+			"y": 2355.227937836681,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 279.4661676864589,
@@ -3790,14 +3809,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "X298oPDV"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844432979,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1088,
-			"versionNonce": 1116390761,
+			"version": 1106,
+			"versionNonce": 1287659052,
 			"isDeleted": false,
 			"id": "X298oPDV",
 			"fillStyle": "solid",
@@ -3806,8 +3825,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 938.8241355212394,
-			"y": 2369.852937836681,
+			"x": 975.9491355212394,
+			"y": 2360.227937836681,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 252,
@@ -3817,7 +3836,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "PLf-ib8jvet2eBwleBnpc",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844432980,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -3829,12 +3848,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "PFbqgmTfkxDeRpf0m5c3h",
 			"originalText": "你是否知道它会对你造成什么影响？",
 			"lineHeight": 1.25,
-			"baseline": 121
+			"baseline": 122
 		},
 		{
 			"type": "arrow",
-			"version": 1936,
-			"versionNonce": 711962605,
+			"version": 1940,
+			"versionNonce": 1469222676,
 			"isDeleted": false,
 			"id": "RmFhPP4NRNyhQYCC6BAn8",
 			"fillStyle": "solid",
@@ -3856,7 +3875,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706521943894,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3885,8 +3904,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 545,
-			"versionNonce": 1903126567,
+			"version": 547,
+			"versionNonce": 200317996,
 			"isDeleted": false,
 			"id": "ZQtXAz7Y",
 			"fillStyle": "hachure",
@@ -3906,7 +3925,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "BJskk6D-0ONW0gx28426G",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706426246688,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -3918,8 +3937,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 248,
-			"versionNonce": 176774695,
+			"version": 250,
+			"versionNonce": 1578601620,
 			"isDeleted": false,
 			"id": "8uHVwQpF",
 			"fillStyle": "hachure",
@@ -3939,7 +3958,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "7heTevOfx8e0BebqrHIh_",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706426251280,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -3951,8 +3970,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "rectangle",
-			"version": 380,
-			"versionNonce": 1489321769,
+			"version": 382,
+			"versionNonce": 1516517036,
 			"isDeleted": false,
 			"id": "Ln_het--0w-SQW9KpKgUR",
 			"fillStyle": "solid",
@@ -3979,14 +3998,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "K7O0HHqy"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 391,
-			"versionNonce": 1888510951,
+			"version": 393,
+			"versionNonce": 371251732,
 			"isDeleted": false,
 			"id": "K7O0HHqy",
 			"fillStyle": "solid",
@@ -4006,7 +4025,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "fjSTHRNMa_hrJJkrlvrVh",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4018,12 +4037,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "Ln_het--0w-SQW9KpKgUR",
 			"originalText": "喜欢做点创作",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1401,
-			"versionNonce": 1778741769,
+			"version": 1403,
+			"versionNonce": 2088796460,
 			"isDeleted": false,
 			"id": "Vltcezl6W2vZY-7oQ7VQX",
 			"fillStyle": "solid",
@@ -4058,14 +4077,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1532,
-			"versionNonce": 952717063,
+			"version": 1534,
+			"versionNonce": 1789163412,
 			"isDeleted": false,
 			"id": "0F5zUpng",
 			"fillStyle": "solid",
@@ -4085,7 +4104,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "Bf4U1qDniGj8BuFz4nI54",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4097,12 +4116,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "Vltcezl6W2vZY-7oQ7VQX",
 			"originalText": "现在喜欢偶尔写点东西，做做视频",
 			"lineHeight": 1.25,
-			"baseline": 76
+			"baseline": 77
 		},
 		{
 			"type": "rectangle",
-			"version": 1336,
-			"versionNonce": 243026153,
+			"version": 1338,
+			"versionNonce": 1504672684,
 			"isDeleted": false,
 			"id": "Df9eKR_y4r5070gYx95r8",
 			"fillStyle": "solid",
@@ -4129,14 +4148,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "YqEmxx15"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1451,
-			"versionNonce": 1559746087,
+			"version": 1453,
+			"versionNonce": 2010670356,
 			"isDeleted": false,
 			"id": "YqEmxx15",
 			"fillStyle": "solid",
@@ -4156,7 +4175,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "m-aF68naOcOCLCC5a2jEe",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4168,12 +4187,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "Df9eKR_y4r5070gYx95r8",
 			"originalText": "看过国家社会和民生",
 			"lineHeight": 1.25,
-			"baseline": 76
+			"baseline": 77
 		},
 		{
 			"type": "rectangle",
-			"version": 1304,
-			"versionNonce": 1874150345,
+			"version": 1306,
+			"versionNonce": 1545283116,
 			"isDeleted": false,
 			"id": "FsxuCriGWWczSsFSx7w90",
 			"fillStyle": "solid",
@@ -4200,14 +4219,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "uuWntpMC"
 				}
 			],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1404,
-			"versionNonce": 67664199,
+			"version": 1406,
+			"versionNonce": 1664262804,
 			"isDeleted": false,
 			"id": "uuWntpMC",
 			"fillStyle": "solid",
@@ -4227,7 +4246,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "NJ6CtxMcKIm5wVtD9UluP",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393305,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4239,12 +4258,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "FsxuCriGWWczSsFSx7w90",
 			"originalText": "没事还读点书...",
 			"lineHeight": 1.25,
-			"baseline": 76
+			"baseline": 77
 		},
 		{
 			"type": "arrow",
-			"version": 753,
-			"versionNonce": 1869536941,
+			"version": 757,
+			"versionNonce": 414023852,
 			"isDeleted": false,
 			"id": "OMatRpO7fK8uCLQsFM77j",
 			"fillStyle": "solid",
@@ -4266,7 +4285,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706521943928,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4311,8 +4330,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "rectangle",
-			"version": 437,
-			"versionNonce": 1277482247,
+			"version": 439,
+			"versionNonce": 862531604,
 			"isDeleted": false,
 			"id": "K_J7bh0V3nnzpR2R2PZ7s",
 			"fillStyle": "solid",
@@ -4339,14 +4358,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "jqj9nN2M"
 				}
 			],
-			"updated": 1706425175538,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 416,
-			"versionNonce": 1190304807,
+			"version": 418,
+			"versionNonce": 1997572908,
 			"isDeleted": false,
 			"id": "jqj9nN2M",
 			"fillStyle": "solid",
@@ -4366,7 +4385,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "cJNPhjJNKc-VnrLUXmKyD",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706425175538,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4378,12 +4397,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "K_J7bh0V3nnzpR2R2PZ7s",
 			"originalText": "还喜欢做点不一样的",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1109,
-			"versionNonce": 1003226023,
+			"version": 1111,
+			"versionNonce": 678563220,
 			"isDeleted": false,
 			"id": "tKJOxW4zX2-NXvjPZ-VnM",
 			"fillStyle": "solid",
@@ -4410,14 +4429,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "IPFSPcHz"
 				}
 			],
-			"updated": 1706425345302,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1141,
-			"versionNonce": 967093833,
+			"version": 1143,
+			"versionNonce": 1504593324,
 			"isDeleted": false,
 			"id": "IPFSPcHz",
 			"fillStyle": "solid",
@@ -4437,7 +4456,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "fyRwda6MnlQHkq5nxBcwQ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706425345302,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4449,12 +4468,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "tKJOxW4zX2-NXvjPZ-VnM",
 			"originalText": "看人流",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1514,
-			"versionNonce": 1739408425,
+			"version": 1516,
+			"versionNonce": 327367444,
 			"isDeleted": false,
 			"id": "pFM6Aez1nm86nRX2Nqc5R",
 			"fillStyle": "solid",
@@ -4481,14 +4500,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "38pF7hGc"
 				}
 			],
-			"updated": 1706425356746,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 700,
-			"versionNonce": 668413671,
+			"version": 702,
+			"versionNonce": 1169207340,
 			"isDeleted": false,
 			"id": "38pF7hGc",
 			"fillStyle": "solid",
@@ -4508,7 +4527,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "fyRwda6MnlQHkq5nxBcwQ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706425356746,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4520,12 +4539,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "pFM6Aez1nm86nRX2Nqc5R",
 			"originalText": "冥想",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1297,
-			"versionNonce": 1143598183,
+			"version": 1299,
+			"versionNonce": 789756052,
 			"isDeleted": false,
 			"id": "qMba_zuhCG4GBwOKB7EH4",
 			"fillStyle": "solid",
@@ -4552,14 +4571,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "Qyw30TZY"
 				}
 			],
-			"updated": 1706425358817,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 495,
-			"versionNonce": 1629341575,
+			"version": 497,
+			"versionNonce": 184666796,
 			"isDeleted": false,
 			"id": "Qyw30TZY",
 			"fillStyle": "solid",
@@ -4579,7 +4598,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "fyRwda6MnlQHkq5nxBcwQ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706425358817,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4591,12 +4610,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "qMba_zuhCG4GBwOKB7EH4",
 			"originalText": "傻站着",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 789,
-			"versionNonce": 1737542887,
+			"version": 791,
+			"versionNonce": 1993770516,
 			"isDeleted": false,
 			"id": "4MrH-cMcgbnfXWuMURg-s",
 			"fillStyle": "solid",
@@ -4623,14 +4642,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "wNUvRmHR"
 				}
 			],
-			"updated": 1706365393306,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 702,
-			"versionNonce": 811342089,
+			"version": 704,
+			"versionNonce": 1816892716,
 			"isDeleted": false,
 			"id": "wNUvRmHR",
 			"fillStyle": "solid",
@@ -4650,7 +4669,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "gzgLV0H0-mNtUG0j5NOO5",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4662,12 +4681,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "4MrH-cMcgbnfXWuMURg-s",
 			"originalText": "了解过家庭教育",
 			"lineHeight": 1.25,
-			"baseline": 76
+			"baseline": 77
 		},
 		{
 			"type": "image",
-			"version": 334,
-			"versionNonce": 634689543,
+			"version": 336,
+			"versionNonce": 2143593364,
 			"isDeleted": false,
 			"id": "VX2fecT1",
 			"fillStyle": "hachure",
@@ -4687,7 +4706,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -4699,8 +4718,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 488,
-			"versionNonce": 1097207785,
+			"version": 490,
+			"versionNonce": 1190662060,
 			"isDeleted": false,
 			"id": "Sw3wXpWr",
 			"fillStyle": "hachure",
@@ -4720,7 +4739,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -4732,8 +4751,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "text",
-			"version": 128,
-			"versionNonce": 1727835363,
+			"version": 130,
+			"versionNonce": 1343426836,
 			"isDeleted": false,
 			"id": "r1Qi7JSL",
 			"fillStyle": "solid",
@@ -4753,7 +4772,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "AE8hptQRzQHEwr2dNPOFp",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102260,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4765,12 +4784,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "心灵鸡汤？",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 222,
-			"versionNonce": 370886349,
+			"version": 224,
+			"versionNonce": 993081900,
 			"isDeleted": false,
 			"id": "rFSHPfhg",
 			"fillStyle": "solid",
@@ -4790,7 +4809,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "X3I8hgcMz_tQmKhUT6U4-",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102261,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4802,12 +4821,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "但是现在我并不这样认为",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 118,
-			"versionNonce": 1631262851,
+			"version": 120,
+			"versionNonce": 926404244,
 			"isDeleted": false,
 			"id": "GqGWtMHZ",
 			"fillStyle": "solid",
@@ -4827,7 +4846,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "IPmSC-J61rD-7Qm2ucTQT",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102261,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4839,12 +4858,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "越经历越感触",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 223,
-			"versionNonce": 906159405,
+			"version": 225,
+			"versionNonce": 1407259820,
 			"isDeleted": false,
 			"id": "djpBIlP3",
 			"fillStyle": "solid",
@@ -4864,7 +4883,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "Z2gqFDSYnfm-tRJ-YYcGb",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102261,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4876,12 +4895,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "这也是我的价值观的一部分",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "image",
-			"version": 90,
-			"versionNonce": 911974759,
+			"version": 92,
+			"versionNonce": 636017684,
 			"isDeleted": false,
 			"id": "LqIkS7Cg",
 			"fillStyle": "hachure",
@@ -4901,7 +4920,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "_Lop0SM9bXLe81n28J794",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -4913,8 +4932,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 132,
-			"versionNonce": 666291337,
+			"version": 134,
+			"versionNonce": 783392556,
 			"isDeleted": false,
 			"id": "u4WPP6wj",
 			"fillStyle": "hachure",
@@ -4934,7 +4953,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "eKsE3eD-2rxFNIlzRhGnz",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -4946,8 +4965,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "text",
-			"version": 158,
-			"versionNonce": 1273696291,
+			"version": 160,
+			"versionNonce": 102513044,
 			"isDeleted": false,
 			"id": "ksbiEZyE",
 			"fillStyle": "solid",
@@ -4967,7 +4986,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "ErKqahfbhDNJgYEKUODjG",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102261,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -4979,12 +4998,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "以及好多次的12345...",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 74,
-			"versionNonce": 136820621,
+			"version": 76,
+			"versionNonce": 604821932,
 			"isDeleted": false,
 			"id": "pEJJHbSG",
 			"fillStyle": "solid",
@@ -5004,7 +5023,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "jp5Ac64RwVGSS9mzfztkg",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102261,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5016,12 +5035,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "路灯照明",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 74,
-			"versionNonce": 955978691,
+			"version": 76,
+			"versionNonce": 319285012,
 			"isDeleted": false,
 			"id": "hx0AbpTv",
 			"fillStyle": "solid",
@@ -5041,7 +5060,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "6YM1Gv26OhBwGSppfKjAG",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102261,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5053,12 +5072,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "道路排水",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 114,
-			"versionNonce": 918765037,
+			"version": 116,
+			"versionNonce": 1864156204,
 			"isDeleted": false,
 			"id": "jT8C5scz",
 			"fillStyle": "solid",
@@ -5078,7 +5097,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "jOZLhtZgLbWyXLWnbFBOo",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102261,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5090,12 +5109,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "村庄环境",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 77,
-			"versionNonce": 2022286179,
+			"version": 79,
+			"versionNonce": 824304788,
 			"isDeleted": false,
 			"id": "JgJmNeWe",
 			"fillStyle": "solid",
@@ -5115,7 +5134,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "3RFnA-HyMvVNxMMUSiY-w",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102261,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5127,12 +5146,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "and more...",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 132,
-			"versionNonce": 1759443021,
+			"version": 134,
+			"versionNonce": 1439391404,
 			"isDeleted": false,
 			"id": "i30mVJ0I",
 			"fillStyle": "solid",
@@ -5152,7 +5171,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "M6jLt9r7gzOfrqbs9Pd3x",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102261,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5164,12 +5183,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "曾经我也是这样想的...",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "rectangle",
-			"version": 1255,
-			"versionNonce": 706643431,
+			"version": 1257,
+			"versionNonce": 1176515092,
 			"isDeleted": false,
 			"id": "VDI9QtD2q0IThWUccYxPP",
 			"fillStyle": "solid",
@@ -5196,14 +5215,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "zES1OIro"
 				}
 			],
-			"updated": 1706425345302,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 458,
-			"versionNonce": 1902276617,
+			"version": 460,
+			"versionNonce": 1354934572,
 			"isDeleted": false,
 			"id": "zES1OIro",
 			"fillStyle": "solid",
@@ -5223,7 +5242,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "fyRwda6MnlQHkq5nxBcwQ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706425345302,
+			"updated": 1706844100733,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5235,12 +5254,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "VDI9QtD2q0IThWUccYxPP",
 			"originalText": "观察",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 157,
-			"versionNonce": 1390755587,
+			"version": 159,
+			"versionNonce": 284741524,
 			"isDeleted": false,
 			"id": "WCatKM7Q",
 			"fillStyle": "solid",
@@ -5260,7 +5279,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "CeKyBiC3OhvQTE9sEzHa4",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102261,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5272,12 +5291,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "你胡说...",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "image",
-			"version": 244,
-			"versionNonce": 685299433,
+			"version": 246,
+			"versionNonce": 862757804,
 			"isDeleted": false,
 			"id": "BQ4cvlMG",
 			"fillStyle": "hachure",
@@ -5297,7 +5316,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "LsBmuYib75JsVFWuZjWb-",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -5309,8 +5328,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "text",
-			"version": 394,
-			"versionNonce": 676619949,
+			"version": 414,
+			"versionNonce": 2083731348,
 			"isDeleted": false,
 			"id": "CnkhSowL",
 			"fillStyle": "solid",
@@ -5319,8 +5338,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1329.3054199194407,
-			"y": 2713.0316369002453,
+			"x": 1359.5554199194407,
+			"y": 2708.9066369002453,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 360,
@@ -5330,7 +5349,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "xJ5C0ex18z3toBbJNElEK",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102261,
+			"updated": 1706844581712,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5342,12 +5361,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "你真的了解你自己吗？",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 510,
-			"versionNonce": 42755747,
+			"version": 572,
+			"versionNonce": 533972268,
 			"isDeleted": false,
 			"id": "yzqXzxBO",
 			"fillStyle": "solid",
@@ -5356,8 +5375,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1458.046739363885,
-			"y": 2862.6062896780227,
+			"x": 1477.296739363885,
+			"y": 2934.1062896780227,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 396,
@@ -5367,7 +5386,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "CEwLr7LK3jFNsXv0Deet6",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102261,
+			"updated": 1706844414284,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5379,12 +5398,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "你想的是真的你想的吗？",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 139,
-			"versionNonce": 130877709,
+			"version": 181,
+			"versionNonce": 308707604,
 			"isDeleted": false,
 			"id": "enLx3Kxw",
 			"fillStyle": "solid",
@@ -5393,8 +5412,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2027.9078504749962,
-			"y": 2573.0663591224675,
+			"x": 2080.157850474996,
+			"y": 2571.6913591224675,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 144,
@@ -5404,7 +5423,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "FxsGowlfws60pxHXTED_Q",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102261,
+			"updated": 1706844410443,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5416,12 +5435,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "两极分化",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 77,
-			"versionNonce": 1848482371,
+			"version": 116,
+			"versionNonce": 454464172,
 			"isDeleted": false,
 			"id": "zG2NfWGG",
 			"fillStyle": "solid",
@@ -5430,8 +5449,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2156.796739363885,
-			"y": 2790.844136900245,
+			"x": 2207.671739363885,
+			"y": 2822.469136900245,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 144,
@@ -5441,7 +5460,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "7eR8CFxdkluNUX-VvCqrd",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102262,
+			"updated": 1706844755415,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5453,12 +5472,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "算法劫持",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 74,
-			"versionNonce": 146956141,
+			"version": 160,
+			"versionNonce": 1182438828,
 			"isDeleted": false,
 			"id": "DlmhYu0A",
 			"fillStyle": "solid",
@@ -5467,8 +5486,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2472.3522949194407,
-			"y": 2466.3996924558005,
+			"x": 2582.3522949194407,
+			"y": 2487.0246924558005,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 144,
@@ -5478,7 +5497,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "Ei3hb9TTR0mC2gYkUiayT",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102262,
+			"updated": 1706844375904,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5490,12 +5509,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "上瘾劫持",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 66,
-			"versionNonce": 581392867,
+			"version": 93,
+			"versionNonce": 513993236,
 			"isDeleted": false,
 			"id": "6YpuGPTY",
 			"fillStyle": "solid",
@@ -5504,8 +5523,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2780.824517141663,
-			"y": 2273.109761900245,
+			"x": 2826.199517141663,
+			"y": 2286.859761900245,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 108,
@@ -5515,7 +5534,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "mRVCP27jWIm5xqIBNE6dz",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102262,
+			"updated": 1706844396473,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5527,12 +5546,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "内啡肽",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 87,
-			"versionNonce": 1098770893,
+			"version": 94,
+			"versionNonce": 288267028,
 			"isDeleted": false,
 			"id": "GOdNCIkc",
 			"fillStyle": "solid",
@@ -5541,8 +5560,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2547.352294919441,
-			"y": 2240.470873011356,
+			"x": 2552.852294919441,
+			"y": 2239.095873011356,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 108,
@@ -5552,7 +5571,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "cLuDsuJ1wwsVFDl82D73S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102262,
+			"updated": 1706844394338,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5564,12 +5583,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "多巴胺",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 78,
-			"versionNonce": 218637699,
+			"version": 319,
+			"versionNonce": 2006412716,
 			"isDeleted": false,
 			"id": "gwXwEYuW",
 			"fillStyle": "solid",
@@ -5578,8 +5597,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2689.852294919444,
-			"y": 1945.7399702335738,
+			"x": 3102.352294919444,
+			"y": 1818.0613988050022,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 180,
@@ -5589,7 +5608,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "ZCPc3CShgftdo5RWwUpDU",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102262,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5601,12 +5620,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "推荐纪录片",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 142,
-			"versionNonce": 1125722157,
+			"version": 205,
+			"versionNonce": 1915453484,
 			"isDeleted": false,
 			"id": "HAqSFMjb",
 			"fillStyle": "solid",
@@ -5615,8 +5634,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 4081.911818728968,
-			"y": 1603.4040327335742,
+			"x": 4135.995152062301,
+			"y": 1626.320699400241,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 203.9039764404297,
@@ -5626,7 +5645,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "AUlx84B6EebhWoyFcXyI6",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102262,
+			"updated": 1706844167219,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -5638,12 +5657,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "我的web站点",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 94,
-			"versionNonce": 1955495203,
+			"version": 324,
+			"versionNonce": 121454100,
 			"isDeleted": false,
 			"id": "GjQdaYSf",
 			"fillStyle": "solid",
@@ -5652,35 +5671,35 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 4215.036818728966,
-			"y": 2069.7191369002403,
+			"x": 4023.911818728966,
+			"y": 1999.5941369002403,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 216,
-			"height": 45,
+			"width": 540,
+			"height": 225,
 			"seed": 1162945799,
 			"groupIds": [],
 			"frameId": "nqv6XN8eMlsXGbht3aoED",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102262,
+			"updated": 1706844867088,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
 			"fontFamily": 1,
-			"text": "欢迎和我交流",
-			"rawText": "欢迎和我交流",
+			"text": "欢迎和我交流\n\n不同领域的趣事\n\n以及经过思考后和学习相关的问题",
+			"rawText": "欢迎和我交流\n\n不同领域的趣事\n\n以及经过思考后和学习相关的问题",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "欢迎和我交流",
+			"originalText": "欢迎和我交流\n\n不同领域的趣事\n\n以及经过思考后和学习相关的问题",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 212
 		},
 		{
 			"type": "frame",
-			"version": 335,
-			"versionNonce": 1804742599,
+			"version": 337,
+			"versionNonce": 272961684,
 			"isDeleted": false,
 			"id": "oEjb5cRScmtBFJMlN8cAK",
 			"fillStyle": "solid",
@@ -5700,7 +5719,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -5714,8 +5733,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 425,
-			"versionNonce": 1908331561,
+			"version": 427,
+			"versionNonce": 1321267884,
 			"isDeleted": false,
 			"id": "fjSTHRNMa_hrJJkrlvrVh",
 			"fillStyle": "solid",
@@ -5735,7 +5754,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -5749,8 +5768,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 374,
-			"versionNonce": 761700071,
+			"version": 376,
+			"versionNonce": 805166612,
 			"isDeleted": false,
 			"id": "rxto42bAMdMQvKpOFjTho",
 			"fillStyle": "solid",
@@ -5770,7 +5789,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -5784,8 +5803,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 96,
-			"versionNonce": 956589833,
+			"version": 98,
+			"versionNonce": 1038466348,
 			"isDeleted": false,
 			"id": "gn0ssvF-JP50Zdm-C6SC3",
 			"fillStyle": "solid",
@@ -5805,7 +5824,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -5819,8 +5838,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 84,
-			"versionNonce": 354429447,
+			"version": 86,
+			"versionNonce": 1245772692,
 			"isDeleted": false,
 			"id": "ZYiDciL0CgtkugCnwjAPP",
 			"fillStyle": "solid",
@@ -5840,7 +5859,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -5854,8 +5873,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 248,
-			"versionNonce": 1809096169,
+			"version": 250,
+			"versionNonce": 856504236,
 			"isDeleted": false,
 			"id": "QwsgNrqpPtI4AvDp5Cc8D",
 			"fillStyle": "solid",
@@ -5875,7 +5894,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -5889,8 +5908,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 69,
-			"versionNonce": 1606111527,
+			"version": 71,
+			"versionNonce": 960784660,
 			"isDeleted": false,
 			"id": "DCr4PoDYwv5Z3WyKTPEAa",
 			"fillStyle": "solid",
@@ -5910,7 +5929,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -5924,45 +5943,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "text",
-			"version": 222,
-			"versionNonce": 1065196173,
-			"isDeleted": false,
-			"id": "UHcuyMJY",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 2153.969223041971,
-			"y": -210.12924825409164,
-			"strokeColor": "#f08c00",
-			"backgroundColor": "transparent",
-			"width": 363.81591796875,
-			"height": 45,
-			"seed": 53284,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1706520102262,
-			"link": "[[../../img/mc.mp4]]",
-			"locked": false,
-			"fontSize": 36,
-			"fontFamily": 1,
-			"text": "📍[[../../img/mc.mp4]]",
-			"rawText": "[[../../img/mc.mp4]]",
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"containerId": null,
-			"originalText": "📍[[../../img/mc.mp4]]",
-			"lineHeight": 1.25,
-			"baseline": 31
-		},
-		{
-			"type": "text",
-			"version": 13,
-			"versionNonce": 883482819,
+			"version": 15,
+			"versionNonce": 545138324,
 			"isDeleted": false,
 			"id": "F7cVDBC5",
 			"fillStyle": "hachure",
@@ -5975,31 +5957,31 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"y": 159.8630471438779,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 571.8959350585938,
+			"width": 534.1679077148438,
 			"height": 45,
 			"seed": 12762,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102262,
-			"link": "[[../../img/codofdutyguns.mp4]]",
+			"updated": 1706844100734,
+			"link": "[[../img/codofdutyguns.mp4]]",
 			"locked": false,
 			"fontSize": 36,
 			"fontFamily": 1,
-			"text": "📍[[../../img/codofdutyguns.mp4]]",
-			"rawText": "[[../../img/codofdutyguns.mp4]]",
+			"text": "📍[[../img/codofdutyguns.mp4]]",
+			"rawText": "[[../img/codofdutyguns.mp4]]",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "📍[[../../img/codofdutyguns.mp4]]",
+			"originalText": "📍[[../img/codofdutyguns.mp4]]",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 79,
-			"versionNonce": 1868873965,
+			"version": 81,
+			"versionNonce": 1254898860,
 			"isDeleted": false,
 			"id": "gkBmNWnp",
 			"fillStyle": "hachure",
@@ -6012,31 +5994,31 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"y": 364.6951525513157,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 499.5718994140625,
+			"width": 461.8438720703125,
 			"height": 45,
 			"seed": 13792,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102262,
-			"link": "[[../../img/callofduty.mp4]]",
+			"updated": 1706844100734,
+			"link": "[[../img/callofduty.mp4]]",
 			"locked": false,
 			"fontSize": 36,
 			"fontFamily": 1,
-			"text": "📍[[../../img/callofduty.mp4]]",
-			"rawText": "[[../../img/callofduty.mp4]]",
+			"text": "📍[[../img/callofduty.mp4]]",
+			"rawText": "[[../img/callofduty.mp4]]",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "📍[[../../img/callofduty.mp4]]",
+			"originalText": "📍[[../img/callofduty.mp4]]",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 56,
-			"versionNonce": 922079331,
+			"version": 58,
+			"versionNonce": 1151611924,
 			"isDeleted": false,
 			"id": "HRkU2J5p",
 			"fillStyle": "hachure",
@@ -6049,31 +6031,31 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"y": -55.29067607510672,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 387.1439208984375,
+			"width": 349.4158935546875,
 			"height": 45,
 			"seed": 35227,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102262,
-			"link": "[[../../img/dirt.mp4]]",
+			"updated": 1706844100734,
+			"link": "[[../img/dirt.mp4]]",
 			"locked": false,
 			"fontSize": 36,
 			"fontFamily": 1,
-			"text": "📍[[../../img/dirt.mp4]]",
-			"rawText": "[[../../img/dirt.mp4]]",
+			"text": "📍[[../img/dirt.mp4]]",
+			"rawText": "[[../img/dirt.mp4]]",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "📍[[../../img/dirt.mp4]]",
+			"originalText": "📍[[../img/dirt.mp4]]",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "frame",
-			"version": 103,
-			"versionNonce": 180886153,
+			"version": 105,
+			"versionNonce": 1844954924,
 			"isDeleted": false,
 			"id": "YssJfsI1DUYuLCvh-ON-i",
 			"fillStyle": "solid",
@@ -6093,7 +6075,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6107,8 +6089,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 92,
-			"versionNonce": 2034462343,
+			"version": 94,
+			"versionNonce": 1672253844,
 			"isDeleted": false,
 			"id": "i9GMfAY7F13SJAlx6bYcW",
 			"fillStyle": "solid",
@@ -6128,7 +6110,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6142,8 +6124,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 63,
-			"versionNonce": 1104535913,
+			"version": 65,
+			"versionNonce": 1749942700,
 			"isDeleted": false,
 			"id": "yg9fpaX2Zy96Du3xgmo3m",
 			"fillStyle": "solid",
@@ -6163,7 +6145,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6177,8 +6159,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 84,
-			"versionNonce": 1476527527,
+			"version": 86,
+			"versionNonce": 214777620,
 			"isDeleted": false,
 			"id": "qi9pMW9r7JNFmZxEpPWAV",
 			"fillStyle": "solid",
@@ -6198,7 +6180,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6212,8 +6194,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 63,
-			"versionNonce": 625462345,
+			"version": 65,
+			"versionNonce": 1626926124,
 			"isDeleted": false,
 			"id": "P0yJLSyuNb1wmAWVKRWlb",
 			"fillStyle": "solid",
@@ -6233,7 +6215,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6247,8 +6229,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 98,
-			"versionNonce": 220248263,
+			"version": 100,
+			"versionNonce": 2021407892,
 			"isDeleted": false,
 			"id": "7heTevOfx8e0BebqrHIh_",
 			"fillStyle": "solid",
@@ -6268,7 +6250,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6282,8 +6264,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 112,
-			"versionNonce": 1559845673,
+			"version": 114,
+			"versionNonce": 165840556,
 			"isDeleted": false,
 			"id": "BJskk6D-0ONW0gx28426G",
 			"fillStyle": "solid",
@@ -6303,7 +6285,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6317,8 +6299,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 118,
-			"versionNonce": 238815207,
+			"version": 120,
+			"versionNonce": 1617922580,
 			"isDeleted": false,
 			"id": "uB-YkGG0fLC7-xXaEzRgc",
 			"fillStyle": "solid",
@@ -6338,7 +6320,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6352,8 +6334,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 74,
-			"versionNonce": 156634633,
+			"version": 76,
+			"versionNonce": 1203032364,
 			"isDeleted": false,
 			"id": "m-aF68naOcOCLCC5a2jEe",
 			"fillStyle": "solid",
@@ -6373,7 +6355,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6387,8 +6369,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 77,
-			"versionNonce": 1767928583,
+			"version": 79,
+			"versionNonce": 1469917076,
 			"isDeleted": false,
 			"id": "gzgLV0H0-mNtUG0j5NOO5",
 			"fillStyle": "solid",
@@ -6408,7 +6390,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6422,8 +6404,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 70,
-			"versionNonce": 827942121,
+			"version": 72,
+			"versionNonce": 1507445676,
 			"isDeleted": false,
 			"id": "3RCaDO_o3N6UOAB9bEECo",
 			"fillStyle": "solid",
@@ -6443,7 +6425,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6457,8 +6439,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 92,
-			"versionNonce": 923433511,
+			"version": 94,
+			"versionNonce": 574297364,
 			"isDeleted": false,
 			"id": "NJ6CtxMcKIm5wVtD9UluP",
 			"fillStyle": "solid",
@@ -6478,7 +6460,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6492,8 +6474,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 66,
-			"versionNonce": 1888411593,
+			"version": 68,
+			"versionNonce": 41645612,
 			"isDeleted": false,
 			"id": "QP8FadeAK3XLqvmMi4RXh",
 			"fillStyle": "solid",
@@ -6513,7 +6495,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6527,8 +6509,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 70,
-			"versionNonce": 1277599047,
+			"version": 72,
+			"versionNonce": 230642324,
 			"isDeleted": false,
 			"id": "sn8TW4Eh-PxiSpVb7Y0Lx",
 			"fillStyle": "solid",
@@ -6548,7 +6530,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393306,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6562,8 +6544,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 73,
-			"versionNonce": 1695678121,
+			"version": 75,
+			"versionNonce": 780390572,
 			"isDeleted": false,
 			"id": "JftAeZe4NBDVm5Hsw4dIn",
 			"fillStyle": "solid",
@@ -6583,7 +6565,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6597,8 +6579,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 80,
-			"versionNonce": 739335271,
+			"version": 82,
+			"versionNonce": 1222631444,
 			"isDeleted": false,
 			"id": "JS8GoldGg8DUo0eCIx0f5",
 			"fillStyle": "solid",
@@ -6618,7 +6600,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6632,8 +6614,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 68,
-			"versionNonce": 1569603977,
+			"version": 70,
+			"versionNonce": 496818988,
 			"isDeleted": false,
 			"id": "BALIr9YspntU76LBbmAv0",
 			"fillStyle": "solid",
@@ -6653,7 +6635,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6667,8 +6649,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 247,
-			"versionNonce": 982988679,
+			"version": 249,
+			"versionNonce": 999472532,
 			"isDeleted": false,
 			"id": "6Ch8xD7q2DhoB2-t4Lwn1",
 			"fillStyle": "solid",
@@ -6688,7 +6670,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6702,8 +6684,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 84,
-			"versionNonce": 1195321449,
+			"version": 86,
+			"versionNonce": 170956204,
 			"isDeleted": false,
 			"id": "FWO5XYi4mY03loYrc0gqz",
 			"fillStyle": "solid",
@@ -6723,7 +6705,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6737,8 +6719,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 61,
-			"versionNonce": 771010215,
+			"version": 63,
+			"versionNonce": 1594747668,
 			"isDeleted": false,
 			"id": "60ZKEQ8uEiJJ2Qmo5IfSL",
 			"fillStyle": "solid",
@@ -6758,7 +6740,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6772,8 +6754,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 71,
-			"versionNonce": 1542468425,
+			"version": 73,
+			"versionNonce": 1365835820,
 			"isDeleted": false,
 			"id": "fsDLvaE2ucTgSc-q6a6U7",
 			"fillStyle": "solid",
@@ -6793,7 +6775,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6807,8 +6789,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 67,
-			"versionNonce": 1087783367,
+			"version": 69,
+			"versionNonce": 365389972,
 			"isDeleted": false,
 			"id": "OjoxHN7qjlX_BI-ZBePP5",
 			"fillStyle": "solid",
@@ -6828,7 +6810,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6842,8 +6824,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 83,
-			"versionNonce": 268231209,
+			"version": 85,
+			"versionNonce": 456137388,
 			"isDeleted": false,
 			"id": "qJ8IQJFSoUzLo07UxDCTR",
 			"fillStyle": "solid",
@@ -6863,7 +6845,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6877,8 +6859,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 64,
-			"versionNonce": 609775847,
+			"version": 66,
+			"versionNonce": 58013204,
 			"isDeleted": false,
 			"id": "SxK2jl1Q1eO__ISInH3Qz",
 			"fillStyle": "solid",
@@ -6898,7 +6880,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6912,8 +6894,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 69,
-			"versionNonce": 1079031049,
+			"version": 71,
+			"versionNonce": 36693292,
 			"isDeleted": false,
 			"id": "vUW_isOXSfPqj0Zg-7qO4",
 			"fillStyle": "solid",
@@ -6933,7 +6915,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6947,8 +6929,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 54,
-			"versionNonce": 839367687,
+			"version": 56,
+			"versionNonce": 1695372180,
 			"isDeleted": false,
 			"id": "Az_wXYBuH7sEejyVQlUWQ",
 			"fillStyle": "solid",
@@ -6968,7 +6950,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6982,8 +6964,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 191,
-			"versionNonce": 543632361,
+			"version": 193,
+			"versionNonce": 1003642796,
 			"isDeleted": false,
 			"id": "s-G7uNBQNCpNNm1s9UsWo",
 			"fillStyle": "solid",
@@ -7003,7 +6985,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7017,8 +6999,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 68,
-			"versionNonce": 1575002919,
+			"version": 70,
+			"versionNonce": 1757790484,
 			"isDeleted": false,
 			"id": "vPp8lmdnqpTuOkRAiZN8p",
 			"fillStyle": "solid",
@@ -7038,7 +7020,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7052,8 +7034,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 82,
-			"versionNonce": 1749796553,
+			"version": 84,
+			"versionNonce": 1078037036,
 			"isDeleted": false,
 			"id": "Ucuu1MzQwgRtCm2UG_xOT",
 			"fillStyle": "solid",
@@ -7073,7 +7055,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7087,8 +7069,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 84,
-			"versionNonce": 1750050375,
+			"version": 86,
+			"versionNonce": 102006420,
 			"isDeleted": false,
 			"id": "eW8VNn9DaLb-5RQWw4dsv",
 			"fillStyle": "solid",
@@ -7108,7 +7090,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7122,8 +7104,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 92,
-			"versionNonce": 1117390249,
+			"version": 94,
+			"versionNonce": 1919378604,
 			"isDeleted": false,
 			"id": "M9gEx2b46z1RYG19xXE_J",
 			"fillStyle": "solid",
@@ -7143,7 +7125,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7157,8 +7139,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 140,
-			"versionNonce": 1345406311,
+			"version": 142,
+			"versionNonce": 1437568020,
 			"isDeleted": false,
 			"id": "09T_YWwKj_l7Cb9MG3QON",
 			"fillStyle": "solid",
@@ -7178,7 +7160,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7192,8 +7174,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 77,
-			"versionNonce": 2055039113,
+			"version": 79,
+			"versionNonce": 1206775596,
 			"isDeleted": false,
 			"id": "JliBxeb1E2nqPPecRSHmb",
 			"fillStyle": "solid",
@@ -7213,7 +7195,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7227,8 +7209,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 125,
-			"versionNonce": 80871559,
+			"version": 127,
+			"versionNonce": 1770842516,
 			"isDeleted": false,
 			"id": "Bf4U1qDniGj8BuFz4nI54",
 			"fillStyle": "solid",
@@ -7248,7 +7230,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7262,8 +7244,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 72,
-			"versionNonce": 1773236073,
+			"version": 74,
+			"versionNonce": 1899964844,
 			"isDeleted": false,
 			"id": "tHi10YN5-j_NAIA7AEcxh",
 			"fillStyle": "solid",
@@ -7283,7 +7265,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7297,8 +7279,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 81,
-			"versionNonce": 1475237799,
+			"version": 83,
+			"versionNonce": 618829588,
 			"isDeleted": false,
 			"id": "MCyot0MDQ9Lmlfzpjc5t2",
 			"fillStyle": "solid",
@@ -7318,7 +7300,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7332,8 +7314,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 80,
-			"versionNonce": 646027849,
+			"version": 82,
+			"versionNonce": 25498668,
 			"isDeleted": false,
 			"id": "Ky-ja2IMSk4VVHXSk1mKE",
 			"fillStyle": "solid",
@@ -7353,7 +7335,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7367,8 +7349,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 56,
-			"versionNonce": 800246471,
+			"version": 58,
+			"versionNonce": 338072724,
 			"isDeleted": false,
 			"id": "Z2gqFDSYnfm-tRJ-YYcGb",
 			"fillStyle": "solid",
@@ -7388,7 +7370,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7402,8 +7384,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 62,
-			"versionNonce": 1909025065,
+			"version": 64,
+			"versionNonce": 380219052,
 			"isDeleted": false,
 			"id": "_Lop0SM9bXLe81n28J794",
 			"fillStyle": "solid",
@@ -7423,7 +7405,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7437,8 +7419,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 102,
-			"versionNonce": 2025576935,
+			"version": 104,
+			"versionNonce": 1158603284,
 			"isDeleted": false,
 			"id": "eKsE3eD-2rxFNIlzRhGnz",
 			"fillStyle": "solid",
@@ -7458,7 +7440,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7472,8 +7454,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 93,
-			"versionNonce": 1693735945,
+			"version": 95,
+			"versionNonce": 22477100,
 			"isDeleted": false,
 			"id": "ErKqahfbhDNJgYEKUODjG",
 			"fillStyle": "solid",
@@ -7493,7 +7475,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7507,8 +7489,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 71,
-			"versionNonce": 1477838087,
+			"version": 73,
+			"versionNonce": 512851860,
 			"isDeleted": false,
 			"id": "jp5Ac64RwVGSS9mzfztkg",
 			"fillStyle": "solid",
@@ -7528,7 +7510,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7542,8 +7524,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 71,
-			"versionNonce": 1610478313,
+			"version": 73,
+			"versionNonce": 1828123564,
 			"isDeleted": false,
 			"id": "6YM1Gv26OhBwGSppfKjAG",
 			"fillStyle": "solid",
@@ -7563,7 +7545,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7577,8 +7559,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 64,
-			"versionNonce": 490589223,
+			"version": 66,
+			"versionNonce": 954494228,
 			"isDeleted": false,
 			"id": "jOZLhtZgLbWyXLWnbFBOo",
 			"fillStyle": "solid",
@@ -7598,7 +7580,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7612,8 +7594,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 89,
-			"versionNonce": 930196937,
+			"version": 91,
+			"versionNonce": 129211948,
 			"isDeleted": false,
 			"id": "3RFnA-HyMvVNxMMUSiY-w",
 			"fillStyle": "solid",
@@ -7633,7 +7615,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7647,8 +7629,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 104,
-			"versionNonce": 1948233543,
+			"version": 106,
+			"versionNonce": 897428116,
 			"isDeleted": false,
 			"id": "rW6J10aVTCJdGJy14_Dt0",
 			"fillStyle": "solid",
@@ -7668,7 +7650,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7682,8 +7664,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 59,
-			"versionNonce": 1461202535,
+			"version": 61,
+			"versionNonce": 712439980,
 			"isDeleted": false,
 			"id": "t9N7FjMqBiIbGHjOObniT",
 			"fillStyle": "solid",
@@ -7703,7 +7685,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7717,8 +7699,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 37,
-			"versionNonce": 1754632073,
+			"version": 39,
+			"versionNonce": 387135508,
 			"isDeleted": false,
 			"id": "uPv15hgrYHEX2Y2w93Nt5",
 			"fillStyle": "solid",
@@ -7738,7 +7720,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7752,8 +7734,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 46,
-			"versionNonce": 1089718663,
+			"version": 48,
+			"versionNonce": 15401772,
 			"isDeleted": false,
 			"id": "-RZ00tVSAeySmfKXRIDIA",
 			"fillStyle": "solid",
@@ -7773,7 +7755,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7787,8 +7769,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 78,
-			"versionNonce": 1345107561,
+			"version": 80,
+			"versionNonce": 429594004,
 			"isDeleted": false,
 			"id": "fm2pq6a-jRNLfugKrq5Wf",
 			"fillStyle": "solid",
@@ -7808,7 +7790,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7822,8 +7804,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 81,
-			"versionNonce": 518979751,
+			"version": 83,
+			"versionNonce": 830061996,
 			"isDeleted": false,
 			"id": "lZm6KXpxnVNBDPNSKbLsv",
 			"fillStyle": "solid",
@@ -7843,7 +7825,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7857,8 +7839,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 32,
-			"versionNonce": 1274806601,
+			"version": 34,
+			"versionNonce": 172704532,
 			"isDeleted": false,
 			"id": "AE8hptQRzQHEwr2dNPOFp",
 			"fillStyle": "solid",
@@ -7878,7 +7860,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7892,8 +7874,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 54,
-			"versionNonce": 45503431,
+			"version": 56,
+			"versionNonce": 88942636,
 			"isDeleted": false,
 			"id": "M6jLt9r7gzOfrqbs9Pd3x",
 			"fillStyle": "solid",
@@ -7913,7 +7895,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7927,8 +7909,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 58,
-			"versionNonce": 1767829545,
+			"version": 60,
+			"versionNonce": 530170004,
 			"isDeleted": false,
 			"id": "X3I8hgcMz_tQmKhUT6U4-",
 			"fillStyle": "solid",
@@ -7948,7 +7930,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7962,8 +7944,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 54,
-			"versionNonce": 342246119,
+			"version": 56,
+			"versionNonce": 273629868,
 			"isDeleted": false,
 			"id": "IPmSC-J61rD-7Qm2ucTQT",
 			"fillStyle": "solid",
@@ -7983,7 +7965,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -7997,8 +7979,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 109,
-			"versionNonce": 2053417447,
+			"version": 111,
+			"versionNonce": 1362923028,
 			"isDeleted": false,
 			"id": "cJNPhjJNKc-VnrLUXmKyD",
 			"fillStyle": "solid",
@@ -8018,7 +8000,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706425175538,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8032,8 +8014,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 133,
-			"versionNonce": 1193338887,
+			"version": 135,
+			"versionNonce": 1495928108,
 			"isDeleted": false,
 			"id": "fyRwda6MnlQHkq5nxBcwQ",
 			"fillStyle": "solid",
@@ -8053,7 +8035,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706425345301,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8067,8 +8049,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 338,
-			"versionNonce": 1999727527,
+			"version": 340,
+			"versionNonce": 808037268,
 			"isDeleted": false,
 			"id": "DOBNoKrVOeQN_gN1JYNFG",
 			"fillStyle": "solid",
@@ -8088,7 +8070,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706425269693,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8102,8 +8084,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 188,
-			"versionNonce": 1799776329,
+			"version": 190,
+			"versionNonce": 21465004,
 			"isDeleted": false,
 			"id": "1IJk8avfREfZFxoYHS1qd",
 			"fillStyle": "solid",
@@ -8123,7 +8105,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706425278792,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8137,8 +8119,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 292,
-			"versionNonce": 1864860199,
+			"version": 294,
+			"versionNonce": 1050089748,
 			"isDeleted": false,
 			"id": "hMftHMifmng6p4G5A0DOn",
 			"fillStyle": "solid",
@@ -8158,7 +8140,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706425342129,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8172,8 +8154,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 62,
-			"versionNonce": 412530759,
+			"version": 64,
+			"versionNonce": 1825681964,
 			"isDeleted": false,
 			"id": "JFvh_rgSOdtpowFLq8SQX",
 			"fillStyle": "solid",
@@ -8193,7 +8175,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8207,8 +8189,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 92,
-			"versionNonce": 1803883433,
+			"version": 94,
+			"versionNonce": 1207621268,
 			"isDeleted": false,
 			"id": "CeKyBiC3OhvQTE9sEzHa4",
 			"fillStyle": "solid",
@@ -8228,7 +8210,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8242,8 +8224,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 96,
-			"versionNonce": 1237718887,
+			"version": 98,
+			"versionNonce": 1790086316,
 			"isDeleted": false,
 			"id": "LsBmuYib75JsVFWuZjWb-",
 			"fillStyle": "solid",
@@ -8263,7 +8245,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8277,8 +8259,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 44,
-			"versionNonce": 785823369,
+			"version": 46,
+			"versionNonce": 957015060,
 			"isDeleted": false,
 			"id": "6R2wmzvcdoFyVfA18VPF4",
 			"fillStyle": "solid",
@@ -8298,7 +8280,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8312,8 +8294,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 61,
-			"versionNonce": 1476170375,
+			"version": 63,
+			"versionNonce": 1553209132,
 			"isDeleted": false,
 			"id": "9S92N1ZsUQQ8PQDk62dEn",
 			"fillStyle": "solid",
@@ -8333,7 +8315,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8346,9 +8328,46 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"name": null
 		},
 		{
+			"id": "QEvtF4NL",
+			"type": "text",
+			"x": 1506.5523740586632,
+			"y": 2226.1482777430238,
+			"width": 540,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 299215660,
+			"version": 624,
+			"versionNonce": 945441172,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706844573018,
+			"link": null,
+			"locked": false,
+			"text": "关闭你的消息通知，你会发现你的现有生活几乎没有任何变化",
+			"rawText": "关闭你的消息通知，你会发现你的现有生活几乎没有任何变化",
+			"fontSize": 20,
+			"fontFamily": 3,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 20,
+			"containerId": null,
+			"originalText": "关闭你的消息通知，你会发现你的现有生活几乎没有任何变化",
+			"lineHeight": 1.2
+		},
+		{
 			"type": "frame",
-			"version": 77,
-			"versionNonce": 565247337,
+			"version": 79,
+			"versionNonce": 2008891796,
 			"isDeleted": false,
 			"id": "C5GflZANlcigMz1pAS4N7",
 			"fillStyle": "solid",
@@ -8368,7 +8387,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8382,8 +8401,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 82,
-			"versionNonce": 1274456487,
+			"version": 84,
+			"versionNonce": 1591759276,
 			"isDeleted": false,
 			"id": "ukgdhMml5lumLJErupEPA",
 			"fillStyle": "solid",
@@ -8403,7 +8422,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8417,8 +8436,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 71,
-			"versionNonce": 325019721,
+			"version": 73,
+			"versionNonce": 994570004,
 			"isDeleted": false,
 			"id": "PLf-ib8jvet2eBwleBnpc",
 			"fillStyle": "solid",
@@ -8438,7 +8457,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8452,8 +8471,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 70,
-			"versionNonce": 1658903751,
+			"version": 72,
+			"versionNonce": 1891712044,
 			"isDeleted": false,
 			"id": "xJ5C0ex18z3toBbJNElEK",
 			"fillStyle": "solid",
@@ -8473,7 +8492,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8487,8 +8506,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 69,
-			"versionNonce": 1572697897,
+			"version": 71,
+			"versionNonce": 1679879316,
 			"isDeleted": false,
 			"id": "CEwLr7LK3jFNsXv0Deet6",
 			"fillStyle": "solid",
@@ -8508,7 +8527,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365393307,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8522,8 +8541,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 46,
-			"versionNonce": 265343561,
+			"version": 48,
+			"versionNonce": 471914156,
 			"isDeleted": false,
 			"id": "7eR8CFxdkluNUX-VvCqrd",
 			"fillStyle": "solid",
@@ -8543,7 +8562,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365394571,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8557,8 +8576,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 59,
-			"versionNonce": 1670919751,
+			"version": 61,
+			"versionNonce": 1409169940,
 			"isDeleted": false,
 			"id": "FxsGowlfws60pxHXTED_Q",
 			"fillStyle": "solid",
@@ -8578,7 +8597,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365395536,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8592,8 +8611,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 43,
-			"versionNonce": 1005550633,
+			"version": 45,
+			"versionNonce": 497623340,
 			"isDeleted": false,
 			"id": "Ei3hb9TTR0mC2gYkUiayT",
 			"fillStyle": "solid",
@@ -8613,7 +8632,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365396511,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8627,8 +8646,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 50,
-			"versionNonce": 1168548423,
+			"version": 52,
+			"versionNonce": 1171642260,
 			"isDeleted": false,
 			"id": "cLuDsuJ1wwsVFDl82D73S",
 			"fillStyle": "solid",
@@ -8648,7 +8667,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365397743,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8662,8 +8681,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "frame",
-			"version": 54,
-			"versionNonce": 528833481,
+			"version": 56,
+			"versionNonce": 214178732,
 			"isDeleted": false,
 			"id": "mRVCP27jWIm5xqIBNE6dz",
 			"fillStyle": "solid",
@@ -8683,7 +8702,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365398743,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8696,9 +8715,46 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"name": null
 		},
 		{
+			"id": "npPXKKTL",
+			"type": "text",
+			"x": 2896.558450447546,
+			"y": 1887.5543107291346,
+			"width": 696.09375,
+			"height": 86.39999999999999,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "dotted",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "ZCPc3CShgftdo5RWwUpDU",
+			"roundness": null,
+			"seed": 603271084,
+			"version": 167,
+			"versionNonce": 238585132,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706844107272,
+			"link": null,
+			"locked": false,
+			"text": "【纪录片】【监视资本主义：智能陷阱】\nhttps://www.acfun.cn/v/ac17846815",
+			"rawText": "【纪录片】【监视资本主义：智能陷阱】\nhttps://www.acfun.cn/v/ac17846815",
+			"fontSize": 36,
+			"fontFamily": 3,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 78,
+			"containerId": null,
+			"originalText": "【纪录片】【监视资本主义：智能陷阱】\nhttps://www.acfun.cn/v/ac17846815",
+			"lineHeight": 1.2
+		},
+		{
 			"type": "frame",
-			"version": 62,
-			"versionNonce": 582452775,
+			"version": 267,
+			"versionNonce": 1770783380,
 			"isDeleted": false,
 			"id": "ZCPc3CShgftdo5RWwUpDU",
 			"fillStyle": "solid",
@@ -8707,18 +8763,18 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2589.375265177635,
-			"y": 1887.139904143791,
+			"x": 2616.875265177635,
+			"y": 1773.2113327152194,
 			"strokeColor": "#bbb",
 			"backgroundColor": "transparent",
-			"width": 528.9416109502868,
-			"height": 225.85661073634833,
+			"width": 1255.7273252360008,
+			"height": 229.78518216491955,
 			"seed": 2102754183,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365399815,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8731,9 +8787,46 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"name": null
 		},
 		{
+			"id": "xnCE8pXo",
+			"type": "text",
+			"x": 3977.552374058663,
+			"y": 1734.6404652430238,
+			"width": 516.556640625,
+			"height": 45.999999999999964,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "dotted",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "AUlx84B6EebhWoyFcXyI6",
+			"roundness": null,
+			"seed": 1666063148,
+			"version": 117,
+			"versionNonce": 702579116,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706844164209,
+			"link": null,
+			"locked": false,
+			"text": "blueboysalvat.github.io",
+			"rawText": "blueboysalvat.github.io",
+			"fontSize": 38.33333333333331,
+			"fontFamily": 3,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 37,
+			"containerId": null,
+			"originalText": "blueboysalvat.github.io",
+			"lineHeight": 1.2
+		},
+		{
 			"type": "frame",
-			"version": 51,
-			"versionNonce": 1632063817,
+			"version": 53,
+			"versionNonce": 1192894636,
 			"isDeleted": false,
 			"id": "AUlx84B6EebhWoyFcXyI6",
 			"fillStyle": "solid",
@@ -8753,7 +8846,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365403231,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8766,9 +8859,97 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"name": null
 		},
 		{
+			"id": "tH39WrialmmfrOAUGGwlT",
+			"type": "arrow",
+			"x": 4559.302374058663,
+			"y": 2313.6014027430238,
+			"width": 160.875,
+			"height": 93.5,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "nqv6XN8eMlsXGbht3aoED",
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1889904812,
+			"version": 204,
+			"versionNonce": 157506708,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706844275571,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-144.375,
+					-24.75
+				],
+				[
+					-160.875,
+					-93.5
+				]
+			],
+			"lastCommittedPoint": [
+				-171.875,
+				-75.625
+			],
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "06JaAnTO",
+			"type": "text",
+			"x": 4287.052374058663,
+			"y": 2350.7264027430238,
+			"width": 320,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "nqv6XN8eMlsXGbht3aoED",
+			"roundness": null,
+			"seed": 2036540052,
+			"version": 197,
+			"versionNonce": 845711124,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706844361825,
+			"link": null,
+			"locked": false,
+			"text": "经过有思考的东西，我会很乐意交流",
+			"rawText": "经过有思考的东西，我会很乐意交流",
+			"fontSize": 20,
+			"fontFamily": 3,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 20,
+			"containerId": null,
+			"originalText": "经过有思考的东西，我会很乐意交流",
+			"lineHeight": 1.2
+		},
+		{
 			"type": "frame",
-			"version": 68,
-			"versionNonce": 343215975,
+			"version": 123,
+			"versionNonce": 8638356,
 			"isDeleted": false,
 			"id": "nqv6XN8eMlsXGbht3aoED",
 			"fillStyle": "solid",
@@ -8781,14 +8962,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"y": 1920.0331708027165,
 			"strokeColor": "#bbb",
 			"backgroundColor": "transparent",
-			"width": 661.5412985438843,
-			"height": 370.1134137227905,
+			"width": 654.6662985438842,
+			"height": 514.4884137227905,
 			"seed": 330366471,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706365404185,
+			"updated": 1706844264522,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -8802,8 +8983,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 346,
-			"versionNonce": 1012769063,
+			"version": 348,
+			"versionNonce": 1860774700,
 			"isDeleted": false,
 			"id": "aJZCRgnB",
 			"fillStyle": "hachure",
@@ -8823,7 +9004,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "DOBNoKrVOeQN_gN1JYNFG",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706425348772,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -8835,8 +9016,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 138,
-			"versionNonce": 838337383,
+			"version": 140,
+			"versionNonce": 804482452,
 			"isDeleted": false,
 			"id": "tLaJzhzp",
 			"fillStyle": "hachure",
@@ -8856,7 +9037,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "1IJk8avfREfZFxoYHS1qd",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706425281061,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -8868,8 +9049,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "image",
-			"version": 362,
-			"versionNonce": 191014215,
+			"version": 364,
+			"versionNonce": 225633708,
 			"isDeleted": false,
 			"id": "FH72pYQy",
 			"fillStyle": "hachure",
@@ -8889,7 +9070,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "hMftHMifmng6p4G5A0DOn",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706425342129,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -8901,8 +9082,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		},
 		{
 			"type": "rectangle",
-			"version": 1365,
-			"versionNonce": 1229290761,
+			"version": 1367,
+			"versionNonce": 1675139860,
 			"isDeleted": false,
 			"id": "3iDzkBLJ6mD3ShQMcFGCM",
 			"fillStyle": "solid",
@@ -8929,14 +9110,14 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 					"id": "DQ37DI1x"
 				}
 			],
-			"updated": 1706425354568,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 594,
-			"versionNonce": 1065546729,
+			"version": 596,
+			"versionNonce": 1474383916,
 			"isDeleted": false,
 			"id": "DQ37DI1x",
 			"fillStyle": "solid",
@@ -8956,7 +9137,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": "fyRwda6MnlQHkq5nxBcwQ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706425354568,
+			"updated": 1706844100734,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -8968,12 +9149,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": "3iDzkBLJ6mD3ShQMcFGCM",
 			"originalText": "看不被大多数人看见的",
 			"lineHeight": 1.25,
-			"baseline": 76
+			"baseline": 77
 		},
 		{
 			"type": "text",
-			"version": 79,
-			"versionNonce": 945298253,
+			"version": 242,
+			"versionNonce": 1737024812,
 			"isDeleted": false,
 			"id": "6FLi2Jwh",
 			"fillStyle": "solid",
@@ -8982,8 +9163,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2023.4111290189812,
-			"y": 3354.5067846874626,
+			"x": 1664.5361290189815,
+			"y": 1611.0067846874624,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
 			"width": 540,
@@ -8993,7 +9174,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102263,
+			"updated": 1706844745698,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -9005,12 +9186,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "为什么放在你出触手可得的地方？",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 44,
-			"versionNonce": 759417859,
+			"version": 178,
+			"versionNonce": 1443746092,
 			"isDeleted": false,
 			"id": "7CdxutnA",
 			"fillStyle": "solid",
@@ -9019,8 +9200,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2213.9468433046954,
-			"y": 3770.935356116034,
+			"x": 1713.4468433046952,
+			"y": 1719.4353561160342,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
 			"width": 504,
@@ -9030,7 +9211,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102263,
+			"updated": 1706844744882,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -9042,12 +9223,12 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "为什么要要它那么容易被看见？",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
 		},
 		{
 			"type": "text",
-			"version": 57,
-			"versionNonce": 313600429,
+			"version": 141,
+			"versionNonce": 1006234156,
 			"isDeleted": false,
 			"id": "S7A8XHAs",
 			"fillStyle": "solid",
@@ -9056,8 +9237,8 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2889.7169325904097,
-			"y": 3435.9911596874626,
+			"x": 1729.2169325904097,
+			"y": 1875.3661596874626,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
 			"width": 432,
@@ -9067,7 +9248,7 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706520102263,
+			"updated": 1706844743398,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -9079,7 +9260,262 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 			"containerId": null,
 			"originalText": "你可否知道它是时间黑洞？",
 			"lineHeight": 1.25,
-			"baseline": 31
+			"baseline": 32
+		},
+		{
+			"id": "XWNccVG1",
+			"type": "text",
+			"x": 1153.0523740586632,
+			"y": 2952.3357777430238,
+			"width": 180,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 913305620,
+			"version": 215,
+			"versionNonce": 880825260,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706844794992,
+			"link": null,
+			"locked": false,
+			"text": "你觉得自己客观吗？",
+			"rawText": "你觉得自己客观吗？",
+			"fontSize": 20,
+			"fontFamily": 3,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 20,
+			"containerId": null,
+			"originalText": "你觉得自己客观吗？",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "0xUdopWf",
+			"type": "text",
+			"x": 1000.5523740586632,
+			"y": 3145.4598011805238,
+			"width": 400,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1729823276,
+			"version": 256,
+			"versionNonce": 429699884,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706844795818,
+			"link": null,
+			"locked": false,
+			"text": "事实是我们都偏见性的认为自己比别人更客观",
+			"rawText": "事实是我们都偏见性的认为自己比别人更客观",
+			"fontSize": 20,
+			"fontFamily": 3,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 20,
+			"containerId": null,
+			"originalText": "事实是我们都偏见性的认为自己比别人更客观",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "lfuUMUQM",
+			"type": "text",
+			"x": 4778.504446620018,
+			"y": 2319.887176641431,
+			"width": 180,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "VKZeiIJMe_wj0gDyj3X2Q",
+			"roundness": null,
+			"seed": 503271188,
+			"version": 83,
+			"versionNonce": 134769812,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706846292991,
+			"link": null,
+			"locked": false,
+			"text": "哦对了，我叫王文鹏",
+			"rawText": "哦对了，我叫王文鹏",
+			"fontSize": 20,
+			"fontFamily": 3,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 20,
+			"containerId": null,
+			"originalText": "哦对了，我叫王文鹏",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "VKZeiIJMe_wj0gDyj3X2Q",
+			"type": "frame",
+			"x": 4738.550594695605,
+			"y": 2273.1267305320557,
+			"width": 273.7821328590953,
+			"height": 141.47593468316836,
+			"angle": 0,
+			"strokeColor": "#bbb",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 531384852,
+			"version": 106,
+			"versionNonce": 1555988908,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706846291370,
+			"link": null,
+			"locked": false,
+			"customData": {
+				"frameColor": {
+					"stroke": "#D4D4D4",
+					"fill": "#ADADAD",
+					"nameColor": "#949494"
+				}
+			},
+			"name": null
+		},
+		{
+			"id": "RLUjjIkD",
+			"type": "text",
+			"x": 4759.748167400663,
+			"y": 2517.114662710556,
+			"width": 400,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "d9miX5CNmfEx2sTp6LIrC",
+			"roundness": null,
+			"seed": 687162644,
+			"version": 225,
+			"versionNonce": 712145044,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706846354917,
+			"link": null,
+			"locked": false,
+			"text": "一个看起来不太那么合群，有点特立独行的人",
+			"rawText": "一个看起来不太那么合群，有点特立独行的人",
+			"fontSize": 20,
+			"fontFamily": 3,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 20,
+			"containerId": null,
+			"originalText": "一个看起来不太那么合群，有点特立独行的人",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "d9miX5CNmfEx2sTp6LIrC",
+			"type": "frame",
+			"x": 4708.361916713974,
+			"y": 2479.881215569744,
+			"width": 488.6159596002026,
+			"height": 98.90215804240006,
+			"angle": 0,
+			"strokeColor": "#bbb",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 759459116,
+			"version": 95,
+			"versionNonce": 1372092460,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706846347239,
+			"link": null,
+			"locked": false,
+			"customData": {
+				"frameColor": {
+					"stroke": "#D4D4D4",
+					"fill": "#ADADAD",
+					"nameColor": "#949494"
+				}
+			},
+			"name": null
+		},
+		{
+			"type": "text",
+			"version": 225,
+			"versionNonce": 1343898644,
+			"isDeleted": true,
+			"id": "UHcuyMJY",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 2153.969223041971,
+			"y": -210.12924825409164,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"width": 326.0879211425781,
+			"height": 45,
+			"seed": 53284,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1706846219901,
+			"link": "[[../img/mc.mp4]]",
+			"locked": false,
+			"fontSize": 36,
+			"fontFamily": 1,
+			"text": "📍[[../img/mc.mp4]]",
+			"rawText": "[[../img/mc.mp4]]",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "📍[[../img/mc.mp4]]",
+			"lineHeight": 1.25,
+			"baseline": 32
 		}
 	],
 	"appState": {
@@ -9089,18 +9525,18 @@ dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 2,
-		"currentItemStrokeStyle": "dotted",
+		"currentItemStrokeStyle": "solid",
 		"currentItemRoughness": 1,
 		"currentItemOpacity": 100,
-		"currentItemFontFamily": 1,
-		"currentItemFontSize": 36,
+		"currentItemFontFamily": 3,
+		"currentItemFontSize": 20,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 7389.574362052448,
-		"scrollY": 3437.216894628009,
+		"scrollX": -3789.6019536831295,
+		"scrollY": -1758.6539002937382,
 		"zoom": {
-			"value": 0.1
+			"value": 1.0496484814365192
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

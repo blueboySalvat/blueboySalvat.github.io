@@ -39,9 +39,19 @@
                 "file": "Appends/draw/ProcessAndthread.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "7dd01b038d4592b9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Appends/draw/IntroduceMe.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -168,16 +178,19 @@
       "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "9e3ac5b506e06084",
+  "active": "7dd01b038d4592b9",
   "lastOpenFiles": [
-    "docs/TODO.md",
-    "docs/anote/Java高级.md",
     "Appends/draw/ProcessAndthread.excalidraw.md",
+    "Appends/draw/IntroduceMe.excalidraw.md",
+    "docs/anote/Java高级.md",
+    "Appends/img/mc.mp4",
+    "docs/_coverpage.md",
+    "docs/README.md",
+    "docs/TODO.md",
     "docs/anote/Java基础.md",
     "docs/Contributions.md",
     "未命名.md",
     "docs/index.html",
-    "docs/README.md",
     "docs/anote/在云服务器上部署轻量级博客docsify(使用git更新).md",
     "docs/01网络安全.md",
     "docs/03后端开发.md",
@@ -190,7 +203,6 @@
     "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-expand-node.html",
     "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-event.html",
     "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-event-profile.html",
-    "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-continue-record.html",
     "jdk8docs/technotes/guides/troubleshoot/img/visualgc.gif",
     "jdk8docs/technotes/guides/troubleshoot/img/jres.png",
     "jdk8docs/technotes/guides/troubleshoot/img/jmc-triggers.png",
@@ -202,7 +214,6 @@
     "jdk8docs/technotes/guides/troubleshoot/img/jmc-autorecording.png",
     "jdk8docs/technotes/guides/troubleshoot/img/jfr-statistics-tab.png",
     "jdk8docs/legal/dejavufonts.md",
-    "Appends/draw/IntroduceMe.excalidraw.md",
     "docs/html/jdk8docs/legal/dejavufonts.md",
     "docs/html/jdk-8u401-docs-all/legal/dejavufonts.md",
     "docs/anote/在github和云服务器上配置git并且免密推送.md",
@@ -213,8 +224,6 @@
     "docs/02前端开发.md",
     "docs/anote/Vision和目标地图的区别.md",
     "docs/05闲杂小记.md",
-    "docs/anote/基于Springboot的幼儿园管理系统.md",
-    "Appends/draw/StringCantChange.excalidraw.md",
-    "Appends/draw/Analyse.excalidraw.md"
+    "docs/anote/基于Springboot的幼儿园管理系统.md"
   ]
 }

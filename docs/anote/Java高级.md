@@ -836,6 +836,14 @@ public class Window2 implements Runnable {
 }
 ```
 
+`Thread` 和 `Runnable`
+
+`Thead` 每次都是创建新的线程对象
+
+通过一个 `Runnable` 实现类来创建线程，他们共享这个 `Runnable` 实现类的空间。
+
+因为默认构造方法是 `private` 的，直接 `new` 对象 `new` 不出来，想要调用只能 `static`
+
 ## 线程死锁
 
 
