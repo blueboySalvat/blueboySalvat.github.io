@@ -6,7 +6,7 @@
 - [闲杂小记](05闲杂小记.md)
 - [效率技巧](06效率技巧.md)
 - [服务器](07服务器.md)
-- [放着玩](html/studyproj/anything.html)
+- [Java8API](html/jdk-8u401-docs-all/api/index.html)
 - [最近在做](TODO.md)
 - [关于我](README.md)
 

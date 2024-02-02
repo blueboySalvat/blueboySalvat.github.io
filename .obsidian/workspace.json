@@ -8,69 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8190c82805dc2744",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Appends/draw/IntroduceMe.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "d4011214eeb7864a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/anote/在云服务器上部署轻量级博客docsify(使用git更新).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ad32f666a308161",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/anote/在github和云服务器上配置git并且免密推送.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b65fd4316d9d6067",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/anote/Java基础.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "acea937373da6e88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/anote/Java全栈学习体系.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc136ccf12a20c1d",
+            "id": "b14f43e212de3194",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -78,9 +16,32 @@
                 "file": "docs/TODO.md"
               }
             }
+          },
+          {
+            "id": "b4f66566f0159ad1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/anote/Java高级.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e3ac5b506e06084",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Appends/draw/ProcessAndthread.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,12 +78,20 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "e7fa9eeff6557a83",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 253.50247192382812,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -161,14 +130,6 @@
             }
           },
           {
-            "id": "4651864b677920f8",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
             "id": "8e53d69784499312",
             "type": "leaf",
             "state": {
@@ -177,23 +138,19 @@
             }
           },
           {
-            "id": "5df5ffb9b471fc2f",
+            "id": "4651864b677920f8",
             "type": "leaf",
             "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
+              "type": "quiet-outline",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 373.5,
+    "width": 384.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -203,60 +160,61 @@
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "privacy-glasses:Hide all": false,
       "privacy-glasses:Reveal non-private": false,
       "privacy-glasses:Reveal headlines only": false,
       "privacy-glasses:Reveal all": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "d4011214eeb7864a",
+  "active": "9e3ac5b506e06084",
   "lastOpenFiles": [
-    "docs/anote/在github和云服务器上配置git并且免密推送.md",
-    "docs/anote/Java基础.md",
-    "docs/anote/Java全栈学习体系.md",
     "docs/TODO.md",
-    "docs/README.md",
-    "docs/index_bat1.html",
-    "docs/index_副本.html",
-    "docs/img/sunshine.ico",
-    "docs/index_bat.html",
-    "docs/prism.css",
-    "docs/prism.js",
-    "docs/config/prism.js",
-    "docs/config/prism.css",
-    "docs/config",
-    "config",
+    "docs/anote/Java高级.md",
+    "Appends/draw/ProcessAndthread.excalidraw.md",
+    "docs/anote/Java基础.md",
     "docs/Contributions.md",
-    "docs/img/FluentEmojiFlatSun.png",
-    "docs/img/sun.svg",
-    "docs/img/LOVE.svg",
-    "docs/03后端开发.md",
-    "docs/02前端开发.md",
-    "Appends/draw/IntroduceMe.excalidraw.md",
+    "未命名.md",
+    "docs/index.html",
+    "docs/README.md",
     "docs/anote/在云服务器上部署轻量级博客docsify(使用git更新).md",
-    "docs/img/hashSetStruct.jpeg",
+    "docs/01网络安全.md",
+    "docs/03后端开发.md",
+    "docs/_navbar.md",
+    "docs/html/index_bat1.html",
+    "jdk8docs/technotes/guides/troubleshoot/img_text/visualgc.html",
+    "jdk8docs/technotes/guides/troubleshoot/img_text/jres.html",
+    "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-triggers.html",
+    "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-start-record.html",
+    "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-expand-node.html",
+    "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-event.html",
+    "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-event-profile.html",
+    "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-continue-record.html",
+    "jdk8docs/technotes/guides/troubleshoot/img/visualgc.gif",
+    "jdk8docs/technotes/guides/troubleshoot/img/jres.png",
+    "jdk8docs/technotes/guides/troubleshoot/img/jmc-triggers.png",
+    "jdk8docs/technotes/guides/troubleshoot/img/jmc-start-record.png",
+    "jdk8docs/technotes/guides/troubleshoot/img/jmc-expand-node.png",
+    "jdk8docs/technotes/guides/troubleshoot/img/jmc-event.png",
+    "jdk8docs/technotes/guides/troubleshoot/img/jmc-event-profile.png",
+    "jdk8docs/technotes/guides/troubleshoot/img/jmc-continue-record.png",
+    "jdk8docs/technotes/guides/troubleshoot/img/jmc-autorecording.png",
+    "jdk8docs/technotes/guides/troubleshoot/img/jfr-statistics-tab.png",
+    "jdk8docs/legal/dejavufonts.md",
+    "Appends/draw/IntroduceMe.excalidraw.md",
+    "docs/html/jdk8docs/legal/dejavufonts.md",
+    "docs/html/jdk-8u401-docs-all/legal/dejavufonts.md",
+    "docs/anote/在github和云服务器上配置git并且免密推送.md",
+    "docs/anote/Java全栈学习体系.md",
+    "docs/07服务器.md",
+    "docs/anote/RedHat服务部署.md",
+    "docs/anote/Linux.md",
+    "docs/02前端开发.md",
     "docs/anote/Vision和目标地图的区别.md",
     "docs/05闲杂小记.md",
     "docs/anote/基于Springboot的幼儿园管理系统.md",
     "Appends/draw/StringCantChange.excalidraw.md",
-    "docs/img/StringCantChange.png",
-    "docs/img/20101.png",
-    "docs/2010 1.png",
-    "Appends/draw/Analyse.excalidraw.md",
-    "Appends/draw/fourzhong.png",
-    "Appends/draw/fourzhong.png.md",
-    "docs/anote/配置SSH免密链接到云服务器.md",
-    "docs/07服务器.md",
-    "docs/anote/Linux.md",
-    "docs/anote/RedHat服务部署.md",
-    "docs/anote/writeup.md",
-    "docs/anote/Github的身份验证设置.md",
-    "Appends/img/game1.jpg",
-    "Appends/img/citywalk3.jpg",
-    "docs/anote/在macos上使用Idea.md",
-    "docs/anote/HTML.md",
-    "docs/_navbar.md"
+    "Appends/draw/Analyse.excalidraw.md"
   ]
 }
