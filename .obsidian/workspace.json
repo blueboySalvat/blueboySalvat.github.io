@@ -29,16 +29,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "65fee048f8870091",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Appends/draw/lifecycle.md"
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -183,8 +173,8 @@
   "active": "b4f66566f0159ad1",
   "lastOpenFiles": [
     "Appends/draw/lifecycle.md",
-    "docs/img/lifecycle.png",
     "docs/anote/Java高级.md",
+    "docs/img/lifecycle.png",
     "Appends/draw/Drawing 2024-02-02.excalidraw.md",
     "Appends/draw/lifecycle.excalidraw.png",
     "docs/img/ProcessAndthread.png",
