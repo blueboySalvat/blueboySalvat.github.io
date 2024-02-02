@@ -358,14 +358,16 @@ public class ReadLineTest {
 ### 继承 Thread 类
 >继承 Thread 类，重写 run 方法
 
-调用线程对象 `start` 方法
+- 编写继承 `Thread ` 重写 `run()` 方法的类
+- 根据此类创建线程对象
+- 调用线程对象 `start` 方法
 
 创建 `Thread` 子类对象，即创建线程对象；
 
 `EatThread.java`
 ```java
 package com.situ.threadlearning.basic;  
-  
+  //吃饭线程的定义
 public class EatThread extends Thread{  
     @Override  
     public void run() {  
@@ -384,7 +386,7 @@ public class EatThread extends Thread{
 `DrinkThread.java`
 ```java
 package com.situ.threadlearning.basic;  
-  
+  //喝酒线程的定义
 public class DrinkThread extends Thread{  
     public void run() {  
         for (int i = 0; i < 100; i++) {  
@@ -402,7 +404,7 @@ public class DrinkThread extends Thread{
 `ChatThread.java`
 ```java
 package com.situ.threadlearning.basic;  
-  
+//吃饭线程的定义
 public class ChatThread extends Thread{  
     public void run() {  
         for (int i = 0; i < 100; i++) {  
@@ -423,7 +425,7 @@ package com.situ.threadlearning.basic1;
   
 public class Test {  
     public static void main(String[] args) {  
-        //创建了三个线程对象  
+        //分别创建了三个线程的对象  
         ChatThread chat = new ChatThread();  
         DrinkThread drink = new DrinkThread();  
         EatThread eat = new EatThread();  
@@ -454,9 +456,10 @@ public class Test {
 ### 实现 Runnable 接口
 >实现 Runnable 接口，重写 run()
 
-- 通过 `Thread` 类构造方法创建线程对象；
-- 将 `Runnable` 接口的子类对象作为实际参数传递给 `Thread` 类的构造方法中；
-- 调用 `Thread` 类的 `start` 方法：开启线程
+- 编写实现 `Runnable` 接口，重写 `run` 方法的实现类
+- 根据此实现类创建<u>接口实现类对象</u>
+- 将<u>接口实现类的对象</u>作为实际参数传递给 `Thread` 类的构造方法中，创建出线程对象
+- 调用线程对象的 `start` 方法：开启线程
 
 优点：
 - 避免了单继承的局限性；
@@ -844,8 +847,217 @@ public class Window2 implements Runnable {
 
 因为默认构造方法是 `private` 的，直接 `new` 对象 `new` 不出来，想要调用只能 `static`
 
-## 线程死锁
 
+### Lock 锁
+```java
+package com.situ.threadlearning.threadsync.locklocker;  
+  
+import java.util.concurrent.locks.ReentrantLock;  
+  
+//线程任务的定义类  
+public class LockLocker implements Runnable{  
+    private int count = 100;  
+  
+    //使用给定的公平策略创建ReentrantLock的实例  
+    private ReentrantLock lock = new ReentrantLock(true);  
+  
+    @Override  
+    public void run() {  
+        while (true) {  
+            try {  
+                //被锁框起来的这段代码每次只能有一个线程对资源进行访问  
+                lock.lock();//运行这段代码时要先加锁  
+                if (count > 0) {  
+                    System.out.println(Thread.currentThread().getName() + "第" + count + "次");  
+                    count--;  
+                }else {  
+                    break;  
+                }  
+                Thread.sleep(3);//睡眠一下，防止运行速度过快看不清  
+            } catch (InterruptedException e) {  
+                throw new RuntimeException(e);  
+            }finally {  
+                lock.unlock();//无论如何，finally中的内容都会运行，肯定会释放锁  
+            }  
+        }  
+    }  
+}
+```
+```java
+package com.situ.threadlearning.threadsync.locklocker;  
+  
+public class Test {  
+    public static void main(String[] args) {  
+        LockLocker locker = new LockLocker();//线程任务定义类的对象  
+        //根据线程任务对象创建3个线程  
+        Thread t1 = new Thread(locker);  
+        Thread t2 = new Thread(locker);  
+        Thread t3 = new Thread(locker);  
+  
+        Thread.currentThread().setName("主线程");  
+        t1.setName("t1:");  
+        t2.setName("t2:");  
+        t3.setName("t3:");  
+  
+        t1.start();  
+        t2.start();  
+        t3.start();  
+    }  
+}
+```
+
+使用线程同步实现线程安全的单例模式
+>懒汉式
+
+```java
+package com.situ.threadlearning.threadsync.singleobject;  
+  
+public class SingleObject {  
+    private static SingleObject obj = null;//创建一个静态的，类型为 SingleObject类型的引用  
+  
+    private SingleObject() {  
+  
+    }  
+      
+    //使用synchronized方法，实现线程在调用这个方法的时候，排他性。  
+    //要不然就可能出现 当线程1运行就要运行到 new的时候，结果线程切换到线程2，  
+    //线程2一看现在 obj还是null，直接new出来一个对象，  
+    //时间片回到线程1，然后它又new一下。  
+    public static synchronized SingleObject getInstance() {  
+        //如果obj是空的话，就可以创建对象(创建一次对象之后obj肯定不会空)  
+        if (SingleObject.obj == null) {  
+            obj = new SingleObject();  
+        }  
+        return obj;//把创建号的对象返回出去  
+    }  
+}
+```
+
+
+
+## 线程死锁
+```java
+public class Lock {  
+    static Object objA = new  Object();  
+    static Object objB = new  Object();  
+}
+```
+```java
+package com.situ.threadlearning.threadsync.deadlocker;  
+  
+public class AThread extends Thread{  
+    public void run() {  
+        while (true) {  
+            synchronized (Lock.objA) {  
+                synchronized (Lock.objB) {  
+                    System.out.println("Athread.......");  
+                }  
+            }  
+        }  
+    }  
+}
+```
+```java
+package com.situ.threadlearning.threadsync.deadlocker;  
+  
+public class BThread extends Thread{  
+    public void run() {  
+        while (true) {  
+            synchronized (Lock.objB) {  
+                synchronized (Lock.objA) {  
+                    System.out.println("Bthread.......");  
+                }  
+            }  
+        }  
+    }  
+}
+```
+```java
+package com.situ.threadlearning.threadsync.deadlocker;  
+  
+public class Test {  
+    public static void main(String[] args) {  
+        AThread a = new AThread();  
+        BThread b = new BThread();  
+        a.start();  
+        b.start();  
+    }  
+}
+```
+```shell
+打印几行之后就会卡死
+```
+
+当这两个线程都在第一个 synchronized 的时候，他们分别有了 Lock.objA 钥匙和 Lock.objB 钥匙，但是下一步他们都开始期待着对放释放自己的钥匙，结果最后就是谁都没让谁...就僵持在那里。
+
+## 线程通信
+`PrintNum.java`
+```java
+package com.situ.threadlearning.threadcommunication;  
+  
+  
+//用于定义这个线程的任务："打印数字"  
+public class PrintNum implements Runnable{  
+    private int num = 1;  
+  
+    @Override  
+    public void run() {  
+        while (true) {  
+              
+            /**  
+             * 使用synchronized代码块，使得代码块中的内容成为一个整体，  
+             * 当一个线程运行到这里的时候，其他线程不容侵犯！  
+             *   
+             * //Object的字节码文件是唯一的.可以用来当唯一的"钥匙"  
+             */            synchronized (Object.class) {  
+                  
+                //通知其他线程进入唤醒状态(通知他们可以等着我用完CPU之后来抢)  
+                Object.class.notify();        
+                  
+                //打印数组的操作  
+                if (num <= 100) {  
+                    System.out.println(Thread.currentThread().getName() + "第" + num + "次");  
+                    num++;  
+                }else {  
+                    break;  
+                }  
+  
+                /*  
+                * 正常打印完成之后要到这里来调用 wait()，  
+                * 使之当前进程挂起并放弃CPU，  
+                * 等待其他线程使用notify方法唤醒  
+                * */                try {  
+                    //打印完一次数字之后让当前进程进去等待状态，释放了公共资源和Object.clas  
+                    Object.class.wait();  
+                } catch (InterruptedException e) {  
+                    throw new RuntimeException(e);  
+                }  
+  
+            }  
+        }  
+    }  
+}
+```
+`PrintNumTest.java`
+```java
+package com.situ.threadlearning.threadcommunication;  
+  
+public class PrintNumTest {  
+        public static void main(String[] args) {  
+                //创建线程任务对象  
+                PrintNum printNum= new PrintNum ();  
+                //根据线程任务对象创建两个线程  
+                Thread t1= new Thread (printNum);  
+                Thread t2= new Thread (printNum);  
+                //分别给这两个线程设置线程的名字  
+                t1.setName("线程1");  
+                t2.setName("线程2");  
+                //分别启动两个线程  
+                t1.start();  
+                t2.start();  
+        }  
+}
+```
 
 
 # 设计模式

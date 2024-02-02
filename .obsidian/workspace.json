@@ -49,22 +49,9 @@
                 "file": "Appends/draw/IntroduceMe.excalidraw.md"
               }
             }
-          },
-          {
-            "id": "64be810041f88b24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/anote/MacOS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d4c2b0db2270c3d5",
@@ -184,8 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5,
-    "collapsed": true
+    "width": 384.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,12 +189,13 @@
       "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "64be810041f88b24",
+  "active": "b4f66566f0159ad1",
   "lastOpenFiles": [
+    "docs/TODO.md",
+    "docs/anote/Java高级.md",
+    "docs/anote/MacOS.md",
     "Appends/draw/IntroduceMe.excalidraw.md",
     "docs/README.md",
-    "docs/anote/Java高级.md",
-    "docs/TODO.md",
     "Appends/draw/ProcessAndthread.excalidraw.md",
     "Appends/img/mc.mp4",
     "docs/_coverpage.md",

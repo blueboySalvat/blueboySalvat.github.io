@@ -17,7 +17,6 @@ kanban-plugin: basic
 
 ## DoIng
 
-- [ ] 自己介绍和演讲展示
 - [ ] 目标管理
 - [ ] 网站备案
 
@@ -25,6 +24,7 @@ kanban-plugin: basic
 ## Done
 
 **完成**
+- [x] 自己介绍和演讲展示
 - [x] [异常分类](anote/Java基础.md#异常)
 - [x] [自定义异常](anote/Java基础.md#自定义异常)
 - [x] 配置idea中的翻译插件(使用百度引擎)
