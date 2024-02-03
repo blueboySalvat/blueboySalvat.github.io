@@ -1232,9 +1232,153 @@ public class PrintNumTest {
 >套接字可以简单理解为"IP:Port"，网络上具有唯一标识的套接字是网络通信中的唯一标识符。
 
 ## 基于 TCP 协议的网络编程
-
+`Server.java`
 ```java
-
+package com.situ.netcoding.socket1;  
+  
+import java.io.InputStream;  
+import java.net.InetAddress;  
+import java.net.ServerSocket;  
+import java.net.Socket;  
+  
+public class Server {  
+    public static void main(String[] args) throws Exception {  
+        //创建监听套接字，监听本地的60000端口  
+        ServerSocket serverSocket = new ServerSocket(60000);  
+  
+        System.out.println("服务器已上线...");  
+  
+        while (true) {  
+            //获取已连接的套接字---调用 accept的程序会一只卡在这里，直到有连接才返回  
+            Socket socket = serverSocket.accept();  
+  
+            //获取连接上套接字的主机的地址  
+            InetAddress inetAddress = socket.getInetAddress();//Returns the address to which the socket is connected.  
+            String ip = inetAddress.getHostAddress();//返回IP地址的字符串形式  
+  
+            //获取连接上套接字的主机的端口号  
+            int port = socket.getPort();  
+            System.out.println(ip + ":" + port + "已连接");  
+  
+            int len = 0;  
+            byte[] arr = new byte[128];//用于做输入流的一个缓冲暂存数组  
+            InputStream in = socket.getInputStream();//从套接字中获取输入流  
+  
+            //只要没有读到末尾，就一直打印  
+            while ((len = in.read(arr)) != -1) {//把流中的内容读带arr中，并且返回本次读到的长度  
+                String str = new String(arr,0,len);//读到多少个就把多少个转换成字符串，  
+                System.out.println(str);//并且打印  
+            }  
+  
+            //关闭套接字  
+            socket.close();  
+        }  
+    }  
+}
+```
+`Client.java`
+```java
+package com.situ.netcoding.socket1;  
+  
+import java.io.OutputStream;  
+import java.net.Socket;  
+import java.util.Scanner;  
+  
+public class Client {  
+    public static void main(String[] args) throws Exception {  
+        //创建套接字，只要和服务器连接成功，就会返回  
+        Socket socket = new Socket("127.0.0.1", 60000);  
+  
+        byte[] arr = null;  
+        //获取IO流  
+        //创建了一个输出流，客户端是处理完用户输入后，从客户端输出的  
+        OutputStream out = socket.getOutputStream();  
+  
+        while (true) {  
+            //获取用户输入  
+            Scanner scanner = new Scanner(System.in);  
+            String str = scanner.next();  
+            //如果输入的是 exit，则直接 跳出了循环  
+            if (str.equals("exit")) {  
+                break;//跳出while循环  
+            }  
+  
+            //把用户输入的内容转化成字节，然后把这些内容写到输出流中  
+            //如果是 break跳出了while循环，本次就没有向输出流中写入任何数据，服务器那边就可以读到文件末尾返回-1了  
+            out.write(str.getBytes());  
+        }  
+  
+        //关闭套接字  
+        socket.close();  
+    }  
+}
+```
+---
+`ServerThread_Version.java`
+```java
+package com.situ.netcoding.socket1;  
+  
+import java.io.InputStream;  
+import java.net.InetAddress;  
+import java.net.Socket;  
+  
+public class ServerThread_Version extends Thread{  
+    private Socket socket;  
+    public ServerThread_Version(Socket socket) {  
+        this.socket = socket;  
+    }  
+  
+    @Override  
+    public void run() {  
+        try {  
+            //获取连接上套接字的主机的地址  
+            InetAddress inetAddress = socket.getInetAddress();//Returns the address to which the socket is connected.  
+            String ip = inetAddress.getHostAddress();//返回IP地址的字符串形式  
+  
+            //获取连接上套接字的主机的端口号  
+            int port = socket.getPort();  
+            System.out.println(ip + ":" + port + "已连接");  
+  
+            int len = 0;  
+            byte[] arr = new byte[128];//用于做输入流的一个缓冲暂存数组  
+            InputStream in = socket.getInputStream();//从套接字中获取输入流  
+  
+            //只要没有读到末尾，就一直打印  
+            while ((len = in.read(arr)) != -1) {//把流中的内容读带arr中，并且返回本次读到的长度  
+                String str = new String(arr, 0, len);//读到多少个就把多少个转换成字符串，  
+                System.out.println(str);//并且打印  
+            }  
+  
+            //关闭套接字  
+            socket.close();  
+        } catch (Exception e) {  
+            e.printStackTrace();  
+        }  
+    }  
+}
+```
+```java
+package com.situ.netcoding.socket1;  
+  
+import java.net.ServerSocket;  
+import java.net.Socket;  
+  
+public class Test {  
+    public static void main(String[] args) throws Exception {  
+        //创建监听套接字  
+        ServerSocket serverSocket = new ServerSocket(60000);  
+        System.out.println("服务器已上线...");  
+  
+        while (true) {  
+            //获取已连接的套接字---调用 accept的程序会一只卡在这里，直到有连接才返回  
+            Socket socket = serverSocket.accept();//监听连接到此套接字的连接，并且接受  
+            ServerThread_Version serverThread = new ServerThread_Version(socket);//创建一个线程对象，专门用于处理本次连接  
+            serverThread.start();//启动线程对象  
+        }  
+  
+  
+    }  
+}
 ```
 
 # 设计模式
