@@ -152,7 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5,
+    "width": 439.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -172,15 +172,15 @@
   },
   "active": "b4f66566f0159ad1",
   "lastOpenFiles": [
+    "docs/img/ProcessAndthread.png",
+    "docs/anote/Java高级.md",
+    "Appends/draw/ProcessAndthread.excalidraw.md",
+    "Appends/draw/Drawing 2024-02-02.excalidraw.md",
     "docs/img/cleardothing.jpeg",
     "docs/img/2F638F79-1AC1-4595-86E7-5FBA156BC8DD_1_105_c.jpeg",
     "Appends/draw/lifecycle.md",
-    "docs/anote/Java高级.md",
     "docs/img/lifecycle.png",
-    "Appends/draw/Drawing 2024-02-02.excalidraw.md",
     "Appends/draw/lifecycle.excalidraw.png",
-    "docs/img/ProcessAndthread.png",
-    "Appends/draw/ProcessAndthread.excalidraw.md",
     "Appends/draw/ObjectArray.excalidraw.md",
     "Appends/draw/IntroduceMe.excalidraw.md",
     "docs/img/ProcessAndthread.svg",
@@ -208,8 +208,6 @@
     "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-event-profile.html",
     "jdk8docs/technotes/guides/troubleshoot/img/visualgc.gif",
     "jdk8docs/technotes/guides/troubleshoot/img/jres.png",
-    "jdk8docs/technotes/guides/troubleshoot/img/jmc-triggers.png",
-    "jdk8docs/technotes/guides/troubleshoot/img/jmc-start-record.png",
     "jdk8docs/legal/dejavufonts.md",
     "docs/html/jdk8docs/legal/dejavufonts.md",
     "docs/html/jdk-8u401-docs-all/legal/dejavufonts.md",

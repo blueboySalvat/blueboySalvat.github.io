@@ -341,19 +341,30 @@ public class ReadLineTest {
 	- 是为完成特定任务、用某种语言编写的一组<font color="#de7802">指令的集合</font>。即指一段<font color="#de7802">静态</font>的代码，静态对象。
 - 进程
 	- 程序的一次执行过程，或是正在运行的一个程序。
-	- 进程是动态的进程作为资源分配的单位，系统在运行时会为每个进程分配不同的内存区域。
+	- 进程是动态的,进程作为资源分配的单位，系统在运行时会为每个进程分配不同的内存区域。
 - 线程
 	- 线程时进程的最小执行单位，是 CPU 的最小调度单位
 	- 进程的进一步细化
 	- 若一个进程同一时间并行执行多个线程，那它就是支持多线程的
 	- 线程的切换开销更小
-	- 一个进程中的多个线程共享相同的内存单元/内存地址空间，它们从同一堆中分配对象，可以访问相同的变量和对象。但是这也会带来访问的一些问题
+	- 一个进程中的多个线程<font color="#de7802">共享</font>相同的内存单元/内存地址空间，它们从同一堆中分配对象，可以访问相同的变量和对象。但是这也会带来访问的一些问题
 	- 每个 Java 程序都有一个隐含的主线程：`main` 方法。
 
-![](../img/ProcessAndthread.png)
-
 ## 线程的调度和生命周期
+调度策略:
 
+- 基于时间片轮转；
+- 抢占式：高优先级的线程抢占 CPU。
+
+调度方法：
+- 同优先级线程组成先进先出队列，使用时间片策略
+- 对高优先级，使用优先调度的抢占式策略
+- Java中线程优先级的范围是1~10，默认的优先级是5
+    - `MAX_PRIORITY(10)`
+    - `MIN_PRIORITY(1)`
+    - `NORM_PRIORITY(5)`
+
+涉及到的方法：
 - `setPriority(int newPriority)`：设置线程的优先级
 - `getPriority()`：获取线程的优先级
 - `yield()`：线程让步
@@ -366,8 +377,7 @@ public class ReadLineTest {
 - `stop()`：强制线程生命期结束
 - `isAlive()`：判断线程是否还活着
 
-
-
+![](../img/ProcessAndthread.png)
 
 - **新建**： 当一个 `Thread` 类或其子类的对象被声明并创建时，新生的线程对象处于新建状态；
 - **就绪**：处于新建状态的线程被 `start()` 后，将进入线程队列**等待 CPU 时间片**，此时它已具备了运行的条件；
@@ -380,13 +390,11 @@ public class ReadLineTest {
 ## 线程的创建和使用
 >在同一时间需要处理多个任务时就可以使用多线程。
 ### 继承 Thread 类
->继承 Thread 类，重写 run 方法
+>继承 `Thread` 类，重写 `run` 方法
 
-- 编写继承 `Thread ` 类，重写 `run()` 方法的继承类
-- 根据此继承类创建线程对象
+- 编写继承 `Thread ` 类，重写 `run()` 方法的 <font color="#de7802">Thread 子类</font>
+- 根据此 <font color="#de7802">Thread 子类</font> 创建线程对象
 - 调用线程对象 `start` 方法
-
-创建 `Thread` 子类对象，即创建线程对象；
 
 `EatThread.java`
 ```java
@@ -477,6 +485,8 @@ public class Test {
 但是实际上在控制台中同时只能被 一个线程占用，所以还是按着顺序来的。
 ```
 
+`chat`、`drink`、`eat` 是三个独立的对象。这三个线程对象之间没有共享的公共数据（实例变量），它们是相互独立的。
+
 #### Thread 的相关方法
 相关方法：
 - `start()`：启动线程，并执行对象的`run()`方法；
@@ -504,54 +514,62 @@ public class ThreadClass extends Thread{
 ```
 `ThreadClass2.java`
 ```java
-package com.situ.threadlearning.basic3;  
-  
-public class ThreadClass2 extends Thread{  
-    private Thread thread;  
-    public ThreadClass2() {  
-    }  
-  
-    public ThreadClass2(Thread thread) {  
-        this.thread = thread;  
-    }  
-  
-    public void run() {  
-        for (int i = 0; i < 10; i++) {  
-            System.out.println(Thread.currentThread().getName() + "\t第" + i + "次");  
-  
-  
-            /*  
-             *当运行到 第 5 次时，执行 会阻塞调用 thread111.join()方法，这会阻塞调用 thread111.join() 的线程，  
-             *也就是 thread222 线程阻塞，然后转而去把 thread111线程 进行完，然后在执行线程 thread222             *             * */            try {  
-                if (i == 4) {  
-                    thread.join();  
-                }  
-                Thread.currentThread().sleep(3);  
-            }catch (InterruptedException e) {  
-                throw new RuntimeException();  
-            }  
-        }  
-    }  
+package com.situ.threadlearning.basic3;
+
+public class ThreadClass2 extends Thread{
+    private Thread thread;
+    public ThreadClass2() {
+    }
+
+    public ThreadClass2(Thread thread) {
+        this.thread = thread;
+    }
+
+    public void run() {
+        for (int i = 0; i < 10; i++) {
+            System.out.println(Thread.currentThread().getName() + "\t第" + i + "次");
+
+
+            /*
+             * 当运行到 第 5 次时，当前线程(thread222)会执行thread111.join()方法，
+             * 这会阻塞 thread111.join() 的调用线程(thread222)，
+             * thread222 线程阻塞，然后转而去把 thread111线程 进行完，然后再执行线程 thread222
+             *
+             * */
+            try {
+                if (i == 4) {
+                    thread.join();
+                }
+                Thread.currentThread().sleep(3);
+            }catch (InterruptedException e) {
+                throw new RuntimeException();
+            }
+        }
+    }
 }
 ```
 `ThreadClassTest.java`
 ```java
-package com.situ.threadlearning.basic3;
-
-public class ThreadClassTest {
-    public static void main(String[] args) throws Exception {
-        Thread.currentThread().setName("主线程");
-
-        ThreadClass thread111 = new ThreadClass();//创建线程 thread111
-        thread111.setName("thread111线程");//给thread111线程设置名字
-
-        ThreadClass2 thread222 = new ThreadClass2(thread111);//创建线程 thread222
-        thread222.setName("thread222线程");//给thread222线程设置名字
-
-        thread111.start();//启动thread111线程
-        thread222.start();//启动thread222线程
-
-    }
+package com.situ.threadlearning.basic3;  
+  
+public class ThreadClassTest {  
+    public static void main(String[] args) throws Exception {  
+        Thread.currentThread().setName("主线程");  
+  
+        ThreadClass thread111 = new ThreadClass();//创建线程对象 thread111        
+        thread111.setName("thread111线程");//给thread111线程设置名字  
+  
+        /*  
+        * 创建线程对象 thread222，创建时传入了线程对象 thread111的引用(地址)  
+        * 这意味着 在thread222中，有了找到 thread111的 能力  
+        * */        
+        ThreadClass2 thread222 = new ThreadClass2(thread111);  
+        thread222.setName("thread222线程");//给thread222设置名字  
+  
+        thread111.start();//启动thread111线程  
+        thread222.start();//启动thread222线程  
+  
+    }  
 }
 ```
 
@@ -999,7 +1017,7 @@ public class Test {
 打印几行之后就会卡死
 ```
 
-当这两个线程都在第一个 synchronized 的时候，他们分别有了 Lock.objA 钥匙和 Lock.objB 钥匙，但是下一步他们都开始期待着对放释放自己的钥匙，结果最后就是谁都没让谁...就僵持在那里。
+当这两个线程都在第一个 `synchronized` 的时候，他们分别有了 `Lock.objA` 钥匙和 `Lock.objB` 钥匙，但是下一步他们都开始期待着对放释放自己的钥匙，结果最后就是谁都没让谁...就僵持在那里。
 
 ## 线程通信
 `PrintNum.java`

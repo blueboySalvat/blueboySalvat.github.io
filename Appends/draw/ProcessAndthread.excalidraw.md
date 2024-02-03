@@ -163,6 +163,8 @@ tags: [excalidraw]
 他们只是能获得的概率更大一些，
 其他的那些干着不是那么重要活的机器，也可以有概率获得插座的使用权。
 
+若是好几个机器都干着相同的活，那他们就按照先后排个队，有空闲插头了
+就按照先后分。
 
 在你设计的这一套规则下，工厂中的机器有序进行。。。。。。 ^n5ewoagH
 
@@ -189,6 +191,9 @@ tags: [excalidraw]
 进程 ^w8MyWbU1
 
 时间片轮转 ^tQ019Eju
+
+同优先级线程组成先进先出队列，
+使用时间片策略 ^cb9W1397
 
 %%
 # Drawing
@@ -3246,8 +3251,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "rectangle",
-			"version": 1836,
-			"versionNonce": 1175633034,
+			"version": 1838,
+			"versionNonce": 1007539990,
 			"isDeleted": false,
 			"id": "AhfT-XLL77iZ59XxKu0Bh",
 			"fillStyle": "solid",
@@ -3256,12 +3261,12 @@ tags: [excalidraw]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 1.59485854984114,
-			"x": -407.5861039500879,
-			"y": 560.090185684339,
+			"x": -407.58610395008765,
+			"y": 560.0901856843391,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#b2f2bb",
-			"width": 18.06631085081489,
-			"height": 17.999999999999062,
+			"width": 18.066310850814663,
+			"height": 17.999999999998835,
 			"seed": 1306642324,
 			"groupIds": [
 				"xTpsQvzkcSnqFQtkFyT35"
@@ -3276,14 +3281,14 @@ tags: [excalidraw]
 					"id": "w3Nv4QsK"
 				}
 			],
-			"updated": 1706880493385,
+			"updated": 1706921350676,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1999,
-			"versionNonce": 1726785814,
+			"version": 2001,
+			"versionNonce": 967738454,
 			"isDeleted": false,
 			"id": "w3Nv4QsK",
 			"fillStyle": "solid",
@@ -3292,7 +3297,7 @@ tags: [excalidraw]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 1.59485854984114,
-			"x": -401.8997590925986,
+			"x": -401.89975909259846,
 			"y": 565.2869918571588,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -3305,7 +3310,7 @@ tags: [excalidraw]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706880493385,
+			"updated": 1706921350676,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.085110123487516,
@@ -3580,8 +3585,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "rectangle",
-			"version": 1966,
-			"versionNonce": 1330849674,
+			"version": 1968,
+			"versionNonce": 826771862,
 			"isDeleted": false,
 			"id": "IXq3yCzjPdt82SsmE7uvB",
 			"fillStyle": "solid",
@@ -3590,12 +3595,12 @@ tags: [excalidraw]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 1.59485854984114,
-			"x": -492.26595718468747,
-			"y": 559.0759473010229,
+			"x": -492.26595718468724,
+			"y": 559.075947301023,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#b2f2bb",
-			"width": 18.06631085081489,
-			"height": 17.999999999999062,
+			"width": 18.066310850814663,
+			"height": 17.999999999998835,
 			"seed": 1420948372,
 			"groupIds": [
 				"T_NEdMls-GNxH8sbEmmzS"
@@ -3610,14 +3615,14 @@ tags: [excalidraw]
 					"id": "fGUyxbWw"
 				}
 			],
-			"updated": 1706880493386,
+			"updated": 1706921350676,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 2132,
-			"versionNonce": 1618767382,
+			"version": 2134,
+			"versionNonce": 1913513686,
 			"isDeleted": false,
 			"id": "fGUyxbWw",
 			"fillStyle": "solid",
@@ -3626,7 +3631,7 @@ tags: [excalidraw]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 1.59485854984114,
-			"x": -486.57961232719816,
+			"x": -486.57961232719805,
 			"y": 564.2727534738427,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -3639,7 +3644,7 @@ tags: [excalidraw]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706880493386,
+			"updated": 1706921350676,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.085110123487516,
@@ -3903,8 +3908,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "rectangle",
-			"version": 1993,
-			"versionNonce": 2018500054,
+			"version": 1995,
+			"versionNonce": 479632406,
 			"isDeleted": false,
 			"id": "KGvl-nwgxr943yoz1cSCE",
 			"fillStyle": "solid",
@@ -3913,12 +3918,12 @@ tags: [excalidraw]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 1.59485854984114,
-			"x": -414.08967355120836,
-			"y": 672.029443472541,
+			"x": -414.08967355120814,
+			"y": 672.0294434725411,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#b2f2bb",
-			"width": 18.06631085081489,
-			"height": 17.999999999999062,
+			"width": 18.066310850814663,
+			"height": 17.999999999998835,
 			"seed": 975667732,
 			"groupIds": [
 				"_pZmcMSyMd2gi5cY8vLIr"
@@ -3933,14 +3938,14 @@ tags: [excalidraw]
 					"id": "gXlCB85g"
 				}
 			],
-			"updated": 1706880493386,
+			"updated": 1706921350676,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 2156,
-			"versionNonce": 1535513226,
+			"version": 2158,
+			"versionNonce": 1993779542,
 			"isDeleted": false,
 			"id": "gXlCB85g",
 			"fillStyle": "solid",
@@ -3949,7 +3954,7 @@ tags: [excalidraw]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 1.59485854984114,
-			"x": -408.40332869371906,
+			"x": -408.40332869371895,
 			"y": 677.2262496453608,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -3962,7 +3967,7 @@ tags: [excalidraw]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706880493386,
+			"updated": 1706921350676,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.085110123487516,
@@ -4070,8 +4075,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "rectangle",
-			"version": 2042,
-			"versionNonce": 1883693142,
+			"version": 2044,
+			"versionNonce": 1076039318,
 			"isDeleted": false,
 			"id": "FZSRcvUhXL8aEodTKKMVs",
 			"fillStyle": "solid",
@@ -4080,12 +4085,12 @@ tags: [excalidraw]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 1.59485854984114,
-			"x": -342.9849965921023,
-			"y": 671.7285707820749,
+			"x": -342.98499659210205,
+			"y": 671.728570782075,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#b2f2bb",
-			"width": 18.06631085081489,
-			"height": 17.999999999999062,
+			"width": 18.066310850814663,
+			"height": 17.999999999998835,
 			"seed": 1792792596,
 			"groupIds": [
 				"Ty7swS_NEvX9g1U6WMQeO"
@@ -4100,14 +4105,14 @@ tags: [excalidraw]
 					"id": "SleY2SV2"
 				}
 			],
-			"updated": 1706880493386,
+			"updated": 1706921350676,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 2206,
-			"versionNonce": 1146517514,
+			"version": 2208,
+			"versionNonce": 87083990,
 			"isDeleted": false,
 			"id": "SleY2SV2",
 			"fillStyle": "solid",
@@ -4116,7 +4121,7 @@ tags: [excalidraw]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 1.59485854984114,
-			"x": -337.298651734613,
+			"x": -337.29865173461286,
 			"y": 676.9253769548948,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -4129,7 +4134,7 @@ tags: [excalidraw]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706880493386,
+			"updated": 1706921350676,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.085110123487516,
@@ -4237,8 +4242,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "rectangle",
-			"version": 2123,
-			"versionNonce": 725566166,
+			"version": 2125,
+			"versionNonce": 1947525398,
 			"isDeleted": false,
 			"id": "TBJfc3jQAeBZj4igxkfQs",
 			"fillStyle": "solid",
@@ -4247,12 +4252,12 @@ tags: [excalidraw]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 1.59485854984114,
-			"x": -498.76952678580784,
-			"y": 671.0152050892251,
+			"x": -498.7695267858076,
+			"y": 671.0152050892252,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#b2f2bb",
-			"width": 18.06631085081489,
-			"height": 17.999999999999062,
+			"width": 18.066310850814663,
+			"height": 17.999999999998835,
 			"seed": 733294100,
 			"groupIds": [
 				"_OBJoxsQu-Hw7tAtSSExL"
@@ -4267,14 +4272,14 @@ tags: [excalidraw]
 					"id": "7CEyWqL2"
 				}
 			],
-			"updated": 1706880493386,
+			"updated": 1706921350676,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 2289,
-			"versionNonce": 493583754,
+			"version": 2291,
+			"versionNonce": 809782870,
 			"isDeleted": false,
 			"id": "7CEyWqL2",
 			"fillStyle": "solid",
@@ -4283,7 +4288,7 @@ tags: [excalidraw]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 1.59485854984114,
-			"x": -493.08318192831854,
+			"x": -493.0831819283184,
 			"y": 676.2120112620449,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -4296,7 +4301,7 @@ tags: [excalidraw]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706880493386,
+			"updated": 1706921350676,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.085110123487516,
@@ -5931,8 +5936,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "text",
-			"version": 1424,
-			"versionNonce": 1971848086,
+			"version": 1586,
+			"versionNonce": 1976134794,
 			"isDeleted": false,
 			"id": "n5ewoagH",
 			"fillStyle": "solid",
@@ -5946,30 +5951,30 @@ tags: [excalidraw]
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#b2f2bb",
 			"width": 660,
-			"height": 225,
+			"height": 275,
 			"seed": 805383212,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706880493387,
+			"updated": 1706921310243,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
-			"text": "聪明的你就又想到了，\n我可以根据每隔一段时间，\n就根据每个机器干的活的重要性来分配要不要马上获得插座的使用权\n但是这些干着重要活的机器也不是会一直获得插座，\n他们只是能获得的概率更大一些，\n其他的那些干着不是那么重要活的机器，也可以有概率获得插座的使用权。\n\n\n在你设计的这一套规则下，工厂中的机器有序进行。。。。。。",
-			"rawText": "聪明的你就又想到了，\n我可以根据每隔一段时间，\n就根据每个机器干的活的重要性来分配要不要马上获得插座的使用权\n但是这些干着重要活的机器也不是会一直获得插座，\n他们只是能获得的概率更大一些，\n其他的那些干着不是那么重要活的机器，也可以有概率获得插座的使用权。\n\n\n在你设计的这一套规则下，工厂中的机器有序进行。。。。。。",
+			"text": "聪明的你就又想到了，\n我可以根据每隔一段时间，\n就根据每个机器干的活的重要性来分配要不要马上获得插座的使用权\n但是这些干着重要活的机器也不是会一直获得插座，\n他们只是能获得的概率更大一些，\n其他的那些干着不是那么重要活的机器，也可以有概率获得插座的使用权。\n\n若是好几个机器都干着相同的活，那他们就按照先后排个队，有空闲插头了\n就按照先后分。\n\n在你设计的这一套规则下，工厂中的机器有序进行。。。。。。",
+			"rawText": "聪明的你就又想到了，\n我可以根据每隔一段时间，\n就根据每个机器干的活的重要性来分配要不要马上获得插座的使用权\n但是这些干着重要活的机器也不是会一直获得插座，\n他们只是能获得的概率更大一些，\n其他的那些干着不是那么重要活的机器，也可以有概率获得插座的使用权。\n\n若是好几个机器都干着相同的活，那他们就按照先后排个队，有空闲插头了\n就按照先后分。\n\n在你设计的这一套规则下，工厂中的机器有序进行。。。。。。",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "聪明的你就又想到了，\n我可以根据每隔一段时间，\n就根据每个机器干的活的重要性来分配要不要马上获得插座的使用权\n但是这些干着重要活的机器也不是会一直获得插座，\n他们只是能获得的概率更大一些，\n其他的那些干着不是那么重要活的机器，也可以有概率获得插座的使用权。\n\n\n在你设计的这一套规则下，工厂中的机器有序进行。。。。。。",
+			"originalText": "聪明的你就又想到了，\n我可以根据每隔一段时间，\n就根据每个机器干的活的重要性来分配要不要马上获得插座的使用权\n但是这些干着重要活的机器也不是会一直获得插座，\n他们只是能获得的概率更大一些，\n其他的那些干着不是那么重要活的机器，也可以有概率获得插座的使用权。\n\n若是好几个机器都干着相同的活，那他们就按照先后排个队，有空闲插头了\n就按照先后分。\n\n在你设计的这一套规则下，工厂中的机器有序进行。。。。。。",
 			"lineHeight": 1.25,
-			"baseline": 218
+			"baseline": 268
 		},
 		{
 			"type": "arrow",
-			"version": 860,
-			"versionNonce": 161229002,
+			"version": 862,
+			"versionNonce": 647238550,
 			"isDeleted": false,
 			"id": "ZMLhmmwaBksAcMVmyVgqO",
 			"fillStyle": "solid",
@@ -5991,7 +5996,7 @@ tags: [excalidraw]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706880493387,
+			"updated": 1706921350686,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -6053,8 +6058,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "text",
-			"version": 198,
-			"versionNonce": 1785757578,
+			"version": 398,
+			"versionNonce": 422312266,
 			"isDeleted": false,
 			"id": "hxBV6bl8",
 			"fillStyle": "solid",
@@ -6063,8 +6068,8 @@ tags: [excalidraw]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 260.9507120464161,
-			"y": 1596.7511535901056,
+			"x": 480.95071204641613,
+			"y": 1608.9733758123282,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#b2f2bb",
 			"width": 140,
@@ -6074,7 +6079,7 @@ tags: [excalidraw]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706880493387,
+			"updated": 1706921387989,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -6819,8 +6824,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "arrow",
-			"version": 610,
-			"versionNonce": 1920209558,
+			"version": 670,
+			"versionNonce": 299599946,
 			"isDeleted": false,
 			"id": "wsWyiOt4t6jfqaZ8NJV91",
 			"fillStyle": "solid",
@@ -6834,7 +6839,7 @@ tags: [excalidraw]
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#b2f2bb",
 			"width": 509.5588235294122,
-			"height": 575.8823529411761,
+			"height": 604.146241830065,
 			"seed": 1320753878,
 			"groupIds": [],
 			"frameId": null,
@@ -6842,7 +6847,7 @@ tags: [excalidraw]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706880493387,
+			"updated": 1706921393525,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -6860,19 +6865,19 @@ tags: [excalidraw]
 					-4.852941176470722
 				],
 				[
-					489.3382352941176,
-					242.64705882352928
+					496.21323529411757,
+					246.46650326797362
 				],
 				[
-					417.3529411764704,
-					571.0294117647054
+					456.31127450980375,
+					599.2933006535943
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 302,
-			"versionNonce": 746359242,
+			"version": 380,
+			"versionNonce": 25840458,
 			"isDeleted": false,
 			"id": "0KSr_4J2w2Fv_Nz9_VuYS",
 			"fillStyle": "solid",
@@ -6885,8 +6890,8 @@ tags: [excalidraw]
 			"y": 1040.6456195076482,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#b2f2bb",
-			"width": 401.9852941176469,
-			"height": 524.9264705882351,
+			"width": 211.77696078431347,
+			"height": 523.3986928104573,
 			"seed": 1247499658,
 			"groupIds": [],
 			"frameId": null,
@@ -6894,7 +6899,7 @@ tags: [excalidraw]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706880493388,
+			"updated": 1706921375515,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -6912,15 +6917,15 @@ tags: [excalidraw]
 					24.264705882352928
 				],
 				[
-					-298.45588235294105,
-					524.9264705882351
+					-108.24754901960762,
+					523.3986928104573
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 51,
-			"versionNonce": 1321291734,
+			"version": 93,
+			"versionNonce": 919679050,
 			"isDeleted": false,
 			"id": "tQ019Eju",
 			"fillStyle": "solid",
@@ -6929,8 +6934,8 @@ tags: [excalidraw]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 642.8491969612141,
-			"y": 1596.8450680370597,
+			"x": 678.751974738992,
+			"y": 1607.539512481504,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#b2f2bb",
 			"width": 100,
@@ -6940,7 +6945,7 @@ tags: [excalidraw]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706880493388,
+			"updated": 1706921390224,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -6953,6 +6958,91 @@ tags: [excalidraw]
 			"originalText": "时间片轮转",
 			"lineHeight": 1.25,
 			"baseline": 18
+		},
+		{
+			"type": "arrow",
+			"version": 1034,
+			"versionNonce": 695134486,
+			"isDeleted": false,
+			"id": "j27a7OlqsnAXmJJ7J8hxN",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "dotted",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 257.62240457333166,
+			"y": 1161.6834087433424,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#b2f2bb",
+			"width": 364.77941176470574,
+			"height": 384.8132151613438,
+			"seed": 1928864906,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1706921382906,
+			"link": null,
+			"locked": false,
+			"startBinding": null,
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					364.77941176470574,
+					36.48692810457487
+				],
+				[
+					31.92638491272612,
+					384.8132151613438
+				]
+			]
+		},
+		{
+			"id": "cb9W1397",
+			"type": "text",
+			"x": 146.84702565401136,
+			"y": 1583.864684316151,
+			"width": 300,
+			"height": 50,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#b2f2bb",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "dotted",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1762908566,
+			"version": 217,
+			"versionNonce": 426328458,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1706921384456,
+			"link": null,
+			"locked": false,
+			"text": "同优先级线程组成先进先出队列，\n使用时间片策略",
+			"rawText": "同优先级线程组成先进先出队列，\n使用时间片策略",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 43,
+			"containerId": null,
+			"originalText": "同优先级线程组成先进先出队列，\n使用时间片策略",
+			"lineHeight": 1.25
 		}
 	],
 	"appState": {
@@ -6970,10 +7060,10 @@ tags: [excalidraw]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1329.4190789649194,
-		"scrollY": 437.68098160647014,
+		"scrollX": -23.65258120956698,
+		"scrollY": -921.954962093929,
 		"zoom": {
-			"value": 0.4
+			"value": 0.9000000000000004
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
