@@ -574,7 +574,7 @@ public class ThreadClassTest {
 ```
 
 ### 实现 Runnable 接口
->实现 Runnable 接口，重写 run()
+>实现 `Runnable` 接口，重写 `run()`
 
 - 编写实现 `Runnable` 接口，重写 `run` 方法的实现类
 - 根据此实现类创建<u>接口实现类对象</u>
@@ -652,11 +652,11 @@ public class Test {
         Eat eat = new Eat();  
         Drink drink = new Drink();  
         Chat chat = new Chat();  
-        //创建Thread类，并将Runnable接口实现类的对象作为参数传入  
+        //使用传入Runnable接口实现类对象的方式 创建线程对象  
         Thread t1 = new Thread(eat);  
         Thread t2 = new Thread(drink);  
         Thread t3 = new Thread(chat);  
-        Thread t4 = new Thread(new Runnable() {//使用匿名内部类创建一个实现 Runnable，还重写run的实现类  
+        Thread t4 = new Thread(new Runnable() {//使用匿名内部类创建一个实现 Runnable接口重写run的接口实现类  
             @Override  
             public void run() {  
                 for (int i = 0; i < 5; i++) {  
@@ -710,20 +710,136 @@ Thread-1	喝酒
 `main` 方法运行在主线程中，而主线程与其他线程是并发执行的。
 "main"并不是一定会出现在第一行，多试几次就发现了。
 
+这个例子并没有体现出使用 runnable 接口创建线程时，多个线程处理同一份资源的优势，在后续的 [synchronized 代码块](#synchronized%20代码块) 我们可以看到使用 Runnable 接口和 Thread 类创建多线程卖票小程序的不同实现。
+
 ### 实现 Callable 接口
 >JDK 5.0 新增创建方式
 
 - 相比 `run()` 方法，可以有返回值；
 - 方法可以抛出异常；
 - 支持泛型的返回值；
-- 需要借助`FutureTask`类，比如获取返回结果。
+- 需要借助 `FutureTask` 类，比如获取返回结果。
+
+`SumNum.java`
+```java
+package com.situ.threadlearning.basic4;  
+  
+import java.util.concurrent.Callable;  
+  
+  
+  
+/*  
+* 定义实现 Callable接口，重写 call()方法的线程定义类  
+* 使用类泛型接口，泛型参数会影响这个接口中的返回值  
+* 我们要定义的是求和的方法，泛型参数中写 Integer*  
+* public interface Callable<V> {  
+*  
+*    V call() throws Exception;  
+* }  
+*  
+* 方法中我们使用的是 int 类型，其实在返回的时候还包含  
+* 一个自动装箱的操作。  
+* */  
+public class SumNum implements Callable<Integer> {  
+    @Override  
+    public Integer call() throws Exception {  
+        int sum = 0;  
+        for (int i = 0; i < 101; i++) {  
+            sum = sum + i;  
+        }  
+        return sum;  
+    }  
+}
+```
+`CallableTest.java`
+```java
+package com.situ.threadlearning.basic4;  
+  
+import java.util.concurrent.ExecutionException;  
+import java.util.concurrent.FutureTask;  
+  
+public class CallableTest {  
+    public static void main(String[] args) {  
+        SumNum sumNum = new SumNum();  
+        FutureTask<Integer> task = new FutureTask<>(sumNum);  
+        Thread thread = new Thread(task);//创建线程对象  
+        thread.start();//启动线程对象  
+  
+        try {  
+            Integer sum = task.get();//借助task类对象获取返回结果  
+            System.out.println(sum);  
+        } catch (InterruptedException e) {  
+            throw new RuntimeException(e);  
+        } catch (ExecutionException e) {  
+            throw new RuntimeException(e);  
+        }  
+    }  
+}
+```
 
 ### 使用线程池
+>线程池中有多个已经提前创建好的线程，使用时直接获取，用完放回，避免频繁创建销毁线程带来的性能影响。
+
+`SumNum.java`
+```java
+package com.situ.threadlearning.basic5;  
+  
+public class SumNum implements Runnable {  
+    @Override  
+    public void run() {  
+        int sum = 0;  
+        for (int i = 0; i < 101; i++) {  
+            if (i % 2 == 0) {  
+                System.out.println(Thread.currentThread().getName() + ":" + i);  
+            }  
+        }  
+    }  
+}
+```
+`SumNum2.java`
+```java
+package com.situ.threadlearning.basic5;  
+  
+public class SumNum2 implements Runnable {  
+    @Override  
+    public void run() {  
+        int sum = 0;  
+        for (int i = 0; i < 101; i++) {  
+            if (i % 2 == 0) {  
+                System.out.println(Thread.currentThread().getName() + ":" + i);  
+            }  
+        }  
+    }  
+}
+```
+`Test.java`
+```java
+package com.situ.threadlearning.basic5;  
+  
+import java.util.concurrent.ExecutorService;  
+import java.util.concurrent.Executors;  
+  
+public class Test {  
+    public static void main(String[] args) {  
+        //创建有10个线程的可以重复利用的线程池  
+        ExecutorService service = Executors.newFixedThreadPool(10);  
+        //创建了两个线程对象  
+        SumNum SumNum = new SumNum();  
+        SumNum2 SumNum2 = new SumNum2();  
+  
+        //执行这两个线程对象  
+        service.execute(SumNum);  
+        service.execute(SumNum2);  
+        //关闭线程  
+        service.shutdown();  
+    }  
+}
+```
 
 
 ## 线程同步
 <font color=#646a73>*更新时间：2024-02-01 22:06:16*</font>
-希望哪段代码被一个线程执行完才允许其他线程执行，就使用 synchronized 代码块将代码圈起来
+希望哪段代码被一个线程执行完才允许其他线程执行，就使用 `synchronized` 代码块将代码圈起来
 ()中要填写唯一的对象，“钥匙”，这个对象必须是唯一的
 * 字节码文件 --- 唯一的
 * 类名-class --- 唯一的
@@ -782,7 +898,7 @@ public class Test {
 }
 ```
 
-理解：通过 Thread 创建了三个线程对象，此时堆内存空间中有四个对象，window 和三个线程对象 window 1 window 2 window 3。但是注意，这三个线程在创建时都传入了一个对象，这意味着这三个线程共享一个对象实例。可以理解为这三个对象都是对这个引用指向的空间进行操作。这个 window 实例只有一份 count，这样就实现了三个线程对 count 对操作和共享。
+理解：通过 `Thread` 创建了三个线程对象，此时堆内存空间中有四个对象，window 和三个线程对象 `window1 ` `window2 ` `window3`。但是注意，这三个线程在创建时都传入了一个对象，这意味着这三个线程共享一个对象实例。可以理解为这三个对象都是对这个引用指向的空间进行操作。这个 `window` 实例只有一份 `count`，这样就实现了三个线程对 `count` 对操作和共享。
 
 
 ```java
@@ -835,8 +951,9 @@ public class Test {
 }
 ```
 
-通过 `Window1 windowx = new Window1();` 这样的语句为每个线程分别创建了一个 `Window1` 对象实例，这些实例在堆内存中独立存在。每个线程对象都有自己的线程栈，用于执行 `run` 方法。因此，你创建的三个线程对象分别占据堆内存中的不同位置。所以每个线程在 run 方法中执行到 synchorized 代码块时，这个 this 所指代的都是当前对象，哪个线程运行到这，这个 this 就指代谁，这样的话三个线程三个 this 不同，无法实现锁的效果。
-如果使用的是唯一锁，例如 Object.class，同时又是对内存中同一块的 run 方法区操作的时候，就可以锁了。
+通过 `Window1 windowx = new Window1();` 这样的语句为每个线程分别创建了一个 `Window1` 对象实例，这些实例在堆内存中独立存在。每个线程对象都有自己的线程栈，用于执行 `run` 方法。因此，创建的三个线程对象分别占据堆内存中的不同位置。所以每个线程在 `run` 方法中执行到 `synchorized` 代码块时，这个 `this` 所指代的都是当前对象，哪个线程运行到这，这个 `this` 就指代谁，这样的话三个线程三个 this `不同`，无法实现锁的效果。
+
+如果使用的是唯一锁，例如 `Object.class`，同时又是对内存中同一块的 `run` 方法区操作的时候，就可以锁了。
 
 ### synchronized 方法
 ```java
@@ -869,12 +986,9 @@ public class Window2 implements Runnable {
 ```
 
 `Thread` 和 `Runnable`
+-  `Thead` 每次都是创建新的线程对象
+- 通过一个 `Runnable` 实现类来创建线程，他们共享这个 `Runnable` 实现类的空间。
 
-`Thead` 每次都是创建新的线程对象
-
-通过一个 `Runnable` 实现类来创建线程，他们共享这个 `Runnable` 实现类的空间。
-
-因为默认构造方法是 `private` 的，直接 `new` 对象 `new` 不出来，想要调用只能 `static`
 
 
 ### Lock 锁
@@ -962,7 +1076,7 @@ public class SingleObject {
 }
 ```
 
-
+因为默认构造方法是 `private` 的，直接 `new` 对象 `new` 不出来，想要调用只能 `static`
 
 ## 线程死锁
 ```java
@@ -1037,7 +1151,7 @@ public class PrintNum implements Runnable{
              * 使用synchronized代码块，使得代码块中的内容成为一个整体，  
              * 当一个线程运行到这里的时候，其他线程不容侵犯！  
              *   
-             * //Object的字节码文件是唯一的.可以用来当唯一的"钥匙"  
+             * Object的字节码文件是唯一的.可以用来当唯一的"钥匙"  
              */            synchronized (Object.class) {  
                   
                 //通知其他线程进入唤醒状态(通知他们可以等着我用完CPU之后来抢)  

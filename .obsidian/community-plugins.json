@@ -21,11 +21,11 @@
   "editing-toolbar",
   "obsidian-html-plugin",
   "convert-url-to-iframe",
-  "obsidian-custom-frames",
   "obsidian-kanban",
   "obsidian-hover-editor",
   "better-word-count",
   "obsidian-copy-block-link",
   "contribution-graph",
-  "obsidian-linter"
+  "obsidian-linter",
+  "obsidian-custom-frames"
 ]
