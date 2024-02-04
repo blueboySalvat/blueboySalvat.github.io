@@ -16,32 +16,6 @@
                 "file": "docs/TODO.md"
               }
             }
-          },
-          {
-            "id": "04ae5e0d27002e20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/anote/Java基础.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4f66566f0159ad1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/anote/Java高级.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -62,7 +36,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -93,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 247.5
   },
   "right": {
     "id": "d4c2b0db2270c3d5",
@@ -183,50 +157,51 @@
   },
   "active": "b14f43e212de3194",
   "lastOpenFiles": [
-    "docs/anote/Java基础.md",
-    "docs/img/Def_domain.png",
+    "docs/闲杂小记.md",
+    "docs/anote/2024年1月.md",
+    "docs/TODO.md",
+    "docs/anote/复盘和总结.md",
+    "docs/_navbar.md",
+    "docs/anote/2024年1月自我介绍演讲复盘.md",
+    "docs/08其他.md",
+    "docs/效率技巧.md",
+    "docs/anote/2024领域年度总结.md",
+    "docs/anote/2024年2月.md",
+    "docs/07服务器.md",
+    "docs/anote/2023年度总结.md",
+    "未命名",
     "docs/anote/Java高级.md",
+    "docs/README.md",
+    "docs/anote/Java基础.md",
+    "docs/img/StaticInRAM.md",
+    "docs/img/StaticInRAM.png",
+    "docs/img/ObjectArray.md",
+    "docs/img/ObjectArray.png",
+    "docs/img/StackAndHeap_Object_InJava.md",
+    "docs/img/StackAndHeap_Object_InJava.png",
+    "docs/img/StackAndHeap_2Array_InJava.md",
+    "docs/img/StackAndHeap_2Array_InJava.png",
+    "docs/img/StackAndHeap_1Array_InJava.md",
+    "docs/img/StackAndHeap_1Array_InJava.png",
+    "docs/img/function_recursion.md",
+    "docs/img/function_recursion.png",
+    "docs/anote/创业.md",
+    "docs/img/Def_domain.png",
     "docs/img/StringCantChange.md",
     "docs/img/StringCantChange.png",
     "docs/img/StringCantChange1.png",
     "docs/img/lifecycle.md",
     "docs/img/lifecycle2.png",
-    "docs/img/lifecycle1.png",
     "docs/img/ProcessAndthread.md",
-    "docs/img/ProcessAndthread.png",
-    "docs/img/ProcessAndthread.png",
     "docs/img/Reflection.md",
-    "docs/img/Reflection.png",
-    "docs/img/Reflection2.png",
-    "docs/TODO.md",
-    "docs/img/cleardothing.jpeg",
-    "docs/img/JVM_RAM_Structure.md",
-    "docs/anote/Java中的内存模型.md",
-    "docs/img/Drawing 2024-02-02.excalidraw.md",
-    "docs/03后端开发.md",
-    "docs/_coverpage.md",
-    "docs/_navbar.md",
-    "docs/anote/常用网站.md",
-    "docs/anote/在macos上使用Idea.md",
-    "JVM的结构.md",
-    "docs/img/ObjectArray.excalidraw.md",
-    "docs/img/IntroduceMe.excalidraw.md",
-    "docs/anote/MacOS.md",
-    "docs/README.md",
     "Appends/img/mc.mp4",
-    "docs/Contributions.md",
-    "未命名.md",
     "docs/index.html",
-    "docs/anote/在云服务器上部署轻量级博客docsify(使用git更新).md",
-    "docs/01网络安全.md",
     "docs/html/index_bat1.html",
     "jdk8docs/technotes/guides/troubleshoot/img_text/visualgc.html",
     "jdk8docs/technotes/guides/troubleshoot/img_text/jres.html",
     "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-triggers.html",
     "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-start-record.html",
     "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-expand-node.html",
-    "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-event.html",
-    "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-event-profile.html",
-    "jdk8docs/legal/dejavufonts.md"
+    "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-event.html"
   ]
 }
