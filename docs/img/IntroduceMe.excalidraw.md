@@ -149,9 +149,9 @@ and more... ^JgJmNeWe
 
 以及经过思考后和学习相关的问题 ^GjQdaYSf
 
-[[../img/codofdutyguns.mp4]] ^F7cVDBC5
+[[../../Appends/img/codofdutyguns.mp4]] ^F7cVDBC5
 
-[[../img/callofduty.mp4]] ^gkBmNWnp
+[[../../Appends/img/callofduty.mp4]] ^gkBmNWnp
 
 [[../img/dirt.mp4]] ^HRkU2J5p
 
@@ -182,33 +182,33 @@ blueboysalvat.github.io ^xnCE8pXo
 
 
 # Embedded files
-820c257c03039be9fc1d416806f871ff32615d44: [[../img/不能因为害怕.png]]
-ac2e7f76436e76ba69f7d8fed4617b9a915fe93b: [[../img/黑暗的.png]]
-72b23c4ab118b3283b704aa4afad3c08abf16b15: [[../img/愿中国青年摆脱冷气.png]]
-76444d16f8a7425e15933c86d433bbc15bb58b0b: [[../img/flomo2023.png]]
-dbd5d7f8e3f3280150d1ab92e1c8fc6efbaa98d0: [[../img/cache_csgo.jpeg]]
-707de52db80fded9cb3bad8d969be3f0813388d7: [[../img/201906.png]]
-f5b3a0e123053b425fd1d80133707931ebecbe01: [[../img/game4.jpg]]
-f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[../img/game3.jpg]]
-74049fa736626566f4d575e1de86659b58911cd8: [[../img/game2.jpg]]
-3bf7a44513fac07dca6b2b706f6ca480e248a22d: [[../img/game1.jpg]]
-8ab5f9bc72e89a010ebaac0f8152cdd0ff9833e8: [[../img/cache2.jpg]]
-1f0d3835e87d1a809ed6d44b214622b03bf12edb: [[../img/fourzhong.jpeg]]
-8cf4f2f925d99090f9dab525567e3ff6e7df8ca5: [[../img/finalcutinclassroom.jpeg]]
-258249209cb9dcbb3bd43bb4f8c55573a93c0fac: [[../img/xiaomibook.PNG]]
-9e7a831389df3e2e4f886ccd39623041e53e670c: [[../img/SocialPsychology.png]]
-df10f8bd62c32c77bb93f061d7cf04bc004862a6: [[../img/SteveJobs.png]]
-f6fc16dc56cbdc562f9bb0868b445a9fbccfb83b: [[../img/19Jianji.jpeg]]
-620399c0554e4288775296409c76c0e5d8ffd1ad: [[../img/zuzhuangPC1.jpg]]
-02e68bad177898a074f4a3194dcfc3e5bc42885a: [[../img/zuzhuangPC2.jpeg]]
-ba374d1deaf4de93eb6ed47290ab0000fb48f1e3: [[../img/sheying.jpeg]]
-db918848a0f37623096bca45d8eae7be8ff8c85e: [[../img/flomolable2023.png]]
-2bfeb4438fb5ff2ce229f53c3c6cb27e10e0b968: [[../img/sanlimi.jpeg]]
-7598af35963b8421dfd22cdfeb10839f0e03e07d: [[../img/kaola.jpeg]]
-cdac361b297f759c1c3fb0a674caecca9c3b29e8: [[../img/sijinnaBox.jpg]]
-7e691cb8d96f679d1f5e0304d7968bf8e95e6cf1: [[../img/citywalk3.jpg]]
-e485ab56c82043613247fad5d917ec8b48d4abfe: [[../img/citywalk2.jpg]]
-dad6169109c44f2db750e26eab375aa02a5c36d3: [[../img/citywalk1.JPG]]
+820c257c03039be9fc1d416806f871ff32615d44: [[../../Appends/img/不能因为害怕.png]]
+ac2e7f76436e76ba69f7d8fed4617b9a915fe93b: [[../../Appends/img/黑暗的.png]]
+72b23c4ab118b3283b704aa4afad3c08abf16b15: [[../../Appends/img/愿中国青年摆脱冷气.png]]
+76444d16f8a7425e15933c86d433bbc15bb58b0b: [[../../Appends/img/flomo2023.png]]
+dbd5d7f8e3f3280150d1ab92e1c8fc6efbaa98d0: [[../../Appends/img/cache_csgo.jpeg]]
+707de52db80fded9cb3bad8d969be3f0813388d7: [[../../Appends/img/201906.png]]
+f5b3a0e123053b425fd1d80133707931ebecbe01: [[../../Appends/img/game4.jpg]]
+f8c9ee418279c41aa39a4a806b1563a0b295a6e5: [[../../Appends/img/game3.jpg]]
+74049fa736626566f4d575e1de86659b58911cd8: [[../../Appends/img/game2.jpg]]
+3bf7a44513fac07dca6b2b706f6ca480e248a22d: [[../../Appends/img/game1.jpg]]
+8ab5f9bc72e89a010ebaac0f8152cdd0ff9833e8: [[../../Appends/img/cache2.jpg]]
+1f0d3835e87d1a809ed6d44b214622b03bf12edb: [[../../Appends/img/fourzhong.jpeg]]
+8cf4f2f925d99090f9dab525567e3ff6e7df8ca5: [[../../Appends/img/finalcutinclassroom.jpeg]]
+258249209cb9dcbb3bd43bb4f8c55573a93c0fac: [[../../Appends/img/xiaomibook.PNG]]
+9e7a831389df3e2e4f886ccd39623041e53e670c: [[../../Appends/img/SocialPsychology.png]]
+df10f8bd62c32c77bb93f061d7cf04bc004862a6: [[../../Appends/img/SteveJobs.png]]
+f6fc16dc56cbdc562f9bb0868b445a9fbccfb83b: [[../../Appends/img/19Jianji.jpeg]]
+620399c0554e4288775296409c76c0e5d8ffd1ad: [[../../Appends/img/zuzhuangPC1.jpg]]
+02e68bad177898a074f4a3194dcfc3e5bc42885a: [[../../Appends/img/zuzhuangPC2.jpeg]]
+ba374d1deaf4de93eb6ed47290ab0000fb48f1e3: [[../../Appends/img/sheying.jpeg]]
+db918848a0f37623096bca45d8eae7be8ff8c85e: [[../../Appends/img/flomolable2023.png]]
+2bfeb4438fb5ff2ce229f53c3c6cb27e10e0b968: [[../../Appends/img/sanlimi.jpeg]]
+7598af35963b8421dfd22cdfeb10839f0e03e07d: [[../../Appends/img/kaola.jpeg]]
+cdac361b297f759c1c3fb0a674caecca9c3b29e8: [[../../Appends/img/sijinnaBox.jpg]]
+7e691cb8d96f679d1f5e0304d7968bf8e95e6cf1: [[../../Appends/img/citywalk3.jpg]]
+e485ab56c82043613247fad5d917ec8b48d4abfe: [[../../Appends/img/citywalk2.jpg]]
+dad6169109c44f2db750e26eab375aa02a5c36d3: [[../../Appends/img/citywalk1.JPG]]
 
 %%
 # Drawing

@@ -7,7 +7,6 @@ kanban-plugin: basic
 ## Todo
 
 - [ ] 配置git用户的对/var/web目录的操作权限
-- [ ] static是否可以只定义不初始化（对比final）
 - [ ] 布置book域名
 - [ ] 布置life域名
 - [ ] 布置area域名
@@ -24,6 +23,7 @@ kanban-plugin: basic
 ## Done
 
 **完成**
+- [x] static是否可以只定义不初始化（对比final）(会有默认值)
 - [x] 自己介绍和演讲展示
 - [x] [异常分类](anote/Java基础.md#异常)
 - [x] [自定义异常](anote/Java基础.md#自定义异常)

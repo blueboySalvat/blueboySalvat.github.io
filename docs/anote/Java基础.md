@@ -933,9 +933,7 @@ Def_Domain.java:6: 错误: 已在方法 main(String[])中定义了变量 a
 		        ^
 1 个错误
 ```
-<img src="https://cdn.jsdelivr.net/gh/redGirlSalvat/img/img-blogDef_domain1.png"/>
-
-
+![](../img/Def_domain.png)
 
 ## 练习题
 
@@ -5641,6 +5639,7 @@ public class StringCantChangeTest {
 }
 ```
 图解不可变：
+
 ![](../img/StringCantChange.png)
 ### 可变字符串
 #### StringBuffer
@@ -5727,9 +5726,37 @@ public class DateTest {
  - 创建 `simpleDateformat` 对象
  - 使用该对象的 `format` 方法进行格式化
 
-`.java`
+`SimpleDateFormatTest.java`
 ```java
-
+package com.situ.commonlyusedclass.dateclass;  
+  
+import java.text.ParseException;  
+import java.text.SimpleDateFormat;  
+import java.util.Date;  
+  
+public class SimpleDateFormatTest {  
+    public static void main(String[] args) throws ParseException {  
+        Date date = new Date();//当前时间的对象  
+        //System.out.println(date);  
+  
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");  
+        String dateStr = sdf.format(date);//将date对象格式化为特定的字符串。  
+        System.out.println(dateStr);  
+  
+        SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy年MM月dd日 KK:mm:ss a");  
+        String dateStr2 = sdf2.format(date);//将date对象格式化为特定的字符串。  
+        System.out.println(dateStr2);  
+  
+        SimpleDateFormat sdf3 = new SimpleDateFormat(" KK:mm:ss a");  
+        String dateStr3 = sdf3.format(date);//将date对象格式化为特定的字符串。  
+        System.out.println(dateStr3);  
+  
+        //将特定格式的表示时间日期的字符串 转换成 Date对象  
+        String dateStr4 = "2024年01月27日 14:41:08";  
+        Date date1 = sdf.parse(dateStr4);  
+  
+    }  
+}
 ```
 
 ### Calendar

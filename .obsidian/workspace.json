@@ -42,29 +42,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1a7c9c9afb88a0d0",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Appends/draw/Reflection.md"
-              }
-            }
-          },
-          {
-            "id": "99e78ffb4ab975d6",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Appends/draw/JVM_RAM_Structure.md"
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +62,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -114,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5,
-    "collapsed": true
+    "width": 319.5
   },
   "right": {
     "id": "d4c2b0db2270c3d5",
@@ -203,35 +181,36 @@
       "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "1a7c9c9afb88a0d0",
+  "active": "b14f43e212de3194",
   "lastOpenFiles": [
-    "Appends/draw/JVM_RAM_Structure.md",
-    "docs/anote/Java中的内存模型.md",
-    "docs/03后端开发.md",
-    "docs/img/JVM_RAM_Structure.png",
-    "Appends/img/JVM_RAM_Structure.png",
-    "Appends/img/SCR-20240203-nhks.png",
-    "Appends/draw/Reflection.md",
+    "docs/anote/Java基础.md",
+    "docs/img/Def_domain.png",
     "docs/anote/Java高级.md",
+    "docs/img/StringCantChange.md",
+    "docs/img/StringCantChange.png",
+    "docs/img/StringCantChange1.png",
+    "docs/img/lifecycle.md",
+    "docs/img/lifecycle2.png",
+    "docs/img/lifecycle1.png",
+    "docs/img/ProcessAndthread.md",
+    "docs/img/ProcessAndthread.png",
+    "docs/img/ProcessAndthread.png",
+    "docs/img/Reflection.md",
+    "docs/img/Reflection.png",
+    "docs/img/Reflection2.png",
+    "docs/TODO.md",
+    "docs/img/cleardothing.jpeg",
+    "docs/img/JVM_RAM_Structure.md",
+    "docs/anote/Java中的内存模型.md",
+    "docs/img/Drawing 2024-02-02.excalidraw.md",
+    "docs/03后端开发.md",
     "docs/_coverpage.md",
     "docs/_navbar.md",
     "docs/anote/常用网站.md",
-    "docs/anote/Java基础.md",
-    "docs/TODO.md",
-    "docs/img/haveniceday.png",
-    "Appends/img/haveniceday.png",
-    "docs/img/StackFrame.png",
-    "Appends/img/StackFrame.png",
-    "docs/img/WaimaiProcess.png",
-    "docs/img/JVM_Structure.png",
-    "docs/img/1598538342.png",
     "docs/anote/在macos上使用Idea.md",
     "JVM的结构.md",
-    "Appends/draw/ProcessAndthread.excalidraw.md",
-    "Appends/draw/Drawing 2024-02-02.excalidraw.md",
-    "Appends/draw/lifecycle.md",
-    "Appends/draw/ObjectArray.excalidraw.md",
-    "Appends/draw/IntroduceMe.excalidraw.md",
+    "docs/img/ObjectArray.excalidraw.md",
+    "docs/img/IntroduceMe.excalidraw.md",
     "docs/anote/MacOS.md",
     "docs/README.md",
     "Appends/img/mc.mp4",
@@ -248,7 +227,6 @@
     "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-expand-node.html",
     "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-event.html",
     "jdk8docs/technotes/guides/troubleshoot/img_text/jmc-event-profile.html",
-    "jdk8docs/legal/dejavufonts.md",
-    "docs/html/jdk8docs/legal/dejavufonts.md"
+    "jdk8docs/legal/dejavufonts.md"
   ]
 }

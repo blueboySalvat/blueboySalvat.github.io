@@ -18,10 +18,8 @@
 
 # 图解 JVM 内存模型：
 ![](../img/JVM_RAM_Structure.png)
-
-![](../img/StackFrame.png)
-
-![](../img/WaimaiProcess.png)
+![](../img/JVM_RAM_Structure2.png)
+![](../img/JVM_RAM_Structure3.png)
 
 # 参考资料 ：
 - [带你认识java中jvm虚拟机栈]( https://www.bilibili.com/video/BV1ET4y1Z711/ )

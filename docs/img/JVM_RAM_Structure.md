@@ -1,4 +1,8 @@
 ---
+excalidraw-export-transparent: true
+excalidraw-export-dark: false
+excalidraw-export-pngscale: 2
+excalidraw-export-padding: 10
 
 excalidraw-plugin: parsed
 tags: [excalidraw]
@@ -195,8 +199,8 @@ hava a nice day! ^ePveT6FN
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 794,
-			"versionNonce": 429985866,
+			"version": 795,
+			"versionNonce": 1142637526,
 			"isDeleted": false,
 			"id": "NkX90sQcK5IIA0xxX8GZs",
 			"fillStyle": "solid",
@@ -227,14 +231,14 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784034,
+			"updated": 1707016555890,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 295,
-			"versionNonce": 418279766,
+			"version": 296,
+			"versionNonce": 286002314,
 			"isDeleted": false,
 			"id": "c4NcrbRx",
 			"fillStyle": "solid",
@@ -254,7 +258,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784034,
+			"updated": 1707016555890,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -270,8 +274,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 233,
-			"versionNonce": 141326090,
+			"version": 234,
+			"versionNonce": 1592809750,
 			"isDeleted": false,
 			"id": "YPzj-yEzmyu9qidqy3eIN",
 			"fillStyle": "solid",
@@ -302,14 +306,14 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784034,
+			"updated": 1707016555890,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 26,
-			"versionNonce": 1543624342,
+			"version": 27,
+			"versionNonce": 162392906,
 			"isDeleted": false,
 			"id": "AWizQpgU",
 			"fillStyle": "solid",
@@ -329,7 +333,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784034,
+			"updated": 1707016555890,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -345,8 +349,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 102,
-			"versionNonce": 1050478026,
+			"version": 103,
+			"versionNonce": 552650326,
 			"isDeleted": false,
 			"id": "qcciQ2ObYDXHwvjcU9baB",
 			"fillStyle": "solid",
@@ -377,14 +381,14 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784034,
+			"updated": 1707016555890,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 40,
-			"versionNonce": 1240896470,
+			"version": 41,
+			"versionNonce": 942010890,
 			"isDeleted": false,
 			"id": "hGxPzfUo",
 			"fillStyle": "solid",
@@ -404,7 +408,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784034,
+			"updated": 1707016555890,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -420,8 +424,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 143,
-			"versionNonce": 1699593354,
+			"version": 144,
+			"versionNonce": 988908438,
 			"isDeleted": false,
 			"id": "mM9pjtJ6copHWYvjr0C51",
 			"fillStyle": "solid",
@@ -448,14 +452,14 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784034,
+			"updated": 1707016555890,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 145,
-			"versionNonce": 752986390,
+			"version": 146,
+			"versionNonce": 1332682954,
 			"isDeleted": false,
 			"id": "MjSLUIzQDAzytrM4tMIge",
 			"fillStyle": "solid",
@@ -486,14 +490,14 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784034,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 62,
-			"versionNonce": 1245289290,
+			"version": 63,
+			"versionNonce": 2066196694,
 			"isDeleted": false,
 			"id": "TFjeQztN",
 			"fillStyle": "solid",
@@ -513,7 +517,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784034,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -529,8 +533,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 38,
-			"versionNonce": 1144526422,
+			"version": 39,
+			"versionNonce": 1797552010,
 			"isDeleted": false,
 			"id": "o9AQoDIf",
 			"fillStyle": "solid",
@@ -550,7 +554,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784034,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -566,8 +570,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "arrow",
-			"version": 396,
-			"versionNonce": 1172682326,
+			"version": 399,
+			"versionNonce": 556277270,
 			"isDeleted": false,
 			"id": "_uIYT1_twKNajKYu0SpO1",
 			"fillStyle": "solid",
@@ -580,7 +584,7 @@ hava a nice day! ^ePveT6FN
 			"y": 319.1582573734958,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 143.46538692063007,
+			"width": 142.72507181419365,
 			"height": 136.23011956327122,
 			"seed": 1480845002,
 			"groupIds": [],
@@ -589,7 +593,7 @@ hava a nice day! ^ePveT6FN
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706955133331,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -611,15 +615,15 @@ hava a nice day! ^ePveT6FN
 					0
 				],
 				[
-					143.46538692063007,
+					142.72507181419365,
 					136.23011956327122
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 303,
-			"versionNonce": 416209814,
+			"version": 305,
+			"versionNonce": 2072049226,
 			"isDeleted": false,
 			"id": "bh6hFWvb",
 			"fillStyle": "solid",
@@ -628,7 +632,7 @@ hava a nice day! ^ePveT6FN
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -167.94438502410662,
+			"x": -169.2349925983109,
 			"y": 479.0300539407818,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
@@ -644,7 +648,7 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784034,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -660,8 +664,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "arrow",
-			"version": 347,
-			"versionNonce": 2089563094,
+			"version": 348,
+			"versionNonce": 837282646,
 			"isDeleted": false,
 			"id": "WZHTuaeKkIe_qEtVJqNPt",
 			"fillStyle": "solid",
@@ -683,7 +687,7 @@ hava a nice day! ^ePveT6FN
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706955133330,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -712,8 +716,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 325,
-			"versionNonce": 1356527830,
+			"version": 326,
+			"versionNonce": 828349706,
 			"isDeleted": false,
 			"id": "8TzPERBX",
 			"fillStyle": "solid",
@@ -738,7 +742,7 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784034,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -754,8 +758,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "arrow",
-			"version": 423,
-			"versionNonce": 2030970762,
+			"version": 424,
+			"versionNonce": 1270616214,
 			"isDeleted": false,
 			"id": "IXArKZyOqMrDVyWizW9XB",
 			"fillStyle": "solid",
@@ -777,7 +781,7 @@ hava a nice day! ^ePveT6FN
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706949784034,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -806,8 +810,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 122,
-			"versionNonce": 66154006,
+			"version": 123,
+			"versionNonce": 1782279114,
 			"isDeleted": false,
 			"id": "JLainbAK",
 			"fillStyle": "solid",
@@ -836,7 +840,7 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784034,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -852,8 +856,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "arrow",
-			"version": 116,
-			"versionNonce": 376181078,
+			"version": 117,
+			"versionNonce": 2052689366,
 			"isDeleted": false,
 			"id": "CIJOebHDMqJVwppe4XKOu",
 			"fillStyle": "solid",
@@ -875,7 +879,7 @@ hava a nice day! ^ePveT6FN
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706955133329,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -900,8 +904,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 146,
-			"versionNonce": 252132182,
+			"version": 147,
+			"versionNonce": 472867466,
 			"isDeleted": false,
 			"id": "UKsSIT8Z",
 			"fillStyle": "solid",
@@ -921,7 +925,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784034,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -937,8 +941,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "arrow",
-			"version": 153,
-			"versionNonce": 481887254,
+			"version": 154,
+			"versionNonce": 181756694,
 			"isDeleted": false,
 			"id": "hsi6xtoFlH5gfaJZK2NHb",
 			"fillStyle": "solid",
@@ -960,7 +964,7 @@ hava a nice day! ^ePveT6FN
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706955133328,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -985,8 +989,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 476,
-			"versionNonce": 1752260758,
+			"version": 477,
+			"versionNonce": 1106673994,
 			"isDeleted": false,
 			"id": "y494O5Wt",
 			"fillStyle": "solid",
@@ -1006,7 +1010,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784034,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1022,8 +1026,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 100,
-			"versionNonce": 440605642,
+			"version": 101,
+			"versionNonce": 1604620374,
 			"isDeleted": false,
 			"id": "-jP6wP6gcpJEiURe3pDbY",
 			"fillStyle": "solid",
@@ -1045,14 +1049,14 @@ hava a nice day! ^ePveT6FN
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706949784034,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 230,
-			"versionNonce": 1944378838,
+			"version": 231,
+			"versionNonce": 1189857290,
 			"isDeleted": false,
 			"id": "Ds2LJi7J",
 			"fillStyle": "solid",
@@ -1072,7 +1076,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784034,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1088,8 +1092,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 110,
-			"versionNonce": 1338053258,
+			"version": 111,
+			"versionNonce": 1151079830,
 			"isDeleted": false,
 			"id": "omkFqmMTAV4qK0gZ_ef9K",
 			"fillStyle": "solid",
@@ -1111,14 +1115,14 @@ hava a nice day! ^ePveT6FN
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706949784034,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 65,
-			"versionNonce": 1450619670,
+			"version": 66,
+			"versionNonce": 1930049226,
 			"isDeleted": false,
 			"id": "cvlC5Vc6",
 			"fillStyle": "solid",
@@ -1138,7 +1142,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784034,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1154,8 +1158,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 1238,
-			"versionNonce": 2010263882,
+			"version": 1239,
+			"versionNonce": 1123087062,
 			"isDeleted": false,
 			"id": "5NMzPiw-I21ESwGdDcbVU",
 			"fillStyle": "solid",
@@ -1182,14 +1186,14 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 658,
-			"versionNonce": 1405647766,
+			"version": 659,
+			"versionNonce": 1458359690,
 			"isDeleted": false,
 			"id": "06SLG2GbPorG6saCwjs5n",
 			"fillStyle": "solid",
@@ -1216,14 +1220,14 @@ hava a nice day! ^ePveT6FN
 					"id": "Uev4mz0Z"
 				}
 			],
-			"updated": 1706955133332,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 434,
-			"versionNonce": 634484746,
+			"version": 435,
+			"versionNonce": 1966614550,
 			"isDeleted": false,
 			"id": "Uev4mz0Z",
 			"fillStyle": "solid",
@@ -1243,7 +1247,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1259,8 +1263,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 448,
-			"versionNonce": 1948870038,
+			"version": 449,
+			"versionNonce": 936283210,
 			"isDeleted": false,
 			"id": "LvI5QeWvxmCme6UNV2-sK",
 			"fillStyle": "solid",
@@ -1287,14 +1291,14 @@ hava a nice day! ^ePveT6FN
 					"id": "fpjzSs28"
 				}
 			],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 385,
-			"versionNonce": 1236920010,
+			"version": 386,
+			"versionNonce": 1533457750,
 			"isDeleted": false,
 			"id": "fpjzSs28",
 			"fillStyle": "solid",
@@ -1314,7 +1318,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1330,8 +1334,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 488,
-			"versionNonce": 877937366,
+			"version": 489,
+			"versionNonce": 2072670986,
 			"isDeleted": false,
 			"id": "X6QL5LiL1iQsqA-ni6WMg",
 			"fillStyle": "solid",
@@ -1353,14 +1357,14 @@ hava a nice day! ^ePveT6FN
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 491,
-			"versionNonce": 472284554,
+			"version": 492,
+			"versionNonce": 785488534,
 			"isDeleted": false,
 			"id": "P09L6W0anh6SXebGCZLCT",
 			"fillStyle": "solid",
@@ -1387,14 +1391,14 @@ hava a nice day! ^ePveT6FN
 					"id": "I1KETiF8"
 				}
 			],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 408,
-			"versionNonce": 2108782614,
+			"version": 409,
+			"versionNonce": 345735626,
 			"isDeleted": false,
 			"id": "I1KETiF8",
 			"fillStyle": "solid",
@@ -1414,7 +1418,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1430,8 +1434,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 382,
-			"versionNonce": 173161546,
+			"version": 383,
+			"versionNonce": 908974038,
 			"isDeleted": false,
 			"id": "7K1H7in4",
 			"fillStyle": "solid",
@@ -1451,7 +1455,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1467,8 +1471,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "arrow",
-			"version": 3045,
-			"versionNonce": 1157828118,
+			"version": 3050,
+			"versionNonce": 147627082,
 			"isDeleted": false,
 			"id": "MJ51UCxdMtLXINbLZtnCI",
 			"fillStyle": "solid",
@@ -1490,18 +1494,18 @@ hava a nice day! ^ePveT6FN
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706955133337,
+			"updated": 1707016708400,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "arYaAqmiYux1UKtYtIkQk",
-				"gap": 10.519184475520888,
-				"focus": 0.4013293825724116
+				"focus": 0.4013293825724116,
+				"gap": 10.519184475520888
 			},
 			"endBinding": {
 				"elementId": "ZM3wJ54T",
-				"gap": 13.347759576450699,
-				"focus": -0.6392042808282453
+				"focus": -0.6392042808282453,
+				"gap": 13.347759576450699
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1519,8 +1523,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 1480,
-			"versionNonce": 572007178,
+			"version": 1481,
+			"versionNonce": 428895510,
 			"isDeleted": false,
 			"id": "ZM3wJ54T",
 			"fillStyle": "solid",
@@ -1545,7 +1549,7 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1561,8 +1565,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 712,
-			"versionNonce": 1161226902,
+			"version": 713,
+			"versionNonce": 1472796490,
 			"isDeleted": false,
 			"id": "jbu1ogz8uGBf1_tyR8hW7",
 			"fillStyle": "solid",
@@ -1584,14 +1588,14 @@ hava a nice day! ^ePveT6FN
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 514,
-			"versionNonce": 2113089994,
+			"version": 515,
+			"versionNonce": 913201750,
 			"isDeleted": false,
 			"id": "tOKmgcA8YWczEAYzj593d",
 			"fillStyle": "solid",
@@ -1613,14 +1617,14 @@ hava a nice day! ^ePveT6FN
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 497,
-			"versionNonce": 1936271318,
+			"version": 498,
+			"versionNonce": 1912315402,
 			"isDeleted": false,
 			"id": "YsM1nrE9",
 			"fillStyle": "solid",
@@ -1640,7 +1644,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.41516254250467,
@@ -1656,8 +1660,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 437,
-			"versionNonce": 821979274,
+			"version": 438,
+			"versionNonce": 1939644310,
 			"isDeleted": false,
 			"id": "0obgubEhPf1lbajtFVFqc",
 			"fillStyle": "solid",
@@ -1684,14 +1688,14 @@ hava a nice day! ^ePveT6FN
 					"id": "Sa9PIGkS"
 				}
 			],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 331,
-			"versionNonce": 853654806,
+			"version": 332,
+			"versionNonce": 430918858,
 			"isDeleted": false,
 			"id": "Sa9PIGkS",
 			"fillStyle": "solid",
@@ -1711,7 +1715,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1727,8 +1731,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 508,
-			"versionNonce": 854902602,
+			"version": 509,
+			"versionNonce": 357579990,
 			"isDeleted": false,
 			"id": "K4soXJ1yK93u3pAxpTJ9j",
 			"fillStyle": "solid",
@@ -1755,14 +1759,14 @@ hava a nice day! ^ePveT6FN
 					"id": "IJLcJXt5"
 				}
 			],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 324,
-			"versionNonce": 957721174,
+			"version": 325,
+			"versionNonce": 1417618314,
 			"isDeleted": false,
 			"id": "IJLcJXt5",
 			"fillStyle": "solid",
@@ -1782,7 +1786,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1798,8 +1802,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 651,
-			"versionNonce": 1278299658,
+			"version": 652,
+			"versionNonce": 287191574,
 			"isDeleted": false,
 			"id": "kr6_dqqYGufrCvttzz-Dt",
 			"fillStyle": "solid",
@@ -1826,14 +1830,14 @@ hava a nice day! ^ePveT6FN
 					"id": "id6YihwV"
 				}
 			],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 497,
-			"versionNonce": 1155133334,
+			"version": 498,
+			"versionNonce": 1017520714,
 			"isDeleted": false,
 			"id": "id6YihwV",
 			"fillStyle": "solid",
@@ -1853,7 +1857,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1869,8 +1873,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 784,
-			"versionNonce": 28245194,
+			"version": 785,
+			"versionNonce": 1643872086,
 			"isDeleted": false,
 			"id": "wLZ7MhHVdXQtILKSojNXi",
 			"fillStyle": "solid",
@@ -1897,14 +1901,14 @@ hava a nice day! ^ePveT6FN
 					"id": "eoeUwCVl"
 				}
 			],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 633,
-			"versionNonce": 1919126742,
+			"version": 634,
+			"versionNonce": 1828669706,
 			"isDeleted": false,
 			"id": "eoeUwCVl",
 			"fillStyle": "solid",
@@ -1924,7 +1928,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1940,8 +1944,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "freedraw",
-			"version": 298,
-			"versionNonce": 17355658,
+			"version": 309,
+			"versionNonce": 1460312906,
 			"isDeleted": false,
 			"id": "5SP1A-D8yO5xpFFy8Bfat",
 			"fillStyle": "solid",
@@ -1952,8 +1956,8 @@ hava a nice day! ^ePveT6FN
 			"angle": 0,
 			"x": -891.6421211955111,
 			"y": 829.5631376880634,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#ffec99",
+			"strokeColor": "#4dabf7",
+			"backgroundColor": "#a5d8ff",
 			"width": 40.43740486560648,
 			"height": 152.34557181926175,
 			"seed": 2006107018,
@@ -1961,7 +1965,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784035,
+			"updated": 1707016604159,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2668,8 +2672,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 452,
-			"versionNonce": 256344598,
+			"version": 459,
+			"versionNonce": 320686550,
 			"isDeleted": false,
 			"id": "33V151zf",
 			"fillStyle": "solid",
@@ -2680,7 +2684,7 @@ hava a nice day! ^ePveT6FN
 			"angle": 0,
 			"x": -1213.787108675566,
 			"y": 875.2781674787782,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#4dabf7",
 			"backgroundColor": "#ffec99",
 			"width": 272,
 			"height": 20,
@@ -2689,7 +2693,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784035,
+			"updated": 1707016565968,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -2705,8 +2709,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 453,
-			"versionNonce": 209310282,
+			"version": 454,
+			"versionNonce": 26747350,
 			"isDeleted": false,
 			"id": "Gys6v2Of",
 			"fillStyle": "solid",
@@ -2731,7 +2735,7 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2747,8 +2751,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 454,
-			"versionNonce": 1853542230,
+			"version": 455,
+			"versionNonce": 483659402,
 			"isDeleted": false,
 			"id": "YNs9mKHv",
 			"fillStyle": "solid",
@@ -2773,7 +2777,7 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2789,8 +2793,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 793,
-			"versionNonce": 1725757706,
+			"version": 794,
+			"versionNonce": 1428256534,
 			"isDeleted": false,
 			"id": "9NrhhhddTtcJLlLAyWXVA",
 			"fillStyle": "solid",
@@ -2812,14 +2816,14 @@ hava a nice day! ^ePveT6FN
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 517,
-			"versionNonce": 1012036758,
+			"version": 518,
+			"versionNonce": 556117322,
 			"isDeleted": false,
 			"id": "arYaAqmiYux1UKtYtIkQk",
 			"fillStyle": "solid",
@@ -2850,14 +2854,14 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784035,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 410,
-			"versionNonce": 1068320714,
+			"version": 411,
+			"versionNonce": 793650262,
 			"isDeleted": false,
 			"id": "VnhmfDo5",
 			"fillStyle": "solid",
@@ -2877,7 +2881,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784036,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2893,8 +2897,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 593,
-			"versionNonce": 1384346070,
+			"version": 594,
+			"versionNonce": 1331000330,
 			"isDeleted": false,
 			"id": "L_eSy7YYUhB-iWvN5ovEf",
 			"fillStyle": "solid",
@@ -2925,14 +2929,14 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784036,
+			"updated": 1707016555891,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 408,
-			"versionNonce": 520470154,
+			"version": 409,
+			"versionNonce": 301148566,
 			"isDeleted": false,
 			"id": "4eJ8OdeC",
 			"fillStyle": "solid",
@@ -2952,7 +2956,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784036,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2968,8 +2972,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 733,
-			"versionNonce": 203605782,
+			"version": 734,
+			"versionNonce": 425616074,
 			"isDeleted": false,
 			"id": "0LsEOaS5Z6L-mp_b3u_kp",
 			"fillStyle": "solid",
@@ -3000,14 +3004,14 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784036,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 578,
-			"versionNonce": 1369529674,
+			"version": 579,
+			"versionNonce": 2084931286,
 			"isDeleted": false,
 			"id": "yTWFQuoH",
 			"fillStyle": "solid",
@@ -3027,7 +3031,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784036,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -3043,8 +3047,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 868,
-			"versionNonce": 430273622,
+			"version": 869,
+			"versionNonce": 2044426634,
 			"isDeleted": false,
 			"id": "nr7xca8Oifk0tKEAt5wwY",
 			"fillStyle": "solid",
@@ -3075,14 +3079,14 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784036,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 714,
-			"versionNonce": 1423647754,
+			"version": 715,
+			"versionNonce": 1054489622,
 			"isDeleted": false,
 			"id": "XKQylxD4",
 			"fillStyle": "solid",
@@ -3102,7 +3106,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706949784036,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -3118,8 +3122,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "arrow",
-			"version": 1156,
-			"versionNonce": 161153174,
+			"version": 1161,
+			"versionNonce": 693473738,
 			"isDeleted": false,
 			"id": "Iee-O69jD3EicpTlogM0r",
 			"fillStyle": "solid",
@@ -3141,18 +3145,18 @@ hava a nice day! ^ePveT6FN
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706955133338,
+			"updated": 1707016708400,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "L_eSy7YYUhB-iWvN5ovEf",
-				"gap": 11.156173932990328,
-				"focus": 0.7732308340993975
+				"focus": 0.7732308340993975,
+				"gap": 11.156173932990328
 			},
 			"endBinding": {
 				"elementId": "g0RuUa6d",
-				"gap": 12.208985639330422,
-				"focus": 0.8554682754404002
+				"focus": 0.8554682754404002,
+				"gap": 12.208985639330422
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -3170,8 +3174,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 603,
-			"versionNonce": 1118704330,
+			"version": 604,
+			"versionNonce": 1336297814,
 			"isDeleted": false,
 			"id": "g0RuUa6d",
 			"fillStyle": "solid",
@@ -3196,7 +3200,7 @@ hava a nice day! ^ePveT6FN
 					"type": "arrow"
 				}
 			],
-			"updated": 1706949784036,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -3212,8 +3216,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "arrow",
-			"version": 441,
-			"versionNonce": 834163478,
+			"version": 446,
+			"versionNonce": 1899964234,
 			"isDeleted": false,
 			"id": "kQJvF1hQXM5dQ4XFRqUj6",
 			"fillStyle": "solid",
@@ -3235,18 +3239,18 @@ hava a nice day! ^ePveT6FN
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706955133339,
+			"updated": 1707016708400,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "0LsEOaS5Z6L-mp_b3u_kp",
-				"gap": 8.889738871117402,
-				"focus": 0.7277419787817522
+				"focus": 0.7277419787817522,
+				"gap": 8.889738871117402
 			},
 			"endBinding": {
 				"elementId": "Gys6v2Of",
-				"gap": 8.810396262657605,
-				"focus": 0.6975566166791758
+				"focus": 0.6975566166791758,
+				"gap": 8.810396262657605
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -3264,8 +3268,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "arrow",
-			"version": 452,
-			"versionNonce": 1669531030,
+			"version": 457,
+			"versionNonce": 954293450,
 			"isDeleted": false,
 			"id": "z1N57G9G_Jy6qRRTPD5Aw",
 			"fillStyle": "solid",
@@ -3287,18 +3291,18 @@ hava a nice day! ^ePveT6FN
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706955133339,
+			"updated": 1707016708400,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "nr7xca8Oifk0tKEAt5wwY",
-				"gap": 8.715960541381719,
-				"focus": 0.44336408784528264
+				"focus": 0.4433640878452864,
+				"gap": 8.715960541381719
 			},
 			"endBinding": {
 				"elementId": "YNs9mKHv",
-				"gap": 12.69392190967892,
-				"focus": 0.5987454724267146
+				"focus": 0.598745472426715,
+				"gap": 12.69392190967892
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -3316,8 +3320,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 623,
-			"versionNonce": 240641866,
+			"version": 624,
+			"versionNonce": 1232711114,
 			"isDeleted": false,
 			"id": "ITLeUqZ8",
 			"fillStyle": "solid",
@@ -3337,7 +3341,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950174102,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -3353,8 +3357,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 520,
-			"versionNonce": 1075840406,
+			"version": 522,
+			"versionNonce": 1260550102,
 			"isDeleted": false,
 			"id": "kyitDdO8",
 			"fillStyle": "solid",
@@ -3365,7 +3369,7 @@ hava a nice day! ^ePveT6FN
 			"angle": 0,
 			"x": -1459.07917209373,
 			"y": 1678.7518087827302,
-			"strokeColor": "#f08c00",
+			"strokeColor": "#1971c2",
 			"backgroundColor": "#ffec99",
 			"width": 300,
 			"height": 600,
@@ -3374,7 +3378,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950285923,
+			"updated": 1707016650992,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -3390,8 +3394,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 751,
-			"versionNonce": 1992957130,
+			"version": 753,
+			"versionNonce": 1156887958,
 			"isDeleted": false,
 			"id": "uePjLNUyl_5vmGRidOe0_",
 			"fillStyle": "solid",
@@ -3403,7 +3407,7 @@ hava a nice day! ^ePveT6FN
 			"x": -1077.7850777704132,
 			"y": 1666.511953115348,
 			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"backgroundColor": "#ffec99",
 			"width": 99.43117068506487,
 			"height": 179.1238788079774,
 			"seed": 1617535254,
@@ -3413,14 +3417,14 @@ hava a nice day! ^ePveT6FN
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706950174102,
+			"updated": 1707016642255,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 296,
-			"versionNonce": 1707078538,
+			"version": 297,
+			"versionNonce": 126386454,
 			"isDeleted": false,
 			"id": "ISCd3qa-t5u-RsG3PSoiY",
 			"fillStyle": "solid",
@@ -3447,14 +3451,14 @@ hava a nice day! ^ePveT6FN
 					"id": "mwnJcfHu"
 				}
 			],
-			"updated": 1706950174102,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 269,
-			"versionNonce": 223146570,
+			"version": 270,
+			"versionNonce": 1946960714,
 			"isDeleted": false,
 			"id": "mwnJcfHu",
 			"fillStyle": "solid",
@@ -3474,7 +3478,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950174102,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -3490,8 +3494,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 448,
-			"versionNonce": 541858058,
+			"version": 449,
+			"versionNonce": 1413738070,
 			"isDeleted": false,
 			"id": "-xOHR160WjTxDWAYsxwJq",
 			"fillStyle": "solid",
@@ -3518,14 +3522,14 @@ hava a nice day! ^ePveT6FN
 					"id": "znso82cE"
 				}
 			],
-			"updated": 1706950174102,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 438,
-			"versionNonce": 1043883978,
+			"version": 439,
+			"versionNonce": 1962494474,
 			"isDeleted": false,
 			"id": "znso82cE",
 			"fillStyle": "solid",
@@ -3545,7 +3549,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950174102,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -3561,8 +3565,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 838,
-			"versionNonce": 1596776074,
+			"version": 840,
+			"versionNonce": 1992437130,
 			"isDeleted": false,
 			"id": "tBHf241NnDPN76gXSi6KC",
 			"fillStyle": "solid",
@@ -3574,7 +3578,7 @@ hava a nice day! ^ePveT6FN
 			"x": -1078.4332050368841,
 			"y": 1960.7798978078713,
 			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"backgroundColor": "#ffec99",
 			"width": 99.43117068506487,
 			"height": 137.19131504815033,
 			"seed": 1454142550,
@@ -3584,14 +3588,14 @@ hava a nice day! ^ePveT6FN
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706950174102,
+			"updated": 1707016644469,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 463,
-			"versionNonce": 1705235658,
+			"version": 464,
+			"versionNonce": 1209497802,
 			"isDeleted": false,
 			"id": "9EvnepCCaFz9EZMOxp8w8",
 			"fillStyle": "solid",
@@ -3618,14 +3622,14 @@ hava a nice day! ^ePveT6FN
 					"id": "W9kzRzuj"
 				}
 			],
-			"updated": 1706950229725,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 431,
-			"versionNonce": 1084402570,
+			"version": 432,
+			"versionNonce": 30462166,
 			"isDeleted": false,
 			"id": "W9kzRzuj",
 			"fillStyle": "solid",
@@ -3645,7 +3649,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950229725,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -3661,8 +3665,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 900,
-			"versionNonce": 655853578,
+			"version": 902,
+			"versionNonce": 1996707158,
 			"isDeleted": false,
 			"id": "tVNNxTfX7roAFs_8ttW_1",
 			"fillStyle": "solid",
@@ -3674,7 +3678,7 @@ hava a nice day! ^ePveT6FN
 			"x": -1078.8607917788274,
 			"y": 2140.665174479038,
 			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"backgroundColor": "#ffec99",
 			"width": 99.43117068506487,
 			"height": 158.2822424486967,
 			"seed": 570637846,
@@ -3684,14 +3688,14 @@ hava a nice day! ^ePveT6FN
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706950294381,
+			"updated": 1707016646133,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 603,
-			"versionNonce": 1472067274,
+			"version": 604,
+			"versionNonce": 1215055382,
 			"isDeleted": false,
 			"id": "ODuhXucXqw4yfDS7BhSKY",
 			"fillStyle": "solid",
@@ -3718,14 +3722,14 @@ hava a nice day! ^ePveT6FN
 					"id": "hJZCaLNZ"
 				}
 			],
-			"updated": 1706950294381,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 571,
-			"versionNonce": 1864928650,
+			"version": 572,
+			"versionNonce": 2012433994,
 			"isDeleted": false,
 			"id": "hJZCaLNZ",
 			"fillStyle": "solid",
@@ -3745,7 +3749,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950294381,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -3761,8 +3765,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 661,
-			"versionNonce": 1385319498,
+			"version": 662,
+			"versionNonce": 778507094,
 			"isDeleted": false,
 			"id": "FGhs_nqC95aFjp7wxhndd",
 			"fillStyle": "solid",
@@ -3789,14 +3793,14 @@ hava a nice day! ^ePveT6FN
 					"id": "UUElDfJi"
 				}
 			],
-			"updated": 1706950294381,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 667,
-			"versionNonce": 131478282,
+			"version": 668,
+			"versionNonce": 499578122,
 			"isDeleted": false,
 			"id": "UUElDfJi",
 			"fillStyle": "solid",
@@ -3816,7 +3820,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950294381,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -3832,8 +3836,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 689,
-			"versionNonce": 2128491658,
+			"version": 691,
+			"versionNonce": 1277463382,
 			"isDeleted": false,
 			"id": "n6Nzyu89",
 			"fillStyle": "solid",
@@ -3844,7 +3848,7 @@ hava a nice day! ^ePveT6FN
 			"angle": 0,
 			"x": -926.4917875292862,
 			"y": 1836.027173092393,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 89.46565246582031,
 			"height": 85.61596951466895,
@@ -3853,7 +3857,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950174102,
+			"updated": 1707016631840,
 			"link": null,
 			"locked": false,
 			"fontSize": 11.41546260195586,
@@ -3869,8 +3873,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 883,
-			"versionNonce": 1257968458,
+			"version": 886,
+			"versionNonce": 299497686,
 			"isDeleted": false,
 			"id": "am5VwEqr",
 			"fillStyle": "solid",
@@ -3881,7 +3885,7 @@ hava a nice day! ^ePveT6FN
 			"angle": 0,
 			"x": -923.4923452581994,
 			"y": 1633.6507595957125,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 100.33372497558594,
 			"height": 108.21896407072131,
@@ -3890,7 +3894,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950174102,
+			"updated": 1707016619410,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.821896407072131,
@@ -3906,8 +3910,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 970,
-			"versionNonce": 2019993930,
+			"version": 972,
+			"versionNonce": 509204362,
 			"isDeleted": false,
 			"id": "W6w2bQcX",
 			"fillStyle": "solid",
@@ -3918,7 +3922,7 @@ hava a nice day! ^ePveT6FN
 			"angle": 0,
 			"x": -922.1294359957677,
 			"y": 2165.7646854185714,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 153.6875762939453,
 			"height": 114.87319591537184,
@@ -3927,7 +3931,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950308245,
+			"updated": 1707016630497,
 			"link": null,
 			"locked": false,
 			"fontSize": 13.128365247471066,
@@ -3943,8 +3947,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 947,
-			"versionNonce": 764561610,
+			"version": 949,
+			"versionNonce": 1156369354,
 			"isDeleted": false,
 			"id": "OsDy9kJs",
 			"fillStyle": "solid",
@@ -3955,7 +3959,7 @@ hava a nice day! ^ePveT6FN
 			"angle": 0,
 			"x": -926.6062183203121,
 			"y": 1742.8694431003582,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 100.87564086914062,
 			"height": 85.61596951466895,
@@ -3964,7 +3968,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950174102,
+			"updated": 1707016633420,
 			"link": null,
 			"locked": false,
 			"fontSize": 11.41546260195586,
@@ -3980,8 +3984,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 360,
-			"versionNonce": 1789042570,
+			"version": 361,
+			"versionNonce": 2059766550,
 			"isDeleted": false,
 			"id": "uwpNADIY4cK4w9MU_3WRx",
 			"fillStyle": "solid",
@@ -4008,14 +4012,14 @@ hava a nice day! ^ePveT6FN
 					"id": "DtCEbVzN"
 				}
 			],
-			"updated": 1706950174102,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 344,
-			"versionNonce": 955915850,
+			"version": 345,
+			"versionNonce": 645716298,
 			"isDeleted": false,
 			"id": "DtCEbVzN",
 			"fillStyle": "solid",
@@ -4035,7 +4039,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950174102,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -4051,8 +4055,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "freedraw",
-			"version": 281,
-			"versionNonce": 896779530,
+			"version": 283,
+			"versionNonce": 1095806154,
 			"isDeleted": false,
 			"id": "8LfABn-8sVZCz8Xb_su2D",
 			"fillStyle": "solid",
@@ -4063,7 +4067,7 @@ hava a nice day! ^ePveT6FN
 			"angle": 0,
 			"x": -1308.2428408917535,
 			"y": 1709.4839433723093,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 23.718215478344973,
 			"height": 62.05347072822792,
@@ -4072,7 +4076,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950174102,
+			"updated": 1707016656850,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -4915,8 +4919,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "freedraw",
-			"version": 113,
-			"versionNonce": 696947658,
+			"version": 115,
+			"versionNonce": 1496240662,
 			"isDeleted": false,
 			"id": "9IyM0bV3Qzu9LhLCBJnaf",
 			"fillStyle": "solid",
@@ -4927,7 +4931,7 @@ hava a nice day! ^ePveT6FN
 			"angle": 0,
 			"x": -1284.5246254134088,
 			"y": 1736.2358840862564,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 179.54137530700586,
 			"height": 37.78366884340994,
@@ -4936,7 +4940,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950174102,
+			"updated": 1707016659498,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5111,8 +5115,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "freedraw",
-			"version": 111,
-			"versionNonce": 2002356874,
+			"version": 113,
+			"versionNonce": 279299222,
 			"isDeleted": false,
 			"id": "80yF81TVNG-odbbNn7KpY",
 			"fillStyle": "solid",
@@ -5123,7 +5127,7 @@ hava a nice day! ^ePveT6FN
 			"angle": 0,
 			"x": -1110.2233209678977,
 			"y": 1760.781479174311,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 14.617039771537975,
 			"height": 18.75393782008655,
@@ -5132,7 +5136,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950174102,
+			"updated": 1707016662784,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5299,8 +5303,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 381,
-			"versionNonce": 94087498,
+			"version": 383,
+			"versionNonce": 1320876630,
 			"isDeleted": false,
 			"id": "0DwVj2vV",
 			"fillStyle": "solid",
@@ -5311,7 +5315,7 @@ hava a nice day! ^ePveT6FN
 			"angle": 0.14486694853222026,
 			"x": -1241.434708248246,
 			"y": 1730.6655838723684,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 112.19985961914062,
 			"height": 14.036799663995653,
@@ -5320,7 +5324,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950174102,
+			"updated": 1707016655009,
 			"link": null,
 			"locked": false,
 			"fontSize": 11.229439731196523,
@@ -5336,8 +5340,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 313,
-			"versionNonce": 272085590,
+			"version": 315,
+			"versionNonce": 1071781654,
 			"isDeleted": false,
 			"id": "NEgObjbW",
 			"fillStyle": "solid",
@@ -5348,7 +5352,7 @@ hava a nice day! ^ePveT6FN
 			"angle": 0,
 			"x": -1427.3907030953064,
 			"y": 2377.861253752809,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 680,
 			"height": 50,
@@ -5357,7 +5361,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950198128,
+			"updated": 1707016667117,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -5373,8 +5377,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 364,
-			"versionNonce": 1624631318,
+			"version": 365,
+			"versionNonce": 334636426,
 			"isDeleted": false,
 			"id": "qVd4it57PZdf7TNM-rGyt",
 			"fillStyle": "solid",
@@ -5401,14 +5405,14 @@ hava a nice day! ^ePveT6FN
 					"id": "wUDp1lfq"
 				}
 			],
-			"updated": 1706950232897,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 337,
-			"versionNonce": 223114582,
+			"version": 338,
+			"versionNonce": 2010402838,
 			"isDeleted": false,
 			"id": "wUDp1lfq",
 			"fillStyle": "solid",
@@ -5428,7 +5432,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950232897,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -5444,8 +5448,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 426,
-			"versionNonce": 560939466,
+			"version": 427,
+			"versionNonce": 1516823626,
 			"isDeleted": false,
 			"id": "81a48IqdmQSGei6ytvRe1",
 			"fillStyle": "solid",
@@ -5472,14 +5476,14 @@ hava a nice day! ^ePveT6FN
 					"id": "u9VEr0pZ"
 				}
 			],
-			"updated": 1706950294381,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 399,
-			"versionNonce": 712538250,
+			"version": 400,
+			"versionNonce": 138272086,
 			"isDeleted": false,
 			"id": "u9VEr0pZ",
 			"fillStyle": "solid",
@@ -5499,7 +5503,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706950294381,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -5515,8 +5519,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "text",
-			"version": 17,
-			"versionNonce": 2142680074,
+			"version": 18,
+			"versionNonce": 152685322,
 			"isDeleted": false,
 			"id": "ePveT6FN",
 			"fillStyle": "solid",
@@ -5536,7 +5540,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706951052567,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -5552,8 +5556,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 370,
-			"versionNonce": 143888278,
+			"version": 371,
+			"versionNonce": 109298326,
 			"isDeleted": false,
 			"id": "5jLqnHBBrzS-5VQ8tPrdg",
 			"fillStyle": "solid",
@@ -5580,14 +5584,14 @@ hava a nice day! ^ePveT6FN
 					"id": "GUiXpPm1"
 				}
 			],
-			"updated": 1706955145518,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 316,
-			"versionNonce": 110897366,
+			"version": 317,
+			"versionNonce": 1719654858,
 			"isDeleted": false,
 			"id": "GUiXpPm1",
 			"fillStyle": "solid",
@@ -5607,7 +5611,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706955157659,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -5623,8 +5627,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 616,
-			"versionNonce": 2000368982,
+			"version": 617,
+			"versionNonce": 626720726,
 			"isDeleted": false,
 			"id": "rJLWvdj2x05lkLmtB7Ko-",
 			"fillStyle": "solid",
@@ -5651,14 +5655,14 @@ hava a nice day! ^ePveT6FN
 					"id": "kCAHGfrJ"
 				}
 			],
-			"updated": 1706955164002,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 606,
-			"versionNonce": 1544952470,
+			"version": 607,
+			"versionNonce": 834015370,
 			"isDeleted": false,
 			"id": "kCAHGfrJ",
 			"fillStyle": "solid",
@@ -5678,7 +5682,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706955164002,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -5694,8 +5698,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 610,
-			"versionNonce": 1110258570,
+			"version": 611,
+			"versionNonce": 2027459862,
 			"isDeleted": false,
 			"id": "5ou3SZhKrRKhnDedceU1L",
 			"fillStyle": "solid",
@@ -5722,14 +5726,14 @@ hava a nice day! ^ePveT6FN
 					"id": "uYQbBopz"
 				}
 			],
-			"updated": 1706955147295,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 638,
-			"versionNonce": 1245473622,
+			"version": 639,
+			"versionNonce": 242708298,
 			"isDeleted": false,
 			"id": "uYQbBopz",
 			"fillStyle": "solid",
@@ -5749,7 +5753,7 @@ hava a nice day! ^ePveT6FN
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706955161116,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -5765,8 +5769,8 @@ hava a nice day! ^ePveT6FN
 		},
 		{
 			"type": "rectangle",
-			"version": 144,
-			"versionNonce": 368390026,
+			"version": 145,
+			"versionNonce": 1248952918,
 			"isDeleted": false,
 			"id": "CYYdrTPaEHRG8XpXBs3is",
 			"fillStyle": "solid",
@@ -5787,15 +5791,15 @@ hava a nice day! ^ePveT6FN
 			"roundness": {
 				"type": 3
 			},
-			"boundElements": [],
-			"updated": 1706955125244,
+			"boundElements": null,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 201,
-			"versionNonce": 18400906,
+			"version": 202,
+			"versionNonce": 1897854474,
 			"isDeleted": false,
 			"id": "fRnF6e1oAasw_TngCn65F",
 			"fillStyle": "solid",
@@ -5817,14 +5821,14 @@ hava a nice day! ^ePveT6FN
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706955128139,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 267,
-			"versionNonce": 1997117130,
+			"version": 268,
+			"versionNonce": 1828374422,
 			"isDeleted": false,
 			"id": "cNJnZ24bQphTGUaWHsH-N",
 			"fillStyle": "solid",
@@ -5846,7 +5850,7 @@ hava a nice day! ^ePveT6FN
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1706955122887,
+			"updated": 1707016555892,
 			"link": null,
 			"locked": false
 		}
@@ -5854,8 +5858,8 @@ hava a nice day! ^ePveT6FN
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#f08c00",
-		"currentItemBackgroundColor": "transparent",
+		"currentItemStrokeColor": "#1971c2",
+		"currentItemBackgroundColor": "#ffec99",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 0.5,
 		"currentItemStrokeStyle": "dashed",
@@ -5866,10 +5870,10 @@ hava a nice day! ^ePveT6FN
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1943.320878303179,
-		"scrollY": 684.344382919028,
+		"scrollX": 2046.3692004498687,
+		"scrollY": -37.37683216881364,
 		"zoom": {
-			"value": 0.5326948436854754
+			"value": 0.41555455157548404
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

@@ -385,8 +385,8 @@ public class ReadLineTest {
 - **阻塞**：在某种特殊情况下，被人为挂起或执行输入输出操作时，让出 CPU 并临时中止自己的执行，进入阻塞状态；
 - **死亡**：线程完成了它的全部工作或线程被提前强制性地中止。
 
-![](../img/lifecycle.png)
-
+![](../img/lifecycle1.png)
+![](../img/lifecycle2.png)
 ## 线程的创建和使用
 >在同一时间需要处理多个任务时就可以使用多线程。
 ### 继承 Thread 类
@@ -1383,6 +1383,14 @@ public class Test {
 
 # 反射
 
+![](../img/Reflection.png)
+
+![](../img/Reflection2.png)
+
+
+
+参考链接：
+[JVM基础（三）一个对象的创建过程 - 知乎](https://zhuanlan.zhihu.com/p/142614439)
 
 
 # 设计模式
