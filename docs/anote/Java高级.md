@@ -1386,11 +1386,725 @@ public class Test {
 ![](../img/Reflection.png)
 
 ![](../img/Reflection2.png)
+像不像通过镜子(Class对象)，反射看到了那边的东西(字节码信息)
+## 初见反射
+`Student.java`
+```java
+package reflection;  
+  
+public class Student {  
+    public void study() {  
+        System.out.println("i am learning amazing java...");  
+    }  
+}
+```
+`Teacher.java`
+```java
+package reflection;  
+  
+public class Teacher {  
+    public void teach() {  
+        System.out.println("i am teaching amazing java..!");  
+    }  
+}
+```
+`Test.java`
+```java
+package reflection;  
+  
+import java.io.FileReader;  
+import java.lang.reflect.Method;  
+import java.util.Properties;  
+  
+public class Test {  
+    public static void main(String[] args) throws Exception{  
+        //获取配置文件  
+        Properties properties = new Properties();  
+        properties.load(new FileReader("ReflectionTest.properties"));  
+        String myClass = properties.getProperty("myClass");  
+        String myMethod = properties.getProperty("myMethod");  
+        System.out.println(myClass + ":" + myMethod);  
+  
+  
+  
+        //获取字节码信息  
+        Class c = Class.forName(myClass);  
+        //创建一个对象,调用一个默认构造方法  
+        Object o = c.newInstance();  
+        System.out.println(o instanceof Student);  
+  
+        //获取方法  
+        Method method = c.getMethod(myMethod, null);  
+        method.invoke(o, null);  
+  
+  
+    }  
+}
+```
+```Properties
+myClass = reflection.Student  
+myMethod = study
+```
+```
+reflection.Student:study
+true
+i am learning amazing java...
+
+进程已结束，退出代码为 0
+```
+```Properties
+myClass = reflection.Teacher  
+myMethod = teach
+```
+现在可以通过修改 `Properties` 文件，实现动态的创建对象，调用方法。
+```
+reflection.Teacher:teach
+false
+i am teaching amazing java..!
+
+进程已结束，退出代码为 0
+```
+## 使用反射创建对象
+`Student.java`
+```java
+package reflection.initobject;  
+  
+public class Student {  
+    String name;  
+    Integer age;  
+    String gender;  
+  
+    public Student() {  
+  
+    }  
+  
+    public Student(String name, Integer age, String gender) {  
+        this.name = name;  
+        this.age = age;  
+        this.gender = gender;  
+    }  
+  
+    @Override  
+    public String toString() {  
+        return "Student{" +  
+                "name='" + name + '\'' +  
+                ", age=" + age +  
+                ", gender='" + gender + '\'' +  
+                '}';  
+    }  
+  
+    public void study() {  
+        System.out.println("i am learning amazing java...");  
+    }  
+  
+    public String getName() {  
+        return name;  
+    }  
+  
+    public void setName(String name) {  
+        this.name = name;  
+    }  
+  
+    public Integer getAge() {  
+        return age;  
+    }  
+  
+    public void setAge(Integer age) {  
+        this.age = age;  
+    }  
+  
+    public String getGender() {  
+        return gender;  
+    }  
+  
+    public void setGender(String gender) {  
+        this.gender = gender;  
+    }  
+}
+```
+`Test.java`
+```java
+package reflection.initobject;  
+  
+import java.lang.reflect.Constructor;  
+  
+public class Test {  
+    public static void main(String[] args) throws Exception {  
+        //获取代表字节码文件的Class对象  
+        Class c = Class.forName("reflection.initobject.Student");  
+        //使用无参的构造方法创建对象  
+        Object o = c.newInstance();  
+        System.out.println(o instanceof Student);  
+  
+        //使用有参的构造方法创建对象  
+        //获取constructor对象  
+        Constructor constructor = c.getConstructor(String.class, Integer.class, String.class);  
+        //调用constructor对象中的newInstance()创建对象  
+        Object s = constructor.newInstance("王文鹏", 24, "男");  
+        System.out.println(s instanceof Student);  
+        System.out.println(s.toString());  
+    }  
+}
+```
+
+## 通过反射调用属性
+`Student.java`
+```java
+package reflection.fieldoperate;  
+  
+public class Student {  
+    String name;  
+    Integer age;  
+    String gender;  
+  
+    public Student() {  
+  
+    }  
+  
+    public Student(String name, Integer age, String gender) {  
+        this.name = name;  
+        this.age = age;  
+        this.gender = gender;  
+    }  
+  
+    @Override  
+    public String toString() {  
+        return "Student{" +  
+                "name='" + name + '\'' +  
+                ", age=" + age +  
+                ", gender='" + gender + '\'' +  
+                '}';  
+    }  
+  
+    public void study() {  
+        System.out.println("i am learning amazing java...");  
+    }  
+  
+    public String getName() {  
+        return name;  
+    }  
+  
+    public void setName(String name) {  
+        this.name = name;  
+    }  
+  
+    public Integer getAge() {  
+        return age;  
+    }  
+  
+    public void setAge(Integer age) {  
+        this.age = age;  
+    }  
+  
+    public String getGender() {  
+        return gender;  
+    }  
+  
+    public void setGender(String gender) {  
+        this.gender = gender;  
+    }  
+}
+```
+`Test.java`
+```java
+package reflection.fieldoperate;  
+  
+import java.lang.reflect.Field;  
+  
+public class Test {  
+    public static void main(String[] args) throws Exception {  
+        //获取代表字节码文件的Class对象  
+        Class c = Class.forName("reflection.fieldoperate.Student");  
+        //使用无参构造方法创建对象  
+        Object stu = c.newInstance();  
+        //设置属性  
+        //获取到字节码文件中声明name那块的代码  
+        //getDeclaredField可以也可以获取到私有的属性  
+        Field name = c.getDeclaredField("name");  
+        //设置 stu 的 name 属性  
+        name.set(stu, "王文鹏");  
+        System.out.println(stu);  
+        //获取 stu 的 name 属性  
+        System.out.println(name.get(stu));  
+    }  
+}
+```
+
+## 通过反射调用方法
+`Student.java`
+```java
+package reflection.functionoperate;  
+  
+public class Student {  
+    String name;  
+    Integer age;  
+    String gender;  
+  
+    public Student() {  
+  
+    }  
+  
+    public Student(String name, Integer age, String gender) {  
+        this.name = name;  
+        this.age = age;  
+        this.gender = gender;  
+    }  
+  
+    @Override  
+    public String toString() {  
+        return "Student{" +  
+                "name='" + name + '\'' +  
+                ", age=" + age +  
+                ", gender='" + gender + '\'' +  
+                '}';  
+    }  
+  
+    public void study() {  
+        System.out.println("i am learning amazing java...");  
+    }  
+    public void study(String subject) {  
+        System.out.println("i am learning amazing " + subject + "...");  
+    }  
+  
+    public String getName() {  
+        return name;  
+    }  
+  
+    public void setName(String name) {  
+        this.name = name;  
+    }  
+  
+    public Integer getAge() {  
+        return age;  
+    }  
+  
+    public void setAge(Integer age) {  
+        this.age = age;  
+    }  
+  
+    public String getGender() {  
+        return gender;  
+    }  
+  
+    public void setGender(String gender) {  
+        this.gender = gender;  
+    }  
+}
+```
+`Test.java`
+```java
+package reflection.functionoperate;  
+  
+import java.lang.reflect.Constructor;  
+import java.lang.reflect.Method;  
+  
+public class Test {  
+    public static void main(String[] args) throws Exception {  
+        //获取代表字节码文件的Class对象  
+        Class c = Class.forName("reflection.functionoperate.Student");  
+        //使用有参构造方法创建对象  
+        Constructor constructor = c.getConstructor(String.class, Integer.class, String.class);  
+        Object o = constructor.newInstance("王文鹏", 24, "男");  
+        //获取方法  
+        Method study0 = c.getMethod("study", null);  
+        Method study = c.getMethod("study", String.class);  
+        //使用方法  
+        study0.invoke(o,null);  
+        study.invoke(o, "java developing");  
+    }  
+}
+```
+`FieldandFunction.java`
+通过反射获取到 set 和 get 方法，然后对属性进行设置
+```java
+package reflection;  
+  
+import java.lang.reflect.Method;  
+  
+public class FieldandFunction {  
+    public static void main(String[] args) throws Exception {  
+        // 获取字节码文件  
+        Class<?> c = Class.forName("reflection.fieldoperate.Student");  
+  
+        // 创建Student类的对象  
+        Object stu = c.newInstance();  
+  
+        // 获取set和get方法对应的Method类的对象  
+        Method setName = c.getMethod("setName", String.class);  
+        Method getName = c.getMethod("getName");  
+  
+        // 调用方法  
+        setName.invoke(stu, "Bob");  
+        System.out.println(stu);  
+        System.out.println(getName.invoke(stu));  
+    }  
+}
+```
 
 
 
 参考链接：
 [JVM基础（三）一个对象的创建过程 - 知乎](https://zhuanlan.zhihu.com/p/142614439)
+
+
+
+# Java 8 新特性
+## Lambda 表达式
+>行为作为方法的参数传递 --- 行为参数化
+
+使用场景：[[#函数式接口]] 上可以使用更为简洁的 Lambda 表达式
+
+语法：
+```java
+(参数列表) -> {
+	Lambda 体;
+}
+```
+
+
+书写 Lambda 表达式的规则：
+- 括号：
+	- 参数列表没有参数时，括号不能省略
+	- 参数列表只有一个参数时，括号可以省略
+	- 参数列表有多个参数时，括号不能省略
+- 参数：
+	- 参数列表中的参数类型可以省略
+- 花括号
+	- Lambda 体中只有一条语句时，花括号可以省略
+	- Lambda 体中中有多条语句时，花括号不可以省略
+- Lambda 体中只有一条语句，并且这条语句有返回值(return)，return 可以省略,花括号可以省略，分号也可以省略。
+
+初学者建议首先写出实现接口的匿名内部类，然后对照实现的抽象方法的参数列表和方法体进行书写。
+
+
+`LambdaExpressionTest.java`
+```java
+import java.util.ArrayList;  
+import java.util.Collections;  
+import java.util.Comparator;  
+import java.util.function.Consumer;  
+  
+public class LambdaExpressionTest {  
+    public static void main(String[] args) {  
+        //使用匿名内部类创建线程  
+        Thread thread = new Thread(new Runnable() {  
+            @Override  
+            public void run() {  
+                System.out.println("hello minecraft");  
+            }  
+        });  
+        thread.start();  
+  
+        //使用lambda重构  
+        System.out.println("使用lambda重构");  
+        new Thread(() -> {  
+            System.out.println("hello minecraft new");  
+        }).start();  
+  
+  
+  
+        //对ArrayList中的元素进行排序  
+        ArrayList<String> list = new ArrayList<>();  
+        list.add("a");  
+        list.add("ab");  
+        list.add("abc");  
+        list.add("abcd");  
+  
+        Collections.sort(list, new Comparator<String>() {  
+            @Override  
+            public int compare(String o1, String o2) {  
+                return o1.length() - o2.length();  
+            }  
+        });  
+        System.out.println(list);  
+  
+        //使用 lambda 重构  
+        System.out.println("使用lambda重构");  
+        Collections.sort(list,(String o1, String o2) -> {  
+            return o1.length() - o2.length();  
+        });  
+        System.out.println(list);  
+  
+        //使用forEach遍历  
+        list.forEach(new Consumer<String>() {  
+            @Override  
+            public void accept(String s) {  
+                System.out.println(s);  
+            }  
+        });  
+  
+        //使用lambda重构  
+        System.out.println("使用lambda重构");  
+        list.forEach((String s) -> {  
+            System.out.println(s);  
+        });  
+    }  
+}
+```
+
+
+## 函数式接口
+>只有一个抽象方法的接口，称为 `函数式接口` (可以包含默认方法、静态方法、常量、抽象方法，但是**只能有一个**抽象方法)。
+
+我们可以在一个接口上使用 `@FunctionalInterface` 注解，这样做可以检查它是否是一个函数式接口。
+
+简单的说，在 `Java 8` 中，`Lambda` 表达式就是一个函数式接口的实例。这就是 `Lambda` 表达式和函数式接口的关系。
+
+应用处：有函数式接口实例的地方。所以以前用**匿名内部类**表示的现在**多数**都可以用`Lambda`表达式来写。
+
+之前用过的那些函数式接口：
+`Runnable` `Comparator` `Consumer`
+
+如果再函数式接口中有重写了父类的方法，三要素相同，那它不是抽象方法。
+
+Java 常用内置函数式接口
+
+|函数式接口|参数类型|返回值类型|用途|
+|---|---|---|---|
+|`Consumer<T>`消费型接口|`T`|`void`|接收一个参数，没有返回值|
+|`BiConsumer`消费型接口|`T,U`|`void`|接收两个参数，没有返回值|
+|`Supplier<T>`供给型接口|无|`T`|没有参数，返回一个`T`|
+|`Function<T,R>`函数型接口|`T`|`R`|接收一个参数`T`，返回一个值`R`|
+|`BiFunction<T,U,R>`函数型接口|`T,U`|`R`|接收两个参数`T、U`，返回一个值`R`|
+|`BinaryOperator`函数型接口|`T,T`|`T`|接收两个参数`T、T`，返回一个值`T`|
+|`Predicate<T>`断定型接口|`T`|`boolean`|接口一个值`T`, 返回一个`boolean`|
+|`Comparator<T>`|`T,T`|`int`|接收两个值`T`, 返回一个整数|
+`FunctionInterfaceTest.java`
+```java
+import java.util.ArrayList;  
+import java.util.HashMap;  
+  
+public class FunctionInterfaceTest {  
+    public static void main(String[] args) {  
+        HashMap<String, Object> map = new HashMap<>();  
+        map.put("name", "王文鹏");  
+        map.put("age", 24);  
+        map.put("gender","男");  
+  
+        map.forEach((k, v) -> System.out.println(k + ":" + v));  
+  
+        ArrayList<String> list = new ArrayList<>();  
+        list.add("1");  
+        list.add("22");  
+        list.add("333");  
+        list.add("4444");  
+        list.add("55555");  
+        list.add("666666");  
+  
+        list.removeIf((String item) -> item.length() < 5);  
+        System.out.println(list);  
+  
+    }  
+}
+```
+`forEach` 中使用了 `BiConsumer` 函数型接口
+```java
+public void forEach(BiConsumer<? super K, ? super V> action) {  
+    Node<K,V>[] tab;  
+    if (action == null)  
+        throw new NullPointerException();  
+    if (size > 0 && (tab = table) != null) {  
+        int mc = modCount;  
+        for (int i = 0; i < tab.length; ++i) {  
+            for (Node<K,V> e = tab[i]; e != null; e = e.next)  
+                action.accept(e.key, e.value);  
+        }  
+        if (modCount != mc)  
+            throw new ConcurrentModificationException();  
+    }  
+}
+```
+`removeIf` 中使用了 `Predicate` 接口
+```java
+public boolean removeIf(Predicate<? super E> filter) {
+
+}
+```
+
+
+## 方法引用
+>方法引用就是 `Lambda` 表达式，也就是函数式接口的一个实例，通过方法的名字来指向一个方法，可以认为是`Lambda`表达式的一个语法糖。
+
+
+**语法糖**（Syntactic Sugar）指的是编程语言中的一种语法结构，它不会引入新的功能，只是提供了更简洁、更易读的语法形式。
+
+
+Lambda 表达式 -> 方法引用的情况：
+- Lambda 体只能有一行代码
+- 这一行代码只能调用一个方法
+- Lambda 体除了 Lambda 表达式之外不能引入其他任何内容
+	- 减号❌
+	- 方法中嵌套方法❌
+
+**格式**：使用操作符`::`将类(或对象)与方法名分隔开来。
+
+**三种使用情况**：
+
+- `对象::实例方法名`
+- `类::静态方法名`
+- `类::实例方法名`
+
+`FunctionQuoteTest.java`
+```java
+import java.util.ArrayList;  
+import java.util.Collections;  
+  
+public class FunctionQuoteTest {  
+    public static void main(String[] args) {  
+        ArrayList<String> list = new ArrayList<>();  
+        list.add("1");  
+        list.add("22");  
+        list.add("333");  
+        list.add("4444");  
+        list.add("55555");  
+        list.add("666666");  
+        //在forEach使用 lambda表达式  
+        list.forEach(s -> System.out.println(s));  
+        System.out.println("^^^^^^^^^^^^^^^^^^^^^^^");  
+        //在forEach中使用方法引用  
+        list.forEach(System.out::println);  
+  
+        System.out.println("----------------------");  
+  
+  
+        //使用lambda表达式进行排序  
+        Collections.sort(list,(o1,o2) -> o1.compareTo(o2));  
+        System.out.println(list);  
+  
+        System.out.println("***************************");  
+        ArrayList<String> list3 = new ArrayList<>();  
+        list3.add("1");  
+        list3.add("22");  
+        list3.add("333");  
+        list3.add("4444");  
+        list3.add("55555");  
+        list3.add("666666");  
+        System.out.println("***************************");  
+  
+        //使用方法引用进行排序  
+        Collections.sort(list3, String::compareTo);  
+        System.out.println(list3);  
+  
+        System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");  
+  
+        ArrayList<Integer> list2 = new ArrayList<>();  
+        list2.add(1);  
+        list2.add(-4);  
+        list2.add(6);  
+        list2.add(5);  
+        list2.add(10);  
+        list2.add(100);  
+  
+        //Collections.sort(list2,(o1, o2) -> Integer.compare(o1, o2));  
+        //System.out.println(list2);        //使用方法引用实现从小到大排序，如果从大到小排序的话加负号就不行了，这属于加入了其他东西。  
+        Collections.sort(list2, Integer::compare);  
+        System.out.println(list2);  
+    }  
+}
+```
+
+
+## 综合训练
+`Apple.java`
+```java
+package practice;  
+  
+public class Apple {  
+    private Integer weight;  
+    private String color;  
+      
+    //无参构造方法  
+  
+    public Apple() {  
+    }  
+  
+    //有参构造方法  
+  
+    public Apple(Integer weight, String color) {  
+        this.weight = weight;  
+        this.color = color;  
+    }  
+  
+  
+    //get和set方法  
+  
+    public Integer getWeight() {  
+        return weight;  
+    }  
+  
+    public void setWeight(Integer weight) {  
+        this.weight = weight;  
+    }  
+  
+    public String getColor() {  
+        return color;  
+    }  
+  
+    public void setColor(String color) {  
+        this.color = color;  
+    }  
+  
+    //toString方法  
+  
+    @Override  
+    public String toString() {  
+        return "Apple{" +  
+                "weight=" + weight +  
+                ", color='" + color + '\'' +  
+                '}';  
+    }  
+}
+```
+`MyTest13.java`
+```java
+package practice;  
+  
+import java.util.ArrayList;  
+import java.util.Comparator;  
+  
+public class MyTest13 {  
+    public static void main(String[] args) {  
+        ArrayList<Apple> list = new ArrayList<>();  
+        list.add(new Apple(150,"red"));  
+        list.add(new Apple(210,"red"));  
+        list.add(new Apple(300,"yellow"));  
+        list.add(new Apple(90,"green"));  
+        list.add(new Apple(90,"yellow"));  
+        list.add(new Apple(100,"green"));  
+        list.add(new Apple(123,"red"));  
+  
+        //用匿名类实现排序  
+        //list.sort(new Comparator<Apple>() {  
+        //    @Override        //    public int compare(Apple o1, Apple o2) {        //        return o1.getWeight().compareTo(o2.getWeight());        //    }        //});        //System.out.println(list);  
+        //使用lambda实现排序  
+        //list.sort((o1, o2) -> o1.getWeight().compareTo(o2.getWeight()));  
+        //System.out.println(list);  
+        //使用方法引用  
+        //不可以使用方法引用，这是面使用的方法数量超过了一个  
+  
+        //使用匿名内部类  
+        //list.sort(new Comparator<Apple>() {  
+        //    @Override        //    public int compare(Apple o1, Apple o2) {        //        return Integer.compare(o1.getWeight(), o2.getWeight());        //    }        //});        //System.out.println(list);  
+        //使用Comparator.comparing  
+        //list.sort(Comparator.comparing(o -> o.getWeight()));        //System.out.println(list);  
+        //使用Comparator.comparing + 方法引用  
+        //Comparator.comparing()方法会返回一个 Comparator接口的实现类对象  
+        //其中参数中的内容就是这个接口实现类的方法体中实现的排序方法  
+        list.sort(Comparator.comparing(Apple::getWeight));  
+        System.out.println(list);  
+    }  
+}
+```
+## Stream API
+### 简介
+
+
+### 创建流
+
+
+### 使用流
+
+
 
 
 # 设计模式
