@@ -1,0 +1,15 @@
+import{_ as e}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as n,o as r,b as t}from"./app-l65TvXU-.js";const a={},o=t("h2",{id:"",tabindex:"-1"},[t("a",{class:"header-anchor",href:"#"},[t("span")])],-1),i=t("p",null,"给定一个数组arr，返回arr的最长无的重复子串的长度(无重复指的是所有数字都不相同)。",-1),l=t("p",null,"例如[2,3,4,5]",-1),c=t("p",null,"public class Solution { /** * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可 * * * @param arr int整型一维数组 the array * @return int整型 */ public int maxLength (int[] arr) { // write code here int length = 0; boolean isDuplicated = false;",-1),s=t("pre",null,[t("code",null,`    for(int i = 0; i < arr.length; i++){
+        for(int j = i + 1; j < arr.length - 1; j++){
+            if(arr[j] == arr[i]) {
+                isDuplicated = true;
+            }
+        }
+        if(!isDuplicated) {
+            count++;
+        }
+    }
+    return length;
+}
+
+public static void main(String ar)
+`)],-1),p=t("p",null,"}",-1),u=[o,i,l,c,s,p];function d(h,m){return r(),n("div",null,u)}const f=e(a,[["render",d],["__file","suanfa.html.vue"]]),b=JSON.parse('{"path":"/docs/code/knowledge/suanfa.html","title":"算法刷题","lang":"zh-CN","frontmatter":{"title":"算法刷题","icon":"file","order":null,"date":"2024-12-05T00:00:00.000Z","category":["算法"],"tags":null,"description":"给定一个数组arr，返回arr的最长无的重复子串的长度(无重复指的是所有数字都不相同)。 例如[2,3,4,5] public class Solution { /** * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可 * * * @param arr int整型一维数组 the array * @return int整型 ...","head":[["meta",{"property":"og:url","content":"https://blueboysalvat.github.io/docs/code/knowledge/suanfa.html"}],["meta",{"property":"og:site_name","content":"忧郁男孩的救赎"}],["meta",{"property":"og:title","content":"算法刷题"}],["meta",{"property":"og:description","content":"给定一个数组arr，返回arr的最长无的重复子串的长度(无重复指的是所有数字都不相同)。 例如[2,3,4,5] public class Solution { /** * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可 * * * @param arr int整型一维数组 the array * @return int整型 ..."}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"zh-CN"}],["meta",{"property":"article:author","content":"WangWenpeng"}],["meta",{"property":"article:published_time","content":"2024-12-05T00:00:00.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"算法刷题\\",\\"image\\":[\\"\\"],\\"datePublished\\":\\"2024-12-05T00:00:00.000Z\\",\\"dateModified\\":null,\\"author\\":[{\\"@type\\":\\"Person\\",\\"name\\":\\"WangWenpeng\\",\\"url\\":\\"blueboysalvat.github.io\\"}]}"]]},"headers":[{"level":2,"title":"","slug":"","link":"#","children":[]}],"git":{},"readingTime":{"minutes":0.53,"words":159},"filePathRelative":"docs/code/knowledge/suanfa.md","localizedDate":"2024年12月5日","excerpt":"<h2></h2>\\n<p>给定一个数组arr，返回arr的最长无的重复子串的长度(无重复指的是所有数字都不相同)。</p>\\n<p>例如[2,3,4,5]</p>\\n<p>public class Solution {\\n/**\\n* 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可\\n*\\n*\\n* @param arr int整型一维数组 the array\\n* @return int整型\\n*/\\npublic int maxLength (int[] arr) {\\n// write code here\\nint length = 0;\\nboolean isDuplicated = false;</p>","autoDesc":true}');export{f as comp,b as data};
